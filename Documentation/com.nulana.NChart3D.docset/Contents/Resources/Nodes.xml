@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>NChart3D</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+				<Node type="folder">
+					<Name>Tutorial</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="107"/>
+					</Subnodes>
+				</Node>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
+						<NodeRef refid="10"/>
+						<NodeRef refid="11"/>
+						<NodeRef refid="12"/>
+						<NodeRef refid="13"/>
+						<NodeRef refid="14"/>
+						<NodeRef refid="15"/>
+						<NodeRef refid="16"/>
+						<NodeRef refid="17"/>
+						<NodeRef refid="18"/>
+						<NodeRef refid="19"/>
+						<NodeRef refid="20"/>
+						<NodeRef refid="21"/>
+						<NodeRef refid="22"/>
+						<NodeRef refid="23"/>
+						<NodeRef refid="24"/>
+						<NodeRef refid="25"/>
+						<NodeRef refid="26"/>
+						<NodeRef refid="27"/>
+						<NodeRef refid="28"/>
+						<NodeRef refid="29"/>
+						<NodeRef refid="30"/>
+						<NodeRef refid="31"/>
+						<NodeRef refid="32"/>
+						<NodeRef refid="33"/>
+						<NodeRef refid="34"/>
+						<NodeRef refid="35"/>
+						<NodeRef refid="36"/>
+						<NodeRef refid="37"/>
+						<NodeRef refid="38"/>
+						<NodeRef refid="39"/>
+						<NodeRef refid="40"/>
+						<NodeRef refid="41"/>
+						<NodeRef refid="42"/>
+						<NodeRef refid="43"/>
+						<NodeRef refid="44"/>
+						<NodeRef refid="45"/>
+						<NodeRef refid="46"/>
+						<NodeRef refid="47"/>
+						<NodeRef refid="48"/>
+						<NodeRef refid="49"/>
+						<NodeRef refid="50"/>
+						<NodeRef refid="51"/>
+						<NodeRef refid="52"/>
+						<NodeRef refid="53"/>
+						<NodeRef refid="54"/>
+						<NodeRef refid="55"/>
+						<NodeRef refid="56"/>
+						<NodeRef refid="57"/>
+						<NodeRef refid="58"/>
+						<NodeRef refid="59"/>
+						<NodeRef refid="60"/>
+						<NodeRef refid="61"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+                
+				<Node>
+					<Name>Protocols</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="62"/>
+						<NodeRef refid="63"/>
+						<NodeRef refid="64"/>
+						<NodeRef refid="65"/>
+						<NodeRef refid="66"/>
+						
+					</Subnodes>
+				</Node>
+				
+                
+				<Node>
+					<Name>Constants</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="67"/>
+						<NodeRef refid="68"/>
+						<NodeRef refid="69"/>
+						<NodeRef refid="70"/>
+						<NodeRef refid="71"/>
+						<NodeRef refid="72"/>
+						<NodeRef refid="73"/>
+						<NodeRef refid="74"/>
+						<NodeRef refid="75"/>
+						<NodeRef refid="76"/>
+						<NodeRef refid="77"/>
+						<NodeRef refid="78"/>
+						<NodeRef refid="79"/>
+						<NodeRef refid="80"/>
+						<NodeRef refid="81"/>
+						<NodeRef refid="82"/>
+						<NodeRef refid="83"/>
+						<NodeRef refid="84"/>
+						
+					</Subnodes>
+				</Node>
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		<Node id="107" type="file" documentType="reference">
+            <Name>Tutorial</Name>
+            <Path>tutorial.html</Path>
+            <Subnodes>
+                <Node type="section">
+                    <Path>tutorial.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>tutorial.html</Path>
+                    <Name>Introduction</Name>
+                    <Anchor>introduction</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>tutorial.html</Path>
+                    <Name>Installation</Name>
+                    <Anchor>installation</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>tutorial.html</Path>
+                    <Name>Anatomy of charts</Name>
+                    <Anchor>anatomy</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>tutorial.html</Path>
+                    <Name>Drawing a simple chart</Name>
+                    <Anchor>drawing</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>tutorial.html</Path>
+                    <Name>Customizing appearance</Name>
+                    <Anchor>customizing</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>tutorial.html</Path>
+                    <Name>Adding more charts</Name>
+                    <Anchor>adding</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>tutorial.html</Path>
+                    <Name>Adding tooltips</Name>
+                    <Anchor>manage</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>tutorial.html</Path>
+                    <Name>What's next?</Name>
+                    <Anchor>whats</Anchor>
+                </Node>
+            </Subnodes>
+        </Node>
+		
+		<Node id="1" type="file" documentType="reference">
+            <Name>NChart</Name>
+            <Path>Classes/NChart.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChart.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChart.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChart.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/NChart.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="2" type="file" documentType="reference">
+            <Name>NChartAreaSeries</Name>
+            <Path>Classes/NChartAreaSeries.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartAreaSeries.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartAreaSeries.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartAreaSeries.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="3" type="file" documentType="reference">
+            <Name>NChartAreaSeriesSettings</Name>
+            <Path>Classes/NChartAreaSeriesSettings.html</Path>
+            
+        </Node>
+		<Node id="4" type="file" documentType="reference">
+            <Name>NChartAxesPlane</Name>
+            <Path>Classes/NChartAxesPlane.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartAxesPlane.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartAxesPlane.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartAxesPlane.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="5" type="file" documentType="reference">
+            <Name>NChartAxis</Name>
+            <Path>Classes/NChartAxis.html</Path>
+            
+        </Node>
+		<Node id="6" type="file" documentType="reference">
+            <Name>NChartAxisGrid</Name>
+            <Path>Classes/NChartAxisGrid.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartAxisGrid.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartAxisGrid.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartAxisGrid.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="7" type="file" documentType="reference">
+            <Name>NChartAxisTicks</Name>
+            <Path>Classes/NChartAxisTicks.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartAxisTicks.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartAxisTicks.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartAxisTicks.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="8" type="file" documentType="reference">
+            <Name>NChartBandSeries</Name>
+            <Path>Classes/NChartBandSeries.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartBandSeries.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartBandSeries.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartBandSeries.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="9" type="file" documentType="reference">
+            <Name>NChartBandSeriesSettings</Name>
+            <Path>Classes/NChartBandSeriesSettings.html</Path>
+            
+        </Node>
+		<Node id="10" type="file" documentType="reference">
+            <Name>NChartBarSeries</Name>
+            <Path>Classes/NChartBarSeries.html</Path>
+            
+        </Node>
+		<Node id="11" type="file" documentType="reference">
+            <Name>NChartBarSeriesSettings</Name>
+            <Path>Classes/NChartBarSeriesSettings.html</Path>
+            
+        </Node>
+		<Node id="12" type="file" documentType="reference">
+            <Name>NChartBezierInterpolator</Name>
+            <Path>Classes/NChartBezierInterpolator.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartBezierInterpolator.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartBezierInterpolator.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartBezierInterpolator.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/NChartBezierInterpolator.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/NChartBezierInterpolator.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="13" type="file" documentType="reference">
+            <Name>NChartBrush</Name>
+            <Path>Classes/NChartBrush.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartBrush.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartBrush.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartBrush.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/NChartBrush.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="14" type="file" documentType="reference">
+            <Name>NChartBubbleSeries</Name>
+            <Path>Classes/NChartBubbleSeries.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartBubbleSeries.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartBubbleSeries.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartBubbleSeries.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="15" type="file" documentType="reference">
+            <Name>NChartBubbleSeriesSettings</Name>
+            <Path>Classes/NChartBubbleSeriesSettings.html</Path>
+            
+        </Node>
+		<Node id="16" type="file" documentType="reference">
+            <Name>NChartCandlestickSeries</Name>
+            <Path>Classes/NChartCandlestickSeries.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartCandlestickSeries.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartCandlestickSeries.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartCandlestickSeries.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="17" type="file" documentType="reference">
+            <Name>NChartCandlestickSeriesSettings</Name>
+            <Path>Classes/NChartCandlestickSeriesSettings.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartCandlestickSeriesSettings.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartCandlestickSeriesSettings.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartCandlestickSeriesSettings.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="18" type="file" documentType="reference">
+            <Name>NChartCaption</Name>
+            <Path>Classes/NChartCaption.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartCaption.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartCaption.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartCaption.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="19" type="file" documentType="reference">
+            <Name>NChartCartesianSystem</Name>
+            <Path>Classes/NChartCartesianSystem.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartCartesianSystem.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartCartesianSystem.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartCartesianSystem.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="20" type="file" documentType="reference">
+            <Name>NChartColumnSeries</Name>
+            <Path>Classes/NChartColumnSeries.html</Path>
+            
+        </Node>
+		<Node id="21" type="file" documentType="reference">
+            <Name>NChartColumnSeriesSettings</Name>
+            <Path>Classes/NChartColumnSeriesSettings.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartColumnSeriesSettings.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartColumnSeriesSettings.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartColumnSeriesSettings.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="22" type="file" documentType="reference">
+            <Name>NChartCoordSystem</Name>
+            <Path>Classes/NChartCoordSystem.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartCoordSystem.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartCoordSystem.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartCoordSystem.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="23" type="file" documentType="reference">
+            <Name>NChartGradientBrush</Name>
+            <Path>Classes/NChartGradientBrush.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartGradientBrush.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartGradientBrush.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartGradientBrush.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="24" type="file" documentType="reference">
+            <Name>NChartGradientStop</Name>
+            <Path>Classes/NChartGradientStop.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartGradientStop.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartGradientStop.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartGradientStop.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/NChartGradientStop.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/NChartGradientStop.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="25" type="file" documentType="reference">
+            <Name>NChartInterpolator</Name>
+            <Path>Classes/NChartInterpolator.html</Path>
+            
+        </Node>
+		<Node id="26" type="file" documentType="reference">
+            <Name>NChartLabel</Name>
+            <Path>Classes/NChartLabel.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartLabel.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartLabel.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartLabel.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="27" type="file" documentType="reference">
+            <Name>NChartLegend</Name>
+            <Path>Classes/NChartLegend.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartLegend.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartLegend.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartLegend.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="28" type="file" documentType="reference">
+            <Name>NChartLineSeries</Name>
+            <Path>Classes/NChartLineSeries.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartLineSeries.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartLineSeries.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartLineSeries.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="29" type="file" documentType="reference">
+            <Name>NChartLineSeriesSettings</Name>
+            <Path>Classes/NChartLineSeriesSettings.html</Path>
+            
+        </Node>
+		<Node id="30" type="file" documentType="reference">
+            <Name>NChartLinearGradientBrush</Name>
+            <Path>Classes/NChartLinearGradientBrush.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartLinearGradientBrush.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartLinearGradientBrush.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartLinearGradientBrush.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/NChartLinearGradientBrush.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="31" type="file" documentType="reference">
+            <Name>NChartLinearInterpolator</Name>
+            <Path>Classes/NChartLinearInterpolator.html</Path>
+            
+        </Node>
+		<Node id="32" type="file" documentType="reference">
+            <Name>NChartMarker</Name>
+            <Path>Classes/NChartMarker.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartMarker.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartMarker.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartMarker.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="33" type="file" documentType="reference">
+            <Name>NChartModel</Name>
+            <Path>Classes/NChartModel.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartModel.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartModel.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartModel.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/NChartModel.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/NChartModel.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="34" type="file" documentType="reference">
+            <Name>NChartOHLCSeries</Name>
+            <Path>Classes/NChartOHLCSeries.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartOHLCSeries.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartOHLCSeries.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartOHLCSeries.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="35" type="file" documentType="reference">
+            <Name>NChartOHLCSeriesSettings</Name>
+            <Path>Classes/NChartOHLCSeriesSettings.html</Path>
+            
+        </Node>
+		<Node id="36" type="file" documentType="reference">
+            <Name>NChartObject</Name>
+            <Path>Classes/NChartObject.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartObject.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartObject.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartObject.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="37" type="file" documentType="reference">
+            <Name>NChartPieSeries</Name>
+            <Path>Classes/NChartPieSeries.html</Path>
+            
+        </Node>
+		<Node id="38" type="file" documentType="reference">
+            <Name>NChartPieSeriesSettings</Name>
+            <Path>Classes/NChartPieSeriesSettings.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartPieSeriesSettings.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartPieSeriesSettings.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartPieSeriesSettings.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="39" type="file" documentType="reference">
+            <Name>NChartPlaced</Name>
+            <Path>Classes/NChartPlaced.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartPlaced.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartPlaced.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartPlaced.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="40" type="file" documentType="reference">
+            <Name>NChartPoint</Name>
+            <Path>Classes/NChartPoint.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartPoint.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartPoint.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartPoint.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/NChartPoint.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/NChartPoint.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="41" type="file" documentType="reference">
+            <Name>NChartPointState</Name>
+            <Path>Classes/NChartPointState.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartPointState.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartPointState.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartPointState.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/NChartPointState.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/NChartPointState.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="42" type="file" documentType="reference">
+            <Name>NChartRibbonSeries</Name>
+            <Path>Classes/NChartRibbonSeries.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartRibbonSeries.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartRibbonSeries.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartRibbonSeries.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="43" type="file" documentType="reference">
+            <Name>NChartRibbonSeriesSettings</Name>
+            <Path>Classes/NChartRibbonSeriesSettings.html</Path>
+            
+        </Node>
+		<Node id="44" type="file" documentType="reference">
+            <Name>NChartSequenceSeries</Name>
+            <Path>Classes/NChartSequenceSeries.html</Path>
+            
+        </Node>
+		<Node id="45" type="file" documentType="reference">
+            <Name>NChartSequenceSeriesSettings</Name>
+            <Path>Classes/NChartSequenceSeriesSettings.html</Path>
+            
+        </Node>
+		<Node id="46" type="file" documentType="reference">
+            <Name>NChartSeries</Name>
+            <Path>Classes/NChartSeries.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartSeries.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartSeries.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartSeries.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/NChartSeries.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="47" type="file" documentType="reference">
+            <Name>NChartSeriesSettings</Name>
+            <Path>Classes/NChartSeriesSettings.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartSeriesSettings.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartSeriesSettings.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/NChartSeriesSettings.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="48" type="file" documentType="reference">
+            <Name>NChartSizeAxis</Name>
+            <Path>Classes/NChartSizeAxis.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartSizeAxis.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartSizeAxis.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartSizeAxis.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="49" type="file" documentType="reference">
+            <Name>NChartSolidColorBrush</Name>
+            <Path>Classes/NChartSolidColorBrush.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartSolidColorBrush.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartSolidColorBrush.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartSolidColorBrush.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/NChartSolidColorBrush.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/NChartSolidColorBrush.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="50" type="file" documentType="reference">
+            <Name>NChartSolidSeries</Name>
+            <Path>Classes/NChartSolidSeries.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartSolidSeries.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartSolidSeries.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartSolidSeries.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="51" type="file" documentType="reference">
+            <Name>NChartSolidSeriesSettings</Name>
+            <Path>Classes/NChartSolidSeriesSettings.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartSolidSeriesSettings.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartSolidSeriesSettings.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartSolidSeriesSettings.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="52" type="file" documentType="reference">
+            <Name>NChartStepSeries</Name>
+            <Path>Classes/NChartStepSeries.html</Path>
+            
+        </Node>
+		<Node id="53" type="file" documentType="reference">
+            <Name>NChartStepSeriesSettings</Name>
+            <Path>Classes/NChartStepSeriesSettings.html</Path>
+            
+        </Node>
+		<Node id="54" type="file" documentType="reference">
+            <Name>NChartSurfaceSeries</Name>
+            <Path>Classes/NChartSurfaceSeries.html</Path>
+            
+        </Node>
+		<Node id="55" type="file" documentType="reference">
+            <Name>NChartSurfaceSeriesSettings</Name>
+            <Path>Classes/NChartSurfaceSeriesSettings.html</Path>
+            
+        </Node>
+		<Node id="56" type="file" documentType="reference">
+            <Name>NChartTextureBrush</Name>
+            <Path>Classes/NChartTextureBrush.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartTextureBrush.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartTextureBrush.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartTextureBrush.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/NChartTextureBrush.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/NChartTextureBrush.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="57" type="file" documentType="reference">
+            <Name>NChartTimeAxis</Name>
+            <Path>Classes/NChartTimeAxis.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartTimeAxis.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartTimeAxis.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartTimeAxis.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/NChartTimeAxis.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="58" type="file" documentType="reference">
+            <Name>NChartTimeAxisTooltip</Name>
+            <Path>Classes/NChartTimeAxisTooltip.html</Path>
+            
+        </Node>
+		<Node id="59" type="file" documentType="reference">
+            <Name>NChartTooltip</Name>
+            <Path>Classes/NChartTooltip.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartTooltip.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartTooltip.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartTooltip.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/NChartTooltip.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="60" type="file" documentType="reference">
+            <Name>NChartValueAxis</Name>
+            <Path>Classes/NChartValueAxis.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartValueAxis.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartValueAxis.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartValueAxis.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/NChartValueAxis.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="61" type="file" documentType="reference">
+            <Name>NChartView</Name>
+            <Path>Classes/NChartView.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NChartView.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NChartView.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NChartView.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		
+		
+        <Node id="62" type="file" documentType="reference">
+            <Name>NChartDelegate</Name>
+            <Path>Protocols/NChartDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/NChartDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/NChartDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/NChartDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="63" type="file" documentType="reference">
+            <Name>NChartSeriesDataSource</Name>
+            <Path>Protocols/NChartSeriesDataSource.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/NChartSeriesDataSource.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/NChartSeriesDataSource.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/NChartSeriesDataSource.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="64" type="file" documentType="reference">
+            <Name>NChartSizeAxisDataSource</Name>
+            <Path>Protocols/NChartSizeAxisDataSource.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/NChartSizeAxisDataSource.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/NChartSizeAxisDataSource.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/NChartSizeAxisDataSource.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="65" type="file" documentType="reference">
+            <Name>NChartTimeAxisDataSource</Name>
+            <Path>Protocols/NChartTimeAxisDataSource.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/NChartTimeAxisDataSource.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/NChartTimeAxisDataSource.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/NChartTimeAxisDataSource.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="66" type="file" documentType="reference">
+            <Name>NChartValueAxisDataSource</Name>
+            <Path>Protocols/NChartValueAxisDataSource.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/NChartValueAxisDataSource.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/NChartValueAxisDataSource.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/NChartValueAxisDataSource.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		
+        <Node id="67" type="file" documentType="reference">
+            <Name>NChartAnimationType</Name>
+            <Path>Constants/NChartAnimationType.html</Path>
+            
+        </Node>
+		<Node id="68" type="file" documentType="reference">
+            <Name>NChartAxisTickType</Name>
+            <Path>Constants/NChartAxisTickType.html</Path>
+            
+        </Node>
+		<Node id="69" type="file" documentType="reference">
+            <Name>NChartCaptionBlockAlignment</Name>
+            <Path>Constants/NChartCaptionBlockAlignment.html</Path>
+            
+        </Node>
+		<Node id="70" type="file" documentType="reference">
+            <Name>NChartHighlightType</Name>
+            <Path>Constants/NChartHighlightType.html</Path>
+            
+        </Node>
+		<Node id="71" type="file" documentType="reference">
+            <Name>NChartLegendBlockAlignment</Name>
+            <Path>Constants/NChartLegendBlockAlignment.html</Path>
+            
+        </Node>
+		<Node id="72" type="file" documentType="reference">
+            <Name>NChartLegendContentAlignment</Name>
+            <Path>Constants/NChartLegendContentAlignment.html</Path>
+            
+        </Node>
+		<Node id="73" type="file" documentType="reference">
+            <Name>NChartLegendOrientation</Name>
+            <Path>Constants/NChartLegendOrientation.html</Path>
+            
+        </Node>
+		<Node id="74" type="file" documentType="reference">
+            <Name>NChartMarkerShape</Name>
+            <Path>Constants/NChartMarkerShape.html</Path>
+            
+        </Node>
+		<Node id="75" type="file" documentType="reference">
+            <Name>NChartShadingModel</Name>
+            <Path>Constants/NChartShadingModel.html</Path>
+            
+        </Node>
+		<Node id="76" type="file" documentType="reference">
+            <Name>NChartTexturePosition</Name>
+            <Path>Constants/NChartTexturePosition.html</Path>
+            
+        </Node>
+		<Node id="77" type="file" documentType="reference">
+            <Name>NChartTimeAxisLabelsLayout</Name>
+            <Path>Constants/NChartTimeAxisLabelsLayout.html</Path>
+            
+        </Node>
+		<Node id="78" type="file" documentType="reference">
+            <Name>NChartTimeAxisLabelsPosition</Name>
+            <Path>Constants/NChartTimeAxisLabelsPosition.html</Path>
+            
+        </Node>
+		<Node id="79" type="file" documentType="reference">
+            <Name>NChartTimeAxisTickShape</Name>
+            <Path>Constants/NChartTimeAxisTickShape.html</Path>
+            
+        </Node>
+		<Node id="80" type="file" documentType="reference">
+            <Name>NChartTooltipVerticalAlignment</Name>
+            <Path>Constants/NChartTooltipVerticalAlignment.html</Path>
+            
+        </Node>
+		<Node id="81" type="file" documentType="reference">
+            <Name>NChartUserInteraction</Name>
+            <Path>Constants/NChartUserInteraction.html</Path>
+            
+        </Node>
+		<Node id="82" type="file" documentType="reference">
+            <Name>NChartValueAxesType</Name>
+            <Path>Constants/NChartValueAxesType.html</Path>
+            
+        </Node>
+		<Node id="83" type="file" documentType="reference">
+            <Name>NChartValueAxisKind</Name>
+            <Path>Constants/NChartValueAxisKind.html</Path>
+            
+        </Node>
+		<Node id="84" type="file" documentType="reference">
+            <Name>NChartZoomMode</Name>
+            <Path>Constants/NChartZoomMode.html</Path>
+            
+        </Node>
+		
+	</Library>
+</DocSetNodes>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartAxesPlane.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartAxesPlane</TokenIdentifier>
+			<Abstract type="html">The NChartAxesPlane class provides methods to display the axes plane for the cartesian system.</Abstract>
+			<DeclaredIn>NChartAxesPlane.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartAxesPlane/setColor:</TokenIdentifier>
+			<Abstract type="html">Color of axes plane.</Abstract>
+			<DeclaredIn>NChartAxesPlane.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartAxesPlane/color</TokenIdentifier>
+			<Abstract type="html">Color of axes plane.</Abstract>
+			<DeclaredIn>NChartAxesPlane.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartAxesPlane/color</TokenIdentifier>
+			<Abstract type="html">Color of axes plane.</Abstract>
+			<DeclaredIn>NChartAxesPlane.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartAxesPlane/setWidth:</TokenIdentifier>
+			<Abstract type="html">Width of the axes plane in 3D scene units. Actually, one 3D scene unit is equal to half a screen size by the initial
+zoom (therefore the space of 3D scene is actually nonlinear respectively to the screen). Of course you can try to
+calculate out the value you need, but you would find it out easier experimentally. The default value is 0.05.</Abstract>
+			<DeclaredIn>NChartAxesPlane.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float width</Declaration>
+			
+			
+			<Anchor>//api/name/width</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartAxesPlane/width</TokenIdentifier>
+			<Abstract type="html">Width of the axes plane in 3D scene units. Actually, one 3D scene unit is equal to half a screen size by the initial
+zoom (therefore the space of 3D scene is actually nonlinear respectively to the screen). Of course you can try to
+calculate out the value you need, but you would find it out easier experimentally. The default value is 0.05.</Abstract>
+			<DeclaredIn>NChartAxesPlane.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float width</Declaration>
+			
+			
+			<Anchor>//api/name/width</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartAxesPlane/width</TokenIdentifier>
+			<Abstract type="html">Width of the axes plane in 3D scene units. Actually, one 3D scene unit is equal to half a screen size by the initial
+zoom (therefore the space of 3D scene is actually nonlinear respectively to the screen). Of course you can try to
+calculate out the value you need, but you would find it out easier experimentally. The default value is 0.05.</Abstract>
+			<DeclaredIn>NChartAxesPlane.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float width</Declaration>
+			
+			
+			<Anchor>//api/name/width</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

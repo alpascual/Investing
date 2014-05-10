@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/NChartHighlightType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/NChartHighlightType</TokenIdentifier>
+			<Abstract type="html">The NChartHighlightType enum provides constants to highligh points. You may use them to build a bitmask of highlight.
+This means you may specify NChartHighlightTypeColor | NChartHighlightTypeShift to get highlight by color and highlight
+by shift at the same time.</Abstract>
+			<DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+			
+			<NodeRef refid="70"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartHighlightTypeNone</TokenIdentifier>
+            <Abstract type="html">No highlight.
+     </Abstract>
+            <Declaration>NChartHighlightTypeNone</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="70"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartHighlightTypeColor</TokenIdentifier>
+            <Abstract type="html">Highlight by color.
+     </Abstract>
+            <Declaration>NChartHighlightTypeColor</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="70"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartHighlightTypeShift</TokenIdentifier>
+            <Abstract type="html">Highlight by shift.
+     </Abstract>
+            <Declaration>NChartHighlightTypeShift</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="70"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartHighlightDrop</TokenIdentifier>
+            <Abstract type="html">Drop previous highlights. Add this to your highlight type combination if you do not want the highlights to
+accumulate. This means, if there are some highlights queued by delay or not fully animated, they will be
+cancelled.
+     </Abstract>
+            <Declaration>NChartHighlightDrop</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="70"/>
+        </Token>
+        
+	</File>
+</Tokens>

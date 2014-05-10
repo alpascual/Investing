@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/NChartShadingModel.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/NChartShadingModel</TokenIdentifier>
+			<Abstract type="html">The NChartShadingModel provides constants for shading models used to shade 3D-objects.</Abstract>
+			<DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+			
+			<NodeRef refid="75"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartShadingModelPlain</TokenIdentifier>
+            <Abstract type="html">Plain shading model, just filling with the corresponding color / gradient / texture / etc.
+     </Abstract>
+            <Declaration>NChartShadingModelPlain</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="75"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartShadingModelPhong</TokenIdentifier>
+            <Abstract type="html">Phong&apos;s shading model, filling with the corresponding color / gradient / texture / etc while shaded.
+     </Abstract>
+            <Declaration>NChartShadingModelPhong</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="75"/>
+        </Token>
+        
+	</File>
+</Tokens>

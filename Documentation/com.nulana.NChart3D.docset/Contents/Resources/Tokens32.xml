@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartMarker.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartMarker</TokenIdentifier>
+			<Abstract type="html">The NChartMarker class provides methods to display markers in the points of the chart.
+@discussion
+Each series, that can display markers, has the property default marker. If you set it to series, this will be a
+default for all the points. However you can set the marker for the point and those values, that you set to this
+marker, will override the corresponding values from the deafult marker. For example, if you set the marker for series
+and change its size, shape and resolution, and after that set another marker to some point and change its size, all
+points will have the markers with shape and resolution from the default marker. The size of all points except the one
+you modified will also be the same (obtained from default marker too). And the modified point will differ in size.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+            
+			
+			<NodeRef refid="32"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartMarker/setShape:</TokenIdentifier>
+			<Abstract type="html">Shape of the marker. There are predefined shapes and &lt;code&gt;NChartMarkerShapeModel&lt;/code&gt; that requires the model to
+be set.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartMarkerShape</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartMarkerShape shape</Declaration>
+			
+			
+			<Anchor>//api/name/shape</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartMarker/shape</TokenIdentifier>
+			<Abstract type="html">Shape of the marker. There are predefined shapes and &lt;code&gt;NChartMarkerShapeModel&lt;/code&gt; that requires the model to
+be set.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartMarkerShape</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartMarkerShape shape</Declaration>
+			
+			
+			<Anchor>//api/name/shape</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartMarker/shape</TokenIdentifier>
+			<Abstract type="html">Shape of the marker. There are predefined shapes and &lt;code&gt;NChartMarkerShapeModel&lt;/code&gt; that requires the model to
+be set.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartMarkerShape</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartMarkerShape shape</Declaration>
+			
+			
+			<Anchor>//api/name/shape</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartMarker/setModel:</TokenIdentifier>
+			<Abstract type="html">Model of the marker. This property is nil by default. By setting this property, shape is automatically set to
+&lt;code&gt;NChartMarkerShapeModel&lt;/code&gt;. If the shape is not &lt;code&gt;NChartMarkerShapeModel&lt;/code&gt;, this property has no
+effect, even if it is not nil. If the shape is &lt;code&gt;NChartMarkerShapeModel&lt;/code&gt; and model is nil, it is equivalent
+to the shape set to &lt;code&gt;NChartMarkerShapeNone&lt;/code&gt;, so no marker is displayed.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartModel</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartModel *model</Declaration>
+			
+			
+			<Anchor>//api/name/model</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartMarker/model</TokenIdentifier>
+			<Abstract type="html">Model of the marker. This property is nil by default. By setting this property, shape is automatically set to
+&lt;code&gt;NChartMarkerShapeModel&lt;/code&gt;. If the shape is not &lt;code&gt;NChartMarkerShapeModel&lt;/code&gt;, this property has no
+effect, even if it is not nil. If the shape is &lt;code&gt;NChartMarkerShapeModel&lt;/code&gt; and model is nil, it is equivalent
+to the shape set to &lt;code&gt;NChartMarkerShapeNone&lt;/code&gt;, so no marker is displayed.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartModel</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartModel *model</Declaration>
+			
+			
+			<Anchor>//api/name/model</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartMarker/model</TokenIdentifier>
+			<Abstract type="html">Model of the marker. This property is nil by default. By setting this property, shape is automatically set to
+&lt;code&gt;NChartMarkerShapeModel&lt;/code&gt;. If the shape is not &lt;code&gt;NChartMarkerShapeModel&lt;/code&gt;, this property has no
+effect, even if it is not nil. If the shape is &lt;code&gt;NChartMarkerShapeModel&lt;/code&gt; and model is nil, it is equivalent
+to the shape set to &lt;code&gt;NChartMarkerShapeNone&lt;/code&gt;, so no marker is displayed.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartModel</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartModel *model</Declaration>
+			
+			
+			<Anchor>//api/name/model</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartMarker/setBrush:</TokenIdentifier>
+			<Abstract type="html">Brush that fills the marker.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartBrush</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartBrush *brush</Declaration>
+			
+			
+			<Anchor>//api/name/brush</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartMarker/brush</TokenIdentifier>
+			<Abstract type="html">Brush that fills the marker.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartBrush</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartBrush *brush</Declaration>
+			
+			
+			<Anchor>//api/name/brush</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartMarker/brush</TokenIdentifier>
+			<Abstract type="html">Brush that fills the marker.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartBrush</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartBrush *brush</Declaration>
+			
+			
+			<Anchor>//api/name/brush</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartMarker/setBorderBrush:</TokenIdentifier>
+			<Abstract type="html">Brush of the marker&apos;s border. Please note, that only markers with predefined shapes have borders. If you use model,
+border&apos;s properties are ignored.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartBrush</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartBrush *borderBrush</Declaration>
+			
+			
+			<Anchor>//api/name/borderBrush</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartMarker/borderBrush</TokenIdentifier>
+			<Abstract type="html">Brush of the marker&apos;s border. Please note, that only markers with predefined shapes have borders. If you use model,
+border&apos;s properties are ignored.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartBrush</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartBrush *borderBrush</Declaration>
+			
+			
+			<Anchor>//api/name/borderBrush</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartMarker/borderBrush</TokenIdentifier>
+			<Abstract type="html">Brush of the marker&apos;s border. Please note, that only markers with predefined shapes have borders. If you use model,
+border&apos;s properties are ignored.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartBrush</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartBrush *borderBrush</Declaration>
+			
+			
+			<Anchor>//api/name/borderBrush</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartMarker/setBorderThickness:</TokenIdentifier>
+			<Abstract type="html">Thickness of the marker&apos;s border in pixels. Please note, that only markers with predefined shapes have borders.
+If you use a model, the border&apos;s properties are ignored.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float borderThickness</Declaration>
+			
+			
+			<Anchor>//api/name/borderThickness</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartMarker/borderThickness</TokenIdentifier>
+			<Abstract type="html">Thickness of the marker&apos;s border in pixels. Please note, that only markers with predefined shapes have borders.
+If you use a model, the border&apos;s properties are ignored.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float borderThickness</Declaration>
+			
+			
+			<Anchor>//api/name/borderThickness</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartMarker/borderThickness</TokenIdentifier>
+			<Abstract type="html">Thickness of the marker&apos;s border in pixels. Please note, that only markers with predefined shapes have borders.
+If you use a model, the border&apos;s properties are ignored.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float borderThickness</Declaration>
+			
+			
+			<Anchor>//api/name/borderThickness</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartMarker/setAngleX:</TokenIdentifier>
+			<Abstract type="html">Rotation of the marker around the X-axis in radians. This property is used for &quot;volumetric&quot; markers only,
+this means for those that are not plain.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float angleX</Declaration>
+			
+			
+			<Anchor>//api/name/angleX</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartMarker/angleX</TokenIdentifier>
+			<Abstract type="html">Rotation of the marker around the X-axis in radians. This property is used for &quot;volumetric&quot; markers only,
+this means for those that are not plain.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float angleX</Declaration>
+			
+			
+			<Anchor>//api/name/angleX</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartMarker/angleX</TokenIdentifier>
+			<Abstract type="html">Rotation of the marker around the X-axis in radians. This property is used for &quot;volumetric&quot; markers only,
+this means for those that are not plain.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float angleX</Declaration>
+			
+			
+			<Anchor>//api/name/angleX</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartMarker/setAngleY:</TokenIdentifier>
+			<Abstract type="html">Rotation of the marker around the Y-axis in radians. This property is used for &quot;volumetric&quot; markers only,
+this means for those that are not plain.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float angleY</Declaration>
+			
+			
+			<Anchor>//api/name/angleY</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartMarker/angleY</TokenIdentifier>
+			<Abstract type="html">Rotation of the marker around the Y-axis in radians. This property is used for &quot;volumetric&quot; markers only,
+this means for those that are not plain.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float angleY</Declaration>
+			
+			
+			<Anchor>//api/name/angleY</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartMarker/angleY</TokenIdentifier>
+			<Abstract type="html">Rotation of the marker around the Y-axis in radians. This property is used for &quot;volumetric&quot; markers only,
+this means for those that are not plain.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float angleY</Declaration>
+			
+			
+			<Anchor>//api/name/angleY</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartMarker/setAngleZ:</TokenIdentifier>
+			<Abstract type="html">Rotation of the marker around the Z-axis in radians. This property is used for &quot;volumetric&quot; markers only,
+this means for those that are not plain.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float angleZ</Declaration>
+			
+			
+			<Anchor>//api/name/angleZ</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartMarker/angleZ</TokenIdentifier>
+			<Abstract type="html">Rotation of the marker around the Z-axis in radians. This property is used for &quot;volumetric&quot; markers only,
+this means for those that are not plain.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float angleZ</Declaration>
+			
+			
+			<Anchor>//api/name/angleZ</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartMarker/angleZ</TokenIdentifier>
+			<Abstract type="html">Rotation of the marker around the Z-axis in radians. This property is used for &quot;volumetric&quot; markers only,
+this means for those that are not plain.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float angleZ</Declaration>
+			
+			
+			<Anchor>//api/name/angleZ</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartMarker/setSize:</TokenIdentifier>
+			<Abstract type="html">Size of the marker. The size can be in any unit you want. It is rescaled to pixels with the help of
+&lt;code&gt;NChartSizeAxis&lt;/code&gt;.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartMarker/size</TokenIdentifier>
+			<Abstract type="html">Size of the marker. The size can be in any unit you want. It is rescaled to pixels with the help of
+&lt;code&gt;NChartSizeAxis&lt;/code&gt;.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartMarker/size</TokenIdentifier>
+			<Abstract type="html">Size of the marker. The size can be in any unit you want. It is rescaled to pixels with the help of
+&lt;code&gt;NChartSizeAxis&lt;/code&gt;.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartMarker/setResolution:</TokenIdentifier>
+			<Abstract type="html">Resoution of the marker. Resolution is the amount of vertices that build the circle (sphere). It is used if marker&apos;s
+shape is &lt;code&gt;NChartMarkerShapeCircle&lt;/code&gt; or &lt;code&gt;NChartMarkerShapeSphere&lt;/code&gt;.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/NChartMarker/shape</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) uint resolution</Declaration>
+			
+			
+			<Anchor>//api/name/resolution</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartMarker/resolution</TokenIdentifier>
+			<Abstract type="html">Resoution of the marker. Resolution is the amount of vertices that build the circle (sphere). It is used if marker&apos;s
+shape is &lt;code&gt;NChartMarkerShapeCircle&lt;/code&gt; or &lt;code&gt;NChartMarkerShapeSphere&lt;/code&gt;.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/NChartMarker/shape</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) uint resolution</Declaration>
+			
+			
+			<Anchor>//api/name/resolution</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartMarker/resolution</TokenIdentifier>
+			<Abstract type="html">Resoution of the marker. Resolution is the amount of vertices that build the circle (sphere). It is used if marker&apos;s
+shape is &lt;code&gt;NChartMarkerShapeCircle&lt;/code&gt; or &lt;code&gt;NChartMarkerShapeSphere&lt;/code&gt;.</Abstract>
+			<DeclaredIn>NChartMarker.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/NChartMarker/shape</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) uint resolution</Declaration>
+			
+			
+			<Anchor>//api/name/resolution</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

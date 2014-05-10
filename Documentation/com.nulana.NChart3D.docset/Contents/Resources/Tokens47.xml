@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartSeriesSettings.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartSeriesSettings</TokenIdentifier>
+			<Abstract type="html">The NChartSeriesSettings class provides basic container for settings that are to be applied for all the series of
+particular type that are added to the chart. For different types of series there are different classes of containers
+that are inherited from NChartSeriesSettings. You can add the settings to the chart via &lt;code&gt;addSeriesSettings:&lt;/code&gt; method
+of NChart. The settings are applied to the series while &lt;updateData&gt; call of NChart.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="47"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/NChartSeriesSettings/seriesSettings</TokenIdentifier>
+			<Abstract type="html">Create instance of settings.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>+ (id)seriesSettings</Declaration>
+			
+			<ReturnValue><Abstract type="html">an autoreleased instance of the series.</Abstract></ReturnValue>
+			<Anchor>//api/name/seriesSettings</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

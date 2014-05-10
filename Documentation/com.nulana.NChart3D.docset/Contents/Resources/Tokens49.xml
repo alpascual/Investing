@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartSolidColorBrush.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartSolidColorBrush</TokenIdentifier>
+			<Abstract type="html">The NChartSolidColorBrush class provides the brush that fills the area with a solid color.</Abstract>
+			<DeclaredIn>NChartSolidColorBrush.h</DeclaredIn>
+            
+			
+			<NodeRef refid="49"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/NChartSolidColorBrush/solidColorBrushWithColor:</TokenIdentifier>
+			<Abstract type="html">Create brush with color.</Abstract>
+			<DeclaredIn>NChartSolidColorBrush.h</DeclaredIn>
+			
+			<Declaration>+ (NChartSolidColorBrush *)solidColorBrushWithColor:(UIColor *)color</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>color</Name>
+					<Abstract type="html">- color for the brush.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a new instance of the solid color brush.</Abstract></ReturnValue>
+			<Anchor>//api/name/solidColorBrushWithColor:</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSolidColorBrush/initWithColor:</TokenIdentifier>
+			<Abstract type="html">Init brush with color.</Abstract>
+			<DeclaredIn>NChartSolidColorBrush.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithColor:(UIColor *)color</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>color</Name>
+					<Abstract type="html">- color for the brush.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the initialized instance of a brush.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithColor:</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSolidColorBrush/setColor:</TokenIdentifier>
+			<Abstract type="html">Color of the brush.</Abstract>
+			<DeclaredIn>NChartSolidColorBrush.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSolidColorBrush/color</TokenIdentifier>
+			<Abstract type="html">Color of the brush.</Abstract>
+			<DeclaredIn>NChartSolidColorBrush.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartSolidColorBrush/color</TokenIdentifier>
+			<Abstract type="html">Color of the brush.</Abstract>
+			<DeclaredIn>NChartSolidColorBrush.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

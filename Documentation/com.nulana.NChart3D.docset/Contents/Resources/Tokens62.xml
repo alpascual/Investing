@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/NChartDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/NChartDelegate</TokenIdentifier>
+			<Abstract type="html">The NChartDelegate protocol provides methods to reflect changes which have appeared in the chart.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+            
+			
+			<NodeRef refid="62"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NChartDelegate/chartDelegateTimeIndexOfChart:changedTo:</TokenIdentifier>
+			<Abstract type="html">Report that the time index on time axis was changed. A change may appear if the user moves the handler on the time
+axis, plays back the time axis or if someone changed the current time index of time axis (see NChartTimeAxis for
+details).</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>- (void)chartDelegateTimeIndexOfChart:(NChart *)chart changedTo:(double)timeIndex</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">- pointer to the chart instance.</Abstract>
+				</Parameter><Parameter>
+					<Name>timeIndex</Name>
+					<Abstract type="html">- new time index.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/chartDelegateTimeIndexOfChart:changedTo:</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NChartDelegate/chartDelegatePointOfChart:selected:</TokenIdentifier>
+			<Abstract type="html">Report that user selected a chart point.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartPoint</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)chartDelegatePointOfChart:(NChart *)chart selected:(NChartPoint *)point</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">- pointer to the chart instance.</Abstract>
+				</Parameter><Parameter>
+					<Name>point</Name>
+					<Abstract type="html">- point that was selected. May be nil, which will tell that the user tapped an emply space of the chart.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/chartDelegatePointOfChart:selected:</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NChartDelegate/chartDelegateChartObject:didEndAnimating:</TokenIdentifier>
+			<Abstract type="html">Report that animation of chart object is done.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartAnimationType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)chartDelegateChartObject:(id)object didEndAnimating:(NChartAnimationType)animation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>object</Name>
+					<Abstract type="html">- pointer to the chart object instance.</Abstract>
+				</Parameter><Parameter>
+					<Name>animation</Name>
+					<Abstract type="html">- type of animation that is done.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/chartDelegateChartObject:didEndAnimating:</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

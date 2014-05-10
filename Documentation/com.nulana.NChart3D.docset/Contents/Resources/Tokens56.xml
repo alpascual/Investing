@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartTextureBrush.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartTextureBrush</TokenIdentifier>
+			<Abstract type="html">The NChartTextureBrush class provides the brush that fills the area with a texture (aka image).</Abstract>
+			<DeclaredIn>NChartTextureBrush.h</DeclaredIn>
+            
+			
+			<NodeRef refid="56"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/NChartTextureBrush/textureBrushWithImage:</TokenIdentifier>
+			<Abstract type="html">Create brush with image.</Abstract>
+			<DeclaredIn>NChartTextureBrush.h</DeclaredIn>
+			
+			<Declaration>+ (NChartTextureBrush *)textureBrushWithImage:(UIImage *)image</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>image</Name>
+					<Abstract type="html">- image for the brush.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a new instance of the texture brush.</Abstract></ReturnValue>
+			<Anchor>//api/name/textureBrushWithImage:</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/NChartTextureBrush/textureBrushWithImage:backgroundColor:position:</TokenIdentifier>
+			<Abstract type="html">Create brush with image, background color and position of texture.</Abstract>
+			<DeclaredIn>NChartTextureBrush.h</DeclaredIn>
+			
+			<Declaration>+ (NChartTextureBrush *)textureBrushWithImage:(UIImage *)image backgroundColor:(UIColor *)color position:(NChartTexturePosition)position</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>image</Name>
+					<Abstract type="html">- image for the brush.</Abstract>
+				</Parameter><Parameter>
+					<Name>color</Name>
+					<Abstract type="html">- background color for the brush.</Abstract>
+				</Parameter><Parameter>
+					<Name>position</Name>
+					<Abstract type="html">- position for the texture.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a new instance of the texture brush.</Abstract></ReturnValue>
+			<Anchor>//api/name/textureBrushWithImage:backgroundColor:position:</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTextureBrush/initWithImage:</TokenIdentifier>
+			<Abstract type="html">Init brush with image.</Abstract>
+			<DeclaredIn>NChartTextureBrush.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithImage:(UIImage *)image</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>image</Name>
+					<Abstract type="html">- image for the brush.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the initialized instance of a brush.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithImage:</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTextureBrush/initWithImage:backgroundColor:position:</TokenIdentifier>
+			<Abstract type="html">Init brush with image, background color and position of texture.</Abstract>
+			<DeclaredIn>NChartTextureBrush.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithImage:(UIImage *)image backgroundColor:(UIColor *)color position:(NChartTexturePosition)position</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>image</Name>
+					<Abstract type="html">- image for the brush.</Abstract>
+				</Parameter><Parameter>
+					<Name>color</Name>
+					<Abstract type="html">- background color for the brush.</Abstract>
+				</Parameter><Parameter>
+					<Name>position</Name>
+					<Abstract type="html">- position for the texture.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the initialized instance of a brush.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithImage:backgroundColor:position:</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTextureBrush/setImage:</TokenIdentifier>
+			<Abstract type="html">Image of the brush.</Abstract>
+			<DeclaredIn>NChartTextureBrush.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTextureBrush/image</TokenIdentifier>
+			<Abstract type="html">Image of the brush.</Abstract>
+			<DeclaredIn>NChartTextureBrush.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartTextureBrush/image</TokenIdentifier>
+			<Abstract type="html">Image of the brush.</Abstract>
+			<DeclaredIn>NChartTextureBrush.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTextureBrush/setBackgroundColor:</TokenIdentifier>
+			<Abstract type="html">Color that fills the area around the texture (if any). If nil, the area is filled with black color.</Abstract>
+			<DeclaredIn>NChartTextureBrush.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *backgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundColor</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTextureBrush/backgroundColor</TokenIdentifier>
+			<Abstract type="html">Color that fills the area around the texture (if any). If nil, the area is filled with black color.</Abstract>
+			<DeclaredIn>NChartTextureBrush.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *backgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundColor</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartTextureBrush/backgroundColor</TokenIdentifier>
+			<Abstract type="html">Color that fills the area around the texture (if any). If nil, the area is filled with black color.</Abstract>
+			<DeclaredIn>NChartTextureBrush.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *backgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundColor</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTextureBrush/setPosition:</TokenIdentifier>
+			<Abstract type="html">Position of the texture.</Abstract>
+			<DeclaredIn>NChartTextureBrush.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartTexturePosition</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartTexturePosition position</Declaration>
+			
+			
+			<Anchor>//api/name/position</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTextureBrush/position</TokenIdentifier>
+			<Abstract type="html">Position of the texture.</Abstract>
+			<DeclaredIn>NChartTextureBrush.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartTexturePosition</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartTexturePosition position</Declaration>
+			
+			
+			<Anchor>//api/name/position</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartTextureBrush/position</TokenIdentifier>
+			<Abstract type="html">Position of the texture.</Abstract>
+			<DeclaredIn>NChartTextureBrush.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartTexturePosition</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartTexturePosition position</Declaration>
+			
+			
+			<Anchor>//api/name/position</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

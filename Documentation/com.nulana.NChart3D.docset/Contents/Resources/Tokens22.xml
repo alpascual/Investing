@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartCoordSystem.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartCoordSystem</TokenIdentifier>
+			<Abstract type="html">The NChartCoordSystem class provides basic methods for managing the chart&apos;s coordinate system.</Abstract>
+			<DeclaredIn>NChartCoordSystem.h</DeclaredIn>
+            
+			
+			<NodeRef refid="22"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCoordSystem/setMargin:</TokenIdentifier>
+			<Abstract type="html">Margin of the coordinate system.</Abstract>
+			<DeclaredIn>NChartCoordSystem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NChartMargin margin</Declaration>
+			
+			
+			<Anchor>//api/name/margin</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCoordSystem/margin</TokenIdentifier>
+			<Abstract type="html">Margin of the coordinate system.</Abstract>
+			<DeclaredIn>NChartCoordSystem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NChartMargin margin</Declaration>
+			
+			
+			<Anchor>//api/name/margin</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCoordSystem/margin</TokenIdentifier>
+			<Abstract type="html">Margin of the coordinate system.</Abstract>
+			<DeclaredIn>NChartCoordSystem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NChartMargin margin</Declaration>
+			
+			
+			<Anchor>//api/name/margin</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

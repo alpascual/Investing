@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartBrush.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartBrush</TokenIdentifier>
+			<Abstract type="html">The NChartBrush class provides common methods of the brush that can be used to fill some areas.</Abstract>
+			<DeclaredIn>NChartBrush.h</DeclaredIn>
+            
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartBrush/scaleColorWithRScale:gScale:bScale:</TokenIdentifier>
+			<Abstract type="html">Scale components of brush&apos;s colors (if any) by given values. Each component of each color is multiplied by a
+corresponding scale factor.</Abstract>
+			<DeclaredIn>NChartBrush.h</DeclaredIn>
+			
+			<Declaration>- (void)scaleColorWithRScale:(float)rScale gScale:(float)gScale bScale:(float)bScale</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>rScale</Name>
+					<Abstract type="html">- scale for the red component.</Abstract>
+				</Parameter><Parameter>
+					<Name>gScale</Name>
+					<Abstract type="html">- scale for the green component.</Abstract>
+				</Parameter><Parameter>
+					<Name>bScale</Name>
+					<Abstract type="html">- scale for the blue component.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/scaleColorWithRScale:gScale:bScale:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartBrush/setOpacity:</TokenIdentifier>
+			<Abstract type="html">Opacity of the brush in interval 0..1, 0 -- full transparency, 1 -- full opacity. The default value is 1.</Abstract>
+			<DeclaredIn>NChartBrush.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float opacity</Declaration>
+			
+			
+			<Anchor>//api/name/opacity</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartBrush/opacity</TokenIdentifier>
+			<Abstract type="html">Opacity of the brush in interval 0..1, 0 -- full transparency, 1 -- full opacity. The default value is 1.</Abstract>
+			<DeclaredIn>NChartBrush.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float opacity</Declaration>
+			
+			
+			<Anchor>//api/name/opacity</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartBrush/opacity</TokenIdentifier>
+			<Abstract type="html">Opacity of the brush in interval 0..1, 0 -- full transparency, 1 -- full opacity. The default value is 1.</Abstract>
+			<DeclaredIn>NChartBrush.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float opacity</Declaration>
+			
+			
+			<Anchor>//api/name/opacity</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartBrush/setShadingModel:</TokenIdentifier>
+			<Abstract type="html">Shading model that should be applied to an object if it&apos;s painted with this brush. You should understand
+that different shading models are not always supported. For example, if you paint some background with the brush,
+only plain shading (read -- no shading) is possible. But if you paint some 3d-object, different models can be
+chosen (it is possible to draw this object as if it was lightened by some light source).</Abstract>
+			<DeclaredIn>NChartBrush.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartShadingModel</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartShadingModel shadingModel</Declaration>
+			
+			
+			<Anchor>//api/name/shadingModel</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartBrush/shadingModel</TokenIdentifier>
+			<Abstract type="html">Shading model that should be applied to an object if it&apos;s painted with this brush. You should understand
+that different shading models are not always supported. For example, if you paint some background with the brush,
+only plain shading (read -- no shading) is possible. But if you paint some 3d-object, different models can be
+chosen (it is possible to draw this object as if it was lightened by some light source).</Abstract>
+			<DeclaredIn>NChartBrush.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartShadingModel</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartShadingModel shadingModel</Declaration>
+			
+			
+			<Anchor>//api/name/shadingModel</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartBrush/shadingModel</TokenIdentifier>
+			<Abstract type="html">Shading model that should be applied to an object if it&apos;s painted with this brush. You should understand
+that different shading models are not always supported. For example, if you paint some background with the brush,
+only plain shading (read -- no shading) is possible. But if you paint some 3d-object, different models can be
+chosen (it is possible to draw this object as if it was lightened by some light source).</Abstract>
+			<DeclaredIn>NChartBrush.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartShadingModel</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartShadingModel shadingModel</Declaration>
+			
+			
+			<Anchor>//api/name/shadingModel</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

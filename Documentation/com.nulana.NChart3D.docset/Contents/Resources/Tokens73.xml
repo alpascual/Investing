@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/NChartLegendOrientation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/NChartLegendOrientation</TokenIdentifier>
+			<Abstract type="html">The NChartLegendOrientation enum provides constants for different legend docking modes.</Abstract>
+			<DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+			
+			<NodeRef refid="73"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartLegendOrientationFixed</TokenIdentifier>
+            <Abstract type="html">Legend is fixed, you cannot alter the legend&apos;s origin, because it will be ignored.
+     </Abstract>
+            <Declaration>NChartLegendOrientationFixed</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="73"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartLegendOrientationFreeHorizontal</TokenIdentifier>
+            <Abstract type="html">Legend is fixed by the Y-Axis, but free by the X-Axis, so you can alter the x-value of the origin and the y-value
+will be ignored.
+     </Abstract>
+            <Declaration>NChartLegendOrientationFreeHorizontal</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="73"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartLegendOrientationFreeVertical</TokenIdentifier>
+            <Abstract type="html">Legend is fixed by the X-Axis, but free by the Y-Axis, so you can alter the y-value of the origin and the x-value
+will be ignored.
+     </Abstract>
+            <Declaration>NChartLegendOrientationFreeVertical</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="73"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartLegendOrientationFreeFloat</TokenIdentifier>
+            <Abstract type="html">Legend is free by the X- and Y-Axis, so you can alter the origin.
+     </Abstract>
+            <Declaration>NChartLegendOrientationFreeFloat</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="73"/>
+        </Token>
+        
+	</File>
+</Tokens>

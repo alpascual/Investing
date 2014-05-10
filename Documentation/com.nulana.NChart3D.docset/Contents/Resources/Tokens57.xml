@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartTimeAxis.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartTimeAxis</TokenIdentifier>
+			<Abstract type="html">The NChartTimeAxis class provides methods to display the time axis of the chart.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+            
+			
+			<NodeRef refid="57"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/setBeginButtonStateImagesNormal:andPushed:</TokenIdentifier>
+			<Abstract type="html">Set images for button &quot;go to the beginning&quot;.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>- (void)setBeginButtonStateImagesNormal:(UIImage *)normal andPushed:(UIImage *)pushed</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>normal</Name>
+					<Abstract type="html">- image for the button&apos;s normal state.</Abstract>
+				</Parameter><Parameter>
+					<Name>pushed</Name>
+					<Abstract type="html">- image for the button&apos;s pushed state.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setBeginButtonStateImagesNormal:andPushed:</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/setEndButtonStateImagesNormal:andPushed:</TokenIdentifier>
+			<Abstract type="html">Set images for button &quot;go to the ending&quot;.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>- (void)setEndButtonStateImagesNormal:(UIImage *)normal andPushed:(UIImage *)pushed</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>normal</Name>
+					<Abstract type="html">- image for the button&apos;s normal state.</Abstract>
+				</Parameter><Parameter>
+					<Name>pushed</Name>
+					<Abstract type="html">- image for the button&apos;s pushed state.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setEndButtonStateImagesNormal:andPushed:</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/setPlayButtonStateImagesNormal:andPushed:</TokenIdentifier>
+			<Abstract type="html">Set images for button &quot;play&quot;.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>- (void)setPlayButtonStateImagesNormal:(UIImage *)normal andPushed:(UIImage *)pushed</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>normal</Name>
+					<Abstract type="html">- image for the button&apos;s normal state.</Abstract>
+				</Parameter><Parameter>
+					<Name>pushed</Name>
+					<Abstract type="html">- image for the button&apos;s pushed state.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setPlayButtonStateImagesNormal:andPushed:</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/setPauseButtonStateImagesNormal:andPushed:</TokenIdentifier>
+			<Abstract type="html">Set images for button &quot;pause&quot;.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>- (void)setPauseButtonStateImagesNormal:(UIImage *)normal andPushed:(UIImage *)pushed</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>normal</Name>
+					<Abstract type="html">- image for the button&apos;s normal state.</Abstract>
+				</Parameter><Parameter>
+					<Name>pushed</Name>
+					<Abstract type="html">- image for the button&apos;s pushed state.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setPauseButtonStateImagesNormal:andPushed:</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/setHandlerImage:</TokenIdentifier>
+			<Abstract type="html">Set image for the handler of the slider.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>- (void)setHandlerImage:(UIImage *)handler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>handler</Name>
+					<Abstract type="html">- image for the slider&apos;s handler.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setHandlerImage:</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/setSliderImage:capInsets:</TokenIdentifier>
+			<Abstract type="html">Specify the image for the slider and the cap insets to stretch it. The cap insets works as the insets in a method
+&lt;code&gt;[UIImage resizableImageWithCapInsets:]&lt;/code&gt;. This means, they specify the stretchable caps of the image.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>- (void)setSliderImage:(UIImage *)slider capInsets:(UIEdgeInsets)capInsets</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>slider</Name>
+					<Abstract type="html">- image for the slider.</Abstract>
+				</Parameter><Parameter>
+					<Name>capInsets</Name>
+					<Abstract type="html">- cap insets for the image.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setSliderImage:capInsets:</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/goToNextTick</TokenIdentifier>
+			<Abstract type="html">Go to the next timestamp (without any user interactions).</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>- (void)goToNextTick</Declaration>
+			
+			
+			<Anchor>//api/name/goToNextTick</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/goToPreviousTick</TokenIdentifier>
+			<Abstract type="html">Go to the previous timestamp (without any user interactions).</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>- (void)goToPreviousTick</Declaration>
+			
+			
+			<Anchor>//api/name/goToPreviousTick</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/goToFirstTick</TokenIdentifier>
+			<Abstract type="html">Go to the beginning of the timeline (without any user interactions).</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>- (void)goToFirstTick</Declaration>
+			
+			
+			<Anchor>//api/name/goToFirstTick</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/goToLastTick</TokenIdentifier>
+			<Abstract type="html">Go to the ending of the timeline (without any user interactions).</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>- (void)goToLastTick</Declaration>
+			
+			
+			<Anchor>//api/name/goToLastTick</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/play</TokenIdentifier>
+			<Abstract type="html">Start playing the timeline (without any user interactions).</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>- (void)play</Declaration>
+			
+			
+			<Anchor>//api/name/play</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/stop</TokenIdentifier>
+			<Abstract type="html">Stop playing the timeline (without any user interactions).</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>- (void)stop</Declaration>
+			
+			
+			<Anchor>//api/name/stop</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/setCurrentIndex:</TokenIdentifier>
+			<Abstract type="html">Current timestamp index (index of the timestamp tick where the handler stays).</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int currentIndex</Declaration>
+			
+			
+			<Anchor>//api/name/currentIndex</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/currentIndex</TokenIdentifier>
+			<Abstract type="html">Current timestamp index (index of the timestamp tick where the handler stays).</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int currentIndex</Declaration>
+			
+			
+			<Anchor>//api/name/currentIndex</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartTimeAxis/currentIndex</TokenIdentifier>
+			<Abstract type="html">Current timestamp index (index of the timestamp tick where the handler stays).</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int currentIndex</Declaration>
+			
+			
+			<Anchor>//api/name/currentIndex</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/setTooltip:</TokenIdentifier>
+			<Abstract type="html">Tooltip that appears over the handler. This is nil by default.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartTimeAxisTooltip</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartTimeAxisTooltip *tooltip</Declaration>
+			
+			
+			<Anchor>//api/name/tooltip</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/tooltip</TokenIdentifier>
+			<Abstract type="html">Tooltip that appears over the handler. This is nil by default.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartTimeAxisTooltip</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartTimeAxisTooltip *tooltip</Declaration>
+			
+			
+			<Anchor>//api/name/tooltip</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartTimeAxis/tooltip</TokenIdentifier>
+			<Abstract type="html">Tooltip that appears over the handler. This is nil by default.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartTimeAxisTooltip</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartTimeAxisTooltip *tooltip</Declaration>
+			
+			
+			<Anchor>//api/name/tooltip</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/setTickTitlesFont:</TokenIdentifier>
+			<Abstract type="html">Font used to display timestamp titles.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIFont *tickTitlesFont</Declaration>
+			
+			
+			<Anchor>//api/name/tickTitlesFont</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/tickTitlesFont</TokenIdentifier>
+			<Abstract type="html">Font used to display timestamp titles.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIFont *tickTitlesFont</Declaration>
+			
+			
+			<Anchor>//api/name/tickTitlesFont</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartTimeAxis/tickTitlesFont</TokenIdentifier>
+			<Abstract type="html">Font used to display timestamp titles.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIFont *tickTitlesFont</Declaration>
+			
+			
+			<Anchor>//api/name/tickTitlesFont</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/setTickTitlesColor:</TokenIdentifier>
+			<Abstract type="html">Color used to display timestamp titles.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *tickTitlesColor</Declaration>
+			
+			
+			<Anchor>//api/name/tickTitlesColor</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/tickTitlesColor</TokenIdentifier>
+			<Abstract type="html">Color used to display timestamp titles.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *tickTitlesColor</Declaration>
+			
+			
+			<Anchor>//api/name/tickTitlesColor</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartTimeAxis/tickTitlesColor</TokenIdentifier>
+			<Abstract type="html">Color used to display timestamp titles.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *tickTitlesColor</Declaration>
+			
+			
+			<Anchor>//api/name/tickTitlesColor</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/setTickColor:</TokenIdentifier>
+			<Abstract type="html">Color used to display timestamp ticks.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *tickColor</Declaration>
+			
+			
+			<Anchor>//api/name/tickColor</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/tickColor</TokenIdentifier>
+			<Abstract type="html">Color used to display timestamp ticks.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *tickColor</Declaration>
+			
+			
+			<Anchor>//api/name/tickColor</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartTimeAxis/tickColor</TokenIdentifier>
+			<Abstract type="html">Color used to display timestamp ticks.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *tickColor</Declaration>
+			
+			
+			<Anchor>//api/name/tickColor</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/setTickSize:</TokenIdentifier>
+			<Abstract type="html">Size of ticks in pixels.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGSize tickSize</Declaration>
+			
+			
+			<Anchor>//api/name/tickSize</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/tickSize</TokenIdentifier>
+			<Abstract type="html">Size of ticks in pixels.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGSize tickSize</Declaration>
+			
+			
+			<Anchor>//api/name/tickSize</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartTimeAxis/tickSize</TokenIdentifier>
+			<Abstract type="html">Size of ticks in pixels.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGSize tickSize</Declaration>
+			
+			
+			<Anchor>//api/name/tickSize</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/setTickOffset:</TokenIdentifier>
+			<Abstract type="html">Offset of timestamp ticks (spacing between slider and ticks) in pixels. If positive, ticks are outside of slider,
+if negative, ticks may overlap the slider; so the outer border of the slider (including the slider&apos;s handler) is
+assumed as zero offset.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float tickOffset</Declaration>
+			
+			
+			<Anchor>//api/name/tickOffset</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/tickOffset</TokenIdentifier>
+			<Abstract type="html">Offset of timestamp ticks (spacing between slider and ticks) in pixels. If positive, ticks are outside of slider,
+if negative, ticks may overlap the slider; so the outer border of the slider (including the slider&apos;s handler) is
+assumed as zero offset.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float tickOffset</Declaration>
+			
+			
+			<Anchor>//api/name/tickOffset</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartTimeAxis/tickOffset</TokenIdentifier>
+			<Abstract type="html">Offset of timestamp ticks (spacing between slider and ticks) in pixels. If positive, ticks are outside of slider,
+if negative, ticks may overlap the slider; so the outer border of the slider (including the slider&apos;s handler) is
+assumed as zero offset.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float tickOffset</Declaration>
+			
+			
+			<Anchor>//api/name/tickOffset</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/setTickTitlesOffset:</TokenIdentifier>
+			<Abstract type="html">Offset of timestamp titles (spacing between the slider and titles) in pixels.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float tickTitlesOffset</Declaration>
+			
+			
+			<Anchor>//api/name/tickTitlesOffset</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/tickTitlesOffset</TokenIdentifier>
+			<Abstract type="html">Offset of timestamp titles (spacing between the slider and titles) in pixels.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float tickTitlesOffset</Declaration>
+			
+			
+			<Anchor>//api/name/tickTitlesOffset</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartTimeAxis/tickTitlesOffset</TokenIdentifier>
+			<Abstract type="html">Offset of timestamp titles (spacing between the slider and titles) in pixels.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float tickTitlesOffset</Declaration>
+			
+			
+			<Anchor>//api/name/tickTitlesOffset</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/setTickShape:</TokenIdentifier>
+			<Abstract type="html">Shape of timestamp ticks.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartTimeAxisTickShape</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartTimeAxisTickShape tickShape</Declaration>
+			
+			
+			<Anchor>//api/name/tickShape</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/tickShape</TokenIdentifier>
+			<Abstract type="html">Shape of timestamp ticks.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartTimeAxisTickShape</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartTimeAxisTickShape tickShape</Declaration>
+			
+			
+			<Anchor>//api/name/tickShape</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartTimeAxis/tickShape</TokenIdentifier>
+			<Abstract type="html">Shape of timestamp ticks.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartTimeAxisTickShape</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartTimeAxisTickShape tickShape</Declaration>
+			
+			
+			<Anchor>//api/name/tickShape</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/setTickTitlesLayout:</TokenIdentifier>
+			<Abstract type="html">Layout of timestamp titles.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartTimeAxisLabelsLayout</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartTimeAxisLabelsLayout tickTitlesLayout</Declaration>
+			
+			
+			<Anchor>//api/name/tickTitlesLayout</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/tickTitlesLayout</TokenIdentifier>
+			<Abstract type="html">Layout of timestamp titles.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartTimeAxisLabelsLayout</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartTimeAxisLabelsLayout tickTitlesLayout</Declaration>
+			
+			
+			<Anchor>//api/name/tickTitlesLayout</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartTimeAxis/tickTitlesLayout</TokenIdentifier>
+			<Abstract type="html">Layout of timestamp titles.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartTimeAxisLabelsLayout</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartTimeAxisLabelsLayout tickTitlesLayout</Declaration>
+			
+			
+			<Anchor>//api/name/tickTitlesLayout</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/setTickTitlesPosition:</TokenIdentifier>
+			<Abstract type="html">Position of timestamp titles.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartTimeAxisLabelsPosition</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartTimeAxisLabelsPosition tickTitlesPosition</Declaration>
+			
+			
+			<Anchor>//api/name/tickTitlesPosition</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/tickTitlesPosition</TokenIdentifier>
+			<Abstract type="html">Position of timestamp titles.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartTimeAxisLabelsPosition</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartTimeAxisLabelsPosition tickTitlesPosition</Declaration>
+			
+			
+			<Anchor>//api/name/tickTitlesPosition</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartTimeAxis/tickTitlesPosition</TokenIdentifier>
+			<Abstract type="html">Position of timestamp titles.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartTimeAxisLabelsPosition</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartTimeAxisLabelsPosition tickTitlesPosition</Declaration>
+			
+			
+			<Anchor>//api/name/tickTitlesPosition</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/setMinTickSpacing:</TokenIdentifier>
+			<Abstract type="html">Minimal spacing between neighbor ticks in pixels (the tick is the center place of the timestamp title, a kind of
+milestone on the axis). According to this value some timestamps can be hidden, if there are too many of them.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float minTickSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/minTickSpacing</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/minTickSpacing</TokenIdentifier>
+			<Abstract type="html">Minimal spacing between neighbor ticks in pixels (the tick is the center place of the timestamp title, a kind of
+milestone on the axis). According to this value some timestamps can be hidden, if there are too many of them.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float minTickSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/minTickSpacing</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartTimeAxis/minTickSpacing</TokenIdentifier>
+			<Abstract type="html">Minimal spacing between neighbor ticks in pixels (the tick is the center place of the timestamp title, a kind of
+milestone on the axis). According to this value some timestamps can be hidden, if there are too many of them.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float minTickSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/minTickSpacing</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/setMargin:</TokenIdentifier>
+			<Abstract type="html">Margin of the time axis.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NChartMargin margin</Declaration>
+			
+			
+			<Anchor>//api/name/margin</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/margin</TokenIdentifier>
+			<Abstract type="html">Margin of the time axis.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NChartMargin margin</Declaration>
+			
+			
+			<Anchor>//api/name/margin</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartTimeAxis/margin</TokenIdentifier>
+			<Abstract type="html">Margin of the time axis.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NChartMargin margin</Declaration>
+			
+			
+			<Anchor>//api/name/margin</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/setAutohideTooltip:</TokenIdentifier>
+			<Abstract type="html">Flag indicating whether the tooltip should be hidden automatically when the user interactions end (YES) or not (NO).</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL autohideTooltip</Declaration>
+			
+			
+			<Anchor>//api/name/autohideTooltip</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/autohideTooltip</TokenIdentifier>
+			<Abstract type="html">Flag indicating whether the tooltip should be hidden automatically when the user interactions end (YES) or not (NO).</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL autohideTooltip</Declaration>
+			
+			
+			<Anchor>//api/name/autohideTooltip</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartTimeAxis/autohideTooltip</TokenIdentifier>
+			<Abstract type="html">Flag indicating whether the tooltip should be hidden automatically when the user interactions end (YES) or not (NO).</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL autohideTooltip</Declaration>
+			
+			
+			<Anchor>//api/name/autohideTooltip</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/setAnimationTime:</TokenIdentifier>
+			<Abstract type="html">Time that takes to play the whole time axis in seconds.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float animationTime</Declaration>
+			
+			
+			<Anchor>//api/name/animationTime</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/animationTime</TokenIdentifier>
+			<Abstract type="html">Time that takes to play the whole time axis in seconds.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float animationTime</Declaration>
+			
+			
+			<Anchor>//api/name/animationTime</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartTimeAxis/animationTime</TokenIdentifier>
+			<Abstract type="html">Time that takes to play the whole time axis in seconds.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float animationTime</Declaration>
+			
+			
+			<Anchor>//api/name/animationTime</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/setDataSource:</TokenIdentifier>
+			<Abstract type="html">Time axis data source.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/NChartTimeAxisDataSource</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) id&lt;NChartTimeAxisDataSource&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTimeAxis/dataSource</TokenIdentifier>
+			<Abstract type="html">Time axis data source.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/NChartTimeAxisDataSource</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) id&lt;NChartTimeAxisDataSource&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartTimeAxis/dataSource</TokenIdentifier>
+			<Abstract type="html">Time axis data source.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/NChartTimeAxisDataSource</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) id&lt;NChartTimeAxisDataSource&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/NChartValueAxesType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/NChartValueAxesType</TokenIdentifier>
+			<Abstract type="html">The NChartValueAxesType enum provides constants of value axes types.</Abstract>
+			<DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+			
+			<NodeRef refid="82"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartValueAxesTypeAbsolute</TokenIdentifier>
+            <Abstract type="html">Absolute type.
+     </Abstract>
+            <Declaration>NChartValueAxesTypeAbsolute</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="82"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartValueAxesTypeAdditive</TokenIdentifier>
+            <Abstract type="html">Additional type.
+     </Abstract>
+            <Declaration>NChartValueAxesTypeAdditive</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="82"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartValueAxesTypePercent</TokenIdentifier>
+            <Abstract type="html">Percent type.
+     </Abstract>
+            <Declaration>NChartValueAxesTypePercent</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="82"/>
+        </Token>
+        
+	</File>
+</Tokens>

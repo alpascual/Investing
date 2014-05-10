@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartPoint.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartPoint</TokenIdentifier>
+			<Abstract type="html">The NChartPoint class provides methods to manage chart&apos;s points.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+            
+			
+			<NodeRef refid="40"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/NChartPoint/pointWithArrayOfStates:forSeries:</TokenIdentifier>
+			<Abstract type="html">Create point with an array of states.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+			<Declaration>+ (NChartPoint *)pointWithArrayOfStates:(NSArray *)states forSeries:(NChartSeries *)series</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>states</Name>
+					<Abstract type="html">- the array of point states. See NChartPointState for details.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">- the series the point belongs to.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a new instance of the point.</Abstract></ReturnValue>
+			<Anchor>//api/name/pointWithArrayOfStates:forSeries:</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/NChartPoint/pointWithState:forSeries:</TokenIdentifier>
+			<Abstract type="html">Create point with a single state.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+			<Declaration>+ (NChartPoint *)pointWithState:(NChartPointState *)state forSeries:(NChartSeries *)series</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>state</Name>
+					<Abstract type="html">- the state if point. See NChartPointState for details.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">- the series the point belongs to.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a new instance of the point.</Abstract></ReturnValue>
+			<Anchor>//api/name/pointWithState:forSeries:</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPoint/initWithArrayOfStates:forSeries:</TokenIdentifier>
+			<Abstract type="html">Init point with an array of states.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartSeries</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (id)initWithArrayOfStates:(NSArray *)states forSeries:(NChartSeries *)series</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>states</Name>
+					<Abstract type="html">- the array of point states. See NChartPointState for details.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">- the series the point belongs to.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the initialized instance of a point.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithArrayOfStates:forSeries:</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPoint/initWithState:forSeries:</TokenIdentifier>
+			<Abstract type="html">Init point with a single state.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartSeries</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (id)initWithState:(NChartPointState *)state forSeries:(NChartSeries *)series</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>state</Name>
+					<Abstract type="html">- the state if point. See NChartPointState for details.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">- the series the point belongs to.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the initialized instance of a point.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithState:forSeries:</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPoint/setSeries:</TokenIdentifier>
+			<Abstract type="html">Series the point belongs to.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartSeries</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartSeries *series</Declaration>
+			
+			
+			<Anchor>//api/name/series</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPoint/series</TokenIdentifier>
+			<Abstract type="html">Series the point belongs to.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartSeries</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartSeries *series</Declaration>
+			
+			
+			<Anchor>//api/name/series</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPoint/series</TokenIdentifier>
+			<Abstract type="html">Series the point belongs to.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartSeries</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartSeries *series</Declaration>
+			
+			
+			<Anchor>//api/name/series</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPoint/setStates:</TokenIdentifier>
+			<Abstract type="html">Array of states. See NChartPointState for details. If a point was created with a single state, the array of states
+is not allocated and this property returns nil.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *states</Declaration>
+			
+			
+			<Anchor>//api/name/states</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPoint/states</TokenIdentifier>
+			<Abstract type="html">Array of states. See NChartPointState for details. If a point was created with a single state, the array of states
+is not allocated and this property returns nil.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *states</Declaration>
+			
+			
+			<Anchor>//api/name/states</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPoint/states</TokenIdentifier>
+			<Abstract type="html">Array of states. See NChartPointState for details. If a point was created with a single state, the array of states
+is not allocated and this property returns nil.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *states</Declaration>
+			
+			
+			<Anchor>//api/name/states</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPoint/setCurrentStateIndex:</TokenIdentifier>
+			<Abstract type="html">Index of current state. If a point was created with a single state, this property always returns 0.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int currentStateIndex</Declaration>
+			
+			
+			<Anchor>//api/name/currentStateIndex</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPoint/currentStateIndex</TokenIdentifier>
+			<Abstract type="html">Index of current state. If a point was created with a single state, this property always returns 0.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int currentStateIndex</Declaration>
+			
+			
+			<Anchor>//api/name/currentStateIndex</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPoint/currentStateIndex</TokenIdentifier>
+			<Abstract type="html">Index of current state. If a point was created with a single state, this property always returns 0.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int currentStateIndex</Declaration>
+			
+			
+			<Anchor>//api/name/currentStateIndex</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPoint/setCurrentState:</TokenIdentifier>
+			<Abstract type="html">Direct access to current state. This is a bit faster and more convenient than a query element of the states&apos; array by
+currentStateIndex. If a point was created with a single state, this property is the only way to access it.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartPointState</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartPointState *currentState</Declaration>
+			
+			
+			<Anchor>//api/name/currentState</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPoint/currentState</TokenIdentifier>
+			<Abstract type="html">Direct access to current state. This is a bit faster and more convenient than a query element of the states&apos; array by
+currentStateIndex. If a point was created with a single state, this property is the only way to access it.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartPointState</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartPointState *currentState</Declaration>
+			
+			
+			<Anchor>//api/name/currentState</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPoint/currentState</TokenIdentifier>
+			<Abstract type="html">Direct access to current state. This is a bit faster and more convenient than a query element of the states&apos; array by
+currentStateIndex. If a point was created with a single state, this property is the only way to access it.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartPointState</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartPointState *currentState</Declaration>
+			
+			
+			<Anchor>//api/name/currentState</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPoint/setTooltip:</TokenIdentifier>
+			<Abstract type="html">Tooltip that is shown on the point. It is nil by default. The tooltip is just a label, it does not change its content
+automatically. By altering its text, you can display any information you want, but you should do it yourself.
+Tooltip is similar to label, but it is placed in the center of the point by default. You can have &lt;code&gt;tooltip&lt;/code&gt; and
+label simultaniously displaying different information.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartTooltip</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartTooltip *tooltip</Declaration>
+			
+			
+			<Anchor>//api/name/tooltip</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPoint/tooltip</TokenIdentifier>
+			<Abstract type="html">Tooltip that is shown on the point. It is nil by default. The tooltip is just a label, it does not change its content
+automatically. By altering its text, you can display any information you want, but you should do it yourself.
+Tooltip is similar to label, but it is placed in the center of the point by default. You can have &lt;code&gt;tooltip&lt;/code&gt; and
+label simultaniously displaying different information.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartTooltip</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartTooltip *tooltip</Declaration>
+			
+			
+			<Anchor>//api/name/tooltip</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPoint/tooltip</TokenIdentifier>
+			<Abstract type="html">Tooltip that is shown on the point. It is nil by default. The tooltip is just a label, it does not change its content
+automatically. By altering its text, you can display any information you want, but you should do it yourself.
+Tooltip is similar to label, but it is placed in the center of the point by default. You can have &lt;code&gt;tooltip&lt;/code&gt; and
+label simultaniously displaying different information.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartTooltip</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartTooltip *tooltip</Declaration>
+			
+			
+			<Anchor>//api/name/tooltip</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPoint/setLabel:</TokenIdentifier>
+			<Abstract type="html">Label that is shown near the point. It is nil by default. The label does not change its content automatically.
+By altering its text, you can display any information you want, but you should do it yourself.
+Label is similar to tooltip, but it is placed in the top of the point by default. You can have tooltip and
+&lt;code&gt;label&lt;/code&gt; simultaniously displaying different information.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartTooltip</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartTooltip *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPoint/label</TokenIdentifier>
+			<Abstract type="html">Label that is shown near the point. It is nil by default. The label does not change its content automatically.
+By altering its text, you can display any information you want, but you should do it yourself.
+Label is similar to tooltip, but it is placed in the top of the point by default. You can have tooltip and
+&lt;code&gt;label&lt;/code&gt; simultaniously displaying different information.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartTooltip</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartTooltip *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPoint/label</TokenIdentifier>
+			<Abstract type="html">Label that is shown near the point. It is nil by default. The label does not change its content automatically.
+By altering its text, you can display any information you want, but you should do it yourself.
+Label is similar to tooltip, but it is placed in the top of the point by default. You can have tooltip and
+&lt;code&gt;label&lt;/code&gt; simultaniously displaying different information.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartTooltip</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartTooltip *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPoint/setHighlightColor:</TokenIdentifier>
+			<Abstract type="html">Highlight color. Some points can be highlighted by color, for example in column, pie or bubble
+(where the points are individual objects). In series like line and area the color highlight can be applied to the
+markers, so for these series this property has effect only if the marker is set.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *highlightColor</Declaration>
+			
+			
+			<Anchor>//api/name/highlightColor</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPoint/highlightColor</TokenIdentifier>
+			<Abstract type="html">Highlight color. Some points can be highlighted by color, for example in column, pie or bubble
+(where the points are individual objects). In series like line and area the color highlight can be applied to the
+markers, so for these series this property has effect only if the marker is set.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *highlightColor</Declaration>
+			
+			
+			<Anchor>//api/name/highlightColor</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPoint/highlightColor</TokenIdentifier>
+			<Abstract type="html">Highlight color. Some points can be highlighted by color, for example in column, pie or bubble
+(where the points are individual objects). In series like line and area the color highlight can be applied to the
+markers, so for these series this property has effect only if the marker is set.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *highlightColor</Declaration>
+			
+			
+			<Anchor>//api/name/highlightColor</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPoint/setHighlightShift:</TokenIdentifier>
+			<Abstract type="html">Highlight shift. Some points can be highlighted by shift, for example in pie. The shift is set in scene units.
+For example, the radius of pie is 1 scene unit, so you can use this value as a reference.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float highlightShift</Declaration>
+			
+			
+			<Anchor>//api/name/highlightShift</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPoint/highlightShift</TokenIdentifier>
+			<Abstract type="html">Highlight shift. Some points can be highlighted by shift, for example in pie. The shift is set in scene units.
+For example, the radius of pie is 1 scene unit, so you can use this value as a reference.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float highlightShift</Declaration>
+			
+			
+			<Anchor>//api/name/highlightShift</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPoint/highlightShift</TokenIdentifier>
+			<Abstract type="html">Highlight shift. Some points can be highlighted by shift, for example in pie. The shift is set in scene units.
+For example, the radius of pie is 1 scene unit, so you can use this value as a reference.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float highlightShift</Declaration>
+			
+			
+			<Anchor>//api/name/highlightShift</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPoint/highlightWithMask:duration:delay:</TokenIdentifier>
+			<Abstract type="html">Highlight point using the highlight settings done by highlightColor and highlightShift properties.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartHighlightType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)highlightWithMask:(NSUInteger)mask duration:(float)duration delay:(float)delay</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>mask</Name>
+					<Abstract type="html">- mask of highlighting. See NChartHighlightType enum for details. You may use multiple constants
+concatenated with bitwise OR.</Abstract>
+				</Parameter><Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">- duration of highlighting animation in seconds.</Abstract>
+				</Parameter><Parameter>
+					<Name>delay</Name>
+					<Abstract type="html">- delay to start of highlighting animation in seconds.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/highlightWithMask:duration:delay:</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPoint/setTag:</TokenIdentifier>
+			<Abstract type="html">Tag of the point. You may use it as you want.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int tag</Declaration>
+			
+			
+			<Anchor>//api/name/tag</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPoint/tag</TokenIdentifier>
+			<Abstract type="html">Tag of the point. You may use it as you want.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int tag</Declaration>
+			
+			
+			<Anchor>//api/name/tag</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPoint/tag</TokenIdentifier>
+			<Abstract type="html">Tag of the point. You may use it as you want.</Abstract>
+			<DeclaredIn>NChartPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int tag</Declaration>
+			
+			
+			<Anchor>//api/name/tag</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

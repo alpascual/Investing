@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartTimeAxisTooltip.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartTimeAxisTooltip</TokenIdentifier>
+			<Abstract type="html">The NChartTimeAxisTooltip class provides methods to display the tooltip over the handler of the time axis.</Abstract>
+			<DeclaredIn>NChartTimeAxisTooltip.h</DeclaredIn>
+            
+			
+			<NodeRef refid="58"/>
+		</Token>
+		
+		
+        
+	</File>
+</Tokens>

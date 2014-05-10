@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartSeries.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartSeries</TokenIdentifier>
+			<Abstract type="html">The NChartSeries class provides common methods for the series of the chart.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="46"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/NChartSeries/series</TokenIdentifier>
+			<Abstract type="html">Create instance of series.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>+ (id)series</Declaration>
+			
+			<ReturnValue><Abstract type="html">an autoreleased instance of the series.</Abstract></ReturnValue>
+			<Anchor>//api/name/series</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSeries/setPoints:</TokenIdentifier>
+			<Abstract type="html">Array of points.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *points</Declaration>
+			
+			
+			<Anchor>//api/name/points</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSeries/points</TokenIdentifier>
+			<Abstract type="html">Array of points.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *points</Declaration>
+			
+			
+			<Anchor>//api/name/points</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartSeries/points</TokenIdentifier>
+			<Abstract type="html">Array of points.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *points</Declaration>
+			
+			
+			<Anchor>//api/name/points</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSeries/setName:</TokenIdentifier>
+			<Abstract type="html">Name of the series.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSeries/name</TokenIdentifier>
+			<Abstract type="html">Name of the series.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartSeries/name</TokenIdentifier>
+			<Abstract type="html">Name of the series.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSeries/setImage:</TokenIdentifier>
+			<Abstract type="html">Image that is displayed in the legend. This property returns the image only if it was provided by the data source.
+If the default image is used, nil is returned.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSeries/image</TokenIdentifier>
+			<Abstract type="html">Image that is displayed in the legend. This property returns the image only if it was provided by the data source.
+If the default image is used, nil is returned.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartSeries/image</TokenIdentifier>
+			<Abstract type="html">Image that is displayed in the legend. This property returns the image only if it was provided by the data source.
+If the default image is used, nil is returned.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSeries/setLegendMarkerSize:</TokenIdentifier>
+			<Abstract type="html">Size of default series&apos; marker in legend in pixels. The default value is 20.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float legendMarkerSize</Declaration>
+			
+			
+			<Anchor>//api/name/legendMarkerSize</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSeries/legendMarkerSize</TokenIdentifier>
+			<Abstract type="html">Size of default series&apos; marker in legend in pixels. The default value is 20.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float legendMarkerSize</Declaration>
+			
+			
+			<Anchor>//api/name/legendMarkerSize</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartSeries/legendMarkerSize</TokenIdentifier>
+			<Abstract type="html">Size of default series&apos; marker in legend in pixels. The default value is 20.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float legendMarkerSize</Declaration>
+			
+			
+			<Anchor>//api/name/legendMarkerSize</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSeries/setTag:</TokenIdentifier>
+			<Abstract type="html">Tag of the series. You may use it as you want.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int tag</Declaration>
+			
+			
+			<Anchor>//api/name/tag</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSeries/tag</TokenIdentifier>
+			<Abstract type="html">Tag of the series. You may use it as you want.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int tag</Declaration>
+			
+			
+			<Anchor>//api/name/tag</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartSeries/tag</TokenIdentifier>
+			<Abstract type="html">Tag of the series. You may use it as you want.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int tag</Declaration>
+			
+			
+			<Anchor>//api/name/tag</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSeries/setHostsOnSX:</TokenIdentifier>
+			<Abstract type="html">Flag that determines if the series is hosted on the secondary X-axis. If YES, it will be drawn according to the
+secondary X-axis, if NO according to the normal X-axis. The secondary axis appears opposite the normal axis and is
+managed separately: it can have its own min and max; its own color settings and so on.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL hostsOnSX</Declaration>
+			
+			
+			<Anchor>//api/name/hostsOnSX</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSeries/hostsOnSX</TokenIdentifier>
+			<Abstract type="html">Flag that determines if the series is hosted on the secondary X-axis. If YES, it will be drawn according to the
+secondary X-axis, if NO according to the normal X-axis. The secondary axis appears opposite the normal axis and is
+managed separately: it can have its own min and max; its own color settings and so on.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL hostsOnSX</Declaration>
+			
+			
+			<Anchor>//api/name/hostsOnSX</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartSeries/hostsOnSX</TokenIdentifier>
+			<Abstract type="html">Flag that determines if the series is hosted on the secondary X-axis. If YES, it will be drawn according to the
+secondary X-axis, if NO according to the normal X-axis. The secondary axis appears opposite the normal axis and is
+managed separately: it can have its own min and max; its own color settings and so on.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL hostsOnSX</Declaration>
+			
+			
+			<Anchor>//api/name/hostsOnSX</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSeries/setHostsOnSY:</TokenIdentifier>
+			<Abstract type="html">Flag that determines if the series is hosted on the secondary Y-axis. If YES, it will be drawn according to the
+secondary Y-axis, if NO according to the normal Y-axis. The secondary axis appears opposite the normal axis and is
+managed separately: it can have its own min and max; its own color settings and so on.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL hostsOnSY</Declaration>
+			
+			
+			<Anchor>//api/name/hostsOnSY</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSeries/hostsOnSY</TokenIdentifier>
+			<Abstract type="html">Flag that determines if the series is hosted on the secondary Y-axis. If YES, it will be drawn according to the
+secondary Y-axis, if NO according to the normal Y-axis. The secondary axis appears opposite the normal axis and is
+managed separately: it can have its own min and max; its own color settings and so on.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL hostsOnSY</Declaration>
+			
+			
+			<Anchor>//api/name/hostsOnSY</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartSeries/hostsOnSY</TokenIdentifier>
+			<Abstract type="html">Flag that determines if the series is hosted on the secondary Y-axis. If YES, it will be drawn according to the
+secondary Y-axis, if NO according to the normal Y-axis. The secondary axis appears opposite the normal axis and is
+managed separately: it can have its own min and max; its own color settings and so on.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL hostsOnSY</Declaration>
+			
+			
+			<Anchor>//api/name/hostsOnSY</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSeries/setHostsOnSZ:</TokenIdentifier>
+			<Abstract type="html">Flag that determines if the series is hosted on the secondary Z-axis. If YES, it will be drawn according to the
+secondary Z-axis, if NO according to the normal Z-axis. The secondary axis appears opposite the normal axis and is
+managed separately: can have its own min and max; its own color settings and so on.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL hostsOnSZ</Declaration>
+			
+			
+			<Anchor>//api/name/hostsOnSZ</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSeries/hostsOnSZ</TokenIdentifier>
+			<Abstract type="html">Flag that determines if the series is hosted on the secondary Z-axis. If YES, it will be drawn according to the
+secondary Z-axis, if NO according to the normal Z-axis. The secondary axis appears opposite the normal axis and is
+managed separately: can have its own min and max; its own color settings and so on.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL hostsOnSZ</Declaration>
+			
+			
+			<Anchor>//api/name/hostsOnSZ</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartSeries/hostsOnSZ</TokenIdentifier>
+			<Abstract type="html">Flag that determines if the series is hosted on the secondary Z-axis. If YES, it will be drawn according to the
+secondary Z-axis, if NO according to the normal Z-axis. The secondary axis appears opposite the normal axis and is
+managed separately: can have its own min and max; its own color settings and so on.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL hostsOnSZ</Declaration>
+			
+			
+			<Anchor>//api/name/hostsOnSZ</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSeries/setDataSource:</TokenIdentifier>
+			<Abstract type="html">Data source for the series.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/NChartSeriesDataSource</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) id&lt;NChartSeriesDataSource&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSeries/dataSource</TokenIdentifier>
+			<Abstract type="html">Data source for the series.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/NChartSeriesDataSource</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) id&lt;NChartSeriesDataSource&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartSeries/dataSource</TokenIdentifier>
+			<Abstract type="html">Data source for the series.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/NChartSeriesDataSource</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) id&lt;NChartSeriesDataSource&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

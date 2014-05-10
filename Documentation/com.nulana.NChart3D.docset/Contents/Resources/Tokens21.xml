@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartColumnSeriesSettings.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartColumnSeriesSettings</TokenIdentifier>
+			<Abstract type="html">NChartColumnSeriesSettings class provides global settings for NChartColumnSeries.</Abstract>
+			<DeclaredIn>NChartColumnSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="21"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartColumnSeriesSettings/setCylindersResolution:</TokenIdentifier>
+			<Abstract type="html">The resolution of cylinders. Resolution is the amount of vertices that build the circle. For example if you want to
+get a square column, you should set resolution to 4. If you want to get a cylindrical column, you may set a larger
+value. But the larger is the resolution, the more memory is used and the slower the rendering will be, so you should
+find out the minimal acceptable value. A good value for cylinder is 16 or 20. The default value is 4.</Abstract>
+			<DeclaredIn>NChartColumnSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int cylindersResolution</Declaration>
+			
+			
+			<Anchor>//api/name/cylindersResolution</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartColumnSeriesSettings/cylindersResolution</TokenIdentifier>
+			<Abstract type="html">The resolution of cylinders. Resolution is the amount of vertices that build the circle. For example if you want to
+get a square column, you should set resolution to 4. If you want to get a cylindrical column, you may set a larger
+value. But the larger is the resolution, the more memory is used and the slower the rendering will be, so you should
+find out the minimal acceptable value. A good value for cylinder is 16 or 20. The default value is 4.</Abstract>
+			<DeclaredIn>NChartColumnSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int cylindersResolution</Declaration>
+			
+			
+			<Anchor>//api/name/cylindersResolution</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartColumnSeriesSettings/cylindersResolution</TokenIdentifier>
+			<Abstract type="html">The resolution of cylinders. Resolution is the amount of vertices that build the circle. For example if you want to
+get a square column, you should set resolution to 4. If you want to get a cylindrical column, you may set a larger
+value. But the larger is the resolution, the more memory is used and the slower the rendering will be, so you should
+find out the minimal acceptable value. A good value for cylinder is 16 or 20. The default value is 4.</Abstract>
+			<DeclaredIn>NChartColumnSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int cylindersResolution</Declaration>
+			
+			
+			<Anchor>//api/name/cylindersResolution</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartColumnSeriesSettings/setShouldSmoothCylinders:</TokenIdentifier>
+			<Abstract type="html">Flag that determines if cylinders should appear smooth (YES) of faced (NO).  Generally if you specify low resolution
+\(see cylindersResolution for details\) when the individual faces are still visible, it is a good idea to have
+cylinders faced and vice versa. The default value is NO.</Abstract>
+			<DeclaredIn>NChartColumnSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL shouldSmoothCylinders</Declaration>
+			
+			
+			<Anchor>//api/name/shouldSmoothCylinders</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartColumnSeriesSettings/shouldSmoothCylinders</TokenIdentifier>
+			<Abstract type="html">Flag that determines if cylinders should appear smooth (YES) of faced (NO).  Generally if you specify low resolution
+\(see cylindersResolution for details\) when the individual faces are still visible, it is a good idea to have
+cylinders faced and vice versa. The default value is NO.</Abstract>
+			<DeclaredIn>NChartColumnSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL shouldSmoothCylinders</Declaration>
+			
+			
+			<Anchor>//api/name/shouldSmoothCylinders</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartColumnSeriesSettings/shouldSmoothCylinders</TokenIdentifier>
+			<Abstract type="html">Flag that determines if cylinders should appear smooth (YES) of faced (NO).  Generally if you specify low resolution
+\(see cylindersResolution for details\) when the individual faces are still visible, it is a good idea to have
+cylinders faced and vice versa. The default value is NO.</Abstract>
+			<DeclaredIn>NChartColumnSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL shouldSmoothCylinders</Declaration>
+			
+			
+			<Anchor>//api/name/shouldSmoothCylinders</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

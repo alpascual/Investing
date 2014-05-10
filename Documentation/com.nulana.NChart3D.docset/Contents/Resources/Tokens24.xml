@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartGradientStop.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartGradientStop</TokenIdentifier>
+			<Abstract type="html">The NChartGradientStop class provides a control point of the gradient defining some color and it&apos;s position on the
+area being filled with a gradient. The gradient is constructed from multiple gradient-stops.</Abstract>
+			<DeclaredIn>NChartGradientBrush.h</DeclaredIn>
+            
+			
+			<NodeRef refid="24"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/NChartGradientStop/gradientStopWithColor:andOffset:</TokenIdentifier>
+			<Abstract type="html">Create gradient stop with color and offset.</Abstract>
+			<DeclaredIn>NChartGradientBrush.h</DeclaredIn>
+			
+			<Declaration>+ (NChartGradientStop *)gradientStopWithColor:(UIColor *)color andOffset:(float)offset</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>color</Name>
+					<Abstract type="html">- the color of gradient stop.</Abstract>
+				</Parameter><Parameter>
+					<Name>offset</Name>
+					<Abstract type="html">- the offset of gradient stop.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a new instance of the gradient stop.</Abstract></ReturnValue>
+			<Anchor>//api/name/gradientStopWithColor:andOffset:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartGradientStop/initWithColor:andOffset:</TokenIdentifier>
+			<Abstract type="html">Init gradient stop with color and offset</Abstract>
+			<DeclaredIn>NChartGradientBrush.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithColor:(UIColor *)color andOffset:(float)offset</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>color</Name>
+					<Abstract type="html">- the color of gradient stop.</Abstract>
+				</Parameter><Parameter>
+					<Name>offset</Name>
+					<Abstract type="html">- the offset of gradient stop.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">inited instance of the gradient stop.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithColor:andOffset:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartGradientStop/setColor:</TokenIdentifier>
+			<Abstract type="html">Color of the gradient-stop.</Abstract>
+			<DeclaredIn>NChartGradientBrush.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartGradientStop/color</TokenIdentifier>
+			<Abstract type="html">Color of the gradient-stop.</Abstract>
+			<DeclaredIn>NChartGradientBrush.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartGradientStop/color</TokenIdentifier>
+			<Abstract type="html">Color of the gradient-stop.</Abstract>
+			<DeclaredIn>NChartGradientBrush.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartGradientStop/setOffset:</TokenIdentifier>
+			<Abstract type="html">Offset of gradient-stop in the whole gradient. Offset is in interval 0..1. 0 means the start of the area filled
+with a gradient, 1 means the end of it. For example if you want to create a gradient of two colors, it&apos;s common to
+use 0.0 as the offset for the first color and 1.0 for the second.</Abstract>
+			<DeclaredIn>NChartGradientBrush.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartGradientStop/offset</TokenIdentifier>
+			<Abstract type="html">Offset of gradient-stop in the whole gradient. Offset is in interval 0..1. 0 means the start of the area filled
+with a gradient, 1 means the end of it. For example if you want to create a gradient of two colors, it&apos;s common to
+use 0.0 as the offset for the first color and 1.0 for the second.</Abstract>
+			<DeclaredIn>NChartGradientBrush.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartGradientStop/offset</TokenIdentifier>
+			<Abstract type="html">Offset of gradient-stop in the whole gradient. Offset is in interval 0..1. 0 means the start of the area filled
+with a gradient, 1 means the end of it. For example if you want to create a gradient of two colors, it&apos;s common to
+use 0.0 as the offset for the first color and 1.0 for the second.</Abstract>
+			<DeclaredIn>NChartGradientBrush.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,496 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>NChart3D Tutorial</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 961)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="index.html">NChart3D </a></h1>
+				<a id="developerHome" href="http://nulana.com/">Nulana LTD</a>
+				<div class="site-menu" id="site-menu">
+					<a href="http://nchart3d.com/nchart/">Main</a> |
+                    <a href="http://nchart3d.com/nchart/gallery">Gallery</a> |
+                    <a href="http://nchart3d.com/nchart/download">Download</a> |
+                    <a href="http://nchart3d.com/nchart/purchase">Purchase</a> |
+                    <a href="http://nchart3d.com/support">Support</a> |
+                    <a href="http://nchart3d.com/contacts">Contacts</a>
+				</div>
+			</div>
+
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">NChart3D Tutorial</h1>
+			</div>
+
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+						<option value="top">Jump To&#133;</option>
+						<option value="overview">Overview</option>
+						<option value="introduction">Introduction</option>
+						<option value="installation">Installation</option>
+						<option value="anatomy">Anatomy of charts</option>
+						<option value="drawing">Drawing a simple chart</option>
+						<option value="customizing">Customizing appearance</option>
+						<option value="adding">Adding more charts</option>
+						<option value="manage">Adding tooltips</option>
+						<option value="whats">What's next?</option>
+						</option>
+					</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				<li role="treeitem">
+					<span class="nodisclosure"></span>
+					<span class="sectionName">
+						<a href="#overview">Overview</a>
+					</span>
+				</li>
+				<li role="treeitem">
+					<span class="nodisclosure"></span>
+					<span class="sectionName">
+						<a href="#introduction">Introduction</a>
+					</span>
+				</li>
+				<li role="treeitem">
+					<span class="nodisclosure"></span>
+					<span class="sectionName">
+						<a href="#installation">Installation</a>
+					</span>
+				</li>
+				<li role="treeitem">
+					<span class="nodisclosure"></span>
+					<span class="sectionName">
+						<a href="#anatomy">Anatomy of charts</a>
+					</span>
+				</li>
+				<li role="treeitem">
+					<span class="nodisclosure"></span>
+					<span class="sectionName">
+						<a href="#drawing">Drawing a simple chart</a>
+					</span>
+				</li>
+				<li role="treeitem">
+					<span class="nodisclosure"></span>
+					<span class="sectionName">
+						<a href="#customizing">Customizing appearance</a>
+					</span>
+				</li>
+				<li role="treeitem">
+					<span class="nodisclosure"></span>
+					<span class="sectionName">
+						<a href="#adding">Adding more charts</a>
+					</span>
+				</li>
+				<li role="treeitem">
+					<span class="nodisclosure"></span>
+					<span class="sectionName">
+						<a href="#manage">Adding tooltips</a>
+					</span>
+				</li>
+				<li role="treeitem">
+					<span class="nodisclosure"></span>
+					<span class="sectionName">
+						<a href="#whats">What's next?</a>
+					</span>
+				</li>
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="NChart3D Tutorial" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+						<li><a href="index.html">Index</a></li>
+						<li><a href="hierarchy.html">Hierarchy</a></li>
+					</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">NChart3D Tutorial</h1>
+					</div>		
+				</div>
+				<div id="container">
+
+<div class="section section-overview">
+<a name="overview" title="Overview"></a>
+<h2 class="subtitle subtitle-overview">Overview</h2>
+<p>This documentation provides a short tutorial that will explain the main concepts of the NChart3D framework as well as show you how to draw charts using NChart3D.<br>
+NChart3D is a versatile charting engine for iOS that allows you to draw 2D and 3D interactive charts of different types according your data.<br>
+The usage of NChart3D is very simple and requires only a few lines of code to visualize your data in a convenient and beautiful form.</p>
+</div>
+
+<div class="section section-introduction">
+<a name="introduction" title="Introduction"></a>
+<h2 class="subtitle subtitle-introduction">Introduction</h2>
+<p>This tutorial will show you how to install NChart3D framework and build a simple project that displays some random data, how to customize the appearance of charts and how to manage the selection of data. This tutorial is partially based on the samples provided on the NChart3D OS X .dmg that can be downloaded <a href="http://nchart3d.com/nchart/download">here</a>.<br>
+At the end of this tutorial you will be able to create a simple application that looks like this:<br>
+<img src="img/img001.png" alt="Screen 1" width="100%"></p>
+</div>
+
+<div class="section section-installation">
+<a name="installation" title="Installation"></a>
+<h2 class="subtitle subtitle-installation">Installation</h2>
+<p>First, download the <a href="http://nchart3d.com/nchart/download">NChart3D OS X .dmg</a>. It is recommended to install the framework that will allow you to add it from the "Developer Frameworks" section in Xcode. To do so, run "Install.pkg". The documentation will be installed to Xcode automatically with the framework. Alternatively you can just copy the framework to your disk and then link it through the "Add Other" option. The framework is located in the "NChart3D.framework" directory, the documentation is located in the "Documentation" directory and the set of samples is located in the "NChart3D/Samples" directory.<br>
+For each sample the Xcode-projects are already created, so you can check them out to see whether everything works properly. <br>
+However, in this tutorial you will learn how to create a project from scratch. Let’s begin!<br>
+Create a new project of the "Empty Application" type.<br>
+If you installed the framework properly, you should be able to link it to your application in the usual way. Click the top-level element in your project’s tree (it contains the name of your project), select the tab "General", scroll down add hit the "+" button. Than find the <code>NChart3D.framework</code> that should be in the "Developer Frameworks" section.<br>
+<img src="img/img002.png" alt="Screen 2" width="100%"> <br>
+Double click on it, and it will be linked to your project.<br>
+Also add a <code>libstdc++.dylib</code> library to your project in the same way (it can by found in the "iOS xxx" section).<br>
+Make a test-run to check whether the project is able to build and run.<br>
+Now your project is set up and you can start using the NChart3D framework!<br>
+Please note, that we are using ARC for the project that we describe here, but you can manage memory manually in your projects, if you want to &mdash; NChart3D supports both cases.</p>
+</div>
+
+<div class="section section-anatomy">
+<a name="anatomy" title="Anatomy of charts"></a>
+<h2 class="subtitle subtitle-anatomy">Anatomy of Charts</h2>
+<p>Before we start, let’s explain a little bit of terminology.<br>
+<img src="img/img003.png" alt="Screen 3" width="100%"> <br>
+<ul>
+<li>Background &mdash; the color or gradient that fills the background.</li>
+<li>Caption &mdash; the text label (that can have background and border) that is displayed on top of the chart.</li>
+<li>Legend &mdash; the scrollable widget that contains the names and marker images of all the series on the chart.</li>
+<li>Plot area &mdash; the area where the series are drawn.</li>
+<li>Axes &mdash; axes that surrounds the plot area.</li>
+<li>Axes ticks &mdash; ticks that divide axes into pieces. There are major and minor ticks.</li>
+<li>Axes grid lines &mdash; lines on the plot area that are parallel to the axes and start in the major ticks.</li>
+<li>Axes labels &mdash; labels of the axes ticks.</li>
+<li>Axes captions &mdash; captions of the axes.</li>
+<li>Series &mdash; data visualizers.</li>
+<li>Series’ points &mdash; individual values in the series.</li>
+<li>Tooltip &mdash; a label on the chart displaying information about the chart point.</li>
+</ul></p>
+</div>
+
+<div class="section section-drawing">
+<a name="drawing" title="Drawing a simple chart"></a>
+<h2 class="subtitle subtitle-drawing">Drawing a Simple Chart</h2>
+<p>Let’s draw a simple chart. First, create a new UIViewController’s subclass and call it, for example, NChart3DTestViewController. Do not forget to set its instance as a root view controller to the main window in the <code>application:didFinishLaunchingWithOptions:</code> method of <code>AppDelegate</code> as follows:<br>
+<pre><code>self.window.rootViewController = [NChart3DTestViewController new];</code></pre>
+The main class of NChart3D framework is called <a href="Classes/NChart.html">NChart</a> and its instance is accessible from the <a href="Classes/NChartView.html">NChartView</a>. <a href="Classes/NChartView.html">NChartView</a> is the subclass of UIView that represents everything needed to display the chart in your views hierarchy. You can create an <a href="Classes/NChartView.html">NChartView</a> instance, place it anywhere you want and then communicate with the chart through the corresponding property of that instance. To achieve this, you should include the headers. Add the<br>
+<pre><code>#import &lt;NChart3D/NChart3D.h&gt;</code></pre>
+to your <code>NChart3DTestViewController.h</code> file. This will include everything that is needed to operate with NChart3D framework.<br>
+After that, add the internal field <code>m_view</code> of the <code>NChartView *</code> type to the <code>NChart3DTestViewController</code>, override the <code>loadView</code> method of <code>NChart3DTestViewController</code> and create there the new instance of the <a href="Classes/NChartView.html">NChartView</a> class like this:<br>
+<pre><code>- (void)loadView
+{
+	m_view = [[NChartView alloc] initWithFrame:CGRectZero];
+	self.view = m_view;
+}</code></pre>
+Now you can customize the chart through the <code>m_view.chart</code> property.<br>
+If you have a license key, set it to the chart like this:<br>
+<pre><code>m_view.chart.licenseKey = @"Your license key";</code></pre>
+Now you may want to add some margin to the chart to get a spacing from the screen borders. Do it like follows:<br>
+<pre><code>m_view.chart.cartesianSystem.margin = NChartMarginMake(10.0f, 10.0f, 10.0f, 20.0f);</code></pre>
+The top margin is more than the others because of the iOS’ status bar.<br>
+Now you may switch on anti-aliasing (that is off by default). It will not hurt performance, because the anti-aliasing algorithm is adaptive, so it is recommended to switch it on to get better visual quality of the image. Add the following line of code:<br>
+<pre><code>m_view.chart.shouldAntialias = YES;</code></pre>
+Now you should create a series that will be displayed. First, create only one column series and assign some brush that will fill this series with color. For example, let this series be green:<br>
+<pre><code>NChartColumnSeries *series = [NChartColumnSeries new];
+series.brush = [NChartSolidColorBrush solidColorBrushWithColor:[UIColor colorWithRed:0.0 green:0.7 blue:0.4 alpha:1.0]];</code></pre>
+Now you should assign a data source to that series. If you have worked with UITableView the idea of a data source should be familiar to you. NChart3D framework uses the same concept of a data source for supplying data and delegates for reacting to user interactions.<br>
+There is a protocol called <a href="Protocols/NChartSeriesDataSource.html">NChartSeriesDataSource</a> that you should implement to build a data source. For example, you can make a data source from <code>NChart3DTestViewController</code> simply by adding the reference to the protocol in the <code>NChart3DTestViewController.h</code> file as follows:<br>
+<pre><code>@interface NChart3DTestViewController : UIViewController &lt;NChartSeriesDataSource&gt;</code></pre>
+And then add two methods that will supply data and names for the series:<br>
+<pre><code>- (NSArray *)seriesDataSourcePointsForSeries:(NChartSeries *)series
+{
+	NSMutableArray *result = [NSMutableArray array];
+	for (int i = 0; i &lt;= 10; ++i)
+		[result addObject:[NChartPoint pointWithState:[NChartPointState pointStateAlignedToXWithX:i Y:(rand() % 30) + 1] forSeries:series]];
+	return result;
+}
+
+- (NSString *)seriesDataSourceNameForSeries:(NChartSeries *)series
+{
+	return @"My series";
+}</code></pre>
+As you can see, the first method generates an array of points with some random data. Each point can contain an array of states representing the changes of data in time. However in this tutorial we will create only one state for each point, which will be automatically the current one. Each state holds the actual data. For 2D columns the data are represented by X and Y values. We want the columns to be aligned to the X axis to make them look like "paling", so we use integer X values. The height of columns is "free", so normally double values are used, but in our case also integers are used because of the <code>rand()</code> function. Feel free to experiment with different values and see what happens.<br>
+The second method generates names for series to allow NChart3D to build the legend.<br>
+Now, when the data source is ready, assign it to the series you have created and finally add series to the chart:<br>
+<pre><code>series.dataSource = self;
+[m_view.chart addSeries:series];</code></pre>
+That’s almost all we need to visualize the data. The only thing we’ve missed is to update data in the chart:<br>
+<pre><code>[m_view.chart updateData];</code></pre>
+This will force the NChart3D framework to process the data and build the visual appearance of the series. You should call this method any time the data was changed.
+Now you can build and run your application and see what happens. You should get the following result:<br>
+<img src="img/img004.png" alt="Screen 4" width="100%"></p>
+</div>
+
+<div class="section section-customizing">
+<a name="customizing" title="Customizing appearance"></a>
+<h2 class="subtitle subtitle-customizing">Customizing Appearance</h2>
+<p>As you can see, the values on the axes are calculated automatically. Let’s customize them and display some labels on the X axis! The axes as well as the series can have their own data sources. These data sources can supply custom minimums / maximums or custom strings for labels of the ticks.
+Add a reference to the protocol <a href="Protocols/NChartValueAxisDataSource.html">NChartValueAxisDataSource</a> to the <code>NChart3DTestViewController</code>:
+<pre><code>@interface NChart3DTestViewController : UIViewController &lt;NChartSeriesDataSource, NChartValueAxisDataSource&gt;</code></pre>
+Next implement a single method that will supply the strings used for ticks' labels:<br>
+<pre><code>- (NSArray *)valueAxisDataSourceTicksForValueAxis:(NChartValueAxis *)axis
+{
+	if (axis.kind == NChartValueAxisX)
+		return @[@"one", @"two", @"three", @"four", @"five", @"six", @"seven", @"eight", @"nine", @"ten", @"eleven"];
+	else
+		return nil;
+}</code></pre>
+We have 11 points in the series, so we should supply 11 strings.<br>
+Let's also add captions to the axes. Implement the following method:<br>
+<pre><code>- (NSString *)valueAxisDataSourceNameForAxis:(NChartValueAxis *)axis
+{
+	switch (axis.kind)
+	{
+		case NChartValueAxisX:
+			return @"X Axis";
+
+		case NChartValueAxisY:
+			return @"Y Axis";
+
+		default:
+			return nil;
+	}
+}</code></pre>
+This will supply names for the X and Y axes.<br>
+Of course, you should set the data source to the axes you want to customize. You can do this by adding the following line <b>before</b> your <code>updateData</code> call:<br>
+<pre><code>m_view.chart.cartesianSystem.xAxis.dataSource = self;
+m_view.chart.cartesianSystem.yAxis.dataSource = self;</code></pre>
+You can also play with the colors of chart. For example, let’s change the background to the gray-to-white gradient. For this, you can create a gradient brush and assign it to the chart’s <code>background</code> property:<br>
+<pre><code>m_view.chart.background = [NChartLinearGradientBrush linearGradientBrushFromColor:[UIColor colorWithRed:0.7 green:0.7 blue:0.7 alpha:1.0] toColor:[UIColor whiteColor]];</code></pre>
+You may use the multicolor gradients as well. See the documentation for <a href="Classes/NChartLinearGradientBrush.html">NChartLinearGradientBrush</a> for details.<br>
+You can also add a border for your series, like this:<br>
+<pre><code>series.borderThickness = 2.0f;
+series.borderBrush = [NChartSolidColorBrush solidColorBrushWithColor:[UIColor blackColor]];</code></pre>
+Now add the caption to the chart by adding another lines to the <code>loadView</code> method:<br>
+<pre><code>m_view.chart.caption.margin = NChartMarginMake(0.0f, 0.0f, 0.0f, 20.0f);
+m_view.chart.caption.text = @"NChart3D";</code></pre>
+The margin is needed to shift the caption away from the status bar (it’s needed for iOS 7).<br>
+You will get the following result:<br>
+<img src="img/img005.png" alt="Screen 5" width="100%"></p>
+</div>
+
+<div class="section section-adding">
+<a name="adding" title="Adding more charts"></a>
+<h2 class="subtitle subtitle-adding">Adding More Charts</h2>
+<p>Now let’s add more series to the chart. </br>
+Just create another series of different types, for example one area and one line. To do this, add the following code after the creation of the first series:<br>
+<pre><code>NChartAreaSeries *series2 = [NChartAreaSeries new];
+series2.brush = [NChartSolidColorBrush solidColorBrushWithColor:[UIColor orangeColor]];
+series2.brush.opacity = 0.7f;
+series2.dataSource = self;
+[m_view.chart addSeries:series2];
+    
+NChartLineSeries *series3 = [NChartLineSeries new];
+series3.brush = [NChartSolidColorBrush solidColorBrushWithColor:[UIColor redColor]];
+series3.lineThickness = 3.0f;
+series3.dataSource = self;
+[m_view.chart addSeries:series3];</code></pre>
+You should get the following result:<br>
+<img src="img/img006.png" alt="Screen 6" width="100%"><br>
+As you can see, three series of different types appear on the chart. Wait, what? The names in the legend are all the same! Let’s fix it. First, add the tag for each series like this:<br>
+<pre><code>series.tag = 1;
+series2.tag = 2;
+series3.tag = 3;</code></pre>
+And then change the <code>seriesDataSourceNameForSeries:</code> method to the following:<br>
+<pre></code>- (NSString *)seriesDataSourceNameForSeries:(NChartSeries *)series
+{
+	return [NSString stringWithFormat:@"My series %d", series.tag];
+}</code></pre>
+This will add the numbers to the series’ names that appear in the legend.</p>
+</div>
+
+<div class="section section-manage">
+<a name="manage" title="Manage more charts"></a>
+<h2 class="subtitle subtitle-manage">Adding Tooltips</h2>
+<p>It’s time to add tooltips that will appear and disappear by tapping chart points and display some information, for example, the name of a series and the current Y value.
+To handle which chart points are selected when tapped, <a href="Protocols/NChartDelegate.html">NChartDelegate</a> is used. Add the reference to this protocol to <code>NChart3DTestViewController</code>:<br>
+<pre><code>@interface NChart3DTestViewController : UIViewController &lt;NChartSeriesDataSource, NChartValueAxisDataSource, NChartDelegate&gt;</code></pre>
+Then implement three required methods of this protocol (but we will use only one of them):<br>
+<pre><code>- (void)chartDelegatePointOfChart:(NChart *)chart selected:(NChartPoint *)point
+{
+	[m_prevSelectedPoint.tooltip setVisible:NO animated:0.25f];
+
+	if (point)
+	{
+		if (point.tooltip)
+		{
+			if (point == m_prevSelectedPoint)
+				m_prevSelectedPoint = nil;
+			else
+			{
+				m_prevSelectedPoint = point;
+				[self updateTooltipText:point];
+				[point.tooltip setVisible:YES animated:0.25f];
+			}
+		}
+			else
+		{
+			m_prevSelectedPoint = point;
+			point.tooltip = [self createTooltip];
+			[self updateTooltipText:point];
+			[point.tooltip setVisible:YES animated:0.25f];
+		}
+	}
+	else
+	{
+		m_prevSelectedPoint = nil;
+	}
+}
+
+- (void)chartDelegateTimeIndexOfChart:(NChart *)chart changedTo:(double)timeIndex
+{
+}
+
+- (void)chartDelegateChartObject:(id)object didEndAnimating:(NChartAnimationType)animation
+{
+}</code></pre>
+The logic here is pretty straightforward. We hide old tooltip (if any) with animation and then show the new one or do nothing if the selected point is the one we selected before (so second tap to the same point hides the tooltip). <br>
+To make this work, we should store the previously selected point somewhere. Let’s use internal variable called <code>m_prevSelectedPoint</code> of type <a href="Classes/NChartPoint.html">NChartPoint</a> for that. <br>
+Also we will need two additional methods to create and update a tooltip. <br>
+You may use some initial settings for the tooltip like this: <br>
+<pre><code>- (NChartTooltip *)createTooltip
+{
+	NChartTooltip *result = [NChartTooltip new];
+    
+	result.background = [NChartSolidColorBrush solidColorBrushWithColor:[UIColor whiteColor]];
+	result.background.opacity = 0.9f;
+	result.padding = NChartMarginMake(10.0f, 10.0f, 10.0f, 10.0f);
+	result.borderColor = [UIColor colorWithRed:0.5f green:0.5f blue:0.5f alpha:1.0f];
+	result.borderThickness = 1.0f;
+	result.font = [UIFont systemFontOfSize:16.0f];
+    
+	return result;
+}</code></pre>
+And then you should update the text in the tooltip:<br>
+<pre><code>- (void)updateTooltipText:(NChartPoint *)point
+{
+	point.tooltip.text = [NSString stringWithFormat:@"%@ : %.2f", point.series.name, point.currentState.doubleY];
+}</code></pre>
+As you can see, you can display any information in the tooltip you want. <br>
+Finally set the delegate for chart by adding the following line to the <code>loadView</code> method:<br>
+<pre><code>m_view.chart.delegate = self;</code></pre>
+And that’s it! You should get something like this:<br>
+<img src="img/img001.png" alt="Screen 1" width="100%"></p>
+</div>
+
+<div class="section section-whats">
+<a name="whats" title="What's next?"></a>
+<h2 class="subtitle subtitle-whats">What's next?</h2>
+<p>You can find more information about using the NChart3D framework in samples on the OS X .dmg. If you have any questions, feel free <a href="http://nchart3d.com/contacts">to contact us</a>.</p>
+</div>
+
+				<div class="main-navigation navigation-bottom">
+					<ul>
+						<li>
+							<a href="index.html">Index</a>
+						</li>
+						<li>
+							<a href="hierarchy.html">Hierarchy</a>
+						</li>
+					</ul>
+				</div>
+				<div id="footer">
+					<hr>
+					<div class="footer-copyright">
+						<p>
+							<span class="copyright">© 2013 Nulana LTD. All rights reserved. (Last updated: 2013-11-07)</span>
+							<br>
+							<span class="generator"> Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 961)</a>.</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+				document.getElementById("site-menu").className = "site-hide"
+			}
+		</script>
+	</body>
+</html>

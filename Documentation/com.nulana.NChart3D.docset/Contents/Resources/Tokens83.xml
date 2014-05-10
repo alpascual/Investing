@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/NChartValueAxisKind.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/NChartValueAxisKind</TokenIdentifier>
+			<Abstract type="html">The NChartValueAxisKind enum provides constants to indicate the value axes.</Abstract>
+			<DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+			
+			<NodeRef refid="83"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartValueAxisX</TokenIdentifier>
+            <Abstract type="html">X-axis.
+     </Abstract>
+            <Declaration>NChartValueAxisX</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="83"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartValueAxisSX</TokenIdentifier>
+            <Abstract type="html">Secondary X-axis.
+     </Abstract>
+            <Declaration>NChartValueAxisSX</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="83"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartValueAxisY</TokenIdentifier>
+            <Abstract type="html">Y-axis.
+     </Abstract>
+            <Declaration>NChartValueAxisY</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="83"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartValueAxisSY</TokenIdentifier>
+            <Abstract type="html">Secondary Y-axis.
+     </Abstract>
+            <Declaration>NChartValueAxisSY</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="83"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartValueAxisZ</TokenIdentifier>
+            <Abstract type="html">Z-axis.
+     </Abstract>
+            <Declaration>NChartValueAxisZ</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="83"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartValueAxisSZ</TokenIdentifier>
+            <Abstract type="html">Secondary Z-axis.
+     </Abstract>
+            <Declaration>NChartValueAxisSZ</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="83"/>
+        </Token>
+        
+	</File>
+</Tokens>

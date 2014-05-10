@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartPointState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartPointState</TokenIdentifier>
+			<Abstract type="html">The NChartPointState class provides methods to store state of a point. The state of a point is a complex of parameters
+such as position, brush used etc. for a particular period for a particular point. Each chart point should have at
+least one state representing the data from the data source for this point, but it can have multiple states. This
+allows the animation of a chart through time, while each NChartPointState represents the state of the point in a
+particular time tick. The transition from one state to another is animated automatically by linear interpolation of
+parameters stored in the states.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+            
+			
+			<NodeRef refid="41"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/NChartPointState/pointStateAlignedToXWithX:Y:</TokenIdentifier>
+			<Abstract type="html">Create a point state representing the point that is aligned to the X grid. This is a typical state for column, area,
+line and ribbon series if drawn in 2D.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>+ (NChartPointState *)pointStateAlignedToXWithX:(int)x Y:(double)y</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>x</Name>
+					<Abstract type="html">- integer value on the X axis that represents the first category.</Abstract>
+				</Parameter><Parameter>
+					<Name>y</Name>
+					<Abstract type="html">- double value on the Y axis that represents the height value.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a new instance of the point state.</Abstract></ReturnValue>
+			<Anchor>//api/name/pointStateAlignedToXWithX:Y:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/NChartPointState/pointStateAlignedToXZWithX:Y:Z:</TokenIdentifier>
+			<Abstract type="html">Create a point state representing the point that is aligned to the XZ grid. This is a typical state for column,
+area, line and ribbon series if drawn in 3D. This can also be used for a surface.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>+ (NChartPointState *)pointStateAlignedToXZWithX:(int)x Y:(double)y Z:(int)z</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>x</Name>
+					<Abstract type="html">- integer value on the X axis that represents the first category.</Abstract>
+				</Parameter><Parameter>
+					<Name>y</Name>
+					<Abstract type="html">- double value on the Y axis that represents the height value.</Abstract>
+				</Parameter><Parameter>
+					<Name>z</Name>
+					<Abstract type="html">- integer value on the Z axis that represents the second category.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a new instance of the point state.</Abstract></ReturnValue>
+			<Anchor>//api/name/pointStateAlignedToXZWithX:Y:Z:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/NChartPointState/pointStateAlignedToYWithX:Y:</TokenIdentifier>
+			<Abstract type="html">Create a point state representing the point that is aligned to the Y grid. This is a typical state for bar series
+if drawn in 2D.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>+ (NChartPointState *)pointStateAlignedToYWithX:(double)x Y:(int)y</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>x</Name>
+					<Abstract type="html">- double value on X axis that represents the height value.</Abstract>
+				</Parameter><Parameter>
+					<Name>y</Name>
+					<Abstract type="html">- integer value on Y axis that represents the first category.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a new instance of the point state.</Abstract></ReturnValue>
+			<Anchor>//api/name/pointStateAlignedToYWithX:Y:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/NChartPointState/pointStateAlignedToYZWithX:Y:Z:</TokenIdentifier>
+			<Abstract type="html">Create a point state representing the point that is aligned to the YZ grid. This is a typical state for bar series
+if drawn in 3D.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>+ (NChartPointState *)pointStateAlignedToYZWithX:(double)x Y:(int)y Z:(int)z</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>x</Name>
+					<Abstract type="html">- double value on X axis that represents the height value.</Abstract>
+				</Parameter><Parameter>
+					<Name>y</Name>
+					<Abstract type="html">- integer value on Y axis that represents the first category.</Abstract>
+				</Parameter><Parameter>
+					<Name>z</Name>
+					<Abstract type="html">- integer value on Z axis that represents the second category.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a new instance of the point state.</Abstract></ReturnValue>
+			<Anchor>//api/name/pointStateAlignedToYZWithX:Y:Z:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/NChartPointState/pointStateWithCircle:value:</TokenIdentifier>
+			<Abstract type="html">Create a point state representing the point that is aligned to the concentric circles. This is a typical state for
+pie series if drawn in 2D.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>+ (NChartPointState *)pointStateWithCircle:(int)circle value:(double)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>circle</Name>
+					<Abstract type="html">- number of circle among concentric circles that represents the category.</Abstract>
+				</Parameter><Parameter>
+					<Name>value</Name>
+					<Abstract type="html">- value of the state that affects the angle of the sector. The angle will represent the percent of the
+value among all values in the circle this state belongs to.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a new instance of the point state.</Abstract></ReturnValue>
+			<Anchor>//api/name/pointStateWithCircle:value:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/NChartPointState/pointStateWithCircle:value:height:</TokenIdentifier>
+			<Abstract type="html">Create a point state representing the point that is aligned to the concentric circles and has the height. This is a
+typical state for pie series if drawn in 3D.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>+ (NChartPointState *)pointStateWithCircle:(int)circle value:(double)value height:(double)height</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>circle</Name>
+					<Abstract type="html">- number of circle among concentric circles that represents the category.</Abstract>
+				</Parameter><Parameter>
+					<Name>value</Name>
+					<Abstract type="html">- value of the state that affects the angle of the sector. The angle will represent the percent of the
+value among all values in the circle this state belongs to.</Abstract>
+				</Parameter><Parameter>
+					<Name>height</Name>
+					<Abstract type="html">- height of sector. The height should be in interval 0..1. It is not connected to any axis, so the
+value is not mapped. You may use it to visually group sectors or to stress some of them.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a new instance of the point state.</Abstract></ReturnValue>
+			<Anchor>//api/name/pointStateWithCircle:value:height:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/NChartPointState/pointStateWithX:Y:Z:</TokenIdentifier>
+			<Abstract type="html">Create free (not aligned) 3D-space point. This is a typical state for bubble or surface series. But you may use
+this for other series types too.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>+ (NChartPointState *)pointStateWithX:(double)x Y:(double)y Z:(double)z</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>x</Name>
+					<Abstract type="html">- double value on the X axis that represents the abscissa of a position.</Abstract>
+				</Parameter><Parameter>
+					<Name>y</Name>
+					<Abstract type="html">- double value on the Y axis that represents the ordinate of a position.</Abstract>
+				</Parameter><Parameter>
+					<Name>z</Name>
+					<Abstract type="html">- double value on the Z axis that represents the applicate of a position.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a new instance of the point state.</Abstract></ReturnValue>
+			<Anchor>//api/name/pointStateWithX:Y:Z:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/NChartPointState/pointStateAlignedToXWithX:low:open:close:high:</TokenIdentifier>
+			<Abstract type="html">Create a point state that is aligned to the X grid and has low, open, close and high values. This is a typical
+state for candlestick series drawn in 2D.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>+ (NChartPointState *)pointStateAlignedToXWithX:(int)x low:(double)low open:(double)open close:(double)close high:(double)high</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>x</Name>
+					<Abstract type="html">- integer value on the X axis that represents the category.</Abstract>
+				</Parameter><Parameter>
+					<Name>low</Name>
+					<Abstract type="html">- double value on the Y axis that represents the &quot;low&quot; value.</Abstract>
+				</Parameter><Parameter>
+					<Name>open</Name>
+					<Abstract type="html">- double value on the Y axis that represents the &quot;open&quot; value.</Abstract>
+				</Parameter><Parameter>
+					<Name>close</Name>
+					<Abstract type="html">- double value on the Y axis that represents the &quot;close&quot; value.</Abstract>
+				</Parameter><Parameter>
+					<Name>high</Name>
+					<Abstract type="html">- double value on the  Y axis that represents the &quot;high&quot; value.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a new instance of the point state.</Abstract></ReturnValue>
+			<Anchor>//api/name/pointStateAlignedToXWithX:low:open:close:high:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/NChartPointState/pointStateAlignedToYWithY:open:close:</TokenIdentifier>
+			<Abstract type="html">Create a point state that is aligned to the Y grid and has open and close values. This is the a typical
+state for a sequence series drawn in 2D.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>+ (NChartPointState *)pointStateAlignedToYWithY:(int)x open:(double)open close:(double)close</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>x</Name>
+					<Abstract type="html">- integer value on the Y axis that represents the category.</Abstract>
+				</Parameter><Parameter>
+					<Name>open</Name>
+					<Abstract type="html">- double value on the X axis that represents the &quot;open&quot; value.</Abstract>
+				</Parameter><Parameter>
+					<Name>close</Name>
+					<Abstract type="html">- double value on the X axis that represents the &quot;close&quot; value.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a new instance of the point state.</Abstract></ReturnValue>
+			<Anchor>//api/name/pointStateAlignedToYWithY:open:close:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/NChartPointState/pointStateAlignedToXWithX:low:high:</TokenIdentifier>
+			<Abstract type="html">Create a point state that is aligned to the X grid and has low and high values. This is the a typical
+state for a band series drawn in 2D.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>+ (NChartPointState *)pointStateAlignedToXWithX:(int)x low:(double)low high:(double)high</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>x</Name>
+					<Abstract type="html">- integer value on the X axis that represents the category.</Abstract>
+				</Parameter><Parameter>
+					<Name>low</Name>
+					<Abstract type="html">- double value on the Y axis that represents the &quot;low&quot; value.</Abstract>
+				</Parameter><Parameter>
+					<Name>high</Name>
+					<Abstract type="html">- double value on the Y axis that represents the &quot;high&quot; value.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a new instance of the point state.</Abstract></ReturnValue>
+			<Anchor>//api/name/pointStateAlignedToXWithX:low:high:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/NChartPointState/pointStateAlignedToXZWithX:Z:low:open:close:high:</TokenIdentifier>
+			<Abstract type="html">Create a point state that is aligned to the XZ grid and has low, open, close and high values. This is a typical
+state for candlestick series drawn in 3D.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>+ (NChartPointState *)pointStateAlignedToXZWithX:(int)x Z:(int)z low:(double)low open:(double)open close:(double)close high:(double)high</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>x</Name>
+					<Abstract type="html">- integer value on the X axis that represents the first category.</Abstract>
+				</Parameter><Parameter>
+					<Name>z</Name>
+					<Abstract type="html">- integer value on the Z axis that represents the second category.</Abstract>
+				</Parameter><Parameter>
+					<Name>low</Name>
+					<Abstract type="html">- double value on the Y axis that represents the &quot;low&quot; value.</Abstract>
+				</Parameter><Parameter>
+					<Name>open</Name>
+					<Abstract type="html">- double value on the Y axis that represents the &quot;open&quot; value.</Abstract>
+				</Parameter><Parameter>
+					<Name>close</Name>
+					<Abstract type="html">- double value on the Y axis that represents the &quot;close&quot; value.</Abstract>
+				</Parameter><Parameter>
+					<Name>high</Name>
+					<Abstract type="html">- double value on the Y axis that represents the &quot;high&quot; value.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a new instance of the point state.</Abstract></ReturnValue>
+			<Anchor>//api/name/pointStateAlignedToXZWithX:Z:low:open:close:high:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/initAlignedToXWithX:Y:</TokenIdentifier>
+			<Abstract type="html">Init a point state representing the point that is aligned to the X grid. This is a typical state for column, area,
+line and ribbon series if drawn in 2D.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>- (id)initAlignedToXWithX:(int)x Y:(double)y</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>x</Name>
+					<Abstract type="html">- integer value on the X axis that represents the first category.</Abstract>
+				</Parameter><Parameter>
+					<Name>y</Name>
+					<Abstract type="html">- double value on the Y axis that represents the height value.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the initialized instance of a point state.</Abstract></ReturnValue>
+			<Anchor>//api/name/initAlignedToXWithX:Y:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/initAlignedToXZWithX:Y:Z:</TokenIdentifier>
+			<Abstract type="html">Init a point state representing the point that is aligned to the XZ grid. This is a typical state for column, area,
+line and ribbon series if drawn in 3D. It can also be used for a surface series.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>- (id)initAlignedToXZWithX:(int)x Y:(double)y Z:(int)z</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>x</Name>
+					<Abstract type="html">- integer value on the X axis that represents the first category.</Abstract>
+				</Parameter><Parameter>
+					<Name>y</Name>
+					<Abstract type="html">- double value on the Y axis that represents the height value.</Abstract>
+				</Parameter><Parameter>
+					<Name>z</Name>
+					<Abstract type="html">- integer value on the Z axis that represents the second category.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the initialized instance of a point state.</Abstract></ReturnValue>
+			<Anchor>//api/name/initAlignedToXZWithX:Y:Z:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/initAlignedToYWithX:Y:</TokenIdentifier>
+			<Abstract type="html">Init a point state representing the point that is aligned to the the Y grid. This is a typical state for bar series
+if drawn in 2D.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>- (id)initAlignedToYWithX:(double)x Y:(int)y</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>x</Name>
+					<Abstract type="html">- double value on the X axis that represents the height value.</Abstract>
+				</Parameter><Parameter>
+					<Name>y</Name>
+					<Abstract type="html">- integer value on the Y axis that represents the first category.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the initialized instance of a point state.</Abstract></ReturnValue>
+			<Anchor>//api/name/initAlignedToYWithX:Y:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/initAlignedToYZWithX:Y:Z:</TokenIdentifier>
+			<Abstract type="html">Init a point state representing the point that is aligned to the YZ grid. This is a typical state for bar series
+if drawn in 3D.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>- (id)initAlignedToYZWithX:(double)x Y:(int)y Z:(int)z</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>x</Name>
+					<Abstract type="html">- double value on the X axis that represents the height value.</Abstract>
+				</Parameter><Parameter>
+					<Name>y</Name>
+					<Abstract type="html">- integer value on the Y axis that represents the first category.</Abstract>
+				</Parameter><Parameter>
+					<Name>z</Name>
+					<Abstract type="html">- integer value on the Z axis that represents the secind category.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the initialized instance of a point state.</Abstract></ReturnValue>
+			<Anchor>//api/name/initAlignedToYZWithX:Y:Z:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/initWithCircle:value:</TokenIdentifier>
+			<Abstract type="html">Init a point state representing the point that is aligned to the concentric circles. This is a typical state for
+pie series if drawn in 2D.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithCircle:(int)circle value:(double)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>circle</Name>
+					<Abstract type="html">- number of circle among concentric circles that represents the category.</Abstract>
+				</Parameter><Parameter>
+					<Name>value</Name>
+					<Abstract type="html">- value of the state that affects the angle of the sector. The angle will represent the percent of the
+value among all values in the circle this state belongs to.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the initialized instance of a point state.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithCircle:value:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/initWithCircle:value:height:</TokenIdentifier>
+			<Abstract type="html">Init a point state representing the point that is aligned to the concentric circles and has the height. This is a
+typical state for pie series if drawn in 3D.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithCircle:(int)circle value:(double)value height:(double)height</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>circle</Name>
+					<Abstract type="html">- number of circle among concentric circles that represents the category.</Abstract>
+				</Parameter><Parameter>
+					<Name>value</Name>
+					<Abstract type="html">- value of the state that affects the angle of the sector. The angle will represent the percent of the
+value among all values in the circle this state belongs to.</Abstract>
+				</Parameter><Parameter>
+					<Name>height</Name>
+					<Abstract type="html">- height of sector. The height should be in interval 0..1. It is not connected to any axis, so the
+value is not mapped. You may use it to visually group sectors or to stress some of them.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the initialized instance of a point state.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithCircle:value:height:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/initWithX:Y:Z:</TokenIdentifier>
+			<Abstract type="html">Init a free (not aligned) 3D-space point. This is a typical state for bubble or surface series, but you may use
+this for other series types too.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithX:(double)x Y:(double)y Z:(double)z</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>x</Name>
+					<Abstract type="html">- double value on the X axis that represents the abscissa of a position.</Abstract>
+				</Parameter><Parameter>
+					<Name>y</Name>
+					<Abstract type="html">- double value on the Y axis that represents the ordinate of a position.</Abstract>
+				</Parameter><Parameter>
+					<Name>z</Name>
+					<Abstract type="html">- double value on the Z axis that represents the applicate of a position.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the initialized instance of a point state.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithX:Y:Z:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/initAlignedToXWithX:low:open:close:high:</TokenIdentifier>
+			<Abstract type="html">Init a point state that is aligned to the X grid and has low, open, close and high values. This is a typical state
+for candlestick series drawn in 2D.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>- (id)initAlignedToXWithX:(int)x low:(double)low open:(double)open close:(double)close high:(double)high</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>x</Name>
+					<Abstract type="html">- integer value on the X axis that represents the category.</Abstract>
+				</Parameter><Parameter>
+					<Name>low</Name>
+					<Abstract type="html">- double value on the Y axis that represents the &quot;low&quot; value.</Abstract>
+				</Parameter><Parameter>
+					<Name>open</Name>
+					<Abstract type="html">- double value on the Y axis that represents the &quot;open&quot; value.</Abstract>
+				</Parameter><Parameter>
+					<Name>close</Name>
+					<Abstract type="html">- double value on the Y axis that represents the &quot;close&quot; value.</Abstract>
+				</Parameter><Parameter>
+					<Name>high</Name>
+					<Abstract type="html">- double value on the Y axis that represents the &quot;high&quot; value.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the initialized instance of a point state.</Abstract></ReturnValue>
+			<Anchor>//api/name/initAlignedToXWithX:low:open:close:high:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/initAlignedToYWithY:open:close:</TokenIdentifier>
+			<Abstract type="html">Init a point state that is aligned to the X grid and has open and close values. This is a typical state
+for a sequence series drawn in 2D.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>- (id)initAlignedToYWithY:(int)y open:(double)open close:(double)close</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>y</Name>
+					<Abstract type="html">- integer value on the Y axis that represents the category.</Abstract>
+				</Parameter><Parameter>
+					<Name>open</Name>
+					<Abstract type="html">- double value on the X axis that represents the &quot;open&quot; value.</Abstract>
+				</Parameter><Parameter>
+					<Name>close</Name>
+					<Abstract type="html">- double value on the X axis that represents the &quot;close&quot; value.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the initialized instance of a point state.</Abstract></ReturnValue>
+			<Anchor>//api/name/initAlignedToYWithY:open:close:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/initAlignedToXZWithX:Z:low:open:close:high:</TokenIdentifier>
+			<Abstract type="html">Init a point state that is aligned to the XZ grid and has low, open, close and high values. This is a typical state
+for candlestick series drawn in 3D.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>- (id)initAlignedToXZWithX:(int)x Z:(int)z low:(double)low open:(double)open close:(double)close high:(double)high</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>x</Name>
+					<Abstract type="html">- integer value on the X axis that represents the first category.</Abstract>
+				</Parameter><Parameter>
+					<Name>z</Name>
+					<Abstract type="html">- integer value on the Z axis that represents the second category.</Abstract>
+				</Parameter><Parameter>
+					<Name>low</Name>
+					<Abstract type="html">- double value on the Y axis that represents the &quot;low&quot; value.</Abstract>
+				</Parameter><Parameter>
+					<Name>open</Name>
+					<Abstract type="html">- double value on the Y axis that represents the &quot;open&quot; value.</Abstract>
+				</Parameter><Parameter>
+					<Name>close</Name>
+					<Abstract type="html">- double value on the Y axis that represents the &quot;close&quot; value.</Abstract>
+				</Parameter><Parameter>
+					<Name>high</Name>
+					<Abstract type="html">- double value on the Y axis that represents the &quot;high&quot; value.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the initialized instance of a point state.</Abstract></ReturnValue>
+			<Anchor>//api/name/initAlignedToXZWithX:Z:low:open:close:high:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/setIntX:</TokenIdentifier>
+			<Abstract type="html">Integer X value of a point state.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int intX</Declaration>
+			
+			
+			<Anchor>//api/name/intX</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/intX</TokenIdentifier>
+			<Abstract type="html">Integer X value of a point state.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int intX</Declaration>
+			
+			
+			<Anchor>//api/name/intX</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPointState/intX</TokenIdentifier>
+			<Abstract type="html">Integer X value of a point state.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int intX</Declaration>
+			
+			
+			<Anchor>//api/name/intX</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/setDoubleX:</TokenIdentifier>
+			<Abstract type="html">Double X value of a point state.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double doubleX</Declaration>
+			
+			
+			<Anchor>//api/name/doubleX</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/doubleX</TokenIdentifier>
+			<Abstract type="html">Double X value of a point state.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double doubleX</Declaration>
+			
+			
+			<Anchor>//api/name/doubleX</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPointState/doubleX</TokenIdentifier>
+			<Abstract type="html">Double X value of a point state.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double doubleX</Declaration>
+			
+			
+			<Anchor>//api/name/doubleX</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/setIntY:</TokenIdentifier>
+			<Abstract type="html">Integer Y value of a point state.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int intY</Declaration>
+			
+			
+			<Anchor>//api/name/intY</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/intY</TokenIdentifier>
+			<Abstract type="html">Integer Y value of a point state.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int intY</Declaration>
+			
+			
+			<Anchor>//api/name/intY</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPointState/intY</TokenIdentifier>
+			<Abstract type="html">Integer Y value of a point state.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int intY</Declaration>
+			
+			
+			<Anchor>//api/name/intY</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/setDoubleY:</TokenIdentifier>
+			<Abstract type="html">Double Y value of a point state.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double doubleY</Declaration>
+			
+			
+			<Anchor>//api/name/doubleY</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/doubleY</TokenIdentifier>
+			<Abstract type="html">Double Y value of a point state.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double doubleY</Declaration>
+			
+			
+			<Anchor>//api/name/doubleY</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPointState/doubleY</TokenIdentifier>
+			<Abstract type="html">Double Y value of a point state.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double doubleY</Declaration>
+			
+			
+			<Anchor>//api/name/doubleY</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/setIntZ:</TokenIdentifier>
+			<Abstract type="html">Integer Z value of a point state.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int intZ</Declaration>
+			
+			
+			<Anchor>//api/name/intZ</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/intZ</TokenIdentifier>
+			<Abstract type="html">Integer Z value of a point state.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int intZ</Declaration>
+			
+			
+			<Anchor>//api/name/intZ</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPointState/intZ</TokenIdentifier>
+			<Abstract type="html">Integer Z value of a point state.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int intZ</Declaration>
+			
+			
+			<Anchor>//api/name/intZ</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/setDoubleZ:</TokenIdentifier>
+			<Abstract type="html">Double Z value of a point state.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double doubleZ</Declaration>
+			
+			
+			<Anchor>//api/name/doubleZ</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/doubleZ</TokenIdentifier>
+			<Abstract type="html">Double Z value of a point state.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double doubleZ</Declaration>
+			
+			
+			<Anchor>//api/name/doubleZ</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPointState/doubleZ</TokenIdentifier>
+			<Abstract type="html">Double Z value of a point state.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double doubleZ</Declaration>
+			
+			
+			<Anchor>//api/name/doubleZ</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/setCircle:</TokenIdentifier>
+			<Abstract type="html">Circle of a point state. See &lt;code&gt;initWithCircle: value:&lt;/code&gt; for details.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int circle</Declaration>
+			
+			
+			<Anchor>//api/name/circle</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/circle</TokenIdentifier>
+			<Abstract type="html">Circle of a point state. See &lt;code&gt;initWithCircle: value:&lt;/code&gt; for details.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int circle</Declaration>
+			
+			
+			<Anchor>//api/name/circle</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPointState/circle</TokenIdentifier>
+			<Abstract type="html">Circle of a point state. See &lt;code&gt;initWithCircle: value:&lt;/code&gt; for details.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int circle</Declaration>
+			
+			
+			<Anchor>//api/name/circle</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/setValue:</TokenIdentifier>
+			<Abstract type="html">Value of a point state. See &lt;code&gt;initWithCircle: value:&lt;/code&gt; for details.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/value</TokenIdentifier>
+			<Abstract type="html">Value of a point state. See &lt;code&gt;initWithCircle: value:&lt;/code&gt; for details.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPointState/value</TokenIdentifier>
+			<Abstract type="html">Value of a point state. See &lt;code&gt;initWithCircle: value:&lt;/code&gt; for details.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/setHeight:</TokenIdentifier>
+			<Abstract type="html">Height of a point state. See &lt;code&gt;initWithCircle: value: height:&lt;/code&gt; for details.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double height</Declaration>
+			
+			
+			<Anchor>//api/name/height</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/height</TokenIdentifier>
+			<Abstract type="html">Height of a point state. See &lt;code&gt;initWithCircle: value: height:&lt;/code&gt; for details.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double height</Declaration>
+			
+			
+			<Anchor>//api/name/height</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPointState/height</TokenIdentifier>
+			<Abstract type="html">Height of a point state. See &lt;code&gt;initWithCircle: value: height:&lt;/code&gt; for details.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double height</Declaration>
+			
+			
+			<Anchor>//api/name/height</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/setLow:</TokenIdentifier>
+			<Abstract type="html">Low value of a point state. See &lt;code&gt;initAlignedToXWithX: low: open: close: high:&lt;/code&gt; for details.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double low</Declaration>
+			
+			
+			<Anchor>//api/name/low</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/low</TokenIdentifier>
+			<Abstract type="html">Low value of a point state. See &lt;code&gt;initAlignedToXWithX: low: open: close: high:&lt;/code&gt; for details.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double low</Declaration>
+			
+			
+			<Anchor>//api/name/low</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPointState/low</TokenIdentifier>
+			<Abstract type="html">Low value of a point state. See &lt;code&gt;initAlignedToXWithX: low: open: close: high:&lt;/code&gt; for details.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double low</Declaration>
+			
+			
+			<Anchor>//api/name/low</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/setClose:</TokenIdentifier>
+			<Abstract type="html">Close value of a point state. See &lt;code&gt;initAlignedToXWithX: low: open: close: high:&lt;/code&gt; for details.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double close</Declaration>
+			
+			
+			<Anchor>//api/name/close</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/close</TokenIdentifier>
+			<Abstract type="html">Close value of a point state. See &lt;code&gt;initAlignedToXWithX: low: open: close: high:&lt;/code&gt; for details.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double close</Declaration>
+			
+			
+			<Anchor>//api/name/close</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPointState/close</TokenIdentifier>
+			<Abstract type="html">Close value of a point state. See &lt;code&gt;initAlignedToXWithX: low: open: close: high:&lt;/code&gt; for details.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double close</Declaration>
+			
+			
+			<Anchor>//api/name/close</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/setOpen:</TokenIdentifier>
+			<Abstract type="html">Open value of a point state. See &lt;code&gt;initAlignedToXWithX: low: open: close: high:&lt;/code&gt; for details.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double open</Declaration>
+			
+			
+			<Anchor>//api/name/open</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/open</TokenIdentifier>
+			<Abstract type="html">Open value of a point state. See &lt;code&gt;initAlignedToXWithX: low: open: close: high:&lt;/code&gt; for details.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double open</Declaration>
+			
+			
+			<Anchor>//api/name/open</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPointState/open</TokenIdentifier>
+			<Abstract type="html">Open value of a point state. See &lt;code&gt;initAlignedToXWithX: low: open: close: high:&lt;/code&gt; for details.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double open</Declaration>
+			
+			
+			<Anchor>//api/name/open</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/setHigh:</TokenIdentifier>
+			<Abstract type="html">High value of a point state. See &lt;code&gt;initAlignedToXWithX: low: open: close: high:&lt;/code&gt; for details.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double high</Declaration>
+			
+			
+			<Anchor>//api/name/high</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPointState/high</TokenIdentifier>
+			<Abstract type="html">High value of a point state. See &lt;code&gt;initAlignedToXWithX: low: open: close: high:&lt;/code&gt; for details.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double high</Declaration>
+			
+			
+			<Anchor>//api/name/high</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPointState/high</TokenIdentifier>
+			<Abstract type="html">High value of a point state. See &lt;code&gt;initAlignedToXWithX: low: open: close: high:&lt;/code&gt; for details.</Abstract>
+			<DeclaredIn>NChartPointState.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double high</Declaration>
+			
+			
+			<Anchor>//api/name/high</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

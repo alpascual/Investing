@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/NChartLegendContentAlignment.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/NChartLegendContentAlignment</TokenIdentifier>
+			<Abstract type="html">The NChartLegendContentAlignment enum provides constants to align the legend&apos;s content in the legend area.</Abstract>
+			<DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+			
+			<NodeRef refid="72"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartLegendContentAlignmentLeft</TokenIdentifier>
+            <Abstract type="html">Align the content of the legend left.
+     </Abstract>
+            <Declaration>NChartLegendContentAlignmentLeft</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="72"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartLegendContentAlignmentCenter</TokenIdentifier>
+            <Abstract type="html">Align the content of the legend to the center.
+     </Abstract>
+            <Declaration>NChartLegendContentAlignmentCenter</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="72"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartLegendContentAlignmentJustified</TokenIdentifier>
+            <Abstract type="html">Align the content of the legend justified.
+     </Abstract>
+            <Declaration>NChartLegendContentAlignmentJustified</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="72"/>
+        </Token>
+        
+	</File>
+</Tokens>

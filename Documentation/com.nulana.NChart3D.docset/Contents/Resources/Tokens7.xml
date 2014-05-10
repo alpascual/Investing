@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartAxisTicks.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartAxisTicks</TokenIdentifier>
+			<Abstract type="html">The NChartAxisTicks class provides methods to manage ticks on the axes.</Abstract>
+			<DeclaredIn>NChartAxisTicks.h</DeclaredIn>
+            
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartAxisTicks/setColor:</TokenIdentifier>
+			<Abstract type="html">Color of the ticks.</Abstract>
+			<DeclaredIn>NChartAxisTicks.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartAxisTicks/color</TokenIdentifier>
+			<Abstract type="html">Color of the ticks.</Abstract>
+			<DeclaredIn>NChartAxisTicks.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartAxisTicks/color</TokenIdentifier>
+			<Abstract type="html">Color of the ticks.</Abstract>
+			<DeclaredIn>NChartAxisTicks.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartAxisTicks/setLength:</TokenIdentifier>
+			<Abstract type="html">Length of ticks in pixels. The default value is 10.</Abstract>
+			<DeclaredIn>NChartAxisTicks.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float length</Declaration>
+			
+			
+			<Anchor>//api/name/length</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartAxisTicks/length</TokenIdentifier>
+			<Abstract type="html">Length of ticks in pixels. The default value is 10.</Abstract>
+			<DeclaredIn>NChartAxisTicks.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float length</Declaration>
+			
+			
+			<Anchor>//api/name/length</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartAxisTicks/length</TokenIdentifier>
+			<Abstract type="html">Length of ticks in pixels. The default value is 10.</Abstract>
+			<DeclaredIn>NChartAxisTicks.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float length</Declaration>
+			
+			
+			<Anchor>//api/name/length</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartAxisTicks/setThickness:</TokenIdentifier>
+			<Abstract type="html">Thickness of ticks in pixels. The default value is 1.</Abstract>
+			<DeclaredIn>NChartAxisTicks.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float thickness</Declaration>
+			
+			
+			<Anchor>//api/name/thickness</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartAxisTicks/thickness</TokenIdentifier>
+			<Abstract type="html">Thickness of ticks in pixels. The default value is 1.</Abstract>
+			<DeclaredIn>NChartAxisTicks.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float thickness</Declaration>
+			
+			
+			<Anchor>//api/name/thickness</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartAxisTicks/thickness</TokenIdentifier>
+			<Abstract type="html">Thickness of ticks in pixels. The default value is 1.</Abstract>
+			<DeclaredIn>NChartAxisTicks.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float thickness</Declaration>
+			
+			
+			<Anchor>//api/name/thickness</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartAxisTicks/setType:</TokenIdentifier>
+			<Abstract type="html">Type of ticks.</Abstract>
+			<DeclaredIn>NChartAxisTicks.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartAxisTickType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartAxisTickType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartAxisTicks/type</TokenIdentifier>
+			<Abstract type="html">Type of ticks.</Abstract>
+			<DeclaredIn>NChartAxisTicks.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartAxisTickType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartAxisTickType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartAxisTicks/type</TokenIdentifier>
+			<Abstract type="html">Type of ticks.</Abstract>
+			<DeclaredIn>NChartAxisTicks.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartAxisTickType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartAxisTickType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

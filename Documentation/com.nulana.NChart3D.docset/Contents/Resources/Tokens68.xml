@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/NChartAxisTickType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/NChartAxisTickType</TokenIdentifier>
+			<Abstract type="html">The NChartAxisTickType enum provides constants to determine the ticks&apos; layout on the axes.</Abstract>
+			<DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+			
+			<NodeRef refid="68"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartAxisTickTypeInner</TokenIdentifier>
+            <Abstract type="html">Ticks are on the inner side of the axis.
+     </Abstract>
+            <Declaration>NChartAxisTickTypeInner</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="68"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartAxisTickTypeOuter</TokenIdentifier>
+            <Abstract type="html">Ticks are on the outer side of the axis.
+     </Abstract>
+            <Declaration>NChartAxisTickTypeOuter</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="68"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartAxisTickTypeBoth</TokenIdentifier>
+            <Abstract type="html">Ticks are both on the inner and outer sides of the axis.
+     </Abstract>
+            <Declaration>NChartAxisTickTypeBoth</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="68"/>
+        </Token>
+        
+	</File>
+</Tokens>

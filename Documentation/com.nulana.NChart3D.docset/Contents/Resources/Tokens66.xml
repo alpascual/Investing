@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/NChartValueAxisDataSource.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/NChartValueAxisDataSource</TokenIdentifier>
+			<Abstract type="html">The NChartValueAxisDataSource protocol provides methods to control data displayed on value axis.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+            
+			
+			<NodeRef refid="66"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NChartValueAxisDataSource/valueAxisDataSourceNameForAxis:</TokenIdentifier>
+			<Abstract type="html">Get the name that is displayed in the axis&apos; caption.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSString *)valueAxisDataSourceNameForAxis:(NChartValueAxis *)axis</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>axis</Name>
+					<Abstract type="html">- axis to get the name for.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the name of the axis.</Abstract></ReturnValue>
+			<Anchor>//api/name/valueAxisDataSourceNameForAxis:</Anchor>
+            <NodeRef refid="66"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NChartValueAxisDataSource/valueAxisDataSourceMinForValueAxis:</TokenIdentifier>
+			<Abstract type="html">Get the minimal value for the axis. If there is no implementation, the axis is assumed to be discrete and you should
+provide an array of ticks. If neither min and max nor an array of ticks are provided, the axis is assumed to be
+continuous and both min and max are calculated automatically based on the values for the series.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSNumber *)valueAxisDataSourceMinForValueAxis:(NChartValueAxis *)axis</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>axis</Name>
+					<Abstract type="html">- axis to get minimal value for.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the minimal value for the axis. It may be nil that is equivalent to the absence of implementation.</Abstract></ReturnValue>
+			<Anchor>//api/name/valueAxisDataSourceMinForValueAxis:</Anchor>
+            <NodeRef refid="66"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NChartValueAxisDataSource/valueAxisDataSourceMaxForValueAxis:</TokenIdentifier>
+			<Abstract type="html">Get the maximal value for the axis. If there is no implementation, the axis is assumed to be discrete and you should
+provide an array of ticks. If neither min and max nor an array of ticks are provided, the axis is assumed to be
+continuous and both min and max are calculated automatically based on the values for the series.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSNumber *)valueAxisDataSourceMaxForValueAxis:(NChartValueAxis *)axis</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>axis</Name>
+					<Abstract type="html">- axis to get the maximal value for.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the maximal value for the axis. It may be nil that is equivalent to the absence of implementation.</Abstract></ReturnValue>
+			<Anchor>//api/name/valueAxisDataSourceMaxForValueAxis:</Anchor>
+            <NodeRef refid="66"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NChartValueAxisDataSource/valueAxisDataSourceStepForValueAxis:</TokenIdentifier>
+			<Abstract type="html">Get step value for axis. If there is no implementation, the step, min and max values are beautified.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSNumber *)valueAxisDataSourceStepForValueAxis:(NChartValueAxis *)axis</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>axis</Name>
+					<Abstract type="html">- axis to get the step value for.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the step value for the axis. It may be nil that is equivalent to the absence of implementation.</Abstract></ReturnValue>
+			<Anchor>//api/name/valueAxisDataSourceStepForValueAxis:</Anchor>
+            <NodeRef refid="66"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NChartValueAxisDataSource/valueAxisDataSourceTicksForValueAxis:</TokenIdentifier>
+			<Abstract type="html">Get array of ticks for the discrete axis. You should provide it if min and max are not implemented. If they are
+implemented, the array of ticks is ignored. If neither min and max nor the array of ticks are provided, axis is
+assumed to be continuous and both min and max are calculated automatically based on the values for the series.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSArray *)valueAxisDataSourceTicksForValueAxis:(NChartValueAxis *)axis</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>axis</Name>
+					<Abstract type="html">- axis to get an array of ticks for.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">an array of strings that represent the ticks. It may be nil that is equivalent to the absence of implementation.</Abstract></ReturnValue>
+			<Anchor>//api/name/valueAxisDataSourceTicksForValueAxis:</Anchor>
+            <NodeRef refid="66"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NChartValueAxisDataSource/valueAxisDataSourceLengthForValueAxis:</TokenIdentifier>
+			<Abstract type="html">Get length of axis in 3D scene units. If there is no implementation, 1 is used. See length of NChartValueAxis for
+details.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSNumber *)valueAxisDataSourceLengthForValueAxis:(NChartValueAxis *)axis</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>axis</Name>
+					<Abstract type="html">- axis to get the length for.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the length of the axis. It may be nil that is equivalent to the absence of implementation.</Abstract></ReturnValue>
+			<Anchor>//api/name/valueAxisDataSourceLengthForValueAxis:</Anchor>
+            <NodeRef refid="66"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NChartValueAxisDataSource/valueAxisDataSourceDouble:toStringForValueAxis:</TokenIdentifier>
+			<Abstract type="html">Convert double value to string.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSString *)valueAxisDataSourceDouble:(double)value toStringForValueAxis:(NChartValueAxis *)axis</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">- value to convert.</Abstract>
+				</Parameter><Parameter>
+					<Name>axis</Name>
+					<Abstract type="html">- axis to convert value for.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">string representation of the value.</Abstract></ReturnValue>
+			<Anchor>//api/name/valueAxisDataSourceDouble:toStringForValueAxis:</Anchor>
+            <NodeRef refid="66"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

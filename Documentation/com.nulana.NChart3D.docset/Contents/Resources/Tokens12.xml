@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartBezierInterpolator.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartBezierInterpolator</TokenIdentifier>
+			<Abstract type="html">The NChartBezierInterpolator class provides bezier interpolator. If it is used, the animated values will changed in
+time as follows: v(t) = (1 - t)^2  v_from + 2  t  (1 - t)  vc + t^2 * vfrom, where vfrom, vto are
+respectively the start and end values, v_c is control point and t is the time.</Abstract>
+			<DeclaredIn>NChartBezierInterpolator.h</DeclaredIn>
+            
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/NChartBezierInterpolator/bezierInterpolatorWithControlPoint:</TokenIdentifier>
+			<Abstract type="html">Create the bezier iterpolator with given control point.</Abstract>
+			<DeclaredIn>NChartBezierInterpolator.h</DeclaredIn>
+			
+			<Declaration>+ (id)bezierInterpolatorWithControlPoint:(float)controlPoint</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>controlPoint</Name>
+					<Abstract type="html">- control point. Very oftern it makes sense when the control point is equal to the end value of
+animated property.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">new instance of bezier interpolator.</Abstract></ReturnValue>
+			<Anchor>//api/name/bezierInterpolatorWithControlPoint:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartBezierInterpolator/initWithControlPoint:</TokenIdentifier>
+			<Abstract type="html">Initialize the bezier iterpolator with given control point.</Abstract>
+			<DeclaredIn>NChartBezierInterpolator.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithControlPoint:(float)controlPoint</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>controlPoint</Name>
+					<Abstract type="html">- control point. Very oftern it makes sense when the control point is equal to the end value of
+animated property.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">initialized instance of bezier interpolator.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithControlPoint:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartBezierInterpolator/setControlPoint:</TokenIdentifier>
+			<Abstract type="html">Control point of bezier interpolator.</Abstract>
+			<DeclaredIn>NChartBezierInterpolator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float controlPoint</Declaration>
+			
+			
+			<Anchor>//api/name/controlPoint</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartBezierInterpolator/controlPoint</TokenIdentifier>
+			<Abstract type="html">Control point of bezier interpolator.</Abstract>
+			<DeclaredIn>NChartBezierInterpolator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float controlPoint</Declaration>
+			
+			
+			<Anchor>//api/name/controlPoint</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartBezierInterpolator/controlPoint</TokenIdentifier>
+			<Abstract type="html">Control point of bezier interpolator.</Abstract>
+			<DeclaredIn>NChartBezierInterpolator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float controlPoint</Declaration>
+			
+			
+			<Anchor>//api/name/controlPoint</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartAxis.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartAxis</TokenIdentifier>
+			<Abstract type="html">The NChartAxis class provides common methods for axes on the chart.</Abstract>
+			<DeclaredIn>NChartAxis.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+        
+	</File>
+</Tokens>

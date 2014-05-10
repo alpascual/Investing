@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartBarSeries.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartBarSeries</TokenIdentifier>
+			<Abstract type="html">The NChartBarSeries class provides methods to display bar series.</Abstract>
+			<DeclaredIn>NChartBarSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+        
+	</File>
+</Tokens>

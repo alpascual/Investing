@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartValueAxis.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+			<Abstract type="html">The NChartValueAxis class provides methods to display the value axis of the chart.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+            
+			
+			<NodeRef refid="60"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/setKind:</TokenIdentifier>
+			<Abstract type="html">Kind of axis.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartValueAxisKind</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartValueAxisKind kind</Declaration>
+			
+			
+			<Anchor>//api/name/kind</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/kind</TokenIdentifier>
+			<Abstract type="html">Kind of axis.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartValueAxisKind</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartValueAxisKind kind</Declaration>
+			
+			
+			<Anchor>//api/name/kind</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/kind</TokenIdentifier>
+			<Abstract type="html">Kind of axis.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartValueAxisKind</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartValueAxisKind kind</Declaration>
+			
+			
+			<Anchor>//api/name/kind</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/setMinValue:</TokenIdentifier>
+			<Abstract type="html">Minimal value on the axis. It is obtained from the data source and, if needed, processed to look more beautiful.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) double minValue</Declaration>
+			
+			
+			<Anchor>//api/name/minValue</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/minValue</TokenIdentifier>
+			<Abstract type="html">Minimal value on the axis. It is obtained from the data source and, if needed, processed to look more beautiful.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) double minValue</Declaration>
+			
+			
+			<Anchor>//api/name/minValue</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/minValue</TokenIdentifier>
+			<Abstract type="html">Minimal value on the axis. It is obtained from the data source and, if needed, processed to look more beautiful.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) double minValue</Declaration>
+			
+			
+			<Anchor>//api/name/minValue</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/setMaxValue:</TokenIdentifier>
+			<Abstract type="html">Maximal value on the axis. It is obtained from the data source and, if needed, processed to look more beautiful.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) double maxValue</Declaration>
+			
+			
+			<Anchor>//api/name/maxValue</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/maxValue</TokenIdentifier>
+			<Abstract type="html">Maximal value on the axis. It is obtained from the data source and, if needed, processed to look more beautiful.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) double maxValue</Declaration>
+			
+			
+			<Anchor>//api/name/maxValue</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/maxValue</TokenIdentifier>
+			<Abstract type="html">Maximal value on the axis. It is obtained from the data source and, if needed, processed to look more beautiful.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) double maxValue</Declaration>
+			
+			
+			<Anchor>//api/name/maxValue</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/setStep:</TokenIdentifier>
+			<Abstract type="html">Step from one tick to another. It is either obtained from the data source or, if not provided, calculated according
+to the minValue and maxValue to look beautiful.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) double step</Declaration>
+			
+			
+			<Anchor>//api/name/step</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/step</TokenIdentifier>
+			<Abstract type="html">Step from one tick to another. It is either obtained from the data source or, if not provided, calculated according
+to the minValue and maxValue to look beautiful.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) double step</Declaration>
+			
+			
+			<Anchor>//api/name/step</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/step</TokenIdentifier>
+			<Abstract type="html">Step from one tick to another. It is either obtained from the data source or, if not provided, calculated according
+to the minValue and maxValue to look beautiful.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) double step</Declaration>
+			
+			
+			<Anchor>//api/name/step</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/setTicks:</TokenIdentifier>
+			<Abstract type="html">Array of strings that are displayed as ticks on the axis. It is obtained from the data source or nil if not provided.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *ticks</Declaration>
+			
+			
+			<Anchor>//api/name/ticks</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/ticks</TokenIdentifier>
+			<Abstract type="html">Array of strings that are displayed as ticks on the axis. It is obtained from the data source or nil if not provided.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *ticks</Declaration>
+			
+			
+			<Anchor>//api/name/ticks</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/ticks</TokenIdentifier>
+			<Abstract type="html">Array of strings that are displayed as ticks on the axis. It is obtained from the data source or nil if not provided.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *ticks</Declaration>
+			
+			
+			<Anchor>//api/name/ticks</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/setTickCount:</TokenIdentifier>
+			<Abstract type="html">Number of ticks on the axis. It is the number of ticks in an array or the number of values between
+minValue and maxValue through step.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int tickCount</Declaration>
+			
+			
+			<Anchor>//api/name/tickCount</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/tickCount</TokenIdentifier>
+			<Abstract type="html">Number of ticks on the axis. It is the number of ticks in an array or the number of values between
+minValue and maxValue through step.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int tickCount</Declaration>
+			
+			
+			<Anchor>//api/name/tickCount</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/tickCount</TokenIdentifier>
+			<Abstract type="html">Number of ticks on the axis. It is the number of ticks in an array or the number of values between
+minValue and maxValue through step.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int tickCount</Declaration>
+			
+			
+			<Anchor>//api/name/tickCount</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/setLength:</TokenIdentifier>
+			<Abstract type="html">Length of axis in 3D scene units. This value is obtained from the data source or, if not provided, is assigned to 1.
+It has an effect for axes being displayed in 3D only. In 2D this value is ignored because axes fill the whole area
+available on the screen. One 3D scene unit is equal to half a screen size by initial zoom (so space of the 3D scene
+is actually nonlinear respective to the screen). Therefore, by default all axes have equal length and form a kind of
+cube in 3D that is centered on the screen and is as big as half of the biggest screen&apos;s dimension. However, if you
+want, for example, to make the Z-axis shorter than the others, you can provide a length of 0.5 for it. It will
+therefore be twice as short as the others.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float length</Declaration>
+			
+			
+			<Anchor>//api/name/length</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/length</TokenIdentifier>
+			<Abstract type="html">Length of axis in 3D scene units. This value is obtained from the data source or, if not provided, is assigned to 1.
+It has an effect for axes being displayed in 3D only. In 2D this value is ignored because axes fill the whole area
+available on the screen. One 3D scene unit is equal to half a screen size by initial zoom (so space of the 3D scene
+is actually nonlinear respective to the screen). Therefore, by default all axes have equal length and form a kind of
+cube in 3D that is centered on the screen and is as big as half of the biggest screen&apos;s dimension. However, if you
+want, for example, to make the Z-axis shorter than the others, you can provide a length of 0.5 for it. It will
+therefore be twice as short as the others.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float length</Declaration>
+			
+			
+			<Anchor>//api/name/length</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/length</TokenIdentifier>
+			<Abstract type="html">Length of axis in 3D scene units. This value is obtained from the data source or, if not provided, is assigned to 1.
+It has an effect for axes being displayed in 3D only. In 2D this value is ignored because axes fill the whole area
+available on the screen. One 3D scene unit is equal to half a screen size by initial zoom (so space of the 3D scene
+is actually nonlinear respective to the screen). Therefore, by default all axes have equal length and form a kind of
+cube in 3D that is centered on the screen and is as big as half of the biggest screen&apos;s dimension. However, if you
+want, for example, to make the Z-axis shorter than the others, you can provide a length of 0.5 for it. It will
+therefore be twice as short as the others.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float length</Declaration>
+			
+			
+			<Anchor>//api/name/length</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/setColor:</TokenIdentifier>
+			<Abstract type="html">Color of the axis line.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/color</TokenIdentifier>
+			<Abstract type="html">Color of the axis line.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/color</TokenIdentifier>
+			<Abstract type="html">Color of the axis line.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/setFont:</TokenIdentifier>
+			<Abstract type="html">Font for the ticks&apos; labels.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/font</TokenIdentifier>
+			<Abstract type="html">Font for the ticks&apos; labels.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/font</TokenIdentifier>
+			<Abstract type="html">Font for the ticks&apos; labels.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/setTextColor:</TokenIdentifier>
+			<Abstract type="html">Color of the text for the ticks&apos; labels.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/textColor</TokenIdentifier>
+			<Abstract type="html">Color of the text for the ticks&apos; labels.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/textColor</TokenIdentifier>
+			<Abstract type="html">Color of the text for the ticks&apos; labels.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/setHasOffset:</TokenIdentifier>
+			<Abstract type="html">Flag that determines if there should be an offset on the axis. The offset is the spacing from the beginning of the
+axis to the first tick and from the last tick to the end of the axis. If this flag is YES, the spacing is half a step.
+If NO, spacing is zero.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL hasOffset</Declaration>
+			
+			
+			<Anchor>//api/name/hasOffset</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/hasOffset</TokenIdentifier>
+			<Abstract type="html">Flag that determines if there should be an offset on the axis. The offset is the spacing from the beginning of the
+axis to the first tick and from the last tick to the end of the axis. If this flag is YES, the spacing is half a step.
+If NO, spacing is zero.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL hasOffset</Declaration>
+			
+			
+			<Anchor>//api/name/hasOffset</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/hasOffset</TokenIdentifier>
+			<Abstract type="html">Flag that determines if there should be an offset on the axis. The offset is the spacing from the beginning of the
+axis to the first tick and from the last tick to the end of the axis. If this flag is YES, the spacing is half a step.
+If NO, spacing is zero.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL hasOffset</Declaration>
+			
+			
+			<Anchor>//api/name/hasOffset</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/setMinTickSpacing:</TokenIdentifier>
+			<Abstract type="html">Minimal spacing between neighbor ticks in pixels (the tick is the center place of the timestamp title, a kind of
+milestone on the axis). According to this value some timestamps can be hidden, if there are too many of them.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float minTickSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/minTickSpacing</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/minTickSpacing</TokenIdentifier>
+			<Abstract type="html">Minimal spacing between neighbor ticks in pixels (the tick is the center place of the timestamp title, a kind of
+milestone on the axis). According to this value some timestamps can be hidden, if there are too many of them.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float minTickSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/minTickSpacing</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/minTickSpacing</TokenIdentifier>
+			<Abstract type="html">Minimal spacing between neighbor ticks in pixels (the tick is the center place of the timestamp title, a kind of
+milestone on the axis). According to this value some timestamps can be hidden, if there are too many of them.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float minTickSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/minTickSpacing</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/setThickness:</TokenIdentifier>
+			<Abstract type="html">Thickness of the axis&apos; line in pixels.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float thickness</Declaration>
+			
+			
+			<Anchor>//api/name/thickness</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/thickness</TokenIdentifier>
+			<Abstract type="html">Thickness of the axis&apos; line in pixels.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float thickness</Declaration>
+			
+			
+			<Anchor>//api/name/thickness</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/thickness</TokenIdentifier>
+			<Abstract type="html">Thickness of the axis&apos; line in pixels.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float thickness</Declaration>
+			
+			
+			<Anchor>//api/name/thickness</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/setMajorTicks:</TokenIdentifier>
+			<Abstract type="html">Major ticks of the axis. Major ticks are spread from the minValue to the maxValue through step or, if no
+minValue and maxValue are provided but a ticks array is provided, the whole axis length is divided by the number
+of ticks and for each tick there is a major tick displayed.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisTicks</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisTicks *majorTicks</Declaration>
+			
+			
+			<Anchor>//api/name/majorTicks</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/majorTicks</TokenIdentifier>
+			<Abstract type="html">Major ticks of the axis. Major ticks are spread from the minValue to the maxValue through step or, if no
+minValue and maxValue are provided but a ticks array is provided, the whole axis length is divided by the number
+of ticks and for each tick there is a major tick displayed.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisTicks</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisTicks *majorTicks</Declaration>
+			
+			
+			<Anchor>//api/name/majorTicks</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/majorTicks</TokenIdentifier>
+			<Abstract type="html">Major ticks of the axis. Major ticks are spread from the minValue to the maxValue through step or, if no
+minValue and maxValue are provided but a ticks array is provided, the whole axis length is divided by the number
+of ticks and for each tick there is a major tick displayed.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisTicks</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisTicks *majorTicks</Declaration>
+			
+			
+			<Anchor>//api/name/majorTicks</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/setMinorTicks:</TokenIdentifier>
+			<Abstract type="html">Minor ticks of the axis. Minor ticks are displayed in the middle between two neighbor major ticks. See majorTicks
+for details.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisTicks</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisTicks *minorTicks</Declaration>
+			
+			
+			<Anchor>//api/name/minorTicks</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/minorTicks</TokenIdentifier>
+			<Abstract type="html">Minor ticks of the axis. Minor ticks are displayed in the middle between two neighbor major ticks. See majorTicks
+for details.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisTicks</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisTicks *minorTicks</Declaration>
+			
+			
+			<Anchor>//api/name/minorTicks</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/minorTicks</TokenIdentifier>
+			<Abstract type="html">Minor ticks of the axis. Minor ticks are displayed in the middle between two neighbor major ticks. See majorTicks
+for details.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisTicks</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisTicks *minorTicks</Declaration>
+			
+			
+			<Anchor>//api/name/minorTicks</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/setCaption:</TokenIdentifier>
+			<Abstract type="html">Caption of the axis.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartLabel</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartLabel *caption</Declaration>
+			
+			
+			<Anchor>//api/name/caption</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/caption</TokenIdentifier>
+			<Abstract type="html">Caption of the axis.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartLabel</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartLabel *caption</Declaration>
+			
+			
+			<Anchor>//api/name/caption</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/caption</TokenIdentifier>
+			<Abstract type="html">Caption of the axis.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartLabel</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartLabel *caption</Declaration>
+			
+			
+			<Anchor>//api/name/caption</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/setLabelsVisible:</TokenIdentifier>
+			<Abstract type="html">Flag that determines if the labels of ticks are visible (YES) or not (NO). The default value is YES.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL labelsVisible</Declaration>
+			
+			
+			<Anchor>//api/name/labelsVisible</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/labelsVisible</TokenIdentifier>
+			<Abstract type="html">Flag that determines if the labels of ticks are visible (YES) or not (NO). The default value is YES.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL labelsVisible</Declaration>
+			
+			
+			<Anchor>//api/name/labelsVisible</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/labelsVisible</TokenIdentifier>
+			<Abstract type="html">Flag that determines if the labels of ticks are visible (YES) or not (NO). The default value is YES.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL labelsVisible</Declaration>
+			
+			
+			<Anchor>//api/name/labelsVisible</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/setLineVisible:</TokenIdentifier>
+			<Abstract type="html">Flag that determines if the line of the axis is visible (YES) or not (NO). The default value is YES.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL lineVisible</Declaration>
+			
+			
+			<Anchor>//api/name/lineVisible</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/lineVisible</TokenIdentifier>
+			<Abstract type="html">Flag that determines if the line of the axis is visible (YES) or not (NO). The default value is YES.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL lineVisible</Declaration>
+			
+			
+			<Anchor>//api/name/lineVisible</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/lineVisible</TokenIdentifier>
+			<Abstract type="html">Flag that determines if the line of the axis is visible (YES) or not (NO). The default value is YES.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL lineVisible</Declaration>
+			
+			
+			<Anchor>//api/name/lineVisible</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/setAlwaysShowZero:</TokenIdentifier>
+			<Abstract type="html">Flag that determines whether zero is always on the axis. This flag makes sense if minValue and maxValue are both
+less or greater than zero and are beautified according to the data source. In this case, if this flag is false, it
+may happen, that no zero will be on the axis (for example, if minValue = 11.5 and maxValue = 19, the axis will
+probably start with 10 and end with 20, having 4 steps). With this flag set to true, zero will always be on the axis,
+so even with minValue = 11.5 and maxValue = 19 the axis will start with 0 and end with 20 having probably 5 steps
+or so. The default value is NO.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL alwaysShowZero</Declaration>
+			
+			
+			<Anchor>//api/name/alwaysShowZero</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/alwaysShowZero</TokenIdentifier>
+			<Abstract type="html">Flag that determines whether zero is always on the axis. This flag makes sense if minValue and maxValue are both
+less or greater than zero and are beautified according to the data source. In this case, if this flag is false, it
+may happen, that no zero will be on the axis (for example, if minValue = 11.5 and maxValue = 19, the axis will
+probably start with 10 and end with 20, having 4 steps). With this flag set to true, zero will always be on the axis,
+so even with minValue = 11.5 and maxValue = 19 the axis will start with 0 and end with 20 having probably 5 steps
+or so. The default value is NO.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL alwaysShowZero</Declaration>
+			
+			
+			<Anchor>//api/name/alwaysShowZero</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/alwaysShowZero</TokenIdentifier>
+			<Abstract type="html">Flag that determines whether zero is always on the axis. This flag makes sense if minValue and maxValue are both
+less or greater than zero and are beautified according to the data source. In this case, if this flag is false, it
+may happen, that no zero will be on the axis (for example, if minValue = 11.5 and maxValue = 19, the axis will
+probably start with 10 and end with 20, having 4 steps). With this flag set to true, zero will always be on the axis,
+so even with minValue = 11.5 and maxValue = 19 the axis will start with 0 and end with 20 having probably 5 steps
+or so. The default value is NO.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL alwaysShowZero</Declaration>
+			
+			
+			<Anchor>//api/name/alwaysShowZero</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/setLabelsIn3D:</TokenIdentifier>
+			<Abstract type="html">Flag that determines whether the axis labels are in &quot;perspective&quot; screen (YES) or are projected in the 2D screen (NO).
+This flag only affects 3D-charts. The default value is YES.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL labelsIn3D</Declaration>
+			
+			
+			<Anchor>//api/name/labelsIn3D</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/labelsIn3D</TokenIdentifier>
+			<Abstract type="html">Flag that determines whether the axis labels are in &quot;perspective&quot; screen (YES) or are projected in the 2D screen (NO).
+This flag only affects 3D-charts. The default value is YES.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL labelsIn3D</Declaration>
+			
+			
+			<Anchor>//api/name/labelsIn3D</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/labelsIn3D</TokenIdentifier>
+			<Abstract type="html">Flag that determines whether the axis labels are in &quot;perspective&quot; screen (YES) or are projected in the 2D screen (NO).
+This flag only affects 3D-charts. The default value is YES.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL labelsIn3D</Declaration>
+			
+			
+			<Anchor>//api/name/labelsIn3D</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/setCaptionIn3D:</TokenIdentifier>
+			<Abstract type="html">Flag that determines whether the axis caption is in &quot;perspective&quot; screen (YES) or is projected in the 2D screen (NO).
+This flag only affects 3D-charts. The deafult value is YES.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL captionIn3D</Declaration>
+			
+			
+			<Anchor>//api/name/captionIn3D</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/captionIn3D</TokenIdentifier>
+			<Abstract type="html">Flag that determines whether the axis caption is in &quot;perspective&quot; screen (YES) or is projected in the 2D screen (NO).
+This flag only affects 3D-charts. The deafult value is YES.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL captionIn3D</Declaration>
+			
+			
+			<Anchor>//api/name/captionIn3D</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/captionIn3D</TokenIdentifier>
+			<Abstract type="html">Flag that determines whether the axis caption is in &quot;perspective&quot; screen (YES) or is projected in the 2D screen (NO).
+This flag only affects 3D-charts. The deafult value is YES.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL captionIn3D</Declaration>
+			
+			
+			<Anchor>//api/name/captionIn3D</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/setShouldBeautifyMinAndMax:</TokenIdentifier>
+			<Abstract type="html">Flag that detemines whether min and max values on the axis should be beautified in case they are calculated (YES)
+or not (NO). The default vaule is YES.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL shouldBeautifyMinAndMax</Declaration>
+			
+			
+			<Anchor>//api/name/shouldBeautifyMinAndMax</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/shouldBeautifyMinAndMax</TokenIdentifier>
+			<Abstract type="html">Flag that detemines whether min and max values on the axis should be beautified in case they are calculated (YES)
+or not (NO). The default vaule is YES.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL shouldBeautifyMinAndMax</Declaration>
+			
+			
+			<Anchor>//api/name/shouldBeautifyMinAndMax</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/shouldBeautifyMinAndMax</TokenIdentifier>
+			<Abstract type="html">Flag that detemines whether min and max values on the axis should be beautified in case they are calculated (YES)
+or not (NO). The default vaule is YES.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL shouldBeautifyMinAndMax</Declaration>
+			
+			
+			<Anchor>//api/name/shouldBeautifyMinAndMax</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/setLabelsAngle:</TokenIdentifier>
+			<Abstract type="html">Axis labels&apos; rotation angle. This property takes effect in 3D mode only (&lt;code&gt;chart.drawIn3D == YES&lt;/code&gt;) and
+if labels are drawn in &quot;perspective&quot; screen (&lt;code&gt;labelsIn3D == YES&lt;/code&gt;).</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChart</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/labelsIn3D</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) float labelsAngle</Declaration>
+			
+			
+			<Anchor>//api/name/labelsAngle</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/labelsAngle</TokenIdentifier>
+			<Abstract type="html">Axis labels&apos; rotation angle. This property takes effect in 3D mode only (&lt;code&gt;chart.drawIn3D == YES&lt;/code&gt;) and
+if labels are drawn in &quot;perspective&quot; screen (&lt;code&gt;labelsIn3D == YES&lt;/code&gt;).</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChart</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/labelsIn3D</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) float labelsAngle</Declaration>
+			
+			
+			<Anchor>//api/name/labelsAngle</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/labelsAngle</TokenIdentifier>
+			<Abstract type="html">Axis labels&apos; rotation angle. This property takes effect in 3D mode only (&lt;code&gt;chart.drawIn3D == YES&lt;/code&gt;) and
+if labels are drawn in &quot;perspective&quot; screen (&lt;code&gt;labelsIn3D == YES&lt;/code&gt;).</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChart</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/labelsIn3D</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) float labelsAngle</Declaration>
+			
+			
+			<Anchor>//api/name/labelsAngle</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/setDataSource:</TokenIdentifier>
+			<Abstract type="html">Data source of the axis.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/NChartValueAxisDataSource</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) id&lt;NChartValueAxisDataSource&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/dataSource</TokenIdentifier>
+			<Abstract type="html">Data source of the axis.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/NChartValueAxisDataSource</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) id&lt;NChartValueAxisDataSource&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartValueAxis/dataSource</TokenIdentifier>
+			<Abstract type="html">Data source of the axis.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/NChartValueAxisDataSource</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) id&lt;NChartValueAxisDataSource&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartValueAxis/zoomToRegionFrom:to:duration:delay:</TokenIdentifier>
+			<Abstract type="html">Zoom to given region by specifying the least and the greatest values that should be visible on the axis. If the
+axis has array of ticks, indices in this array can be used. Use this method after you updated data of the chart
+with &lt;code&gt;[chart updateData]&lt;/code&gt; call.</Abstract>
+			<DeclaredIn>NChartValueAxis.h</DeclaredIn>
+			
+			<Declaration>- (void)zoomToRegionFrom:(float)startValue to:(float)endValue duration:(float)duration delay:(float)delay</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>startValue</Name>
+					<Abstract type="html">- least value that should be visible.</Abstract>
+				</Parameter><Parameter>
+					<Name>endValue</Name>
+					<Abstract type="html">- greatest value that should be visible.</Abstract>
+				</Parameter><Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">- duration of the animation in seconds.</Abstract>
+				</Parameter><Parameter>
+					<Name>delay</Name>
+					<Abstract type="html">- delay of animation in seconds.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/zoomToRegionFrom:to:duration:delay:</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartLineSeries.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartLineSeries</TokenIdentifier>
+			<Abstract type="html">The NChartLineSeries class provides methods to display line series.</Abstract>
+			<DeclaredIn>NChartLineSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="28"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLineSeries/setNoDataColor:</TokenIdentifier>
+			<Abstract type="html">Color of the line in the points with no data.</Abstract>
+			<DeclaredIn>NChartLineSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *noDataColor</Declaration>
+			
+			
+			<Anchor>//api/name/noDataColor</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLineSeries/noDataColor</TokenIdentifier>
+			<Abstract type="html">Color of the line in the points with no data.</Abstract>
+			<DeclaredIn>NChartLineSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *noDataColor</Declaration>
+			
+			
+			<Anchor>//api/name/noDataColor</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartLineSeries/noDataColor</TokenIdentifier>
+			<Abstract type="html">Color of the line in the points with no data.</Abstract>
+			<DeclaredIn>NChartLineSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *noDataColor</Declaration>
+			
+			
+			<Anchor>//api/name/noDataColor</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLineSeries/setLineThickness:</TokenIdentifier>
+			<Abstract type="html">Thickness of the line in pixels. The default value is 2.</Abstract>
+			<DeclaredIn>NChartLineSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float lineThickness</Declaration>
+			
+			
+			<Anchor>//api/name/lineThickness</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLineSeries/lineThickness</TokenIdentifier>
+			<Abstract type="html">Thickness of the line in pixels. The default value is 2.</Abstract>
+			<DeclaredIn>NChartLineSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float lineThickness</Declaration>
+			
+			
+			<Anchor>//api/name/lineThickness</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartLineSeries/lineThickness</TokenIdentifier>
+			<Abstract type="html">Thickness of the line in pixels. The default value is 2.</Abstract>
+			<DeclaredIn>NChartLineSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float lineThickness</Declaration>
+			
+			
+			<Anchor>//api/name/lineThickness</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLineSeries/setMarker:</TokenIdentifier>
+			<Abstract type="html">Marker that is shown on the points. This is nil by default (no marker is displayed).</Abstract>
+			<DeclaredIn>NChartLineSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartMarker</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartMarker *marker</Declaration>
+			
+			
+			<Anchor>//api/name/marker</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLineSeries/marker</TokenIdentifier>
+			<Abstract type="html">Marker that is shown on the points. This is nil by default (no marker is displayed).</Abstract>
+			<DeclaredIn>NChartLineSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartMarker</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartMarker *marker</Declaration>
+			
+			
+			<Anchor>//api/name/marker</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartLineSeries/marker</TokenIdentifier>
+			<Abstract type="html">Marker that is shown on the points. This is nil by default (no marker is displayed).</Abstract>
+			<DeclaredIn>NChartLineSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartMarker</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartMarker *marker</Declaration>
+			
+			
+			<Anchor>//api/name/marker</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

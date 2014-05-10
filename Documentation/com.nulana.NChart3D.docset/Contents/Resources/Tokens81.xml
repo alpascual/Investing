@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/NChartUserInteraction.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/NChartUserInteraction</TokenIdentifier>
+			<Abstract type="html">The NChartUserInteraction enum provides constants to control available user intercation. You can use them to build
+the mask of intercations availability by concatenating the needed ones with bitwise OR.</Abstract>
+			<DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+			
+			<NodeRef refid="81"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartUserInteractionNone</TokenIdentifier>
+            <Abstract type="html">No intercations are available.
+     </Abstract>
+            <Declaration>NChartUserInteractionNone</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="81"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartUserInteractionVerticalMove</TokenIdentifier>
+            <Abstract type="html">Vertical moving is available.
+     </Abstract>
+            <Declaration>NChartUserInteractionVerticalMove</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="81"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartUserInteractionHorizontalMove</TokenIdentifier>
+            <Abstract type="html">Horizontal moving is available.
+     </Abstract>
+            <Declaration>NChartUserInteractionHorizontalMove</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="81"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartUserInteractionVerticalRotate</TokenIdentifier>
+            <Abstract type="html">Vertical rotation is available.
+     </Abstract>
+            <Declaration>NChartUserInteractionVerticalRotate</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="81"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartUserInteractionHorizontalRotate</TokenIdentifier>
+            <Abstract type="html">Horizontal rotation is available.
+     </Abstract>
+            <Declaration>NChartUserInteractionHorizontalRotate</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="81"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartUserInteractionVerticalZoom</TokenIdentifier>
+            <Abstract type="html">Vertical zoom is available.
+     </Abstract>
+            <Declaration>NChartUserInteractionVerticalZoom</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="81"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartUserInteractionHorizontalZoom</TokenIdentifier>
+            <Abstract type="html">Horizontal zoom is available.
+     </Abstract>
+            <Declaration>NChartUserInteractionHorizontalZoom</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="81"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartUserInteractionProportionalZoom</TokenIdentifier>
+            <Abstract type="html">Proportional zoom is available.
+     </Abstract>
+            <Declaration>NChartUserInteractionProportionalZoom</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="81"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartUserInteractionTap</TokenIdentifier>
+            <Abstract type="html">Tap is available.
+     </Abstract>
+            <Declaration>NChartUserInteractionTap</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="81"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartUserInteractionAll</TokenIdentifier>
+            <Abstract type="html">All intercations are available.
+     </Abstract>
+            <Declaration>NChartUserInteractionAll</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="81"/>
+        </Token>
+        
+	</File>
+</Tokens>

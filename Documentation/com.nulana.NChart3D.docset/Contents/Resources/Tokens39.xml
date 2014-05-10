@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartPlaced.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartPlaced</TokenIdentifier>
+			<Abstract type="html">The NChartPlaced class provides basic methods for objects displaying some textual information on the screen.</Abstract>
+			<DeclaredIn>NChartPlaced.h</DeclaredIn>
+            
+			
+			<NodeRef refid="39"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPlaced/setBackground:</TokenIdentifier>
+			<Abstract type="html">Brush filling the background of the text container.</Abstract>
+			<DeclaredIn>NChartPlaced.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartBrush</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartBrush *background</Declaration>
+			
+			
+			<Anchor>//api/name/background</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPlaced/background</TokenIdentifier>
+			<Abstract type="html">Brush filling the background of the text container.</Abstract>
+			<DeclaredIn>NChartPlaced.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartBrush</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartBrush *background</Declaration>
+			
+			
+			<Anchor>//api/name/background</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPlaced/background</TokenIdentifier>
+			<Abstract type="html">Brush filling the background of the text container.</Abstract>
+			<DeclaredIn>NChartPlaced.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartBrush</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartBrush *background</Declaration>
+			
+			
+			<Anchor>//api/name/background</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPlaced/setBorderColor:</TokenIdentifier>
+			<Abstract type="html">Color of the border that is drawn around the text container.</Abstract>
+			<DeclaredIn>NChartPlaced.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *borderColor</Declaration>
+			
+			
+			<Anchor>//api/name/borderColor</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPlaced/borderColor</TokenIdentifier>
+			<Abstract type="html">Color of the border that is drawn around the text container.</Abstract>
+			<DeclaredIn>NChartPlaced.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *borderColor</Declaration>
+			
+			
+			<Anchor>//api/name/borderColor</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPlaced/borderColor</TokenIdentifier>
+			<Abstract type="html">Color of the border that is drawn around the text container.</Abstract>
+			<DeclaredIn>NChartPlaced.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *borderColor</Declaration>
+			
+			
+			<Anchor>//api/name/borderColor</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPlaced/setBorderRadius:</TokenIdentifier>
+			<Abstract type="html">Corner rounding radius (in pixels) of the border that is drawn around the text container.</Abstract>
+			<DeclaredIn>NChartPlaced.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float borderRadius</Declaration>
+			
+			
+			<Anchor>//api/name/borderRadius</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPlaced/borderRadius</TokenIdentifier>
+			<Abstract type="html">Corner rounding radius (in pixels) of the border that is drawn around the text container.</Abstract>
+			<DeclaredIn>NChartPlaced.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float borderRadius</Declaration>
+			
+			
+			<Anchor>//api/name/borderRadius</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPlaced/borderRadius</TokenIdentifier>
+			<Abstract type="html">Corner rounding radius (in pixels) of the border that is drawn around the text container.</Abstract>
+			<DeclaredIn>NChartPlaced.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float borderRadius</Declaration>
+			
+			
+			<Anchor>//api/name/borderRadius</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPlaced/setBorderThickness:</TokenIdentifier>
+			<Abstract type="html">Thickness of the border (in pixels) that is drawn around the text container.</Abstract>
+			<DeclaredIn>NChartPlaced.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float borderThickness</Declaration>
+			
+			
+			<Anchor>//api/name/borderThickness</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPlaced/borderThickness</TokenIdentifier>
+			<Abstract type="html">Thickness of the border (in pixels) that is drawn around the text container.</Abstract>
+			<DeclaredIn>NChartPlaced.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float borderThickness</Declaration>
+			
+			
+			<Anchor>//api/name/borderThickness</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPlaced/borderThickness</TokenIdentifier>
+			<Abstract type="html">Thickness of the border (in pixels) that is drawn around the text container.</Abstract>
+			<DeclaredIn>NChartPlaced.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float borderThickness</Declaration>
+			
+			
+			<Anchor>//api/name/borderThickness</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPlaced/setMargin:</TokenIdentifier>
+			<Abstract type="html">Margin of the text container in pixels (spacing from the bounds of the enclosing area).</Abstract>
+			<DeclaredIn>NChartPlaced.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NChartMargin margin</Declaration>
+			
+			
+			<Anchor>//api/name/margin</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPlaced/margin</TokenIdentifier>
+			<Abstract type="html">Margin of the text container in pixels (spacing from the bounds of the enclosing area).</Abstract>
+			<DeclaredIn>NChartPlaced.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NChartMargin margin</Declaration>
+			
+			
+			<Anchor>//api/name/margin</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPlaced/margin</TokenIdentifier>
+			<Abstract type="html">Margin of the text container in pixels (spacing from the bounds of the enclosing area).</Abstract>
+			<DeclaredIn>NChartPlaced.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NChartMargin margin</Declaration>
+			
+			
+			<Anchor>//api/name/margin</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPlaced/setPadding:</TokenIdentifier>
+			<Abstract type="html">Padding of the text container in pixels (spacing to sub-areas).</Abstract>
+			<DeclaredIn>NChartPlaced.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NChartMargin padding</Declaration>
+			
+			
+			<Anchor>//api/name/padding</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPlaced/padding</TokenIdentifier>
+			<Abstract type="html">Padding of the text container in pixels (spacing to sub-areas).</Abstract>
+			<DeclaredIn>NChartPlaced.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NChartMargin padding</Declaration>
+			
+			
+			<Anchor>//api/name/padding</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPlaced/padding</TokenIdentifier>
+			<Abstract type="html">Padding of the text container in pixels (spacing to sub-areas).</Abstract>
+			<DeclaredIn>NChartPlaced.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NChartMargin padding</Declaration>
+			
+			
+			<Anchor>//api/name/padding</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPlaced/setOpacity:</TokenIdentifier>
+			<Abstract type="html">Opacity of the text container. Value should be in 0..1. The default value is 1.</Abstract>
+			<DeclaredIn>NChartPlaced.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float opacity</Declaration>
+			
+			
+			<Anchor>//api/name/opacity</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPlaced/opacity</TokenIdentifier>
+			<Abstract type="html">Opacity of the text container. Value should be in 0..1. The default value is 1.</Abstract>
+			<DeclaredIn>NChartPlaced.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float opacity</Declaration>
+			
+			
+			<Anchor>//api/name/opacity</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPlaced/opacity</TokenIdentifier>
+			<Abstract type="html">Opacity of the text container. Value should be in 0..1. The default value is 1.</Abstract>
+			<DeclaredIn>NChartPlaced.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float opacity</Declaration>
+			
+			
+			<Anchor>//api/name/opacity</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

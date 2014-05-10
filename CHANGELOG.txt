@@ -1,0 +1,168 @@
+NChart3D CHANGELOG
+
+
+==================
+      v1.3.8
+==================
+- Fixes of legend
+
+
+==================
+      v1.3.7
+==================
+- Rotation of axes labels
+
+
+==================
+      v1.3.6
+==================
+- Alignment of chart caption
+
+
+==================
+      v1.3.5
+==================
+- Bugfixes for iPhone 5s
+
+
+==================
+      v1.3.4
+==================
+- Bugfixes
+
+
+==================
+      v1.3.3
+==================
+- Improvement of rendering thread management
+
+
+==================
+      v1.3.2
+==================
+- Fix of crash by deleting NChartView
+
+
+==================
+      v1.3.1
+==================
+- Fix for user interactions control
+
+
+==================
+       v1.3       
+==================
+- Streaming: realtime data updating. It is demonstrated in the AppStore demo as a microphone spectrum visualization
+- Advanced animations for charts
+- Custom chart background image
+- Advanced control over user interactions
+- Interpolators that control animated values
+- Incremental minimum/maximum mode
+- Little refactoring of NChart delegate
+- Delegate method to catch event of animation ending
+- Fixes for size axis and marker sizes
+- Fixes for rotation
+- Support of multithreading
+- New interface of AppStore demo
+- Bugfixes, optimizations and improvements
+- Improvements for the Xamarin API, the types used are now more native
+
+
+==================
+      v1.2.10
+==================
+- Control shading model in 3D chart
+
+
+==================
+      v1.2.9
+==================
+- Custom numeric values on the axes
+
+
+==================
+      v1.2.8
+==================
+- Option for tooltip that lets it leave chart's plot area
+
+
+==================
+      v1.2.7
+==================
+- Bugfixes
+
+
+==================
+      v1.2.6
+==================
+- Support of x86_64 architecture that allows to build for 64bit iOS Simulator
+
+
+==================
+      v1.2.5       
+==================
+- Bugfixes
+
+
+==================
+      v1.2.4       
+==================
+- Xamarin support
+- Improvement of surface chart - now gaps in data are supported
+- Bugfixes
+
+
+==================
+      v1.2.3       
+==================
+- Bugfixes
+
+
+==================
+      v1.2.2       
+==================
+- Bugfixes
+
+
+==================
+      v1.2.1       
+==================
+- Bugfixes
+
+
+==================
+       v1.2       
+==================
+- OHLC chart type
+- Band chart type
+- Sequence chart type
+- Step line chart type
+- Scatter chart type
+- Programmable changing of chart zoom with animation, maximal and minimal zoom adjustment
+- Programmable changing of view angles with animation
+- Fit to screen
+- Selection of points (by color and offset)
+- Better animation of line, area and ribbon
+- Markers for line, step line, area and ribbon
+- iPhone demo, better iPhone support
+- Labels for points
+- Ability to change colors of line and ribbon series by setting the brushes for points
+- Refactoring of the global settings for series
+- Label in the center of pie
+- Ability to switch off selection by tap (may be useful to optimize charts by memory and speed of data updating on the huge datasets)
+- Ability to switch between parallel and perspective projection in 3D mode
+- Bugfixes
+- Optimizations
+
+
+==================
+      v1.1.1       
+==================
+- Bugfixes
+
+
+==================
+       v1.1       
+==================
+- Zoom to region
+- Bugfixes

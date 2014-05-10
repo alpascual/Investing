@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/NChartMarkerShape.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/NChartMarkerShape</TokenIdentifier>
+			<Abstract type="html">The NChartMarkerShape enum provides constants for markers&apos; shapes.</Abstract>
+			<DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+			
+			<NodeRef refid="74"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartMarkerShapeNone</TokenIdentifier>
+            <Abstract type="html">Do not display the marker.
+     </Abstract>
+            <Declaration>NChartMarkerShapeNone</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="74"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartMarkerShapeCircle</TokenIdentifier>
+            <Abstract type="html">Display a plain circle.
+     </Abstract>
+            <Declaration>NChartMarkerShapeCircle</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="74"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartMarkerShapeSphere</TokenIdentifier>
+            <Abstract type="html">Display a volumetric sphere.
+     </Abstract>
+            <Declaration>NChartMarkerShapeSphere</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="74"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartMarkerShapeModel</TokenIdentifier>
+            <Abstract type="html">Display a custom 3D model.
+     </Abstract>
+            <Declaration>NChartMarkerShapeModel</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="74"/>
+        </Token>
+        
+	</File>
+</Tokens>

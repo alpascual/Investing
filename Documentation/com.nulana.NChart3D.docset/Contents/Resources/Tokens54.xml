@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartSurfaceSeries.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartSurfaceSeries</TokenIdentifier>
+			<Abstract type="html">The NChartSurfaceSeries class provides methods to display surface series.</Abstract>
+			<DeclaredIn>NChartSurfaceSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="54"/>
+		</Token>
+		
+		
+        
+	</File>
+</Tokens>

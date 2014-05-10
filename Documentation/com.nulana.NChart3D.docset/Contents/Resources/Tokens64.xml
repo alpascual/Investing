@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/NChartSizeAxisDataSource.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/NChartSizeAxisDataSource</TokenIdentifier>
+			<Abstract type="html">The NChartSizeAxisDataSource protocol provides methods to control data on the size axis.</Abstract>
+			<DeclaredIn>NChartSizeAxis.h</DeclaredIn>
+            
+			
+			<NodeRef refid="64"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NChartSizeAxisDataSource/sizeAxisDataSourceMinSizeForSizeAxis:</TokenIdentifier>
+			<Abstract type="html">Get minimal size of markers on the screen in pixels.</Abstract>
+			<DeclaredIn>NChartSizeAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartSizeAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (float)sizeAxisDataSourceMinSizeForSizeAxis:(NChartSizeAxis *)sizeAxis</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sizeAxis</Name>
+					<Abstract type="html">- the size axis to obtain the minimal size for.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the minimal size of the markers on the screen in pixels.</Abstract></ReturnValue>
+			<Anchor>//api/name/sizeAxisDataSourceMinSizeForSizeAxis:</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NChartSizeAxisDataSource/sizeAxisDataSourceMaxSizeForSizeAxis:</TokenIdentifier>
+			<Abstract type="html">Get maximal size of markers on the screen in pixels.</Abstract>
+			<DeclaredIn>NChartSizeAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartSizeAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (float)sizeAxisDataSourceMaxSizeForSizeAxis:(NChartSizeAxis *)sizeAxis</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sizeAxis</Name>
+					<Abstract type="html">- the size axis to obtain the maximal size for.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the maximal size of the markers on the screen in pixels.</Abstract></ReturnValue>
+			<Anchor>//api/name/sizeAxisDataSourceMaxSizeForSizeAxis:</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NChartSizeAxisDataSource/sizeAxisDataSourceMinForSizeAxis:</TokenIdentifier>
+			<Abstract type="html">Get minimal value of markers&apos; sizes. If no implementation is provided, the minimal size is calculated according to
+the data.</Abstract>
+			<DeclaredIn>NChartSizeAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartSizeAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSNumber *)sizeAxisDataSourceMinForSizeAxis:(NChartSizeAxis *)sizeAxis</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sizeAxis</Name>
+					<Abstract type="html">- the size axis to obtain the minimal value for.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the minimal value of markers&apos; sizes. It may be nil that is equivalent to the absence of implementation.</Abstract></ReturnValue>
+			<Anchor>//api/name/sizeAxisDataSourceMinForSizeAxis:</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NChartSizeAxisDataSource/sizeAxisDataSourceMaxForSizeAxis:</TokenIdentifier>
+			<Abstract type="html">Get maximal value of markers&apos; sizes. If no implementation is provided, the maximal size is calculated according to
+the data.</Abstract>
+			<DeclaredIn>NChartSizeAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartSizeAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSNumber *)sizeAxisDataSourceMaxForSizeAxis:(NChartSizeAxis *)sizeAxis</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sizeAxis</Name>
+					<Abstract type="html">- the size axis to obtain the maximal value for.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the maximal value of the markers&apos; sizes. It may be nil that is equivalent to the absence of implementation.</Abstract></ReturnValue>
+			<Anchor>//api/name/sizeAxisDataSourceMaxForSizeAxis:</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

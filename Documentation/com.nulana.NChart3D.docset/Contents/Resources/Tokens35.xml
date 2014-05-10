@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartOHLCSeriesSettings.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartOHLCSeriesSettings</TokenIdentifier>
+			<Abstract type="html">The NChartOHLCSeries class provides global settings for NChartOHLCSeries.</Abstract>
+			<DeclaredIn>NChartOHLCSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="35"/>
+		</Token>
+		
+		
+        
+	</File>
+</Tokens>

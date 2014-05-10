@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/NChartCaptionBlockAlignment.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/NChartCaptionBlockAlignment</TokenIdentifier>
+			<Abstract type="html">The NChartCaptionBlockAlignment enum provides constants to control position of the caption&apos;s block.</Abstract>
+			<DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+			
+			<NodeRef refid="69"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartCaptionBlockAlignmentTopLeft</TokenIdentifier>
+            <Abstract type="html">Align caption in the top left corner.
+     </Abstract>
+            <Declaration>NChartCaptionBlockAlignmentTopLeft</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="69"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartCaptionBlockAlignmentTopCenter</TokenIdentifier>
+            <Abstract type="html">Align caption at the center on the top of the screen.
+     </Abstract>
+            <Declaration>NChartCaptionBlockAlignmentTopCenter</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="69"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartCaptionBlockAlignmentTopRight</TokenIdentifier>
+            <Abstract type="html">Align caption in the top right corner.
+     </Abstract>
+            <Declaration>NChartCaptionBlockAlignmentTopRight</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="69"/>
+        </Token>
+        
+	</File>
+</Tokens>

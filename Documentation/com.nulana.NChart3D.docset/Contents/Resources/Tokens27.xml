@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartLegend.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartLegend</TokenIdentifier>
+			<Abstract type="html">The NChartLegend class provides methods to display the legend of the chart.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+            
+			
+			<NodeRef refid="27"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLegend/setFont:</TokenIdentifier>
+			<Abstract type="html">Font of the legend&apos;s text.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLegend/font</TokenIdentifier>
+			<Abstract type="html">Font of the legend&apos;s text.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartLegend/font</TokenIdentifier>
+			<Abstract type="html">Font of the legend&apos;s text.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLegend/setTextColor:</TokenIdentifier>
+			<Abstract type="html">Color of the legend&apos;s text.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLegend/textColor</TokenIdentifier>
+			<Abstract type="html">Color of the legend&apos;s text.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartLegend/textColor</TokenIdentifier>
+			<Abstract type="html">Color of the legend&apos;s text.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLegend/setFooter:</TokenIdentifier>
+			<Abstract type="html">Label that is placed on the bottom of the legend. It&apos;s nil by default.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartLabel</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartLabel *footer</Declaration>
+			
+			
+			<Anchor>//api/name/footer</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLegend/footer</TokenIdentifier>
+			<Abstract type="html">Label that is placed on the bottom of the legend. It&apos;s nil by default.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartLabel</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartLabel *footer</Declaration>
+			
+			
+			<Anchor>//api/name/footer</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartLegend/footer</TokenIdentifier>
+			<Abstract type="html">Label that is placed on the bottom of the legend. It&apos;s nil by default.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartLabel</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartLabel *footer</Declaration>
+			
+			
+			<Anchor>//api/name/footer</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLegend/setHeader:</TokenIdentifier>
+			<Abstract type="html">Label that is placed on the top of the legend. It&apos;s nil by default.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartLabel</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartLabel *header</Declaration>
+			
+			
+			<Anchor>//api/name/header</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLegend/header</TokenIdentifier>
+			<Abstract type="html">Label that is placed on the top of the legend. It&apos;s nil by default.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartLabel</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartLabel *header</Declaration>
+			
+			
+			<Anchor>//api/name/header</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartLegend/header</TokenIdentifier>
+			<Abstract type="html">Label that is placed on the top of the legend. It&apos;s nil by default.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartLabel</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartLabel *header</Declaration>
+			
+			
+			<Anchor>//api/name/header</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLegend/setBlockAlignment:</TokenIdentifier>
+			<Abstract type="html">Alignment of the legend.
+Please note, that if alignment is &lt;code&gt;NChartLegendBlockAlignmentLeft&lt;/code&gt;, &lt;code&gt;NChartLegendBlockAlignmentRight&lt;/code&gt;,
+&lt;code&gt;NChartLegendBlockAlignmentBottom&lt;/code&gt; or &lt;code&gt;NChartLegendBlockAlignmentTop&lt;/code&gt;, the border radius is
+ignored (assumed to be 0).</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartLegendBlockAlignment</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartLegendBlockAlignment blockAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/blockAlignment</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLegend/blockAlignment</TokenIdentifier>
+			<Abstract type="html">Alignment of the legend.
+Please note, that if alignment is &lt;code&gt;NChartLegendBlockAlignmentLeft&lt;/code&gt;, &lt;code&gt;NChartLegendBlockAlignmentRight&lt;/code&gt;,
+&lt;code&gt;NChartLegendBlockAlignmentBottom&lt;/code&gt; or &lt;code&gt;NChartLegendBlockAlignmentTop&lt;/code&gt;, the border radius is
+ignored (assumed to be 0).</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartLegendBlockAlignment</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartLegendBlockAlignment blockAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/blockAlignment</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartLegend/blockAlignment</TokenIdentifier>
+			<Abstract type="html">Alignment of the legend.
+Please note, that if alignment is &lt;code&gt;NChartLegendBlockAlignmentLeft&lt;/code&gt;, &lt;code&gt;NChartLegendBlockAlignmentRight&lt;/code&gt;,
+&lt;code&gt;NChartLegendBlockAlignmentBottom&lt;/code&gt; or &lt;code&gt;NChartLegendBlockAlignmentTop&lt;/code&gt;, the border radius is
+ignored (assumed to be 0).</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartLegendBlockAlignment</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartLegendBlockAlignment blockAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/blockAlignment</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLegend/setContentAlignment:</TokenIdentifier>
+			<Abstract type="html">Alignment of legend&apos;s content in legend&apos;s area. The default value is &lt;code&gt;NChartLegendContentAlignmentCenter&lt;/code&gt;.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartLegendContentAlignment</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartLegendContentAlignment contentAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/contentAlignment</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLegend/contentAlignment</TokenIdentifier>
+			<Abstract type="html">Alignment of legend&apos;s content in legend&apos;s area. The default value is &lt;code&gt;NChartLegendContentAlignmentCenter&lt;/code&gt;.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartLegendContentAlignment</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartLegendContentAlignment contentAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/contentAlignment</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartLegend/contentAlignment</TokenIdentifier>
+			<Abstract type="html">Alignment of legend&apos;s content in legend&apos;s area. The default value is &lt;code&gt;NChartLegendContentAlignmentCenter&lt;/code&gt;.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartLegendContentAlignment</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartLegendContentAlignment contentAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/contentAlignment</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLegend/setColumnCount:</TokenIdentifier>
+			<Abstract type="html">Number of columns in legend. If 0 or less than 0, entries are aligned in lines with no columns.
+The default value is 0.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int columnCount</Declaration>
+			
+			
+			<Anchor>//api/name/columnCount</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLegend/columnCount</TokenIdentifier>
+			<Abstract type="html">Number of columns in legend. If 0 or less than 0, entries are aligned in lines with no columns.
+The default value is 0.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int columnCount</Declaration>
+			
+			
+			<Anchor>//api/name/columnCount</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartLegend/columnCount</TokenIdentifier>
+			<Abstract type="html">Number of columns in legend. If 0 or less than 0, entries are aligned in lines with no columns.
+The default value is 0.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int columnCount</Declaration>
+			
+			
+			<Anchor>//api/name/columnCount</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLegend/setMaxSize:</TokenIdentifier>
+			<Abstract type="html">Maximal size of legend in pixels. The default value is 200. If the legend&apos;s block alignment is so that the legend
+grows vertically, it is interpreted as maximal height, if the legend grows horizontally -- as maximal width.
+To be more precise, the mapping works as follows
+- by &lt;code&gt;NChartLegendBlockAlignmentBottomLeft&lt;/code&gt; it is height;
+- by &lt;code&gt;NChartLegendBlockAlignmentBottomCenter&lt;/code&gt; it is height;
+- by &lt;code&gt;NChartLegendBlockAlignmentBottomRight&lt;/code&gt; it is height;
+- by &lt;code&gt;NChartLegendBlockAlignmentCenterLeft&lt;/code&gt; it is width;
+- by &lt;code&gt;NChartLegendBlockAlignmentCenterCenter&lt;/code&gt; it is ignored;
+- by &lt;code&gt;NChartLegendBlockAlignmentCenterRight&lt;/code&gt; it is width;
+- by &lt;code&gt;NChartLegendBlockAlignmentTopLeft&lt;/code&gt; it is height;
+- by &lt;code&gt;NChartLegendBlockAlignmentTopCenter&lt;/code&gt; it is height;
+- by &lt;code&gt;NChartLegendBlockAlignmentTopRight&lt;/code&gt; it is height;
+- by &lt;code&gt;NChartLegendBlockAlignmentLeft&lt;/code&gt; it is width;
+- by &lt;code&gt;NChartLegendBlockAlignmentRight&lt;/code&gt; it is width;
+- by &lt;code&gt;NChartLegendBlockAlignmentBottom&lt;/code&gt; it is height;
+- by &lt;code&gt;NChartLegendBlockAlignmentTop&lt;/code&gt; it is height.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float maxSize</Declaration>
+			
+			
+			<Anchor>//api/name/maxSize</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLegend/maxSize</TokenIdentifier>
+			<Abstract type="html">Maximal size of legend in pixels. The default value is 200. If the legend&apos;s block alignment is so that the legend
+grows vertically, it is interpreted as maximal height, if the legend grows horizontally -- as maximal width.
+To be more precise, the mapping works as follows
+- by &lt;code&gt;NChartLegendBlockAlignmentBottomLeft&lt;/code&gt; it is height;
+- by &lt;code&gt;NChartLegendBlockAlignmentBottomCenter&lt;/code&gt; it is height;
+- by &lt;code&gt;NChartLegendBlockAlignmentBottomRight&lt;/code&gt; it is height;
+- by &lt;code&gt;NChartLegendBlockAlignmentCenterLeft&lt;/code&gt; it is width;
+- by &lt;code&gt;NChartLegendBlockAlignmentCenterCenter&lt;/code&gt; it is ignored;
+- by &lt;code&gt;NChartLegendBlockAlignmentCenterRight&lt;/code&gt; it is width;
+- by &lt;code&gt;NChartLegendBlockAlignmentTopLeft&lt;/code&gt; it is height;
+- by &lt;code&gt;NChartLegendBlockAlignmentTopCenter&lt;/code&gt; it is height;
+- by &lt;code&gt;NChartLegendBlockAlignmentTopRight&lt;/code&gt; it is height;
+- by &lt;code&gt;NChartLegendBlockAlignmentLeft&lt;/code&gt; it is width;
+- by &lt;code&gt;NChartLegendBlockAlignmentRight&lt;/code&gt; it is width;
+- by &lt;code&gt;NChartLegendBlockAlignmentBottom&lt;/code&gt; it is height;
+- by &lt;code&gt;NChartLegendBlockAlignmentTop&lt;/code&gt; it is height.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float maxSize</Declaration>
+			
+			
+			<Anchor>//api/name/maxSize</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartLegend/maxSize</TokenIdentifier>
+			<Abstract type="html">Maximal size of legend in pixels. The default value is 200. If the legend&apos;s block alignment is so that the legend
+grows vertically, it is interpreted as maximal height, if the legend grows horizontally -- as maximal width.
+To be more precise, the mapping works as follows
+- by &lt;code&gt;NChartLegendBlockAlignmentBottomLeft&lt;/code&gt; it is height;
+- by &lt;code&gt;NChartLegendBlockAlignmentBottomCenter&lt;/code&gt; it is height;
+- by &lt;code&gt;NChartLegendBlockAlignmentBottomRight&lt;/code&gt; it is height;
+- by &lt;code&gt;NChartLegendBlockAlignmentCenterLeft&lt;/code&gt; it is width;
+- by &lt;code&gt;NChartLegendBlockAlignmentCenterCenter&lt;/code&gt; it is ignored;
+- by &lt;code&gt;NChartLegendBlockAlignmentCenterRight&lt;/code&gt; it is width;
+- by &lt;code&gt;NChartLegendBlockAlignmentTopLeft&lt;/code&gt; it is height;
+- by &lt;code&gt;NChartLegendBlockAlignmentTopCenter&lt;/code&gt; it is height;
+- by &lt;code&gt;NChartLegendBlockAlignmentTopRight&lt;/code&gt; it is height;
+- by &lt;code&gt;NChartLegendBlockAlignmentLeft&lt;/code&gt; it is width;
+- by &lt;code&gt;NChartLegendBlockAlignmentRight&lt;/code&gt; it is width;
+- by &lt;code&gt;NChartLegendBlockAlignmentBottom&lt;/code&gt; it is height;
+- by &lt;code&gt;NChartLegendBlockAlignmentTop&lt;/code&gt; it is height.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float maxSize</Declaration>
+			
+			
+			<Anchor>//api/name/maxSize</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLegend/setMinimalEntriesPadding:</TokenIdentifier>
+			<Abstract type="html">Minimal padding between entries in pixels. The default value is 10.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float minimalEntriesPadding</Declaration>
+			
+			
+			<Anchor>//api/name/minimalEntriesPadding</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLegend/minimalEntriesPadding</TokenIdentifier>
+			<Abstract type="html">Minimal padding between entries in pixels. The default value is 10.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float minimalEntriesPadding</Declaration>
+			
+			
+			<Anchor>//api/name/minimalEntriesPadding</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartLegend/minimalEntriesPadding</TokenIdentifier>
+			<Abstract type="html">Minimal padding between entries in pixels. The default value is 10.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float minimalEntriesPadding</Declaration>
+			
+			
+			<Anchor>//api/name/minimalEntriesPadding</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLegend/setScrollerPadding:</TokenIdentifier>
+			<Abstract type="html">Padding inside the scroller.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NChartMargin scrollerPadding</Declaration>
+			
+			
+			<Anchor>//api/name/scrollerPadding</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLegend/scrollerPadding</TokenIdentifier>
+			<Abstract type="html">Padding inside the scroller.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NChartMargin scrollerPadding</Declaration>
+			
+			
+			<Anchor>//api/name/scrollerPadding</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartLegend/scrollerPadding</TokenIdentifier>
+			<Abstract type="html">Padding inside the scroller.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NChartMargin scrollerPadding</Declaration>
+			
+			
+			<Anchor>//api/name/scrollerPadding</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLegend/setOrientation:</TokenIdentifier>
+			<Abstract type="html">Orientation of the legend.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartLegendOrientation</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartLegendOrientation orientation</Declaration>
+			
+			
+			<Anchor>//api/name/orientation</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLegend/orientation</TokenIdentifier>
+			<Abstract type="html">Orientation of the legend.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartLegendOrientation</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartLegendOrientation orientation</Declaration>
+			
+			
+			<Anchor>//api/name/orientation</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartLegend/orientation</TokenIdentifier>
+			<Abstract type="html">Orientation of the legend.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartLegendOrientation</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartLegendOrientation orientation</Declaration>
+			
+			
+			<Anchor>//api/name/orientation</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLegend/setOrigin:</TokenIdentifier>
+			<Abstract type="html">Origin of the legend. It&apos;s a starting point that has effect only with orientation set to one of &quot;free&quot;-kinds.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGPoint origin</Declaration>
+			
+			
+			<Anchor>//api/name/origin</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLegend/origin</TokenIdentifier>
+			<Abstract type="html">Origin of the legend. It&apos;s a starting point that has effect only with orientation set to one of &quot;free&quot;-kinds.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGPoint origin</Declaration>
+			
+			
+			<Anchor>//api/name/origin</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartLegend/origin</TokenIdentifier>
+			<Abstract type="html">Origin of the legend. It&apos;s a starting point that has effect only with orientation set to one of &quot;free&quot;-kinds.</Abstract>
+			<DeclaredIn>NChartLegend.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGPoint origin</Declaration>
+			
+			
+			<Anchor>//api/name/origin</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

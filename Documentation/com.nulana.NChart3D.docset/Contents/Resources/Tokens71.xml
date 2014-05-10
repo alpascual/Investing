@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/NChartLegendBlockAlignment.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/NChartLegendBlockAlignment</TokenIdentifier>
+			<Abstract type="html">The NChartLegendBlockAlignment enum provides constants for different predefined positions of the legend on the screen.</Abstract>
+			<DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+			
+			<NodeRef refid="71"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartLegendBlockAlignmentTopLeft</TokenIdentifier>
+            <Abstract type="html">Legend is in the top left corner of the screen.
+     </Abstract>
+            <Declaration>NChartLegendBlockAlignmentTopLeft</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="71"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartLegendBlockAlignmentTopCenter</TokenIdentifier>
+            <Abstract type="html">Legend is in the center on the top of the screen.
+     </Abstract>
+            <Declaration>NChartLegendBlockAlignmentTopCenter</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="71"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartLegendBlockAlignmentTopRight</TokenIdentifier>
+            <Abstract type="html">Legend is in the top right corner of the screen.
+     </Abstract>
+            <Declaration>NChartLegendBlockAlignmentTopRight</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="71"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartLegendBlockAlignmentCenterLeft</TokenIdentifier>
+            <Abstract type="html">Legend is on the left in the middle of the screen.
+     </Abstract>
+            <Declaration>NChartLegendBlockAlignmentCenterLeft</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="71"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartLegendBlockAlignmentCenterCenter</TokenIdentifier>
+            <Abstract type="html">Legend is in the center of the screen.
+     </Abstract>
+            <Declaration>NChartLegendBlockAlignmentCenterCenter</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="71"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartLegendBlockAlignmentCenterRight</TokenIdentifier>
+            <Abstract type="html">Legend is on the right in the middle of the screen.
+     </Abstract>
+            <Declaration>NChartLegendBlockAlignmentCenterRight</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="71"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartLegendBlockAlignmentBottomLeft</TokenIdentifier>
+            <Abstract type="html">Legend is in the bottom left corner of the screen.
+     </Abstract>
+            <Declaration>NChartLegendBlockAlignmentBottomLeft</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="71"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartLegendBlockAlignmentBottomCenter</TokenIdentifier>
+            <Abstract type="html">Legend is in the center on the bottom of the screen.
+     </Abstract>
+            <Declaration>NChartLegendBlockAlignmentBottomCenter</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="71"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartLegendBlockAlignmentBottomRight</TokenIdentifier>
+            <Abstract type="html">Legend is in the bottom right corner of the screen.
+     </Abstract>
+            <Declaration>NChartLegendBlockAlignmentBottomRight</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="71"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartLegendBlockAlignmentLeft</TokenIdentifier>
+            <Abstract type="html">Legend fills the whole left area of the screen.
+     </Abstract>
+            <Declaration>NChartLegendBlockAlignmentLeft</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="71"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartLegendBlockAlignmentRight</TokenIdentifier>
+            <Abstract type="html">Legend fills the whole right area of the screen.
+     </Abstract>
+            <Declaration>NChartLegendBlockAlignmentRight</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="71"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartLegendBlockAlignmentBottom</TokenIdentifier>
+            <Abstract type="html">Legend fills the whole bottom area of the screen.
+     </Abstract>
+            <Declaration>NChartLegendBlockAlignmentBottom</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="71"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartLegendBlockAlignmentTop</TokenIdentifier>
+            <Abstract type="html">Legend fills the whole top area of the screen.
+     </Abstract>
+            <Declaration>NChartLegendBlockAlignmentTop</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="71"/>
+        </Token>
+        
+	</File>
+</Tokens>

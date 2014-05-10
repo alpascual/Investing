@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartLinearInterpolator.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartLinearInterpolator</TokenIdentifier>
+			<Abstract type="html">The NChartLinearInterpolator class provides linear interpolator. If it is used, the animated values will changed in
+time as follows: v(t) = (1 - t)  vfrom + t  vto, where vfrom, vto are respectively the start and end values,
+t is the time.</Abstract>
+			<DeclaredIn>NChartLinearInterpolator.h</DeclaredIn>
+            
+			
+			<NodeRef refid="31"/>
+		</Token>
+		
+		
+        
+	</File>
+</Tokens>

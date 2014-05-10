@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartBubbleSeries.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartBubbleSeries</TokenIdentifier>
+			<Abstract type="html">The NChartBubbleSeries class provides methods to display bubble series.</Abstract>
+			<DeclaredIn>NChartBubbleSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartBubbleSeries/setMarker:</TokenIdentifier>
+			<Abstract type="html">Default marker of the series that is displayed as a bubble. It is nil by default.</Abstract>
+			<DeclaredIn>NChartBubbleSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartMarker</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartMarker *marker</Declaration>
+			
+			
+			<Anchor>//api/name/marker</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartBubbleSeries/marker</TokenIdentifier>
+			<Abstract type="html">Default marker of the series that is displayed as a bubble. It is nil by default.</Abstract>
+			<DeclaredIn>NChartBubbleSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartMarker</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartMarker *marker</Declaration>
+			
+			
+			<Anchor>//api/name/marker</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartBubbleSeries/marker</TokenIdentifier>
+			<Abstract type="html">Default marker of the series that is displayed as a bubble. It is nil by default.</Abstract>
+			<DeclaredIn>NChartBubbleSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartMarker</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartMarker *marker</Declaration>
+			
+			
+			<Anchor>//api/name/marker</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

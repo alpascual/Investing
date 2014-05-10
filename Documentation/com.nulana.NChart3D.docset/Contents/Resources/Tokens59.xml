@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartTooltip.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartTooltip</TokenIdentifier>
+			<Abstract type="html">The NChartTooltip class provides methods to display the tooltip for the chart&apos;s points.</Abstract>
+			<DeclaredIn>NChartTooltip.h</DeclaredIn>
+            
+			
+			<NodeRef refid="59"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTooltip/setVisible:animated:</TokenIdentifier>
+			<Abstract type="html">Change visibility of tooltip animated.</Abstract>
+			<DeclaredIn>NChartTooltip.h</DeclaredIn>
+			
+			<Declaration>- (void)setVisible:(BOOL)visible animated:(float)duration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>visible</Name>
+					<Abstract type="html">- flag of visibility.</Abstract>
+				</Parameter><Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">- duration of animation in seconds.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setVisible:animated:</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTooltip/setVerticalAlignment:</TokenIdentifier>
+			<Abstract type="html">Vertical alignment of the tooltip. It is used if tooltip has no arrow presented, otherwise it is ignored.</Abstract>
+			<DeclaredIn>NChartTooltip.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartTooltipVerticalAlignment</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartTooltipVerticalAlignment verticalAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/verticalAlignment</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTooltip/verticalAlignment</TokenIdentifier>
+			<Abstract type="html">Vertical alignment of the tooltip. It is used if tooltip has no arrow presented, otherwise it is ignored.</Abstract>
+			<DeclaredIn>NChartTooltip.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartTooltipVerticalAlignment</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartTooltipVerticalAlignment verticalAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/verticalAlignment</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartTooltip/verticalAlignment</TokenIdentifier>
+			<Abstract type="html">Vertical alignment of the tooltip. It is used if tooltip has no arrow presented, otherwise it is ignored.</Abstract>
+			<DeclaredIn>NChartTooltip.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartTooltipVerticalAlignment</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartTooltipVerticalAlignment verticalAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/verticalAlignment</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTooltip/setAlwaysInPlotArea:</TokenIdentifier>
+			<Abstract type="html">Flag determining if the tooltip should always be inside of the chart&apos;s plot area. If YES, the tooltip may be shifted
+to fit in the plot area when it&apos;s pivot is near the border of the chart&apos;s plot area. If NO, it is never shifted
+and can overlap the axis when it&apos;s pivot is near the border of the chart&apos;s plot area. The default value is YES.</Abstract>
+			<DeclaredIn>NChartTooltip.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL alwaysInPlotArea</Declaration>
+			
+			
+			<Anchor>//api/name/alwaysInPlotArea</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartTooltip/alwaysInPlotArea</TokenIdentifier>
+			<Abstract type="html">Flag determining if the tooltip should always be inside of the chart&apos;s plot area. If YES, the tooltip may be shifted
+to fit in the plot area when it&apos;s pivot is near the border of the chart&apos;s plot area. If NO, it is never shifted
+and can overlap the axis when it&apos;s pivot is near the border of the chart&apos;s plot area. The default value is YES.</Abstract>
+			<DeclaredIn>NChartTooltip.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL alwaysInPlotArea</Declaration>
+			
+			
+			<Anchor>//api/name/alwaysInPlotArea</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartTooltip/alwaysInPlotArea</TokenIdentifier>
+			<Abstract type="html">Flag determining if the tooltip should always be inside of the chart&apos;s plot area. If YES, the tooltip may be shifted
+to fit in the plot area when it&apos;s pivot is near the border of the chart&apos;s plot area. If NO, it is never shifted
+and can overlap the axis when it&apos;s pivot is near the border of the chart&apos;s plot area. The default value is YES.</Abstract>
+			<DeclaredIn>NChartTooltip.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL alwaysInPlotArea</Declaration>
+			
+			
+			<Anchor>//api/name/alwaysInPlotArea</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

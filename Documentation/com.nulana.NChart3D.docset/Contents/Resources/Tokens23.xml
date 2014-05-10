@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartGradientBrush.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartGradientBrush</TokenIdentifier>
+			<Abstract type="html">The NChartGradientBrush class provides common methods for the brush that fills an area with some gradient.</Abstract>
+			<DeclaredIn>NChartGradientBrush.h</DeclaredIn>
+            
+			
+			<NodeRef refid="23"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartGradientBrush/setGradientStops:</TokenIdentifier>
+			<Abstract type="html">Array of gradient-stops that construct the gradient for this brush.</Abstract>
+			<DeclaredIn>NChartGradientBrush.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartGradientStop</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSArray *gradientStops</Declaration>
+			
+			
+			<Anchor>//api/name/gradientStops</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartGradientBrush/gradientStops</TokenIdentifier>
+			<Abstract type="html">Array of gradient-stops that construct the gradient for this brush.</Abstract>
+			<DeclaredIn>NChartGradientBrush.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartGradientStop</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSArray *gradientStops</Declaration>
+			
+			
+			<Anchor>//api/name/gradientStops</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartGradientBrush/gradientStops</TokenIdentifier>
+			<Abstract type="html">Array of gradient-stops that construct the gradient for this brush.</Abstract>
+			<DeclaredIn>NChartGradientBrush.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartGradientStop</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSArray *gradientStops</Declaration>
+			
+			
+			<Anchor>//api/name/gradientStops</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

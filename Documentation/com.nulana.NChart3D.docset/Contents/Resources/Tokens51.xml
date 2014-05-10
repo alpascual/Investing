@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartSolidSeriesSettings.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartSolidSeriesSettings</TokenIdentifier>
+			<Abstract type="html">The NChartSolidSeriesSettings class provides common settings for NChartSolidSeries.</Abstract>
+			<DeclaredIn>NChartSolidSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="51"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSolidSeriesSettings/setFillRatio:</TokenIdentifier>
+			<Abstract type="html">Fill ratio for series that determines the amount of places for one series. For example, of the fill ratio is 1.0 and
+the column series is displayed, one column (or one group of columns, if there are many series on one chart
+at the same time) fills the whole area of one tick on the X and Z axes (for bar series -- on the Y and Z
+respectively, for area -- it&apos;s Z-width and so on). If the fill ratio is 0.5, the column fills half the area of one
+tick and so on. The default value is 0.7.</Abstract>
+			<DeclaredIn>NChartSolidSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float fillRatio</Declaration>
+			
+			
+			<Anchor>//api/name/fillRatio</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSolidSeriesSettings/fillRatio</TokenIdentifier>
+			<Abstract type="html">Fill ratio for series that determines the amount of places for one series. For example, of the fill ratio is 1.0 and
+the column series is displayed, one column (or one group of columns, if there are many series on one chart
+at the same time) fills the whole area of one tick on the X and Z axes (for bar series -- on the Y and Z
+respectively, for area -- it&apos;s Z-width and so on). If the fill ratio is 0.5, the column fills half the area of one
+tick and so on. The default value is 0.7.</Abstract>
+			<DeclaredIn>NChartSolidSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float fillRatio</Declaration>
+			
+			
+			<Anchor>//api/name/fillRatio</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartSolidSeriesSettings/fillRatio</TokenIdentifier>
+			<Abstract type="html">Fill ratio for series that determines the amount of places for one series. For example, of the fill ratio is 1.0 and
+the column series is displayed, one column (or one group of columns, if there are many series on one chart
+at the same time) fills the whole area of one tick on the X and Z axes (for bar series -- on the Y and Z
+respectively, for area -- it&apos;s Z-width and so on). If the fill ratio is 0.5, the column fills half the area of one
+tick and so on. The default value is 0.7.</Abstract>
+			<DeclaredIn>NChartSolidSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float fillRatio</Declaration>
+			
+			
+			<Anchor>//api/name/fillRatio</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

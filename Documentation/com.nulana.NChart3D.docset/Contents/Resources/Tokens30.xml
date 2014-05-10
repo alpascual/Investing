@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartLinearGradientBrush.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartLinearGradientBrush</TokenIdentifier>
+			<Abstract type="html">The NChartLinearGradientBrush class provides a brush that fills the area with a linear gradient.</Abstract>
+			<DeclaredIn>NChartLinearGradientBrush.h</DeclaredIn>
+            
+			
+			<NodeRef refid="30"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/NChartLinearGradientBrush/linearGradientBrushFromColor:toColor:</TokenIdentifier>
+			<Abstract type="html">Create linear gradient brush with given colors. This is a convenient equivalent to creating stops, arraying them and
+then setting the array to the new instance of the linear gradient brush.</Abstract>
+			<DeclaredIn>NChartLinearGradientBrush.h</DeclaredIn>
+			
+			<Declaration>+ (NChartLinearGradientBrush *)linearGradientBrushFromColor:(UIColor *)color1 toColor:(UIColor *)color2</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>color1</Name>
+					<Abstract type="html">- first color of gradient.</Abstract>
+				</Parameter><Parameter>
+					<Name>color2</Name>
+					<Abstract type="html">- second color of gradient.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a new instance of the linear gradient brush.</Abstract></ReturnValue>
+			<Anchor>//api/name/linearGradientBrushFromColor:toColor:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLinearGradientBrush/setStartPoint:</TokenIdentifier>
+			<Abstract type="html">Starting point of the gradient. It is relative to the area, its value should be in (0..1; 0..1).
+(0; 0) is the bottom left corner of the area, (1; 1) is the top right corner.</Abstract>
+			<DeclaredIn>NChartLinearGradientBrush.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGPoint startPoint</Declaration>
+			
+			
+			<Anchor>//api/name/startPoint</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLinearGradientBrush/startPoint</TokenIdentifier>
+			<Abstract type="html">Starting point of the gradient. It is relative to the area, its value should be in (0..1; 0..1).
+(0; 0) is the bottom left corner of the area, (1; 1) is the top right corner.</Abstract>
+			<DeclaredIn>NChartLinearGradientBrush.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGPoint startPoint</Declaration>
+			
+			
+			<Anchor>//api/name/startPoint</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartLinearGradientBrush/startPoint</TokenIdentifier>
+			<Abstract type="html">Starting point of the gradient. It is relative to the area, its value should be in (0..1; 0..1).
+(0; 0) is the bottom left corner of the area, (1; 1) is the top right corner.</Abstract>
+			<DeclaredIn>NChartLinearGradientBrush.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGPoint startPoint</Declaration>
+			
+			
+			<Anchor>//api/name/startPoint</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLinearGradientBrush/setEndPoint:</TokenIdentifier>
+			<Abstract type="html">Ending point of the gradient. It is relative to area, its value should be in (0..1; 0..1).
+(0; 0) is the bottom left corner of the area, (1; 1) is the top right corner.</Abstract>
+			<DeclaredIn>NChartLinearGradientBrush.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGPoint endPoint</Declaration>
+			
+			
+			<Anchor>//api/name/endPoint</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLinearGradientBrush/endPoint</TokenIdentifier>
+			<Abstract type="html">Ending point of the gradient. It is relative to area, its value should be in (0..1; 0..1).
+(0; 0) is the bottom left corner of the area, (1; 1) is the top right corner.</Abstract>
+			<DeclaredIn>NChartLinearGradientBrush.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGPoint endPoint</Declaration>
+			
+			
+			<Anchor>//api/name/endPoint</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartLinearGradientBrush/endPoint</TokenIdentifier>
+			<Abstract type="html">Ending point of the gradient. It is relative to area, its value should be in (0..1; 0..1).
+(0; 0) is the bottom left corner of the area, (1; 1) is the top right corner.</Abstract>
+			<DeclaredIn>NChartLinearGradientBrush.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGPoint endPoint</Declaration>
+			
+			
+			<Anchor>//api/name/endPoint</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

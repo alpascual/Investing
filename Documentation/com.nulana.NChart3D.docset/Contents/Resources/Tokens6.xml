@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartAxisGrid.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+			<Abstract type="html">The NChartAxisGrid class provides methods to display the grid for the chart&apos;s axes.</Abstract>
+			<DeclaredIn>NChartAxisGrid.h</DeclaredIn>
+            
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartAxisGrid/setColor:</TokenIdentifier>
+			<Abstract type="html">Color of the grid lines.</Abstract>
+			<DeclaredIn>NChartAxisGrid.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartAxisGrid/color</TokenIdentifier>
+			<Abstract type="html">Color of the grid lines.</Abstract>
+			<DeclaredIn>NChartAxisGrid.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartAxisGrid/color</TokenIdentifier>
+			<Abstract type="html">Color of the grid lines.</Abstract>
+			<DeclaredIn>NChartAxisGrid.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartAxisGrid/setThickness:</TokenIdentifier>
+			<Abstract type="html">Thickness of the grid lines in pixels. The default value is 1.</Abstract>
+			<DeclaredIn>NChartAxisGrid.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float thickness</Declaration>
+			
+			
+			<Anchor>//api/name/thickness</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartAxisGrid/thickness</TokenIdentifier>
+			<Abstract type="html">Thickness of the grid lines in pixels. The default value is 1.</Abstract>
+			<DeclaredIn>NChartAxisGrid.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float thickness</Declaration>
+			
+			
+			<Anchor>//api/name/thickness</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartAxisGrid/thickness</TokenIdentifier>
+			<Abstract type="html">Thickness of the grid lines in pixels. The default value is 1.</Abstract>
+			<DeclaredIn>NChartAxisGrid.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float thickness</Declaration>
+			
+			
+			<Anchor>//api/name/thickness</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

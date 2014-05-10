@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/NChartTexturePosition.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/NChartTexturePosition</TokenIdentifier>
+			<Abstract type="html">The NChartTexturePosition enum provides constants that control position of texture.</Abstract>
+			<DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+			
+			<NodeRef refid="76"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartTexturePositionTopLeftCorner</TokenIdentifier>
+            <Abstract type="html">Position texture in the top left corner of the area.
+     </Abstract>
+            <Declaration>NChartTexturePositionTopLeftCorner</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="76"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartTexturePositionCenter</TokenIdentifier>
+            <Abstract type="html">Position texture at the center of the area.
+     </Abstract>
+            <Declaration>NChartTexturePositionCenter</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="76"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartTexturePositionScale</TokenIdentifier>
+            <Abstract type="html">Scale texture to fill the whole area.
+     </Abstract>
+            <Declaration>NChartTexturePositionScale</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="76"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartTexturePositionScaleKeepMinAspect</TokenIdentifier>
+            <Abstract type="html">Scale texture keeping aspect so, that it fits in the area.
+     </Abstract>
+            <Declaration>NChartTexturePositionScaleKeepMinAspect</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="76"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartTexturePositionScaleKeepMaxAspect</TokenIdentifier>
+            <Abstract type="html">Scale texture keeping aspect so, that it covers the whole area.
+     </Abstract>
+            <Declaration>NChartTexturePositionScaleKeepMaxAspect</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="76"/>
+        </Token>
+        
+	</File>
+</Tokens>

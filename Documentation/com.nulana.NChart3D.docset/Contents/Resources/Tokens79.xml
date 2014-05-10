@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/NChartTimeAxisTickShape.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/NChartTimeAxisTickShape</TokenIdentifier>
+			<Abstract type="html">The NChartTimeAxisTickShape enum provides constants to control the shape of ticks on the time axis.</Abstract>
+			<DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+			
+			<NodeRef refid="79"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartTimeAxisTickShapeLine</TokenIdentifier>
+            <Abstract type="html">Ticks in the shape of a line.
+     </Abstract>
+            <Declaration>NChartTimeAxisTickShapeLine</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="79"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartTimeAxisTickShapeTriangle</TokenIdentifier>
+            <Abstract type="html">Ticks in the shape of a triangle.
+     </Abstract>
+            <Declaration>NChartTimeAxisTickShapeTriangle</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="79"/>
+        </Token>
+        
+	</File>
+</Tokens>

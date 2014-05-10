@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartSolidSeries.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartSolidSeries</TokenIdentifier>
+			<Abstract type="html">The NChartSolidSeries class provides common methods to display series that are filled with some brush and have a border.</Abstract>
+			<DeclaredIn>NChartSolidSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="50"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSolidSeries/setBrush:</TokenIdentifier>
+			<Abstract type="html">Brush that fills the series.</Abstract>
+			<DeclaredIn>NChartSolidSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartBrush</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartBrush *brush</Declaration>
+			
+			
+			<Anchor>//api/name/brush</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSolidSeries/brush</TokenIdentifier>
+			<Abstract type="html">Brush that fills the series.</Abstract>
+			<DeclaredIn>NChartSolidSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartBrush</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartBrush *brush</Declaration>
+			
+			
+			<Anchor>//api/name/brush</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartSolidSeries/brush</TokenIdentifier>
+			<Abstract type="html">Brush that fills the series.</Abstract>
+			<DeclaredIn>NChartSolidSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartBrush</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartBrush *brush</Declaration>
+			
+			
+			<Anchor>//api/name/brush</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSolidSeries/setBorderBrush:</TokenIdentifier>
+			<Abstract type="html">Brush of the border that surrounds the series.</Abstract>
+			<DeclaredIn>NChartSolidSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartBrush</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartBrush *borderBrush</Declaration>
+			
+			
+			<Anchor>//api/name/borderBrush</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSolidSeries/borderBrush</TokenIdentifier>
+			<Abstract type="html">Brush of the border that surrounds the series.</Abstract>
+			<DeclaredIn>NChartSolidSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartBrush</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartBrush *borderBrush</Declaration>
+			
+			
+			<Anchor>//api/name/borderBrush</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartSolidSeries/borderBrush</TokenIdentifier>
+			<Abstract type="html">Brush of the border that surrounds the series.</Abstract>
+			<DeclaredIn>NChartSolidSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartBrush</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartBrush *borderBrush</Declaration>
+			
+			
+			<Anchor>//api/name/borderBrush</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSolidSeries/setBorderThickness:</TokenIdentifier>
+			<Abstract type="html">Thickness (in pixels) of the border that surrounds the series.</Abstract>
+			<DeclaredIn>NChartSolidSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float borderThickness</Declaration>
+			
+			
+			<Anchor>//api/name/borderThickness</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSolidSeries/borderThickness</TokenIdentifier>
+			<Abstract type="html">Thickness (in pixels) of the border that surrounds the series.</Abstract>
+			<DeclaredIn>NChartSolidSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float borderThickness</Declaration>
+			
+			
+			<Anchor>//api/name/borderThickness</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartSolidSeries/borderThickness</TokenIdentifier>
+			<Abstract type="html">Thickness (in pixels) of the border that surrounds the series.</Abstract>
+			<DeclaredIn>NChartSolidSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float borderThickness</Declaration>
+			
+			
+			<Anchor>//api/name/borderThickness</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

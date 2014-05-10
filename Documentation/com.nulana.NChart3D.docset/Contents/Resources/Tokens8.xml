@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartBandSeries.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartBandSeries</TokenIdentifier>
+			<Abstract type="html">The NChartBandSeries class provides methods to display band series. This series type is for 2D only.</Abstract>
+			<DeclaredIn>NChartBandSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="8"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartBandSeries/setLowBorderColor:</TokenIdentifier>
+			<Abstract type="html">Color for the low border.</Abstract>
+			<DeclaredIn>NChartBandSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *lowBorderColor</Declaration>
+			
+			
+			<Anchor>//api/name/lowBorderColor</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartBandSeries/lowBorderColor</TokenIdentifier>
+			<Abstract type="html">Color for the low border.</Abstract>
+			<DeclaredIn>NChartBandSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *lowBorderColor</Declaration>
+			
+			
+			<Anchor>//api/name/lowBorderColor</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartBandSeries/lowBorderColor</TokenIdentifier>
+			<Abstract type="html">Color for the low border.</Abstract>
+			<DeclaredIn>NChartBandSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *lowBorderColor</Declaration>
+			
+			
+			<Anchor>//api/name/lowBorderColor</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartBandSeries/setHighBorderColor:</TokenIdentifier>
+			<Abstract type="html">Color for the high border.</Abstract>
+			<DeclaredIn>NChartBandSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *highBorderColor</Declaration>
+			
+			
+			<Anchor>//api/name/highBorderColor</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartBandSeries/highBorderColor</TokenIdentifier>
+			<Abstract type="html">Color for the high border.</Abstract>
+			<DeclaredIn>NChartBandSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *highBorderColor</Declaration>
+			
+			
+			<Anchor>//api/name/highBorderColor</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartBandSeries/highBorderColor</TokenIdentifier>
+			<Abstract type="html">Color for the high border.</Abstract>
+			<DeclaredIn>NChartBandSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *highBorderColor</Declaration>
+			
+			
+			<Anchor>//api/name/highBorderColor</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

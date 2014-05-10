@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartBubbleSeriesSettings.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartBubbleSeriesSettings</TokenIdentifier>
+			<Abstract type="html">The NChartBubbleSeriesSettings class provides global settings for NChartBubbleSeries.</Abstract>
+			<DeclaredIn>NChartBubbleSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+        
+	</File>
+</Tokens>

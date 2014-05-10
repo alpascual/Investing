@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartCandlestickSeriesSettings.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartCandlestickSeriesSettings</TokenIdentifier>
+			<Abstract type="html">The NChartCandlestickSeriesSettings class provides global settings for NChartCandlestickSeries.</Abstract>
+			<DeclaredIn>NChartCandlestickSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="17"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCandlestickSeriesSettings/setCylindersResolution:</TokenIdentifier>
+			<Abstract type="html">The resolution of cylinders. Resolution is the amount of vertices that build the circle.
+For example if you want to get a square candlestick, you should set resolution to 4. If you want to get a cylindrical
+candlestick, you may set a larger value. But the larger is the resolution, the more memory is used and the slower the
+rendering will be, so you should find out the minimal acceptable value. A good value for cylinder is 16 or 20.
+The default value is 20.</Abstract>
+			<DeclaredIn>NChartCandlestickSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int cylindersResolution</Declaration>
+			
+			
+			<Anchor>//api/name/cylindersResolution</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCandlestickSeriesSettings/cylindersResolution</TokenIdentifier>
+			<Abstract type="html">The resolution of cylinders. Resolution is the amount of vertices that build the circle.
+For example if you want to get a square candlestick, you should set resolution to 4. If you want to get a cylindrical
+candlestick, you may set a larger value. But the larger is the resolution, the more memory is used and the slower the
+rendering will be, so you should find out the minimal acceptable value. A good value for cylinder is 16 or 20.
+The default value is 20.</Abstract>
+			<DeclaredIn>NChartCandlestickSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int cylindersResolution</Declaration>
+			
+			
+			<Anchor>//api/name/cylindersResolution</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCandlestickSeriesSettings/cylindersResolution</TokenIdentifier>
+			<Abstract type="html">The resolution of cylinders. Resolution is the amount of vertices that build the circle.
+For example if you want to get a square candlestick, you should set resolution to 4. If you want to get a cylindrical
+candlestick, you may set a larger value. But the larger is the resolution, the more memory is used and the slower the
+rendering will be, so you should find out the minimal acceptable value. A good value for cylinder is 16 or 20.
+The default value is 20.</Abstract>
+			<DeclaredIn>NChartCandlestickSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int cylindersResolution</Declaration>
+			
+			
+			<Anchor>//api/name/cylindersResolution</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartOHLCSeries.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartOHLCSeries</TokenIdentifier>
+			<Abstract type="html">The NChartOHLCSeries class provides methods to display OHLC series.</Abstract>
+			<DeclaredIn>NChartOHLCSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="34"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartOHLCSeries/setPositiveColor:</TokenIdentifier>
+			<Abstract type="html">Color for positive candles.</Abstract>
+			<DeclaredIn>NChartOHLCSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *positiveColor</Declaration>
+			
+			
+			<Anchor>//api/name/positiveColor</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartOHLCSeries/positiveColor</TokenIdentifier>
+			<Abstract type="html">Color for positive candles.</Abstract>
+			<DeclaredIn>NChartOHLCSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *positiveColor</Declaration>
+			
+			
+			<Anchor>//api/name/positiveColor</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartOHLCSeries/positiveColor</TokenIdentifier>
+			<Abstract type="html">Color for positive candles.</Abstract>
+			<DeclaredIn>NChartOHLCSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *positiveColor</Declaration>
+			
+			
+			<Anchor>//api/name/positiveColor</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartOHLCSeries/setNegativeColor:</TokenIdentifier>
+			<Abstract type="html">Color for negative candles.</Abstract>
+			<DeclaredIn>NChartOHLCSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *negativeColor</Declaration>
+			
+			
+			<Anchor>//api/name/negativeColor</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartOHLCSeries/negativeColor</TokenIdentifier>
+			<Abstract type="html">Color for negative candles.</Abstract>
+			<DeclaredIn>NChartOHLCSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *negativeColor</Declaration>
+			
+			
+			<Anchor>//api/name/negativeColor</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartOHLCSeries/negativeColor</TokenIdentifier>
+			<Abstract type="html">Color for negative candles.</Abstract>
+			<DeclaredIn>NChartOHLCSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *negativeColor</Declaration>
+			
+			
+			<Anchor>//api/name/negativeColor</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartModel.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartModel</TokenIdentifier>
+			<Abstract type="html">The NChartModel provides the container for the 3D model that can be loaded from file and then be displayed as a marker
+\(see NChartMarker for details\).
+PLY (http://en.wikipedia.org/wiki/.3ds) are supported.</Abstract>
+			<DeclaredIn>NChartModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="33"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/NChartModel/modelWithData:</TokenIdentifier>
+			<Abstract type="html">Create model with data.</Abstract>
+			<DeclaredIn>NChartModel.h</DeclaredIn>
+			
+			<Declaration>+ (NChartModel *)modelWithData:(NSData *)data</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">- data contanting the model.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a new instance of the model.</Abstract></ReturnValue>
+			<Anchor>//api/name/modelWithData:</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/NChartModel/modelWithContentsOfFile:</TokenIdentifier>
+			<Abstract type="html">Create model with contents of file.</Abstract>
+			<DeclaredIn>NChartModel.h</DeclaredIn>
+			
+			<Declaration>+ (NChartModel *)modelWithContentsOfFile:(NSString *)filePath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>filePath</Name>
+					<Abstract type="html">- path to file containing the model.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a new instance of the model.</Abstract></ReturnValue>
+			<Anchor>//api/name/modelWithContentsOfFile:</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartModel/initWithData:</TokenIdentifier>
+			<Abstract type="html">Init model with data.</Abstract>
+			<DeclaredIn>NChartModel.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithData:(NSData *)data</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">- data containing the model.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the initialized instance of a model.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithData:</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartModel/initWithContentsOfFile:</TokenIdentifier>
+			<Abstract type="html">Init model with contents of file.</Abstract>
+			<DeclaredIn>NChartModel.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithContentsOfFile:(NSString *)filePath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>filePath</Name>
+					<Abstract type="html">- path to file containing the model.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the initialized instance of a model.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithContentsOfFile:</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartModel/setVertexCount:</TokenIdentifier>
+			<Abstract type="html">Number of vertices in the model.</Abstract>
+			<DeclaredIn>NChartModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int vertexCount</Declaration>
+			
+			
+			<Anchor>//api/name/vertexCount</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartModel/vertexCount</TokenIdentifier>
+			<Abstract type="html">Number of vertices in the model.</Abstract>
+			<DeclaredIn>NChartModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int vertexCount</Declaration>
+			
+			
+			<Anchor>//api/name/vertexCount</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartModel/vertexCount</TokenIdentifier>
+			<Abstract type="html">Number of vertices in the model.</Abstract>
+			<DeclaredIn>NChartModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int vertexCount</Declaration>
+			
+			
+			<Anchor>//api/name/vertexCount</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartModel/setTrianglesCount:</TokenIdentifier>
+			<Abstract type="html">Number of triangles in the model.</Abstract>
+			<DeclaredIn>NChartModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int trianglesCount</Declaration>
+			
+			
+			<Anchor>//api/name/trianglesCount</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartModel/trianglesCount</TokenIdentifier>
+			<Abstract type="html">Number of triangles in the model.</Abstract>
+			<DeclaredIn>NChartModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int trianglesCount</Declaration>
+			
+			
+			<Anchor>//api/name/trianglesCount</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartModel/trianglesCount</TokenIdentifier>
+			<Abstract type="html">Number of triangles in the model.</Abstract>
+			<DeclaredIn>NChartModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int trianglesCount</Declaration>
+			
+			
+			<Anchor>//api/name/trianglesCount</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

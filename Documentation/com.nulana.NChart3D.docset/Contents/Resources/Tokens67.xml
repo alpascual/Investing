@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/NChartAnimationType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/NChartAnimationType</TokenIdentifier>
+			<Abstract type="html">The NChartAnimationType enum provides constants to indicate different animations of the chart objects.</Abstract>
+			<DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+			
+			<NodeRef refid="67"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartAnimationTypeTransition</TokenIdentifier>
+            <Abstract type="html">Animation of transition from the one data set to the other.
+     </Abstract>
+            <Declaration>NChartAnimationTypeTransition</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="67"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartAnimationTypeHighlight</TokenIdentifier>
+            <Abstract type="html">Animation of point highlighting.
+     </Abstract>
+            <Declaration>NChartAnimationTypeHighlight</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="67"/>
+        </Token>
+        
+	</File>
+</Tokens>

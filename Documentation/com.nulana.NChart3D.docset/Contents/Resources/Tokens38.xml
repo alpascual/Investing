@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartPieSeriesSettings.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartPieSeriesSettings</TokenIdentifier>
+			<Abstract type="html">The NChartPieSeriesSettings class provides global settings for NChartPieSeries.</Abstract>
+			<DeclaredIn>NChartPieSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="38"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPieSeriesSettings/setHoleRatio:</TokenIdentifier>
+			<Abstract type="html">Hole radius ratio that determines size of the hole for pie series relatively to the whole pie radius. The default
+value 0.1.</Abstract>
+			<DeclaredIn>NChartPieSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float holeRatio</Declaration>
+			
+			
+			<Anchor>//api/name/holeRatio</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPieSeriesSettings/holeRatio</TokenIdentifier>
+			<Abstract type="html">Hole radius ratio that determines size of the hole for pie series relatively to the whole pie radius. The default
+value 0.1.</Abstract>
+			<DeclaredIn>NChartPieSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float holeRatio</Declaration>
+			
+			
+			<Anchor>//api/name/holeRatio</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPieSeriesSettings/holeRatio</TokenIdentifier>
+			<Abstract type="html">Hole radius ratio that determines size of the hole for pie series relatively to the whole pie radius. The default
+value 0.1.</Abstract>
+			<DeclaredIn>NChartPieSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float holeRatio</Declaration>
+			
+			
+			<Anchor>//api/name/holeRatio</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPieSeriesSettings/setCenterCaption:</TokenIdentifier>
+			<Abstract type="html">Caption that appears in the center of pie.</Abstract>
+			<DeclaredIn>NChartPieSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartTooltip</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartTooltip *centerCaption</Declaration>
+			
+			
+			<Anchor>//api/name/centerCaption</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartPieSeriesSettings/centerCaption</TokenIdentifier>
+			<Abstract type="html">Caption that appears in the center of pie.</Abstract>
+			<DeclaredIn>NChartPieSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartTooltip</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartTooltip *centerCaption</Declaration>
+			
+			
+			<Anchor>//api/name/centerCaption</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartPieSeriesSettings/centerCaption</TokenIdentifier>
+			<Abstract type="html">Caption that appears in the center of pie.</Abstract>
+			<DeclaredIn>NChartPieSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartTooltip</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartTooltip *centerCaption</Declaration>
+			
+			
+			<Anchor>//api/name/centerCaption</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

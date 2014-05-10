@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartRibbonSeries.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartRibbonSeries</TokenIdentifier>
+			<Abstract type="html">The NChartRibbonSeries class provides methods to display ribbon series. This series type is for 3D only.</Abstract>
+			<DeclaredIn>NChartRibbonSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="42"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartRibbonSeries/setNoDataColor:</TokenIdentifier>
+			<Abstract type="html">Color of the ribbon in the points with no data.</Abstract>
+			<DeclaredIn>NChartRibbonSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *noDataColor</Declaration>
+			
+			
+			<Anchor>//api/name/noDataColor</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartRibbonSeries/noDataColor</TokenIdentifier>
+			<Abstract type="html">Color of the ribbon in the points with no data.</Abstract>
+			<DeclaredIn>NChartRibbonSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *noDataColor</Declaration>
+			
+			
+			<Anchor>//api/name/noDataColor</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartRibbonSeries/noDataColor</TokenIdentifier>
+			<Abstract type="html">Color of the ribbon in the points with no data.</Abstract>
+			<DeclaredIn>NChartRibbonSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *noDataColor</Declaration>
+			
+			
+			<Anchor>//api/name/noDataColor</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartRibbonSeries/setMarker:</TokenIdentifier>
+			<Abstract type="html">Marker that is shown on the points. This is nil by default (no marker is displayed).</Abstract>
+			<DeclaredIn>NChartRibbonSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartMarker</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartMarker *marker</Declaration>
+			
+			
+			<Anchor>//api/name/marker</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartRibbonSeries/marker</TokenIdentifier>
+			<Abstract type="html">Marker that is shown on the points. This is nil by default (no marker is displayed).</Abstract>
+			<DeclaredIn>NChartRibbonSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartMarker</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartMarker *marker</Declaration>
+			
+			
+			<Anchor>//api/name/marker</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartRibbonSeries/marker</TokenIdentifier>
+			<Abstract type="html">Marker that is shown on the points. This is nil by default (no marker is displayed).</Abstract>
+			<DeclaredIn>NChartRibbonSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartMarker</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartMarker *marker</Declaration>
+			
+			
+			<Anchor>//api/name/marker</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

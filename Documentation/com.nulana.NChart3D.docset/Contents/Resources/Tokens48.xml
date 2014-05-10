@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartSizeAxis.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartSizeAxis</TokenIdentifier>
+			<Abstract type="html">The NChartSizeAxis class provides methods to scale the sizes of NChartMarker objects. The idea is to map the value
+of marker&apos;s size that is assumed to be in (minValue, maxValue to the (minSize, maxSize. For example if a
+particular marker has size 0.3555, minValue = 0, maxValue = 1, minSize = 10 (pixels) and maxSize = 100
+(pixels), the actual size of the marker on the screen will be 42 pixels.</Abstract>
+			<DeclaredIn>NChartSizeAxis.h</DeclaredIn>
+            
+			
+			<NodeRef refid="48"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSizeAxis/setMinValue:</TokenIdentifier>
+			<Abstract type="html">Minimal value of the markers&apos; sizes.</Abstract>
+			<DeclaredIn>NChartSizeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) double minValue</Declaration>
+			
+			
+			<Anchor>//api/name/minValue</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSizeAxis/minValue</TokenIdentifier>
+			<Abstract type="html">Minimal value of the markers&apos; sizes.</Abstract>
+			<DeclaredIn>NChartSizeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) double minValue</Declaration>
+			
+			
+			<Anchor>//api/name/minValue</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartSizeAxis/minValue</TokenIdentifier>
+			<Abstract type="html">Minimal value of the markers&apos; sizes.</Abstract>
+			<DeclaredIn>NChartSizeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) double minValue</Declaration>
+			
+			
+			<Anchor>//api/name/minValue</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSizeAxis/setMaxValue:</TokenIdentifier>
+			<Abstract type="html">Maximal value of the markers&apos; sizes.</Abstract>
+			<DeclaredIn>NChartSizeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) double maxValue</Declaration>
+			
+			
+			<Anchor>//api/name/maxValue</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSizeAxis/maxValue</TokenIdentifier>
+			<Abstract type="html">Maximal value of the markers&apos; sizes.</Abstract>
+			<DeclaredIn>NChartSizeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) double maxValue</Declaration>
+			
+			
+			<Anchor>//api/name/maxValue</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartSizeAxis/maxValue</TokenIdentifier>
+			<Abstract type="html">Maximal value of the markers&apos; sizes.</Abstract>
+			<DeclaredIn>NChartSizeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) double maxValue</Declaration>
+			
+			
+			<Anchor>//api/name/maxValue</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSizeAxis/setMinSize:</TokenIdentifier>
+			<Abstract type="html">Minimal size of the markers on the screen in pixels.</Abstract>
+			<DeclaredIn>NChartSizeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float minSize</Declaration>
+			
+			
+			<Anchor>//api/name/minSize</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSizeAxis/minSize</TokenIdentifier>
+			<Abstract type="html">Minimal size of the markers on the screen in pixels.</Abstract>
+			<DeclaredIn>NChartSizeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float minSize</Declaration>
+			
+			
+			<Anchor>//api/name/minSize</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartSizeAxis/minSize</TokenIdentifier>
+			<Abstract type="html">Minimal size of the markers on the screen in pixels.</Abstract>
+			<DeclaredIn>NChartSizeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float minSize</Declaration>
+			
+			
+			<Anchor>//api/name/minSize</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSizeAxis/setMaxSize:</TokenIdentifier>
+			<Abstract type="html">Maximal size of the markers on the screen in pixels.</Abstract>
+			<DeclaredIn>NChartSizeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float maxSize</Declaration>
+			
+			
+			<Anchor>//api/name/maxSize</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSizeAxis/maxSize</TokenIdentifier>
+			<Abstract type="html">Maximal size of the markers on the screen in pixels.</Abstract>
+			<DeclaredIn>NChartSizeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float maxSize</Declaration>
+			
+			
+			<Anchor>//api/name/maxSize</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartSizeAxis/maxSize</TokenIdentifier>
+			<Abstract type="html">Maximal size of the markers on the screen in pixels.</Abstract>
+			<DeclaredIn>NChartSizeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float maxSize</Declaration>
+			
+			
+			<Anchor>//api/name/maxSize</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSizeAxis/setDataSource:</TokenIdentifier>
+			<Abstract type="html">Data source of the axis</Abstract>
+			<DeclaredIn>NChartSizeAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/NChartSizeAxisDataSource</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) id&lt;NChartSizeAxisDataSource&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartSizeAxis/dataSource</TokenIdentifier>
+			<Abstract type="html">Data source of the axis</Abstract>
+			<DeclaredIn>NChartSizeAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/NChartSizeAxisDataSource</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) id&lt;NChartSizeAxisDataSource&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartSizeAxis/dataSource</TokenIdentifier>
+			<Abstract type="html">Data source of the axis</Abstract>
+			<DeclaredIn>NChartSizeAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/NChartSizeAxisDataSource</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) id&lt;NChartSizeAxisDataSource&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

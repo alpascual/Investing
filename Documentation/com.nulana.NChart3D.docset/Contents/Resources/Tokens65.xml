@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/NChartTimeAxisDataSource.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/NChartTimeAxisDataSource</TokenIdentifier>
+			<Abstract type="html">The NChartTimeAxisDataSource protocol provides methods to control data displayed on the time axis.</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+            
+			
+			<NodeRef refid="65"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NChartTimeAxisDataSource/timeAxisDataSourceTimestampsForAxis:</TokenIdentifier>
+			<Abstract type="html">Get array timestamps available. They are strings representing ticks (for example, years, or some names).</Abstract>
+			<DeclaredIn>NChartTimeAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartTimeAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSArray *)timeAxisDataSourceTimestampsForAxis:(NChartTimeAxis *)timeAxis</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>timeAxis</Name>
+					<Abstract type="html">- time axis to get timestamps for.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">an array of timestamps.</Abstract></ReturnValue>
+			<Anchor>//api/name/timeAxisDataSourceTimestampsForAxis:</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

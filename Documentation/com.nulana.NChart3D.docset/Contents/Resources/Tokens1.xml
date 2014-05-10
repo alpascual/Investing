@@ -1,0 +1,1687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChart.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChart</TokenIdentifier>
+			<Abstract type="html">The NChart class provides a container for the chart.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setSeries:</TokenIdentifier>
+			<Abstract type="html">Array of series.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *series</Declaration>
+			
+			
+			<Anchor>//api/name/series</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/series</TokenIdentifier>
+			<Abstract type="html">Array of series.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *series</Declaration>
+			
+			
+			<Anchor>//api/name/series</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/series</TokenIdentifier>
+			<Abstract type="html">Array of series.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *series</Declaration>
+			
+			
+			<Anchor>//api/name/series</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/addSeries:</TokenIdentifier>
+			<Abstract type="html">Add series to chart.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartSeries</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)addSeries:(NChartSeries *)series</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>series</Name>
+					<Abstract type="html">- series to add.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addSeries:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/removeSeries:</TokenIdentifier>
+			<Abstract type="html">Remove series from chart.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartSeries</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)removeSeries:(NChartSeries *)series</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>series</Name>
+					<Abstract type="html">- series to remove.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeSeries:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/removeAllSeries</TokenIdentifier>
+			<Abstract type="html">Remove all series from chart.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>- (void)removeAllSeries</Declaration>
+			
+			
+			<Anchor>//api/name/removeAllSeries</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/addSeriesSettings:</TokenIdentifier>
+			<Abstract type="html">Add global settings for the series. If you previously set some settings, they will be overwritten by new ones.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartSeriesSettings</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)addSeriesSettings:(NChartSeriesSettings *)settings</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>settings</Name>
+					<Abstract type="html">- settings for the series.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addSeriesSettings:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/removeSeriesSettings:</TokenIdentifier>
+			<Abstract type="html">Remove all the global settings for the series by given class.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>- (void)removeSeriesSettings:(Class)settingsClass</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>settingsClass</Name>
+					<Abstract type="html">- class of the series stiings to remove.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeSeriesSettings:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/removeAllSeriesSettings</TokenIdentifier>
+			<Abstract type="html">Remove all the global settings for the series.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>- (void)removeAllSeriesSettings</Declaration>
+			
+			
+			<Anchor>//api/name/removeAllSeriesSettings</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/seriesSettings:</TokenIdentifier>
+			<Abstract type="html">Get settings of given settings class. If there were no settings set, default settings container for the given
+type is returned.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartSeriesSettings</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NChartSeriesSettings *)seriesSettings:(Class)settingsClass</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>settingsClass</Name>
+					<Abstract type="html">- class of the series settings to search for.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">settings of the given class.</Abstract></ReturnValue>
+			<Anchor>//api/name/seriesSettings:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/updateData</TokenIdentifier>
+			<Abstract type="html">Force chart to be updated. Call this method when you want to reload data from the data source and rebuild the chart.
+Data are processed by this call and minimums / maximums on axes are calculated.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>- (void)updateData</Declaration>
+			
+			
+			<Anchor>//api/name/updateData</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/rebuildSeries</TokenIdentifier>
+			<Abstract type="html">Force series to rebuild by reloading data from data source. Call this method when you know that the chart layout
+(including layout of axes, so min and max values) has not changed, but the data in series has. This method invokes
+updateSeries automatically. Data is not processed by this call, so values on axes remain unchanged. Use this method
+if you are absolutely sure minimums and maximums have not changed!</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>- (void)rebuildSeries</Declaration>
+			
+			
+			<Anchor>//api/name/rebuildSeries</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/updateSeries</TokenIdentifier>
+			<Abstract type="html">Force series to be updated without reloading data from data source. Call this method when you want to reflect
+some changes you made in the visual appearance of a series (brush, etc.). A call of rebuildSeries invokes
+&lt;code&gt;updateSeries&lt;/code&gt; automatically.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>- (void)updateSeries</Declaration>
+			
+			
+			<Anchor>//api/name/updateSeries</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setStreamingMode:</TokenIdentifier>
+			<Abstract type="html">Flag determining if streaming mode is enabled.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/NChart/streamData</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) BOOL streamingMode</Declaration>
+			
+			
+			<Anchor>//api/name/streamingMode</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/streamingMode</TokenIdentifier>
+			<Abstract type="html">Flag determining if streaming mode is enabled.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/NChart/streamData</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) BOOL streamingMode</Declaration>
+			
+			
+			<Anchor>//api/name/streamingMode</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/streamingMode</TokenIdentifier>
+			<Abstract type="html">Flag determining if streaming mode is enabled.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/NChart/streamData</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) BOOL streamingMode</Declaration>
+			
+			
+			<Anchor>//api/name/streamingMode</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/streamData</TokenIdentifier>
+			<Abstract type="html">Stream the data. This causes the updating of chart to display new states of points. The data are going to be
+processed, so minimum and maximum on the axes may change. Use this method in the following use-case: if your set
+of points was not changed, but the values in the states of points do, you can update the chart thrugh this method
+much faster than through regular updateData.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>- (void)streamData</Declaration>
+			
+			
+			<Anchor>//api/name/streamData</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setIncrementalMinMaxMode:</TokenIdentifier>
+			<Abstract type="html">Incremental minimum and maximum calculation mode. This mode makes sense in streaming mode only. If the incremental
+mode is on, new minimum cannot be gearter and new maximum cannot be less than the ones calculated on the previous
+datasets. The default value is NO.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL incrementalMinMaxMode</Declaration>
+			
+			
+			<Anchor>//api/name/incrementalMinMaxMode</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/incrementalMinMaxMode</TokenIdentifier>
+			<Abstract type="html">Incremental minimum and maximum calculation mode. This mode makes sense in streaming mode only. If the incremental
+mode is on, new minimum cannot be gearter and new maximum cannot be less than the ones calculated on the previous
+datasets. The default value is NO.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL incrementalMinMaxMode</Declaration>
+			
+			
+			<Anchor>//api/name/incrementalMinMaxMode</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/incrementalMinMaxMode</TokenIdentifier>
+			<Abstract type="html">Incremental minimum and maximum calculation mode. This mode makes sense in streaming mode only. If the incremental
+mode is on, new minimum cannot be gearter and new maximum cannot be less than the ones calculated on the previous
+datasets. The default value is NO.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL incrementalMinMaxMode</Declaration>
+			
+			
+			<Anchor>//api/name/incrementalMinMaxMode</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/flushChanges</TokenIdentifier>
+			<Abstract type="html">Synchronize all the changes with visual appearance. You may call this method after all your data is updated (it means
+after you called updateData and &lt;code&gt;playTransition:reverse:&lt;/code&gt; because &lt;code&gt;playTransition:reverse:&lt;/code&gt;
+only says that transition should start playing and does not wait till it plays completely) to ensure that the visual
+appearance will be updated as soon as possible.
+You may call this method on the big dataset to reduce lag between your updateData call and actual updating.
+Alternativelly, you may call
+&lt;code&gt;[[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:0.1]];&lt;/code&gt;
+but this will affect your runloop, while &lt;code&gt;flushChanges&lt;/code&gt; will not.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>- (void)flushChanges</Declaration>
+			
+			
+			<Anchor>//api/name/flushChanges</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/relayout</TokenIdentifier>
+			<Abstract type="html">Force chart to relayout. Call this method if you made some changes but do not want to update data. A call of
+updateData invokes relayout automatically.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>- (void)relayout</Declaration>
+			
+			
+			<Anchor>//api/name/relayout</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/alignCenter:</TokenIdentifier>
+			<Abstract type="html">Change position so that the chart is aligned to the center of the screen. This method takes effect in 3D mode only.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>- (void)alignCenter:(float)duration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">- duration of the animation in seconds.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/alignCenter:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/fitToScreen:</TokenIdentifier>
+			<Abstract type="html">Change zoom and position so that the chart fits the screen (with current rotation, if in 3D).</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>- (void)fitToScreen:(float)duration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">- duration of the animation in seconds.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/fitToScreen:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setZoom:</TokenIdentifier>
+			<Abstract type="html">Zoom of the chart. The default zoom is 1.0f. The zooming is proportional. If you want non-proportional zoom in 2D
+mode, you should use &lt;code&gt;zoomToRegionFrom&lt;/code&gt; method of NChartValueAxis.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float zoom</Declaration>
+			
+			
+			<Anchor>//api/name/zoom</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/zoom</TokenIdentifier>
+			<Abstract type="html">Zoom of the chart. The default zoom is 1.0f. The zooming is proportional. If you want non-proportional zoom in 2D
+mode, you should use &lt;code&gt;zoomToRegionFrom&lt;/code&gt; method of NChartValueAxis.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float zoom</Declaration>
+			
+			
+			<Anchor>//api/name/zoom</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/zoom</TokenIdentifier>
+			<Abstract type="html">Zoom of the chart. The default zoom is 1.0f. The zooming is proportional. If you want non-proportional zoom in 2D
+mode, you should use &lt;code&gt;zoomToRegionFrom&lt;/code&gt; method of NChartValueAxis.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float zoom</Declaration>
+			
+			
+			<Anchor>//api/name/zoom</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/zoomTo:duration:delay:</TokenIdentifier>
+			<Abstract type="html">Set zoom for the chart with animation. The zooming is proportional. If you want non-proportional zoom in 2D mode,
+you should use &lt;code&gt;zoomToRegionFrom&lt;/code&gt; method of NChartValueAxis.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>- (void)zoomTo:(float)zoom duration:(float)duration delay:(float)delay</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>zoom</Name>
+					<Abstract type="html">- new zoom of the chart.</Abstract>
+				</Parameter><Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">- duration of animation in seconds.</Abstract>
+				</Parameter><Parameter>
+					<Name>delay</Name>
+					<Abstract type="html">- delay of animation in seconds.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/zoomTo:duration:delay:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setMinZoom:</TokenIdentifier>
+			<Abstract type="html">Minimal zoom of the chart. After this zoom is reached by user interactions, chart starts bouncing zoom.
+The minimal zoom differs in 2D and 3D mode. In 3D mode the default value is 0.5. In 2D it is 1.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float minZoom</Declaration>
+			
+			
+			<Anchor>//api/name/minZoom</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/minZoom</TokenIdentifier>
+			<Abstract type="html">Minimal zoom of the chart. After this zoom is reached by user interactions, chart starts bouncing zoom.
+The minimal zoom differs in 2D and 3D mode. In 3D mode the default value is 0.5. In 2D it is 1.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float minZoom</Declaration>
+			
+			
+			<Anchor>//api/name/minZoom</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/minZoom</TokenIdentifier>
+			<Abstract type="html">Minimal zoom of the chart. After this zoom is reached by user interactions, chart starts bouncing zoom.
+The minimal zoom differs in 2D and 3D mode. In 3D mode the default value is 0.5. In 2D it is 1.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float minZoom</Declaration>
+			
+			
+			<Anchor>//api/name/minZoom</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setMaxZoom:</TokenIdentifier>
+			<Abstract type="html">Maximal zoom of the chart. After this zoom is reached by user interactions, chart starts bouncing zoom.
+The maximal zoom differs in 2D and 3D mode. In 2D mode the default value is recalculated each time the chart is
+layed out (by changing of the frame or by updating data) according to the data on the axes. In 3D the default
+value is 2.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float maxZoom</Declaration>
+			
+			
+			<Anchor>//api/name/maxZoom</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/maxZoom</TokenIdentifier>
+			<Abstract type="html">Maximal zoom of the chart. After this zoom is reached by user interactions, chart starts bouncing zoom.
+The maximal zoom differs in 2D and 3D mode. In 2D mode the default value is recalculated each time the chart is
+layed out (by changing of the frame or by updating data) according to the data on the axes. In 3D the default
+value is 2.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float maxZoom</Declaration>
+			
+			
+			<Anchor>//api/name/maxZoom</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/maxZoom</TokenIdentifier>
+			<Abstract type="html">Maximal zoom of the chart. After this zoom is reached by user interactions, chart starts bouncing zoom.
+The maximal zoom differs in 2D and 3D mode. In 2D mode the default value is recalculated each time the chart is
+layed out (by changing of the frame or by updating data) according to the data on the axes. In 3D the default
+value is 2.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float maxZoom</Declaration>
+			
+			
+			<Anchor>//api/name/maxZoom</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/rotateHorizontallyToAngle:duration:delay:</TokenIdentifier>
+			<Abstract type="html">Rotate chart horizontally (around the Y-Axis) with animation (has effect in 3D mode only).</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>- (void)rotateHorizontallyToAngle:(float)angle duration:(float)duration delay:(float)delay</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>angle</Name>
+					<Abstract type="html">- angle around the horizontal axis in radians.</Abstract>
+				</Parameter><Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">- duration of the animation in seconds.</Abstract>
+				</Parameter><Parameter>
+					<Name>delay</Name>
+					<Abstract type="html">- delay of animation in seconds.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/rotateHorizontallyToAngle:duration:delay:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/rotateHorizontallyToAngle:duration:delay:interpolator:</TokenIdentifier>
+			<Abstract type="html">Rotate chart horizontally (around the Y-Axis) with animation (has effect in 3D mode only).</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>- (void)rotateHorizontallyToAngle:(float)angle duration:(float)duration delay:(float)delay interpolator:(NChartInterpolator *)interpolator</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>angle</Name>
+					<Abstract type="html">- angle around the horizontal axis in radians.</Abstract>
+				</Parameter><Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">- duration of the animation in seconds.</Abstract>
+				</Parameter><Parameter>
+					<Name>delay</Name>
+					<Abstract type="html">- delay of animation in seconds.</Abstract>
+				</Parameter><Parameter>
+					<Name>interpolator</Name>
+					<Abstract type="html">- interpolator that controls the angle changing over the time.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/rotateHorizontallyToAngle:duration:delay:interpolator:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setHorizontalRotationAngle:</TokenIdentifier>
+			<Abstract type="html">Horizontal rotation (around the Y-Axis) in radians (has effect in 3D mode only). The default value is 3.93 (225 degrees).</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float horizontalRotationAngle</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalRotationAngle</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/horizontalRotationAngle</TokenIdentifier>
+			<Abstract type="html">Horizontal rotation (around the Y-Axis) in radians (has effect in 3D mode only). The default value is 3.93 (225 degrees).</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float horizontalRotationAngle</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalRotationAngle</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/horizontalRotationAngle</TokenIdentifier>
+			<Abstract type="html">Horizontal rotation (around the Y-Axis) in radians (has effect in 3D mode only). The default value is 3.93 (225 degrees).</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float horizontalRotationAngle</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalRotationAngle</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/rotateVerticallyToAngle:duration:delay:</TokenIdentifier>
+			<Abstract type="html">Rotate chart vertically (around the X-Axis) with animation (has effect in 3D mode only).</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>- (void)rotateVerticallyToAngle:(float)angle duration:(float)duration delay:(float)delay</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>angle</Name>
+					<Abstract type="html">- angle around the vertical axis in radians.</Abstract>
+				</Parameter><Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">- duration of the animation in seconds.</Abstract>
+				</Parameter><Parameter>
+					<Name>delay</Name>
+					<Abstract type="html">- delay of animation in seconds.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/rotateVerticallyToAngle:duration:delay:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/rotateVerticallyToAngle:duration:delay:interpolator:</TokenIdentifier>
+			<Abstract type="html">Rotate chart vertically (around the X-Axis) with animation (has effect in 3D mode only).</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>- (void)rotateVerticallyToAngle:(float)angle duration:(float)duration delay:(float)delay interpolator:(NChartInterpolator *)interpolator</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>angle</Name>
+					<Abstract type="html">- angle around the vertical axis in radians.</Abstract>
+				</Parameter><Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">- duration of the animation in seconds.</Abstract>
+				</Parameter><Parameter>
+					<Name>delay</Name>
+					<Abstract type="html">- delay of animation in seconds.</Abstract>
+				</Parameter><Parameter>
+					<Name>interpolator</Name>
+					<Abstract type="html">- interpolator that controls the angle changing over the time.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/rotateVerticallyToAngle:duration:delay:interpolator:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setVerticalRotationAngle:</TokenIdentifier>
+			<Abstract type="html">Vertical rotation (around the X-Axis) in radians (has effect in 3D mode only). The default value is -0.87 (-50 degrees).</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float verticalRotationAngle</Declaration>
+			
+			
+			<Anchor>//api/name/verticalRotationAngle</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/verticalRotationAngle</TokenIdentifier>
+			<Abstract type="html">Vertical rotation (around the X-Axis) in radians (has effect in 3D mode only). The default value is -0.87 (-50 degrees).</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float verticalRotationAngle</Declaration>
+			
+			
+			<Anchor>//api/name/verticalRotationAngle</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/verticalRotationAngle</TokenIdentifier>
+			<Abstract type="html">Vertical rotation (around the X-Axis) in radians (has effect in 3D mode only). The default value is -0.87 (-50 degrees).</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float verticalRotationAngle</Declaration>
+			
+			
+			<Anchor>//api/name/verticalRotationAngle</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setBackground:</TokenIdentifier>
+			<Abstract type="html">Brush that fills the chart&apos;s background.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartBrush</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartBrush *background</Declaration>
+			
+			
+			<Anchor>//api/name/background</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/background</TokenIdentifier>
+			<Abstract type="html">Brush that fills the chart&apos;s background.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartBrush</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartBrush *background</Declaration>
+			
+			
+			<Anchor>//api/name/background</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/background</TokenIdentifier>
+			<Abstract type="html">Brush that fills the chart&apos;s background.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartBrush</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NChartBrush *background</Declaration>
+			
+			
+			<Anchor>//api/name/background</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setDrawIn3D:</TokenIdentifier>
+			<Abstract type="html">Flag that determines if a chart should be drawn in 3D (YES) or in 2D (NO). The default value is NO.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL drawIn3D</Declaration>
+			
+			
+			<Anchor>//api/name/drawIn3D</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/drawIn3D</TokenIdentifier>
+			<Abstract type="html">Flag that determines if a chart should be drawn in 3D (YES) or in 2D (NO). The default value is NO.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL drawIn3D</Declaration>
+			
+			
+			<Anchor>//api/name/drawIn3D</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/drawIn3D</TokenIdentifier>
+			<Abstract type="html">Flag that determines if a chart should be drawn in 3D (YES) or in 2D (NO). The default value is NO.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL drawIn3D</Declaration>
+			
+			
+			<Anchor>//api/name/drawIn3D</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setUseParallelProjection:</TokenIdentifier>
+			<Abstract type="html">Flag that determines if a chart use parallel projection (YES) or perspective projection (NO) in 3D-mode. The default
+value is NO.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL useParallelProjection</Declaration>
+			
+			
+			<Anchor>//api/name/useParallelProjection</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/useParallelProjection</TokenIdentifier>
+			<Abstract type="html">Flag that determines if a chart use parallel projection (YES) or perspective projection (NO) in 3D-mode. The default
+value is NO.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL useParallelProjection</Declaration>
+			
+			
+			<Anchor>//api/name/useParallelProjection</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/useParallelProjection</TokenIdentifier>
+			<Abstract type="html">Flag that determines if a chart use parallel projection (YES) or perspective projection (NO) in 3D-mode. The default
+value is NO.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL useParallelProjection</Declaration>
+			
+			
+			<Anchor>//api/name/useParallelProjection</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setCartesianSystem:</TokenIdentifier>
+			<Abstract type="html">Cartesian coordinates system used to store value axes and supplementary visual items.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartCartesianSystem</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartCartesianSystem *cartesianSystem</Declaration>
+			
+			
+			<Anchor>//api/name/cartesianSystem</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/cartesianSystem</TokenIdentifier>
+			<Abstract type="html">Cartesian coordinates system used to store value axes and supplementary visual items.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartCartesianSystem</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartCartesianSystem *cartesianSystem</Declaration>
+			
+			
+			<Anchor>//api/name/cartesianSystem</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/cartesianSystem</TokenIdentifier>
+			<Abstract type="html">Cartesian coordinates system used to store value axes and supplementary visual items.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartCartesianSystem</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartCartesianSystem *cartesianSystem</Declaration>
+			
+			
+			<Anchor>//api/name/cartesianSystem</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setSizeAxis:</TokenIdentifier>
+			<Abstract type="html">Size axis used to scale the sizes of markers.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartSizeAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartSizeAxis *sizeAxis</Declaration>
+			
+			
+			<Anchor>//api/name/sizeAxis</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/sizeAxis</TokenIdentifier>
+			<Abstract type="html">Size axis used to scale the sizes of markers.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartSizeAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartSizeAxis *sizeAxis</Declaration>
+			
+			
+			<Anchor>//api/name/sizeAxis</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/sizeAxis</TokenIdentifier>
+			<Abstract type="html">Size axis used to scale the sizes of markers.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartSizeAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartSizeAxis *sizeAxis</Declaration>
+			
+			
+			<Anchor>//api/name/sizeAxis</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setTimeAxis:</TokenIdentifier>
+			<Abstract type="html">Time axis used to navigate through the time ticks.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartTimeAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartTimeAxis *timeAxis</Declaration>
+			
+			
+			<Anchor>//api/name/timeAxis</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/timeAxis</TokenIdentifier>
+			<Abstract type="html">Time axis used to navigate through the time ticks.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartTimeAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartTimeAxis *timeAxis</Declaration>
+			
+			
+			<Anchor>//api/name/timeAxis</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/timeAxis</TokenIdentifier>
+			<Abstract type="html">Time axis used to navigate through the time ticks.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartTimeAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartTimeAxis *timeAxis</Declaration>
+			
+			
+			<Anchor>//api/name/timeAxis</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setPointSelectionEnabled:</TokenIdentifier>
+			<Abstract type="html">Flag determining if the chart points can be selected by tap (YES) or not (NO). The default value is YES. If you do
+not want to select points by tap, it is better to disable selection, because it will save memory and boost the data
+updating.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL pointSelectionEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/pointSelectionEnabled</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/pointSelectionEnabled</TokenIdentifier>
+			<Abstract type="html">Flag determining if the chart points can be selected by tap (YES) or not (NO). The default value is YES. If you do
+not want to select points by tap, it is better to disable selection, because it will save memory and boost the data
+updating.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL pointSelectionEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/pointSelectionEnabled</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/pointSelectionEnabled</TokenIdentifier>
+			<Abstract type="html">Flag determining if the chart points can be selected by tap (YES) or not (NO). The default value is YES. If you do
+not want to select points by tap, it is better to disable selection, because it will save memory and boost the data
+updating.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL pointSelectionEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/pointSelectionEnabled</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/resetTransformations:</TokenIdentifier>
+			<Abstract type="html">Reset all transformations to default values.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>- (void)resetTransformations:(float)duration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">- duration of animation from current transformations to the beginning.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/resetTransformations:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/playTransition:reverse:</TokenIdentifier>
+			<Abstract type="html">Play animated transition from old state to new one. The old state is cached automatically, so the only thing you need
+to do for animation is to change the series (by calling addSeries: / removeSeries: / removeAllSeries or data in
+the series (by updating data source and calling updateData and than call &lt;code&gt;playTransition:reverse:&lt;/code&gt;.
+State is cached when updateData is called.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>- (void)playTransition:(float)duration reverse:(BOOL)reverse</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">- duration of transition&apos;s animation in seconds.</Abstract>
+				</Parameter><Parameter>
+					<Name>reverse</Name>
+					<Abstract type="html">- flag determining if animation should be played in reverse.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/playTransition:reverse:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/resetTransition</TokenIdentifier>
+			<Abstract type="html">Reset transition by cleaning up the cache made from the previous updateData call. Call this method if you want to
+see animation from the default start positions as if you just started the app.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>- (void)resetTransition</Declaration>
+			
+			
+			<Anchor>//api/name/resetTransition</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/isTransitionPlaying</TokenIdentifier>
+			<Abstract type="html">Check if transition is playing.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isTransitionPlaying</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES if playing, NO if not.</Abstract></ReturnValue>
+			<Anchor>//api/name/isTransitionPlaying</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/stopTransition</TokenIdentifier>
+			<Abstract type="html">Stop transition. This will stop all the transition animations, even if they are not played till the end or if they
+where delayed and did not even start animating.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>- (void)stopTransition</Declaration>
+			
+			
+			<Anchor>//api/name/stopTransition</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setLegend:</TokenIdentifier>
+			<Abstract type="html">Legend of the chart.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartLegend</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartLegend *legend</Declaration>
+			
+			
+			<Anchor>//api/name/legend</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/legend</TokenIdentifier>
+			<Abstract type="html">Legend of the chart.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartLegend</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartLegend *legend</Declaration>
+			
+			
+			<Anchor>//api/name/legend</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/legend</TokenIdentifier>
+			<Abstract type="html">Legend of the chart.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartLegend</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartLegend *legend</Declaration>
+			
+			
+			<Anchor>//api/name/legend</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setCaption:</TokenIdentifier>
+			<Abstract type="html">Caption of the chart.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartCaption</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartCaption *caption</Declaration>
+			
+			
+			<Anchor>//api/name/caption</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/caption</TokenIdentifier>
+			<Abstract type="html">Caption of the chart.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartCaption</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartCaption *caption</Declaration>
+			
+			
+			<Anchor>//api/name/caption</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/caption</TokenIdentifier>
+			<Abstract type="html">Caption of the chart.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartCaption</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartCaption *caption</Declaration>
+			
+			
+			<Anchor>//api/name/caption</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setMargin:</TokenIdentifier>
+			<Abstract type="html">Margin of the chart that determines how far the content of chart starts from view&apos;s bounds. The default margin is
+zero on all sides.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NChartMargin margin</Declaration>
+			
+			
+			<Anchor>//api/name/margin</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/margin</TokenIdentifier>
+			<Abstract type="html">Margin of the chart that determines how far the content of chart starts from view&apos;s bounds. The default margin is
+zero on all sides.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NChartMargin margin</Declaration>
+			
+			
+			<Anchor>//api/name/margin</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/margin</TokenIdentifier>
+			<Abstract type="html">Margin of the chart that determines how far the content of chart starts from view&apos;s bounds. The default margin is
+zero on all sides.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NChartMargin margin</Declaration>
+			
+			
+			<Anchor>//api/name/margin</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setShowFPS:</TokenIdentifier>
+			<Abstract type="html">Flag that determines if FPS rate should be displayed (YES) or not (NO). You may use this for debug purposes
+or if you are just curious, but it&apos;s a very bad idea to show FPS in production code, because it results in continuous
+rendering that loads CPU and consumes power. If FPS is off, the picture is re-rendered only if it&apos;s really needed.
+The default value is NO.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL showFPS</Declaration>
+			
+			
+			<Anchor>//api/name/showFPS</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/showFPS</TokenIdentifier>
+			<Abstract type="html">Flag that determines if FPS rate should be displayed (YES) or not (NO). You may use this for debug purposes
+or if you are just curious, but it&apos;s a very bad idea to show FPS in production code, because it results in continuous
+rendering that loads CPU and consumes power. If FPS is off, the picture is re-rendered only if it&apos;s really needed.
+The default value is NO.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL showFPS</Declaration>
+			
+			
+			<Anchor>//api/name/showFPS</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/showFPS</TokenIdentifier>
+			<Abstract type="html">Flag that determines if FPS rate should be displayed (YES) or not (NO). You may use this for debug purposes
+or if you are just curious, but it&apos;s a very bad idea to show FPS in production code, because it results in continuous
+rendering that loads CPU and consumes power. If FPS is off, the picture is re-rendered only if it&apos;s really needed.
+The default value is NO.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL showFPS</Declaration>
+			
+			
+			<Anchor>//api/name/showFPS</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setShouldAntialias:</TokenIdentifier>
+			<Abstract type="html">Flag that determines if the image should be anti-aliased (YES) or not (NO). Antialiasing makes the picture smoother,
+but impacts performance. The default value is NO.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL shouldAntialias</Declaration>
+			
+			
+			<Anchor>//api/name/shouldAntialias</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/shouldAntialias</TokenIdentifier>
+			<Abstract type="html">Flag that determines if the image should be anti-aliased (YES) or not (NO). Antialiasing makes the picture smoother,
+but impacts performance. The default value is NO.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL shouldAntialias</Declaration>
+			
+			
+			<Anchor>//api/name/shouldAntialias</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/shouldAntialias</TokenIdentifier>
+			<Abstract type="html">Flag that determines if the image should be anti-aliased (YES) or not (NO). Antialiasing makes the picture smoother,
+but impacts performance. The default value is NO.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL shouldAntialias</Declaration>
+			
+			
+			<Anchor>//api/name/shouldAntialias</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setZoomMode:</TokenIdentifier>
+			<Abstract type="html">Zoom mode used in chart. The default is &lt;code&gt;NChartZoomModeProportional&lt;/code&gt;.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartZoomMode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartZoomMode zoomMode</Declaration>
+			
+			
+			<Anchor>//api/name/zoomMode</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/zoomMode</TokenIdentifier>
+			<Abstract type="html">Zoom mode used in chart. The default is &lt;code&gt;NChartZoomModeProportional&lt;/code&gt;.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartZoomMode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartZoomMode zoomMode</Declaration>
+			
+			
+			<Anchor>//api/name/zoomMode</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/zoomMode</TokenIdentifier>
+			<Abstract type="html">Zoom mode used in chart. The default is &lt;code&gt;NChartZoomModeProportional&lt;/code&gt;.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartZoomMode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartZoomMode zoomMode</Declaration>
+			
+			
+			<Anchor>//api/name/zoomMode</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setUserInteractionMode:</TokenIdentifier>
+			<Abstract type="html">Intercation mode used in the chart. The default is &lt;code&gt;NChartUserInteractionAll&lt;/code&gt;.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartUserInteraction</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NSUInteger userInteractionMode</Declaration>
+			
+			
+			<Anchor>//api/name/userInteractionMode</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/userInteractionMode</TokenIdentifier>
+			<Abstract type="html">Intercation mode used in the chart. The default is &lt;code&gt;NChartUserInteractionAll&lt;/code&gt;.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartUserInteraction</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NSUInteger userInteractionMode</Declaration>
+			
+			
+			<Anchor>//api/name/userInteractionMode</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/userInteractionMode</TokenIdentifier>
+			<Abstract type="html">Intercation mode used in the chart. The default is &lt;code&gt;NChartUserInteractionAll&lt;/code&gt;.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartUserInteraction</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NSUInteger userInteractionMode</Declaration>
+			
+			
+			<Anchor>//api/name/userInteractionMode</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setShadingModel:</TokenIdentifier>
+			<Abstract type="html">Shading model that is used in 3D mode. The default value is NChartShadingModelPhong.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/NChart/drawIn3D</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartMarker</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartShadingModel</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartShadingModel shadingModel</Declaration>
+			
+			
+			<Anchor>//api/name/shadingModel</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/shadingModel</TokenIdentifier>
+			<Abstract type="html">Shading model that is used in 3D mode. The default value is NChartShadingModelPhong.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/NChart/drawIn3D</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartMarker</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartShadingModel</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartShadingModel shadingModel</Declaration>
+			
+			
+			<Anchor>//api/name/shadingModel</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/shadingModel</TokenIdentifier>
+			<Abstract type="html">Shading model that is used in 3D mode. The default value is NChartShadingModelPhong.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/NChart/drawIn3D</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartMarker</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartShadingModel</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartShadingModel shadingModel</Declaration>
+			
+			
+			<Anchor>//api/name/shadingModel</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/beginTransaction</TokenIdentifier>
+			<Abstract type="html">Begin data chnaging transaction. You should call this method before any changes of chart settings/data in separate
+thread. After the changes are made, you should call &lt;code&gt;endTransaction&lt;/code&gt;. The typical use-case of
+multithreading in NChart3D is the streaming - the realtime data updating.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/NChart/streamingMode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)beginTransaction</Declaration>
+			
+			
+			<Anchor>//api/name/beginTransaction</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/endTransaction</TokenIdentifier>
+			<Abstract type="html">End data changing transaction.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/NChart/beginTransaction</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)endTransaction</Declaration>
+			
+			
+			<Anchor>//api/name/endTransaction</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setLicenseKey:</TokenIdentifier>
+			<Abstract type="html">License key of product.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *licenseKey</Declaration>
+			
+			
+			<Anchor>//api/name/licenseKey</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/licenseKey</TokenIdentifier>
+			<Abstract type="html">License key of product.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *licenseKey</Declaration>
+			
+			
+			<Anchor>//api/name/licenseKey</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/licenseKey</TokenIdentifier>
+			<Abstract type="html">License key of product.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *licenseKey</Declaration>
+			
+			
+			<Anchor>//api/name/licenseKey</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/serializeToData</TokenIdentifier>
+			<Abstract type="html">Serialize all settings of chart to data. You can then restore the state of settings by calling deserializeFromData:.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)serializeToData</Declaration>
+			
+			<ReturnValue><Abstract type="html">data containing serialization of all the settings of the chart.</Abstract></ReturnValue>
+			<Anchor>//api/name/serializeToData</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/deserializeFromData:</TokenIdentifier>
+			<Abstract type="html">Deserialize all settings of chart from data. You can obtain appropriate data be &lt;serieslizeToData&gt; call.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)deserializeFromData:(NSData *)data</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">- data containing serialization of all the settings of chart.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if serialization was ok, NO if it failed.</Abstract></ReturnValue>
+			<Anchor>//api/name/deserializeFromData:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setVersionInfo:</TokenIdentifier>
+			<Abstract type="html">Get version info.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *versionInfo</Declaration>
+			
+			
+			<Anchor>//api/name/versionInfo</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/versionInfo</TokenIdentifier>
+			<Abstract type="html">Get version info.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *versionInfo</Declaration>
+			
+			
+			<Anchor>//api/name/versionInfo</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/versionInfo</TokenIdentifier>
+			<Abstract type="html">Get version info.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *versionInfo</Declaration>
+			
+			
+			<Anchor>//api/name/versionInfo</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/setDelegate:</TokenIdentifier>
+			<Abstract type="html">Chart delegate.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/NChartDelegate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) id&lt;NChartDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChart/delegate</TokenIdentifier>
+			<Abstract type="html">Chart delegate.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/NChartDelegate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) id&lt;NChartDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChart/delegate</TokenIdentifier>
+			<Abstract type="html">Chart delegate.</Abstract>
+			<DeclaredIn>NChart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/NChartDelegate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) id&lt;NChartDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

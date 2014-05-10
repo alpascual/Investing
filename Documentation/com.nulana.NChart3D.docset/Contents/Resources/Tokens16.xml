@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartCandlestickSeries.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartCandlestickSeries</TokenIdentifier>
+			<Abstract type="html">The NChartCandlestickSeries class provides methods to display candlestick series.</Abstract>
+			<DeclaredIn>NChartCandlestickSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCandlestickSeries/setPositiveBorderColor:</TokenIdentifier>
+			<Abstract type="html">Color for the border of positive candles.</Abstract>
+			<DeclaredIn>NChartCandlestickSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *positiveBorderColor</Declaration>
+			
+			
+			<Anchor>//api/name/positiveBorderColor</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCandlestickSeries/positiveBorderColor</TokenIdentifier>
+			<Abstract type="html">Color for the border of positive candles.</Abstract>
+			<DeclaredIn>NChartCandlestickSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *positiveBorderColor</Declaration>
+			
+			
+			<Anchor>//api/name/positiveBorderColor</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCandlestickSeries/positiveBorderColor</TokenIdentifier>
+			<Abstract type="html">Color for the border of positive candles.</Abstract>
+			<DeclaredIn>NChartCandlestickSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *positiveBorderColor</Declaration>
+			
+			
+			<Anchor>//api/name/positiveBorderColor</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCandlestickSeries/setNegativeBorderColor:</TokenIdentifier>
+			<Abstract type="html">Color for the border of negative candles.</Abstract>
+			<DeclaredIn>NChartCandlestickSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *negativeBorderColor</Declaration>
+			
+			
+			<Anchor>//api/name/negativeBorderColor</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCandlestickSeries/negativeBorderColor</TokenIdentifier>
+			<Abstract type="html">Color for the border of negative candles.</Abstract>
+			<DeclaredIn>NChartCandlestickSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *negativeBorderColor</Declaration>
+			
+			
+			<Anchor>//api/name/negativeBorderColor</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCandlestickSeries/negativeBorderColor</TokenIdentifier>
+			<Abstract type="html">Color for the border of negative candles.</Abstract>
+			<DeclaredIn>NChartCandlestickSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *negativeBorderColor</Declaration>
+			
+			
+			<Anchor>//api/name/negativeBorderColor</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

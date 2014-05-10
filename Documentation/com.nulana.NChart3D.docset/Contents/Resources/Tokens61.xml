@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartView</TokenIdentifier>
+			<Abstract type="html">The NChartView class provides a view to display the chart. This view can be added anywhere to view the hierarchy of
+the app.</Abstract>
+			<DeclaredIn>NChartView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="61"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartView/setChart:</TokenIdentifier>
+			<Abstract type="html">Get chart instance. It is created with the view&apos;s creation and destroyed with its destruction.</Abstract>
+			<DeclaredIn>NChartView.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChart</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChart *chart</Declaration>
+			
+			
+			<Anchor>//api/name/chart</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartView/chart</TokenIdentifier>
+			<Abstract type="html">Get chart instance. It is created with the view&apos;s creation and destroyed with its destruction.</Abstract>
+			<DeclaredIn>NChartView.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChart</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChart *chart</Declaration>
+			
+			
+			<Anchor>//api/name/chart</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartView/chart</TokenIdentifier>
+			<Abstract type="html">Get chart instance. It is created with the view&apos;s creation and destroyed with its destruction.</Abstract>
+			<DeclaredIn>NChartView.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChart</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChart *chart</Declaration>
+			
+			
+			<Anchor>//api/name/chart</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

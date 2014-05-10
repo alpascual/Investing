@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartCartesianSystem.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartCartesianSystem</TokenIdentifier>
+			<Abstract type="html">The NChartCartesianSystem class provides methods for managing the chart&apos;s cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+            
+			
+			<NodeRef refid="19"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/setXAxis:</TokenIdentifier>
+			<Abstract type="html">X-axis of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartValueAxis *xAxis</Declaration>
+			
+			
+			<Anchor>//api/name/xAxis</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/xAxis</TokenIdentifier>
+			<Abstract type="html">X-axis of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartValueAxis *xAxis</Declaration>
+			
+			
+			<Anchor>//api/name/xAxis</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCartesianSystem/xAxis</TokenIdentifier>
+			<Abstract type="html">X-axis of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartValueAxis *xAxis</Declaration>
+			
+			
+			<Anchor>//api/name/xAxis</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/setSxAxis:</TokenIdentifier>
+			<Abstract type="html">Secondary X-axis of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartValueAxis *sxAxis</Declaration>
+			
+			
+			<Anchor>//api/name/sxAxis</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/sxAxis</TokenIdentifier>
+			<Abstract type="html">Secondary X-axis of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartValueAxis *sxAxis</Declaration>
+			
+			
+			<Anchor>//api/name/sxAxis</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCartesianSystem/sxAxis</TokenIdentifier>
+			<Abstract type="html">Secondary X-axis of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartValueAxis *sxAxis</Declaration>
+			
+			
+			<Anchor>//api/name/sxAxis</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/setYAxis:</TokenIdentifier>
+			<Abstract type="html">Y-axis of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartValueAxis *yAxis</Declaration>
+			
+			
+			<Anchor>//api/name/yAxis</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/yAxis</TokenIdentifier>
+			<Abstract type="html">Y-axis of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartValueAxis *yAxis</Declaration>
+			
+			
+			<Anchor>//api/name/yAxis</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCartesianSystem/yAxis</TokenIdentifier>
+			<Abstract type="html">Y-axis of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartValueAxis *yAxis</Declaration>
+			
+			
+			<Anchor>//api/name/yAxis</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/setSyAxis:</TokenIdentifier>
+			<Abstract type="html">Secondary Y-axis of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartValueAxis *syAxis</Declaration>
+			
+			
+			<Anchor>//api/name/syAxis</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/syAxis</TokenIdentifier>
+			<Abstract type="html">Secondary Y-axis of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartValueAxis *syAxis</Declaration>
+			
+			
+			<Anchor>//api/name/syAxis</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCartesianSystem/syAxis</TokenIdentifier>
+			<Abstract type="html">Secondary Y-axis of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartValueAxis *syAxis</Declaration>
+			
+			
+			<Anchor>//api/name/syAxis</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/setZAxis:</TokenIdentifier>
+			<Abstract type="html">Z-axis of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartValueAxis *zAxis</Declaration>
+			
+			
+			<Anchor>//api/name/zAxis</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/zAxis</TokenIdentifier>
+			<Abstract type="html">Z-axis of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartValueAxis *zAxis</Declaration>
+			
+			
+			<Anchor>//api/name/zAxis</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCartesianSystem/zAxis</TokenIdentifier>
+			<Abstract type="html">Z-axis of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartValueAxis *zAxis</Declaration>
+			
+			
+			<Anchor>//api/name/zAxis</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/setSzAxis:</TokenIdentifier>
+			<Abstract type="html">Secondary Z-axis of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartValueAxis *szAxis</Declaration>
+			
+			
+			<Anchor>//api/name/szAxis</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/szAxis</TokenIdentifier>
+			<Abstract type="html">Secondary Z-axis of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartValueAxis *szAxis</Declaration>
+			
+			
+			<Anchor>//api/name/szAxis</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCartesianSystem/szAxis</TokenIdentifier>
+			<Abstract type="html">Secondary Z-axis of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartValueAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartValueAxis *szAxis</Declaration>
+			
+			
+			<Anchor>//api/name/szAxis</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/setXyPlane:</TokenIdentifier>
+			<Abstract type="html">XY-axes plane of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxesPlane</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxesPlane *xyPlane</Declaration>
+			
+			
+			<Anchor>//api/name/xyPlane</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/xyPlane</TokenIdentifier>
+			<Abstract type="html">XY-axes plane of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxesPlane</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxesPlane *xyPlane</Declaration>
+			
+			
+			<Anchor>//api/name/xyPlane</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCartesianSystem/xyPlane</TokenIdentifier>
+			<Abstract type="html">XY-axes plane of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxesPlane</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxesPlane *xyPlane</Declaration>
+			
+			
+			<Anchor>//api/name/xyPlane</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/setXzPlane:</TokenIdentifier>
+			<Abstract type="html">XZ-axes plane of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxesPlane</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxesPlane *xzPlane</Declaration>
+			
+			
+			<Anchor>//api/name/xzPlane</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/xzPlane</TokenIdentifier>
+			<Abstract type="html">XZ-axes plane of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxesPlane</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxesPlane *xzPlane</Declaration>
+			
+			
+			<Anchor>//api/name/xzPlane</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCartesianSystem/xzPlane</TokenIdentifier>
+			<Abstract type="html">XZ-axes plane of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxesPlane</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxesPlane *xzPlane</Declaration>
+			
+			
+			<Anchor>//api/name/xzPlane</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/setYzPlane:</TokenIdentifier>
+			<Abstract type="html">YZ-axes plane of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxesPlane</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxesPlane *yzPlane</Declaration>
+			
+			
+			<Anchor>//api/name/yzPlane</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/yzPlane</TokenIdentifier>
+			<Abstract type="html">YZ-axes plane of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxesPlane</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxesPlane *yzPlane</Declaration>
+			
+			
+			<Anchor>//api/name/yzPlane</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCartesianSystem/yzPlane</TokenIdentifier>
+			<Abstract type="html">YZ-axes plane of the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxesPlane</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxesPlane *yzPlane</Declaration>
+			
+			
+			<Anchor>//api/name/yzPlane</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/setXAlongY:</TokenIdentifier>
+			<Abstract type="html">Grid that goes from the X-axis along the Y-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *xAlongY</Declaration>
+			
+			
+			<Anchor>//api/name/xAlongY</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/xAlongY</TokenIdentifier>
+			<Abstract type="html">Grid that goes from the X-axis along the Y-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *xAlongY</Declaration>
+			
+			
+			<Anchor>//api/name/xAlongY</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCartesianSystem/xAlongY</TokenIdentifier>
+			<Abstract type="html">Grid that goes from the X-axis along the Y-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *xAlongY</Declaration>
+			
+			
+			<Anchor>//api/name/xAlongY</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/setXAlongZ:</TokenIdentifier>
+			<Abstract type="html">Grid that goes from the X-axis along the Z-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *xAlongZ</Declaration>
+			
+			
+			<Anchor>//api/name/xAlongZ</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/xAlongZ</TokenIdentifier>
+			<Abstract type="html">Grid that goes from the X-axis along the Z-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *xAlongZ</Declaration>
+			
+			
+			<Anchor>//api/name/xAlongZ</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCartesianSystem/xAlongZ</TokenIdentifier>
+			<Abstract type="html">Grid that goes from the X-axis along the Z-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *xAlongZ</Declaration>
+			
+			
+			<Anchor>//api/name/xAlongZ</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/setSxAlongY:</TokenIdentifier>
+			<Abstract type="html">Grid that goes from secondary the X-axis along the Y-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *sxAlongY</Declaration>
+			
+			
+			<Anchor>//api/name/sxAlongY</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/sxAlongY</TokenIdentifier>
+			<Abstract type="html">Grid that goes from secondary the X-axis along the Y-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *sxAlongY</Declaration>
+			
+			
+			<Anchor>//api/name/sxAlongY</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCartesianSystem/sxAlongY</TokenIdentifier>
+			<Abstract type="html">Grid that goes from secondary the X-axis along the Y-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *sxAlongY</Declaration>
+			
+			
+			<Anchor>//api/name/sxAlongY</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/setSxAlongZ:</TokenIdentifier>
+			<Abstract type="html">Grid that goes from secondary the X-axis along the Z-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *sxAlongZ</Declaration>
+			
+			
+			<Anchor>//api/name/sxAlongZ</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/sxAlongZ</TokenIdentifier>
+			<Abstract type="html">Grid that goes from secondary the X-axis along the Z-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *sxAlongZ</Declaration>
+			
+			
+			<Anchor>//api/name/sxAlongZ</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCartesianSystem/sxAlongZ</TokenIdentifier>
+			<Abstract type="html">Grid that goes from secondary the X-axis along the Z-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *sxAlongZ</Declaration>
+			
+			
+			<Anchor>//api/name/sxAlongZ</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/setYAlongX:</TokenIdentifier>
+			<Abstract type="html">Grid that goes from the Y-axis along the X-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *yAlongX</Declaration>
+			
+			
+			<Anchor>//api/name/yAlongX</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/yAlongX</TokenIdentifier>
+			<Abstract type="html">Grid that goes from the Y-axis along the X-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *yAlongX</Declaration>
+			
+			
+			<Anchor>//api/name/yAlongX</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCartesianSystem/yAlongX</TokenIdentifier>
+			<Abstract type="html">Grid that goes from the Y-axis along the X-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *yAlongX</Declaration>
+			
+			
+			<Anchor>//api/name/yAlongX</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/setYAlongZ:</TokenIdentifier>
+			<Abstract type="html">Grid that goes from the Y-axis along the Z-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *yAlongZ</Declaration>
+			
+			
+			<Anchor>//api/name/yAlongZ</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/yAlongZ</TokenIdentifier>
+			<Abstract type="html">Grid that goes from the Y-axis along the Z-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *yAlongZ</Declaration>
+			
+			
+			<Anchor>//api/name/yAlongZ</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCartesianSystem/yAlongZ</TokenIdentifier>
+			<Abstract type="html">Grid that goes from the Y-axis along the Z-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *yAlongZ</Declaration>
+			
+			
+			<Anchor>//api/name/yAlongZ</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/setSyAlongX:</TokenIdentifier>
+			<Abstract type="html">Grid that goes from secondary the Y-axis along the X-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *syAlongX</Declaration>
+			
+			
+			<Anchor>//api/name/syAlongX</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/syAlongX</TokenIdentifier>
+			<Abstract type="html">Grid that goes from secondary the Y-axis along the X-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *syAlongX</Declaration>
+			
+			
+			<Anchor>//api/name/syAlongX</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCartesianSystem/syAlongX</TokenIdentifier>
+			<Abstract type="html">Grid that goes from secondary the Y-axis along the X-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *syAlongX</Declaration>
+			
+			
+			<Anchor>//api/name/syAlongX</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/setSyAlongZ:</TokenIdentifier>
+			<Abstract type="html">Grid that goes from secondary the Y-axis along the Z-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *syAlongZ</Declaration>
+			
+			
+			<Anchor>//api/name/syAlongZ</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/syAlongZ</TokenIdentifier>
+			<Abstract type="html">Grid that goes from secondary the Y-axis along the Z-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *syAlongZ</Declaration>
+			
+			
+			<Anchor>//api/name/syAlongZ</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCartesianSystem/syAlongZ</TokenIdentifier>
+			<Abstract type="html">Grid that goes from secondary the Y-axis along the Z-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *syAlongZ</Declaration>
+			
+			
+			<Anchor>//api/name/syAlongZ</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/setZAlongX:</TokenIdentifier>
+			<Abstract type="html">Grid that goes from the Z-axis along the X-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *zAlongX</Declaration>
+			
+			
+			<Anchor>//api/name/zAlongX</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/zAlongX</TokenIdentifier>
+			<Abstract type="html">Grid that goes from the Z-axis along the X-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *zAlongX</Declaration>
+			
+			
+			<Anchor>//api/name/zAlongX</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCartesianSystem/zAlongX</TokenIdentifier>
+			<Abstract type="html">Grid that goes from the Z-axis along the X-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *zAlongX</Declaration>
+			
+			
+			<Anchor>//api/name/zAlongX</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/setZAlongY:</TokenIdentifier>
+			<Abstract type="html">Grid that goes from the Z-axis along the Y-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *zAlongY</Declaration>
+			
+			
+			<Anchor>//api/name/zAlongY</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/zAlongY</TokenIdentifier>
+			<Abstract type="html">Grid that goes from the Z-axis along the Y-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *zAlongY</Declaration>
+			
+			
+			<Anchor>//api/name/zAlongY</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCartesianSystem/zAlongY</TokenIdentifier>
+			<Abstract type="html">Grid that goes from the Z-axis along the Y-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *zAlongY</Declaration>
+			
+			
+			<Anchor>//api/name/zAlongY</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/setSzAlongX:</TokenIdentifier>
+			<Abstract type="html">Grid that goes from secondary the Z-axis along the X-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *szAlongX</Declaration>
+			
+			
+			<Anchor>//api/name/szAlongX</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/szAlongX</TokenIdentifier>
+			<Abstract type="html">Grid that goes from secondary the Z-axis along the X-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *szAlongX</Declaration>
+			
+			
+			<Anchor>//api/name/szAlongX</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCartesianSystem/szAlongX</TokenIdentifier>
+			<Abstract type="html">Grid that goes from secondary the Z-axis along the X-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *szAlongX</Declaration>
+			
+			
+			<Anchor>//api/name/szAlongX</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/setSzAlongY:</TokenIdentifier>
+			<Abstract type="html">Grid that goes from secondary the Z-axis along the Y-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *szAlongY</Declaration>
+			
+			
+			<Anchor>//api/name/szAlongY</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/szAlongY</TokenIdentifier>
+			<Abstract type="html">Grid that goes from secondary the Z-axis along the Y-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *szAlongY</Declaration>
+			
+			
+			<Anchor>//api/name/szAlongY</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCartesianSystem/szAlongY</TokenIdentifier>
+			<Abstract type="html">Grid that goes from secondary the Z-axis along the Y-axis.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartAxisGrid</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) NChartAxisGrid *szAlongY</Declaration>
+			
+			
+			<Anchor>//api/name/szAlongY</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/setValueAxesType:</TokenIdentifier>
+			<Abstract type="html">Type of axes. You may use additional and percent axes only if you provide ticks for category axes. For example, if
+you are about to display additional columns, you should provide ticks for the X and Z axes. If you are about to
+display additional bars, you should provide ticks for Y and Z axes respectively (because bars are stretched along
+the X-axis).
+If you didn&apos;t provide ticks for category axes, changing the type to additional or percent takes no effect for the
+series displayed even though states of their points are aligned to the grid (see NChartPointState for details).</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartValueAxesType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartValueAxesType valueAxesType</Declaration>
+			
+			
+			<Anchor>//api/name/valueAxesType</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/valueAxesType</TokenIdentifier>
+			<Abstract type="html">Type of axes. You may use additional and percent axes only if you provide ticks for category axes. For example, if
+you are about to display additional columns, you should provide ticks for the X and Z axes. If you are about to
+display additional bars, you should provide ticks for Y and Z axes respectively (because bars are stretched along
+the X-axis).
+If you didn&apos;t provide ticks for category axes, changing the type to additional or percent takes no effect for the
+series displayed even though states of their points are aligned to the grid (see NChartPointState for details).</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartValueAxesType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartValueAxesType valueAxesType</Declaration>
+			
+			
+			<Anchor>//api/name/valueAxesType</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCartesianSystem/valueAxesType</TokenIdentifier>
+			<Abstract type="html">Type of axes. You may use additional and percent axes only if you provide ticks for category axes. For example, if
+you are about to display additional columns, you should provide ticks for the X and Z axes. If you are about to
+display additional bars, you should provide ticks for Y and Z axes respectively (because bars are stretched along
+the X-axis).
+If you didn&apos;t provide ticks for category axes, changing the type to additional or percent takes no effect for the
+series displayed even though states of their points are aligned to the grid (see NChartPointState for details).</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartValueAxesType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartValueAxesType valueAxesType</Declaration>
+			
+			
+			<Anchor>//api/name/valueAxesType</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/setBorderVisible:</TokenIdentifier>
+			<Abstract type="html">Flag that determines if the border around the cartesian coordinate system is visible (YES) or not (NO).</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL borderVisible</Declaration>
+			
+			
+			<Anchor>//api/name/borderVisible</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/borderVisible</TokenIdentifier>
+			<Abstract type="html">Flag that determines if the border around the cartesian coordinate system is visible (YES) or not (NO).</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL borderVisible</Declaration>
+			
+			
+			<Anchor>//api/name/borderVisible</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCartesianSystem/borderVisible</TokenIdentifier>
+			<Abstract type="html">Flag that determines if the border around the cartesian coordinate system is visible (YES) or not (NO).</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL borderVisible</Declaration>
+			
+			
+			<Anchor>//api/name/borderVisible</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/setBorderColor:</TokenIdentifier>
+			<Abstract type="html">Color of the border around the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UIColor *borderColor</Declaration>
+			
+			
+			<Anchor>//api/name/borderColor</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/borderColor</TokenIdentifier>
+			<Abstract type="html">Color of the border around the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UIColor *borderColor</Declaration>
+			
+			
+			<Anchor>//api/name/borderColor</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCartesianSystem/borderColor</TokenIdentifier>
+			<Abstract type="html">Color of the border around the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UIColor *borderColor</Declaration>
+			
+			
+			<Anchor>//api/name/borderColor</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/setBorderThickness:</TokenIdentifier>
+			<Abstract type="html">Thickness of the border around the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float borderThickness</Declaration>
+			
+			
+			<Anchor>//api/name/borderThickness</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCartesianSystem/borderThickness</TokenIdentifier>
+			<Abstract type="html">Thickness of the border around the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float borderThickness</Declaration>
+			
+			
+			<Anchor>//api/name/borderThickness</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCartesianSystem/borderThickness</TokenIdentifier>
+			<Abstract type="html">Thickness of the border around the cartesian coordinate system.</Abstract>
+			<DeclaredIn>NChartCartesianSystem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float borderThickness</Declaration>
+			
+			
+			<Anchor>//api/name/borderThickness</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

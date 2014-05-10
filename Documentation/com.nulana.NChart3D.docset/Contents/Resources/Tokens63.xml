@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/NChartSeriesDataSource.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/NChartSeriesDataSource</TokenIdentifier>
+			<Abstract type="html">The NChartSeriesDataSource protocol provides methods to obtain data for the series.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="63"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NChartSeriesDataSource/seriesDataSourcePointsForSeries:</TokenIdentifier>
+			<Abstract type="html">Get array of points for the series.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartSeries</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSArray *)seriesDataSourcePointsForSeries:(NChartSeries *)series</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>series</Name>
+					<Abstract type="html">- series to obtain the points for.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">an array of NChartPoint instances where the data is stored.</Abstract></ReturnValue>
+			<Anchor>//api/name/seriesDataSourcePointsForSeries:</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NChartSeriesDataSource/seriesDataSourceNameForSeries:</TokenIdentifier>
+			<Abstract type="html">Get name for the series.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartSeries</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSString *)seriesDataSourceNameForSeries:(NChartSeries *)series</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>series</Name>
+					<Abstract type="html">- series to obtain the name for.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the name for the series.</Abstract></ReturnValue>
+			<Anchor>//api/name/seriesDataSourceNameForSeries:</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NChartSeriesDataSource/seriesDataSourceImageForSeries:</TokenIdentifier>
+			<Abstract type="html">Get image for the series that is displayed in the legend. If nil is returned or method is not implemented, the default
+image is used.</Abstract>
+			<DeclaredIn>NChartSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/NChartSeries</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (UIImage *)seriesDataSourceImageForSeries:(NChartSeries *)series</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>series</Name>
+					<Abstract type="html">- series to get image for.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the image for the series.</Abstract></ReturnValue>
+			<Anchor>//api/name/seriesDataSourceImageForSeries:</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

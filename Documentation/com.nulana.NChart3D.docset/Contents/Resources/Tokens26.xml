@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartLabel.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartLabel</TokenIdentifier>
+			<Abstract type="html">The NChartLabel class provides methods to display text on the chart.</Abstract>
+			<DeclaredIn>NChartLabel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="26"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLabel/setFont:</TokenIdentifier>
+			<Abstract type="html">Font of the label&apos;s text.</Abstract>
+			<DeclaredIn>NChartLabel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLabel/font</TokenIdentifier>
+			<Abstract type="html">Font of the label&apos;s text.</Abstract>
+			<DeclaredIn>NChartLabel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartLabel/font</TokenIdentifier>
+			<Abstract type="html">Font of the label&apos;s text.</Abstract>
+			<DeclaredIn>NChartLabel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLabel/setTextColor:</TokenIdentifier>
+			<Abstract type="html">Color of the label&apos;s text.</Abstract>
+			<DeclaredIn>NChartLabel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLabel/textColor</TokenIdentifier>
+			<Abstract type="html">Color of the label&apos;s text.</Abstract>
+			<DeclaredIn>NChartLabel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartLabel/textColor</TokenIdentifier>
+			<Abstract type="html">Color of the label&apos;s text.</Abstract>
+			<DeclaredIn>NChartLabel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLabel/setText:</TokenIdentifier>
+			<Abstract type="html">Text to display in the label.</Abstract>
+			<DeclaredIn>NChartLabel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLabel/text</TokenIdentifier>
+			<Abstract type="html">Text to display in the label.</Abstract>
+			<DeclaredIn>NChartLabel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartLabel/text</TokenIdentifier>
+			<Abstract type="html">Text to display in the label.</Abstract>
+			<DeclaredIn>NChartLabel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLabel/setTextWrapping:</TokenIdentifier>
+			<Abstract type="html">Wrapping mode of the label&apos;s text.</Abstract>
+			<DeclaredIn>NChartLabel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSLineBreakMode textWrapping</Declaration>
+			
+			
+			<Anchor>//api/name/textWrapping</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLabel/textWrapping</TokenIdentifier>
+			<Abstract type="html">Wrapping mode of the label&apos;s text.</Abstract>
+			<DeclaredIn>NChartLabel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSLineBreakMode textWrapping</Declaration>
+			
+			
+			<Anchor>//api/name/textWrapping</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartLabel/textWrapping</TokenIdentifier>
+			<Abstract type="html">Wrapping mode of the label&apos;s text.</Abstract>
+			<DeclaredIn>NChartLabel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSLineBreakMode textWrapping</Declaration>
+			
+			
+			<Anchor>//api/name/textWrapping</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLabel/setMaxWidth:</TokenIdentifier>
+			<Abstract type="html">Maximal width of the label&apos;s text in pixels. If the text is bigger than the given size, lines will be broken
+according to the wrapping mode. If 0, this option is ignored. The default value is 0.</Abstract>
+			<DeclaredIn>NChartLabel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float maxWidth</Declaration>
+			
+			
+			<Anchor>//api/name/maxWidth</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartLabel/maxWidth</TokenIdentifier>
+			<Abstract type="html">Maximal width of the label&apos;s text in pixels. If the text is bigger than the given size, lines will be broken
+according to the wrapping mode. If 0, this option is ignored. The default value is 0.</Abstract>
+			<DeclaredIn>NChartLabel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float maxWidth</Declaration>
+			
+			
+			<Anchor>//api/name/maxWidth</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartLabel/maxWidth</TokenIdentifier>
+			<Abstract type="html">Maximal width of the label&apos;s text in pixels. If the text is bigger than the given size, lines will be broken
+according to the wrapping mode. If 0, this option is ignored. The default value is 0.</Abstract>
+			<DeclaredIn>NChartLabel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float maxWidth</Declaration>
+			
+			
+			<Anchor>//api/name/maxWidth</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

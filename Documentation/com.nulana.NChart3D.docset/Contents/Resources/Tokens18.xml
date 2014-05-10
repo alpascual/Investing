@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NChartCaption.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NChartCaption</TokenIdentifier>
+			<Abstract type="html">The NChartCaption class provides methods to display caption of the chart.</Abstract>
+			<DeclaredIn>NChartCaption.h</DeclaredIn>
+            
+			
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCaption/setBlockAlignment:</TokenIdentifier>
+			<Abstract type="html">Alignment of the caption. The default calue is &lt;code&gt;NChartCaptionBlockAlignmentTopCenter&lt;/code&gt;.</Abstract>
+			<DeclaredIn>NChartCaption.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartCaptionBlockAlignment</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartCaptionBlockAlignment blockAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/blockAlignment</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NChartCaption/blockAlignment</TokenIdentifier>
+			<Abstract type="html">Alignment of the caption. The default calue is &lt;code&gt;NChartCaptionBlockAlignmentTopCenter&lt;/code&gt;.</Abstract>
+			<DeclaredIn>NChartCaption.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartCaptionBlockAlignment</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartCaptionBlockAlignment blockAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/blockAlignment</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NChartCaption/blockAlignment</TokenIdentifier>
+			<Abstract type="html">Alignment of the caption. The default calue is &lt;code&gt;NChartCaptionBlockAlignmentTopCenter&lt;/code&gt;.</Abstract>
+			<DeclaredIn>NChartCaption.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/NChartCaptionBlockAlignment</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) NChartCaptionBlockAlignment blockAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/blockAlignment</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/NChartZoomMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/NChartZoomMode</TokenIdentifier>
+			<Abstract type="html">The NChartZoomMode enum provides constants for different zoom modes.</Abstract>
+			<DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+			
+			<NodeRef refid="84"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartZoomModeNone</TokenIdentifier>
+            <Abstract type="html">Zoom is disabled.
+     </Abstract>
+            <Declaration>NChartZoomModeNone</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="84"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartZoomModeProportional</TokenIdentifier>
+            <Abstract type="html">Zoom is enabled and is always proportional.
+     </Abstract>
+            <Declaration>NChartZoomModeProportional</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="84"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NChartZoomModeDirectional</TokenIdentifier>
+            <Abstract type="html">Zoom is enabled and is directional, so the user can zoom separately in the horizontal and vertical direction. By
+diagonal direction zoom is proportional. Direction is determined as a vector that connects the user&apos;s fingers
+during the pinch gesture.
+     </Abstract>
+            <Declaration>NChartZoomModeDirectional</Declaration>
+            
+            <DeclaredIn>NChartTypes.h</DeclaredIn>
+            
+            <NodeRef refid="84"/>
+        </Token>
+        
+	</File>
+</Tokens>
