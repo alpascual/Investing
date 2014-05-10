@@ -921,9 +921,29 @@
         }
             break;
          
-        // This is the scatter points
+        // This is the scatter points AL
         case NChart3DTypesScatter:
+        {
+            NSString *file = [[NSBundle bundleForClass:[self class]] pathForResource:@"GFD_DJIA_Companies" ofType:@"csv"];
             
+            NSArray *fields = [NSArray arrayWithContentsOfCSVFile:file options:CHCSVParserOptionsRecognizesBackslashesAsEscapes];
+            //NSLog(@"read: %@", fields);
+            NChartColumnSeries *series = [NChartColumnSeries new];
+            for ( int i=0; i < fields.count; i++)
+            {
+                NSArray *item = [fields objectAtIndex:i];
+                
+//                NChartSeries *series = [[NChartSeries alloc] init];
+//                series s [item objectAtIndex:1];
+                double x = [[item objectAtIndex:2] doubleValue];
+                double y = [[item objectAtIndex:3] doubleValue];
+                double z = [[item objectAtIndex:4] doubleValue];
+                NChartPointState *state = [NChartPointState pointStateWithX:x Y:y Z:z];
+                NChartPoint *point = [NChartPoint pointWithState:state forSeries:series];
+            
+                [result addObject:point];
+                //[result addObject:point forSeries:series]];
+            }
             
 //            for (int i = 0; i <= LISSAJOU_RES; ++i)
 //            {
@@ -960,6 +980,7 @@
 //                }
 //                [result addObject:[NChartPoint pointWithArrayOfStates:states forSeries:series]];
 //            }
+        }
             break;
             
         case NChart3DTypesSurface:

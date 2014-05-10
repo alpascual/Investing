@@ -45,6 +45,8 @@
 #import <NChart3D/NChart3D.h>
 #endif // NCHART3D_SOURCES
 
+#import "CHCSVParser.h"
+
 @class NChart3DMainViewController;
 
 @interface NChart3DSeriesDataSource : NSObject<NChartSeriesDataSource>
