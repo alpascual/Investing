@@ -52,6 +52,7 @@
 @interface NChart3DSeriesDataSource : NSObject<NChartSeriesDataSource>
 
 @property (nonatomic, strong) NSArray *rainbowColors;
+@property (nonatomic, strong) NSArray *fields;
 
 - (id)initWithMainViewController:(NChart3DMainViewController *)mainViewController;
 

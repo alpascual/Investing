@@ -80,537 +80,557 @@
     
     switch (m_mainViewController.seriesType)
     {
-        case NChart3DTypesColumn:
-        {
-            for (int i = 0; i < m_mainViewController.seriesCount; ++i)
-            {
-                NChartColumnSeries *series = [NChartColumnSeries series];
-                series.dataSource = self;
-                series.tag = i;
-                series.brush = [m_mainViewController.gradientBrushes objectAtIndex:i % m_mainViewController.gradientBrushes.count];
-                if (m_mainViewController.showBorder)
-                {
-                    series.borderThickness = 1.01f;
-                    NChartBrush *borderBrush = [[m_mainViewController.gradientBrushes objectAtIndex:i % m_mainViewController.gradientBrushes.count] copy];
-                    [borderBrush scaleColorWithRScale:0.65f gScale:0.65f bScale:0.65f];
-                    series.borderBrush = borderBrush;
-                }
-                [view.chart addSeries:series];
-            }
-            NChartColumnSeriesSettings *settings = [NChartColumnSeriesSettings seriesSettings];
-            settings.cylindersResolution = m_mainViewController.sliceCount;
-            settings.shouldSmoothCylinders = m_mainViewController.smoothColumn;
-            [view.chart addSeriesSettings:settings];
-            view.chart.streamingMode = NO;
-            view.chart.cartesianSystem.xAxis.hasOffset = YES;
-            view.chart.cartesianSystem.yAxis.hasOffset = NO;
-            view.chart.cartesianSystem.syAxis.hasOffset = NO;
-            view.chart.cartesianSystem.zAxis.hasOffset = YES;
-            view.chart.timeAxis.visible = NO;
-            view.chart.caption.text = NSLocalizedString(@"Column", nil);
-        }
-            break;
+//        case NChart3DTypesColumn:
+//        {
+//            for (int i = 0; i < m_mainViewController.seriesCount; ++i)
+//            {
+//                NChartColumnSeries *series = [NChartColumnSeries series];
+//                series.dataSource = self;
+//                series.tag = i;
+//                series.brush = [m_mainViewController.gradientBrushes objectAtIndex:i % m_mainViewController.gradientBrushes.count];
+//                if (m_mainViewController.showBorder)
+//                {
+//                    series.borderThickness = 1.01f;
+//                    NChartBrush *borderBrush = [[m_mainViewController.gradientBrushes objectAtIndex:i % m_mainViewController.gradientBrushes.count] copy];
+//                    [borderBrush scaleColorWithRScale:0.65f gScale:0.65f bScale:0.65f];
+//                    series.borderBrush = borderBrush;
+//                }
+//                [view.chart addSeries:series];
+//            }
+//            NChartColumnSeriesSettings *settings = [NChartColumnSeriesSettings seriesSettings];
+//            settings.cylindersResolution = m_mainViewController.sliceCount;
+//            settings.shouldSmoothCylinders = m_mainViewController.smoothColumn;
+//            [view.chart addSeriesSettings:settings];
+//            view.chart.streamingMode = NO;
+//            view.chart.cartesianSystem.xAxis.hasOffset = YES;
+//            view.chart.cartesianSystem.yAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.syAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.zAxis.hasOffset = YES;
+//            view.chart.timeAxis.visible = NO;
+//            view.chart.caption.text = NSLocalizedString(@"Column", nil);
+//        }
+//            break;
+//            
+//        case NChart3DTypesBar:
+//        {
+//            for (int i = 0; i < m_mainViewController.seriesCount; ++i)
+//            {
+//                NChartBarSeries *series = [NChartBarSeries series];
+//                series.dataSource = self;
+//                series.tag = i;
+//                series.brush = [m_mainViewController.gradientBrushes objectAtIndex:i % m_mainViewController.gradientBrushes.count];
+//                if (m_mainViewController.showBorder)
+//                {
+//                    series.borderThickness = 1.01f;
+//                    NChartBrush *borderBrush = [[m_mainViewController.gradientBrushes objectAtIndex:i % m_mainViewController.gradientBrushes.count] copy];
+//                    [borderBrush scaleColorWithRScale:0.65f gScale:0.65f bScale:0.65f];
+//                    series.borderBrush = borderBrush;
+//                }
+//                [view.chart addSeries:series];
+//            }
+//            NChartBarSeriesSettings *settings = [NChartBarSeriesSettings seriesSettings];
+//            settings.cylindersResolution = m_mainViewController.sliceCount;
+//            settings.shouldSmoothCylinders = m_mainViewController.smoothColumn;
+//            [view.chart addSeriesSettings:settings];
+//            view.chart.streamingMode = NO;
+//            view.chart.cartesianSystem.xAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.yAxis.hasOffset = YES;
+//            view.chart.cartesianSystem.zAxis.hasOffset = YES;
+//            view.chart.timeAxis.visible = NO;
+//            view.chart.caption.text = NSLocalizedString(@"Bar", nil);
+//        }
+//            break;
+//            
+//        case NChart3DTypesArea:
+//            for (int i = 0; i < m_mainViewController.seriesCount; ++i)
+//            {
+//                NChartAreaSeries *series = [NChartAreaSeries series];
+//                series.dataSource = self;
+//                series.tag = i;
+//                NChartBrush *brush = [[m_mainViewController.brushes objectAtIndex:i % m_mainViewController.brushes.count] copy];
+//                brush.opacity = view.chart.drawIn3D ? 1.0f : 0.8f;
+//                series.brush = brush;
+//                if (m_mainViewController.showBorder)
+//                {
+//                    series.borderThickness = 3.0f;
+//                    series.borderBrush = [m_mainViewController.brushes objectAtIndex:i % m_mainViewController.brushes.count];
+//                }
+//                if (m_mainViewController.showMarkers)
+//                {
+//                    series.marker = [[NChartMarker alloc] init];
+//                    series.marker.shape = view.chart.drawIn3D ? NChartMarkerShapeSphere : NChartMarkerShapeCircle;
+//                    series.marker.resolution = view.chart.drawIn3D ? 32 : 20;
+//                    series.marker.size = 0.25f;
+//                    series.marker.brush = [m_mainViewController.brushes objectAtIndex:i % m_mainViewController.brushes.count];
+//                    series.marker.brush.shadingModel = view.chart.drawIn3D ? NChartShadingModelPhong : NChartShadingModelPlain;
+//                }
+//                [view.chart addSeries:series];
+//            }
+//            view.chart.streamingMode = NO;
+//            view.chart.cartesianSystem.xAxis.hasOffset = YES;
+//            view.chart.cartesianSystem.yAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.zAxis.hasOffset = YES;
+//            view.chart.timeAxis.visible = NO;
+//            view.chart.caption.text = NSLocalizedString(@"Area", nil);
+//            break;
+//            
+//        case NChart3DTypesLine:
+//            for (int i = 0; i < m_mainViewController.seriesCount; ++i)
+//            {
+//                NChartLineSeries *series = [NChartLineSeries series];
+//                series.dataSource = self;
+//                series.tag = i;
+//                series.brush = [m_mainViewController.brushes objectAtIndex:i % m_mainViewController.brushes.count];
+//                series.lineThickness = 3.0f;
+//                if (m_mainViewController.showMarkers)
+//                {
+//                    series.marker = [[NChartMarker alloc] init];
+//                    series.marker.shape = view.chart.drawIn3D ? NChartMarkerShapeSphere : NChartMarkerShapeCircle;
+//                    series.marker.resolution = view.chart.drawIn3D ? 32 : 20;
+//                    series.marker.size = 0.25f;
+//                    series.marker.brush = [m_mainViewController.brushes objectAtIndex:i % m_mainViewController.brushes.count];
+//                    series.marker.brush.shadingModel = view.chart.drawIn3D ? NChartShadingModelPhong : NChartShadingModelPlain;
+//                }
+//                [view.chart addSeries:series];
+//            }
+//            view.chart.streamingMode = NO;
+//            view.chart.cartesianSystem.xAxis.hasOffset = YES;
+//            view.chart.cartesianSystem.yAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.zAxis.hasOffset = YES;
+//            view.chart.timeAxis.visible = NO;
+//            view.chart.caption.text = NSLocalizedString(@"Line", nil);
+//            break;
+//            
+//        case NChart3DTypesStep:
+//            for (int i = 0; i < m_mainViewController.seriesCount; ++i)
+//            {
+//                NChartStepSeries *series = [NChartStepSeries series];
+//                series.dataSource = self;
+//                series.tag = i;
+//                series.brush = [m_mainViewController.brushes objectAtIndex:i % m_mainViewController.brushes.count];
+//                series.lineThickness = 3.0f;
+//                if (m_mainViewController.showMarkers)
+//                {
+//                    series.marker = [[NChartMarker alloc] init];
+//                    series.marker.shape = view.chart.drawIn3D ? NChartMarkerShapeSphere : NChartMarkerShapeCircle;
+//                    series.marker.resolution = view.chart.drawIn3D ? 32 : 20;
+//                    series.marker.size = 0.25f;
+//                    series.marker.brush = [m_mainViewController.brushes objectAtIndex:i % m_mainViewController.brushes.count];
+//                    series.marker.brush.shadingModel = view.chart.drawIn3D ? NChartShadingModelPhong : NChartShadingModelPlain;
+//                }
+//                [view.chart addSeries:series];
+//            }
+//            view.chart.streamingMode = NO;
+//            view.chart.cartesianSystem.xAxis.hasOffset = YES;
+//            view.chart.cartesianSystem.yAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.zAxis.hasOffset = YES;
+//            view.chart.timeAxis.visible = NO;
+//            view.chart.caption.text = NSLocalizedString(@"Step line", nil);
+//            break;
+//            
+//        case NChart3DTypesRibbon:
+//            for (int i = 0; i < m_mainViewController.seriesCount; ++i)
+//            {
+//                NChartRibbonSeries *series = [NChartRibbonSeries series];
+//                series.dataSource = self;
+//                series.tag = i;
+//                series.brush = [m_mainViewController.contrastGradientBrushes objectAtIndex:i % m_mainViewController.contrastGradientBrushes.count];
+//                if (m_mainViewController.showBorder)
+//                {
+//                    series.borderThickness = 2.0f;
+//                    series.borderBrush = [m_mainViewController.contrastGradientBrushes objectAtIndex:i % m_mainViewController.contrastGradientBrushes.count];
+//                }
+//                if (m_mainViewController.showMarkers)
+//                {
+//                    series.marker = [[NChartMarker alloc] init];
+//                    series.marker.shape = NChartMarkerShapeSphere;
+//                    series.marker.resolution = 32;
+//                    series.marker.size = 0.25f;
+//                    series.marker.brush = [m_mainViewController.brushes objectAtIndex:i % m_mainViewController.brushes.count];
+//                    series.marker.brush.shadingModel = NChartShadingModelPhong;
+//                }
+//                [view.chart addSeries:series];
+//            }
+//            view.chart.streamingMode = NO;
+//            view.chart.cartesianSystem.xAxis.hasOffset = YES;
+//            view.chart.cartesianSystem.yAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.zAxis.hasOffset = YES;
+//            view.chart.timeAxis.visible = NO;
+//            view.chart.drawIn3D = YES;
+//            view.chart.caption.text = NSLocalizedString(@"Ribbon", nil);
+//            break;
+//            
+//        case NChart3DTypesPie:
+//        {
+//            for (int i = 0; i < m_mainViewController.seriesCount; ++i)
+//            {
+//                NChartPieSeries *series = [NChartPieSeries series];
+//                series.dataSource = self;
+//                series.tag = i;
+//                series.brush = [m_mainViewController.gradientBrushes objectAtIndex:i % m_mainViewController.gradientBrushes.count];
+//                if (m_mainViewController.showBorder)
+//                {
+//                    series.borderThickness = 2.0f;
+//                    series.borderBrush = BrushWithRGB(0, 0, 0);
+//                }
+//                [view.chart addSeries:series];
+//            }
+//            NChartPieSeriesSettings *settings = [NChartPieSeriesSettings seriesSettings];
+//            settings.holeRatio = 0.0f;
+//            [view.chart addSeriesSettings:settings];
+//            view.chart.streamingMode = NO;
+//            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
+//            view.chart.timeAxis.visible = NO;
+//            view.chart.caption.text = NSLocalizedString(@"Pie", nil);
+//        }
+//            break;
+//            
+//        case NChart3DTypesDoughnut: {
+//            for (int i = 0; i < m_mainViewController.seriesCount; ++i)
+//            {
+//                NChartPieSeries *series = [NChartPieSeries series];
+//                series.dataSource = self;
+//                series.tag = i;
+//                series.brush = [m_mainViewController.gradientBrushes objectAtIndex:i % m_mainViewController.gradientBrushes.count];
+//                if (m_mainViewController.showBorder)
+//                {
+//                    series.borderThickness = 2.0f;
+//                    series.borderBrush = BrushWithRGB(0, 0, 0);
+//                }
+//                [view.chart addSeries:series];
+//            }
+//            NChartPieSeriesSettings *settings = [NChartPieSeriesSettings seriesSettings];
+//            settings.holeRatio = 0.1f;
+//            [view.chart addSeriesSettings:settings];
+//            view.chart.streamingMode = NO;
+//            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
+//            view.chart.timeAxis.visible = NO;
+//            view.chart.caption.text = NSLocalizedString(@"Doughnut", nil);
+//            break;
+//            
+//        }
+//        case NChart3DTypesBubble:
+//            for (int i = 0; i < m_mainViewController.seriesCount; ++i)
+//            {
+//                NChartBubbleSeries *series = [NChartBubbleSeries series];
+//                series.dataSource = self;
+//                series.tag = i;
+//                [view.chart addSeries:series];
+//            }
+//            view.chart.timeAxis.animationTime = (float)(m_mainViewController.yearsCount);
+//            view.chart.streamingMode = NO;
+//            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
+//            view.chart.cartesianSystem.xAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.yAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.zAxis.hasOffset = NO;
+//            view.chart.timeAxis.visible = YES;
+//            view.chart.caption.text = NSLocalizedString(@"Bubble", nil);
+//            m_mainViewController.prevTimeIndex = 0;
+//            break;
             
-        case NChart3DTypesBar:
-        {
-            for (int i = 0; i < m_mainViewController.seriesCount; ++i)
-            {
-                NChartBarSeries *series = [NChartBarSeries series];
-                series.dataSource = self;
-                series.tag = i;
-                series.brush = [m_mainViewController.gradientBrushes objectAtIndex:i % m_mainViewController.gradientBrushes.count];
-                if (m_mainViewController.showBorder)
-                {
-                    series.borderThickness = 1.01f;
-                    NChartBrush *borderBrush = [[m_mainViewController.gradientBrushes objectAtIndex:i % m_mainViewController.gradientBrushes.count] copy];
-                    [borderBrush scaleColorWithRScale:0.65f gScale:0.65f bScale:0.65f];
-                    series.borderBrush = borderBrush;
-                }
-                [view.chart addSeries:series];
-            }
-            NChartBarSeriesSettings *settings = [NChartBarSeriesSettings seriesSettings];
-            settings.cylindersResolution = m_mainViewController.sliceCount;
-            settings.shouldSmoothCylinders = m_mainViewController.smoothColumn;
-            [view.chart addSeriesSettings:settings];
-            view.chart.streamingMode = NO;
-            view.chart.cartesianSystem.xAxis.hasOffset = NO;
-            view.chart.cartesianSystem.yAxis.hasOffset = YES;
-            view.chart.cartesianSystem.zAxis.hasOffset = YES;
-            view.chart.timeAxis.visible = NO;
-            view.chart.caption.text = NSLocalizedString(@"Bar", nil);
-        }
-            break;
-            
-        case NChart3DTypesArea:
-            for (int i = 0; i < m_mainViewController.seriesCount; ++i)
-            {
-                NChartAreaSeries *series = [NChartAreaSeries series];
-                series.dataSource = self;
-                series.tag = i;
-                NChartBrush *brush = [[m_mainViewController.brushes objectAtIndex:i % m_mainViewController.brushes.count] copy];
-                brush.opacity = view.chart.drawIn3D ? 1.0f : 0.8f;
-                series.brush = brush;
-                if (m_mainViewController.showBorder)
-                {
-                    series.borderThickness = 3.0f;
-                    series.borderBrush = [m_mainViewController.brushes objectAtIndex:i % m_mainViewController.brushes.count];
-                }
-                if (m_mainViewController.showMarkers)
-                {
-                    series.marker = [[NChartMarker alloc] init];
-                    series.marker.shape = view.chart.drawIn3D ? NChartMarkerShapeSphere : NChartMarkerShapeCircle;
-                    series.marker.resolution = view.chart.drawIn3D ? 32 : 20;
-                    series.marker.size = 0.25f;
-                    series.marker.brush = [m_mainViewController.brushes objectAtIndex:i % m_mainViewController.brushes.count];
-                    series.marker.brush.shadingModel = view.chart.drawIn3D ? NChartShadingModelPhong : NChartShadingModelPlain;
-                }
-                [view.chart addSeries:series];
-            }
-            view.chart.streamingMode = NO;
-            view.chart.cartesianSystem.xAxis.hasOffset = YES;
-            view.chart.cartesianSystem.yAxis.hasOffset = NO;
-            view.chart.cartesianSystem.zAxis.hasOffset = YES;
-            view.chart.timeAxis.visible = NO;
-            view.chart.caption.text = NSLocalizedString(@"Area", nil);
-            break;
-            
-        case NChart3DTypesLine:
-            for (int i = 0; i < m_mainViewController.seriesCount; ++i)
-            {
-                NChartLineSeries *series = [NChartLineSeries series];
-                series.dataSource = self;
-                series.tag = i;
-                series.brush = [m_mainViewController.brushes objectAtIndex:i % m_mainViewController.brushes.count];
-                series.lineThickness = 3.0f;
-                if (m_mainViewController.showMarkers)
-                {
-                    series.marker = [[NChartMarker alloc] init];
-                    series.marker.shape = view.chart.drawIn3D ? NChartMarkerShapeSphere : NChartMarkerShapeCircle;
-                    series.marker.resolution = view.chart.drawIn3D ? 32 : 20;
-                    series.marker.size = 0.25f;
-                    series.marker.brush = [m_mainViewController.brushes objectAtIndex:i % m_mainViewController.brushes.count];
-                    series.marker.brush.shadingModel = view.chart.drawIn3D ? NChartShadingModelPhong : NChartShadingModelPlain;
-                }
-                [view.chart addSeries:series];
-            }
-            view.chart.streamingMode = NO;
-            view.chart.cartesianSystem.xAxis.hasOffset = YES;
-            view.chart.cartesianSystem.yAxis.hasOffset = NO;
-            view.chart.cartesianSystem.zAxis.hasOffset = YES;
-            view.chart.timeAxis.visible = NO;
-            view.chart.caption.text = NSLocalizedString(@"Line", nil);
-            break;
-            
-        case NChart3DTypesStep:
-            for (int i = 0; i < m_mainViewController.seriesCount; ++i)
-            {
-                NChartStepSeries *series = [NChartStepSeries series];
-                series.dataSource = self;
-                series.tag = i;
-                series.brush = [m_mainViewController.brushes objectAtIndex:i % m_mainViewController.brushes.count];
-                series.lineThickness = 3.0f;
-                if (m_mainViewController.showMarkers)
-                {
-                    series.marker = [[NChartMarker alloc] init];
-                    series.marker.shape = view.chart.drawIn3D ? NChartMarkerShapeSphere : NChartMarkerShapeCircle;
-                    series.marker.resolution = view.chart.drawIn3D ? 32 : 20;
-                    series.marker.size = 0.25f;
-                    series.marker.brush = [m_mainViewController.brushes objectAtIndex:i % m_mainViewController.brushes.count];
-                    series.marker.brush.shadingModel = view.chart.drawIn3D ? NChartShadingModelPhong : NChartShadingModelPlain;
-                }
-                [view.chart addSeries:series];
-            }
-            view.chart.streamingMode = NO;
-            view.chart.cartesianSystem.xAxis.hasOffset = YES;
-            view.chart.cartesianSystem.yAxis.hasOffset = NO;
-            view.chart.cartesianSystem.zAxis.hasOffset = YES;
-            view.chart.timeAxis.visible = NO;
-            view.chart.caption.text = NSLocalizedString(@"Step line", nil);
-            break;
-            
-        case NChart3DTypesRibbon:
-            for (int i = 0; i < m_mainViewController.seriesCount; ++i)
-            {
-                NChartRibbonSeries *series = [NChartRibbonSeries series];
-                series.dataSource = self;
-                series.tag = i;
-                series.brush = [m_mainViewController.contrastGradientBrushes objectAtIndex:i % m_mainViewController.contrastGradientBrushes.count];
-                if (m_mainViewController.showBorder)
-                {
-                    series.borderThickness = 2.0f;
-                    series.borderBrush = [m_mainViewController.contrastGradientBrushes objectAtIndex:i % m_mainViewController.contrastGradientBrushes.count];
-                }
-                if (m_mainViewController.showMarkers)
-                {
-                    series.marker = [[NChartMarker alloc] init];
-                    series.marker.shape = NChartMarkerShapeSphere;
-                    series.marker.resolution = 32;
-                    series.marker.size = 0.25f;
-                    series.marker.brush = [m_mainViewController.brushes objectAtIndex:i % m_mainViewController.brushes.count];
-                    series.marker.brush.shadingModel = NChartShadingModelPhong;
-                }
-                [view.chart addSeries:series];
-            }
-            view.chart.streamingMode = NO;
-            view.chart.cartesianSystem.xAxis.hasOffset = YES;
-            view.chart.cartesianSystem.yAxis.hasOffset = NO;
-            view.chart.cartesianSystem.zAxis.hasOffset = YES;
-            view.chart.timeAxis.visible = NO;
-            view.chart.drawIn3D = YES;
-            view.chart.caption.text = NSLocalizedString(@"Ribbon", nil);
-            break;
-            
-        case NChart3DTypesPie:
-        {
-            for (int i = 0; i < m_mainViewController.seriesCount; ++i)
-            {
-                NChartPieSeries *series = [NChartPieSeries series];
-                series.dataSource = self;
-                series.tag = i;
-                series.brush = [m_mainViewController.gradientBrushes objectAtIndex:i % m_mainViewController.gradientBrushes.count];
-                if (m_mainViewController.showBorder)
-                {
-                    series.borderThickness = 2.0f;
-                    series.borderBrush = BrushWithRGB(0, 0, 0);
-                }
-                [view.chart addSeries:series];
-            }
-            NChartPieSeriesSettings *settings = [NChartPieSeriesSettings seriesSettings];
-            settings.holeRatio = 0.0f;
-            [view.chart addSeriesSettings:settings];
-            view.chart.streamingMode = NO;
-            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
-            view.chart.timeAxis.visible = NO;
-            view.chart.caption.text = NSLocalizedString(@"Pie", nil);
-        }
-            break;
-            
-        case NChart3DTypesDoughnut: {
-            for (int i = 0; i < m_mainViewController.seriesCount; ++i)
-            {
-                NChartPieSeries *series = [NChartPieSeries series];
-                series.dataSource = self;
-                series.tag = i;
-                series.brush = [m_mainViewController.gradientBrushes objectAtIndex:i % m_mainViewController.gradientBrushes.count];
-                if (m_mainViewController.showBorder)
-                {
-                    series.borderThickness = 2.0f;
-                    series.borderBrush = BrushWithRGB(0, 0, 0);
-                }
-                [view.chart addSeries:series];
-            }
-            NChartPieSeriesSettings *settings = [NChartPieSeriesSettings seriesSettings];
-            settings.holeRatio = 0.1f;
-            [view.chart addSeriesSettings:settings];
-            view.chart.streamingMode = NO;
-            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
-            view.chart.timeAxis.visible = NO;
-            view.chart.caption.text = NSLocalizedString(@"Doughnut", nil);
-            break;
-            
-        }
-        case NChart3DTypesBubble:
-            for (int i = 0; i < m_mainViewController.seriesCount; ++i)
-            {
-                NChartBubbleSeries *series = [NChartBubbleSeries series];
-                series.dataSource = self;
-                series.tag = i;
-                [view.chart addSeries:series];
-            }
-            view.chart.timeAxis.animationTime = (float)(m_mainViewController.yearsCount);
-            view.chart.streamingMode = NO;
-            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
-            view.chart.cartesianSystem.xAxis.hasOffset = NO;
-            view.chart.cartesianSystem.yAxis.hasOffset = NO;
-            view.chart.cartesianSystem.zAxis.hasOffset = NO;
-            view.chart.timeAxis.visible = YES;
-            view.chart.caption.text = NSLocalizedString(@"Bubble", nil);
-            m_mainViewController.prevTimeIndex = 0;
-            break;
-            
+        // AL here goes the series
         case NChart3DTypesScatter:
-            for (int i = 0; i < m_mainViewController.seriesCount; ++i)
-            {
-                NChartBubbleSeries *series = [NChartBubbleSeries series];
-                series.dataSource = self;
-                series.tag = i;
-                [view.chart addSeries:series];
-            }
-            view.chart.timeAxis.animationTime = (float)(m_mainViewController.yearsCount);
-            view.chart.streamingMode = NO;
-            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
-            view.chart.cartesianSystem.xAxis.hasOffset = NO;
-            view.chart.cartesianSystem.yAxis.hasOffset = NO;
-            view.chart.cartesianSystem.zAxis.hasOffset = NO;
-            view.chart.timeAxis.visible = YES;
-            view.chart.caption.text = NSLocalizedString(@"Scatter", nil);
-            m_mainViewController.prevTimeIndex = 0;
-            break;
-            
-        case NChart3DTypesSurface:
         {
-            NChartSurfaceSeries *series = [NChartSurfaceSeries series];
-            series.dataSource = self;
-            series.tag = 0;
-            if (m_mainViewController.showBorder)
-            {
-                series.borderThickness = 0.5f;
-            }
-            [view.chart addSeries:series];
+            NSString *file = [[NSBundle bundleForClass:[self class]] pathForResource:@"GFD_DJIA_Companies" ofType:@"csv"];
+            
+            self.fields = [NSArray arrayWithContentsOfCSVFile:file options:CHCSVParserOptionsRecognizesBackslashesAsEscapes];
+            
+            NChartBubbleSeries *series = [NChartBubbleSeries series];
+                            series.dataSource = self;
+                            series.tag = 0;
+                            [view.chart addSeries:series];
+            
             view.chart.streamingMode = NO;
-            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
-            view.chart.cartesianSystem.xAxis.hasOffset = NO;
-            view.chart.cartesianSystem.yAxis.hasOffset = NO;
-            view.chart.cartesianSystem.zAxis.hasOffset = NO;
-            view.chart.timeAxis.visible = NO;
-            view.chart.caption.text = NSLocalizedString(@"Surface", nil);
-            view.chart.drawIn3D = YES;
+                        view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
+                        view.chart.cartesianSystem.xAxis.hasOffset = NO;
+                        view.chart.cartesianSystem.yAxis.hasOffset = NO;
+                        view.chart.cartesianSystem.zAxis.hasOffset = NO;
+                        view.chart.timeAxis.visible = YES;
+                        view.chart.caption.text = NSLocalizedString(@"Scatter", nil);
+            
         }
+//            for (int i = 0; i < m_mainViewController.seriesCount; ++i)
+//            {
+//                NChartBubbleSeries *series = [NChartBubbleSeries series];
+//                series.dataSource = self;
+//                series.tag = i;
+//                [view.chart addSeries:series];
+//            }
+//            view.chart.timeAxis.animationTime = (float)(m_mainViewController.yearsCount);
+//            view.chart.streamingMode = NO;
+//            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
+//            view.chart.cartesianSystem.xAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.yAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.zAxis.hasOffset = NO;
+//            view.chart.timeAxis.visible = YES;
+//            view.chart.caption.text = NSLocalizedString(@"Scatter", nil);
+//            m_mainViewController.prevTimeIndex = 0;
             break;
             
-        case NChart3DTypesCandlestick:
-        {
-            for (int i = 0, m = (m_mainViewController.drawIn3D ? m_mainViewController.seriesCount : 1); i < m; ++i)
-            {
-                NChartCandlestickSeries *series = [NChartCandlestickSeries series];
-                series.dataSource = self;
-                series.tag = i;
-                series.positiveColor = ColorWithRGB(73, 226, 141);
-                series.positiveBorderColor = ColorWithRGB(65, 204, 38);
-                series.negativeColor = ColorWithRGB(221, 73, 73);
-                series.negativeBorderColor = ColorWithRGB(199, 15, 50);
-                series.borderThickness = 3.0f;
-                [view.chart addSeries:series];
-            }
-            NChartCandlestickSeriesSettings *settings = [NChartCandlestickSeriesSettings seriesSettings];
-            settings.cylindersResolution = MAX((int)exp2((-log2(MAX(m_mainViewController.seriesCount, m_mainViewController.yearsCount)) * 2.0 / 5.0 + 6.0)), 16);
-            [view.chart addSeriesSettings:settings];
-            view.chart.streamingMode = NO;
-            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
-            view.chart.cartesianSystem.xAxis.hasOffset = YES;
-            view.chart.cartesianSystem.yAxis.hasOffset = NO;
-            view.chart.cartesianSystem.zAxis.hasOffset = YES;
-            view.chart.timeAxis.visible = NO;
-            view.chart.caption.text = NSLocalizedString(@"Candlestick", nil);
-        }
-            break;
-            
-        case NChart3DTypesOHLC:
-            for (int i = 0, m = (m_mainViewController.drawIn3D ? m_mainViewController.seriesCount : 1); i < m; ++i)
-            {
-                NChartOHLCSeries *series = [NChartOHLCSeries series];
-                series.dataSource = self;
-                series.tag = i;
-                series.positiveColor = ColorWithRGB(73, 226, 141);
-                series.negativeColor = ColorWithRGB(221, 73, 73);
-                series.borderThickness = 3.0f * (m_mainViewController.yearsCount > 10 ? 1.0f : 10.0f / (float)m_mainViewController.yearsCount);
-                [view.chart addSeries:series];
-            }
-            view.chart.streamingMode = NO;
-            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
-            view.chart.cartesianSystem.xAxis.hasOffset = YES;
-            view.chart.cartesianSystem.yAxis.hasOffset = NO;
-            view.chart.cartesianSystem.zAxis.hasOffset = YES;
-            view.chart.timeAxis.visible = NO;
-            view.chart.caption.text = NSLocalizedString(@"OHLC", nil);
-            break;
-            
-        case NChart3DTypesBand:
-        {
-            NChartBandSeries *series = [NChartBandSeries series];
-            series.dataSource = self;
-            series.tag = 0;
-            series.brush = [m_mainViewController.brushes objectAtIndex:0];
-            series.positiveColor = [UIColor colorWithRed:0.41f green:0.67f blue:0.95f alpha:0.8f];
-            series.negativeColor = [UIColor colorWithRed:0.77f green:0.94f blue:0.36f alpha:0.8f];
-            series.highBorderColor = [UIColor colorWithRed:0.51f green:0.78f blue:1.0f alpha:0.8f];
-            series.lowBorderColor = [UIColor colorWithRed:0.89f green:1.0f blue:0.44f alpha:0.8f];
-            series.borderThickness = 5.0f;
-            [view.chart addSeries:series];
-            view.chart.streamingMode = NO;
-            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
-            view.chart.cartesianSystem.xAxis.hasOffset = YES;
-            view.chart.cartesianSystem.yAxis.hasOffset = NO;
-            view.chart.cartesianSystem.zAxis.hasOffset = YES;
-            view.chart.timeAxis.visible = NO;
-            view.chart.drawIn3D = NO;
-            view.chart.caption.text = NSLocalizedString(@"Band", nil);
-        }
-            break;
-            
-        case NChart3DTypesSequence:
-            for (int i = 0, m = m_mainViewController.seriesCount; i < m; ++i)
-            {
-                NChartSequenceSeries *series = [NChartSequenceSeries series];
-                series.dataSource = self;
-                series.tag = i;
-                series.brush = [m_mainViewController.brushes objectAtIndex:i % m_mainViewController.brushes.count];
-                [view.chart addSeries:series];
-            }
-            view.chart.streamingMode = NO;
-            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
-            view.chart.cartesianSystem.xAxis.hasOffset = NO;
-            view.chart.cartesianSystem.yAxis.hasOffset = YES;
-            view.chart.cartesianSystem.zAxis.hasOffset = NO;
-            view.chart.timeAxis.visible = NO;
-            view.chart.drawIn3D = NO;
-            view.chart.caption.text = NSLocalizedString(@"Sequence", nil);
-            break;
-            
-        case NChart3DTypesPieRotation:
-        {
-            for (int i = 0; i < m_mainViewController.seriesCount; ++i)
-            {
-                NChartPieSeries *series = [NChartPieSeries series];
-                series.dataSource = self;
-                series.tag = i;
-                series.brush = [m_mainViewController.gradientBrushes objectAtIndex:i % m_mainViewController.gradientBrushes.count];
-                if (m_mainViewController.showBorder)
-                {
-                    ((NChartPieSeries *)series).borderThickness = 2.0f;
-                    ((NChartPieSeries *)series).borderBrush = BrushWithRGB(0, 0, 0);
-                }
-                else
-                {
-                    ((NChartPieSeries *)series).borderThickness = 0.0f;
-                }
-                [view.chart addSeries:series];
-            }
-            NChartPieSeriesSettings *settings = [NChartPieSeriesSettings seriesSettings];
-            settings.holeRatio = 0.0f;
-            [view.chart addSeriesSettings:settings];
-            view.chart.streamingMode = NO;
-            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
-            view.chart.timeAxis.visible = NO;
-            view.chart.drawIn3D = YES;
-            view.chart.caption.text = NSLocalizedString(@"Rotation of pie, tap play to see animation", nil);
-        }
-            break;
-            
-        case NChart3DTypesMultichart:
-        {
-            NChartAreaSeries *series1 = [NChartAreaSeries series];
-            view.chart.drawIn3D = YES;
-            series1.dataSource = self;
-            series1.tag = 0;
-            series1.brush = [m_mainViewController.gradientBrushes objectAtIndex:0];
-            series1.borderBrush = [NChartSolidColorBrush solidColorBrushWithColor:[UIColor blackColor]];
-            series1.borderThickness = 1;
-            [view.chart addSeries:series1];
-            
-            NChartColumnSeries *series2 = [NChartColumnSeries series];
-            series2.dataSource = self;
-            series2.tag = 1;
-            series2.brush = [m_mainViewController.gradientBrushes objectAtIndex:7];
-            [view.chart addSeries:series2];
-            
-            NChartLineSeries *series3 = [NChartLineSeries series];
-            series3.dataSource = self;
-            series3.tag = 2;
-            series3.brush = [NChartSolidColorBrush solidColorBrushWithColor:[UIColor colorWithRed:0 green:0.6 blue:0.2 alpha:1]];
-            series3.lineThickness = 3;
-            series3.marker = [[NChartMarker alloc] init];
-            series3.marker.shape = NChartMarkerShapeSphere;
-            series3.marker.resolution = 32;
-            series3.marker.size = 0.25f;
-            series3.marker.brush = [NChartSolidColorBrush solidColorBrushWithColor:[UIColor redColor]];
-            series3.marker.brush.shadingModel = NChartShadingModelPhong;
-            [view.chart addSeries:series3];
-            
-            NChartColumnSeriesSettings *settings = [NChartColumnSeriesSettings seriesSettings];
-            settings.cylindersResolution = 4;
-            settings.shouldSmoothCylinders = NO;
-            [view.chart addSeriesSettings:settings];
-            view.chart.streamingMode = NO;
-            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
-            view.chart.cartesianSystem.xAxis.hasOffset = YES;
-            view.chart.cartesianSystem.yAxis.hasOffset = NO;
-            view.chart.cartesianSystem.syAxis.hasOffset = NO;
-            view.chart.cartesianSystem.zAxis.hasOffset = YES;
-            view.chart.timeAxis.visible = NO;
-            view.chart.caption.text = NSLocalizedString(@"Multichart, tap point to see animation", nil);
-        }
-            break;
-            
-        case NChart3DTypesStreamingColumn:
-        {
-            NChartSolidSeries *series = [NChartColumnSeries series];
-            
-            series.dataSource = self;
-            series.tag = 0;
-            series.brush = [m_mainViewController.gradientBrushes objectAtIndex:0];
-            [view.chart addSeries:series];
-            
-            view.chart.drawIn3D = m_mainViewController.drawIn3D;
-            
-            NChartColumnSeriesSettings *settings = [NChartColumnSeriesSettings seriesSettings];
-            settings.cylindersResolution = 4;
-            settings.shouldSmoothCylinders = NO;
-            [view.chart addSeriesSettings:settings];
-            view.chart.streamingMode = YES;
-            view.chart.legend.visible = NO;
-            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
-            view.chart.cartesianSystem.xAxis.hasOffset = NO;
-            view.chart.cartesianSystem.yAxis.hasOffset = NO;
-            view.chart.cartesianSystem.syAxis.hasOffset = NO;
-            view.chart.cartesianSystem.zAxis.hasOffset = NO;
-            view.chart.timeAxis.visible = NO;
-            view.chart.cartesianSystem.zAxis.labelsVisible = NO;
-        }
-            break;
-            
-        case NChart3DTypesStreamingArea:
-        case NChart3DTypesStreamingLine:
-        case NChart3DTypesStreamingStep:
-        {
-            for (int i = 0, m = m_mainViewController.drawIn3D ? m_mainViewController.spectrum3DCount - 1 : 1; i < m; ++i)
-            {
-                NChartSolidSeries *series;
-                if (m_mainViewController.seriesType == NChart3DTypesStreamingArea)
-                    series = [NChartAreaSeries series];
-                if (m_mainViewController.seriesType == NChart3DTypesStreamingLine)
-                    series = [NChartLineSeries series];
-                if (m_mainViewController.seriesType == NChart3DTypesStreamingStep)
-                    series = [NChartStepSeries series];
-                
-                series.dataSource = self;
-                series.tag = m_mainViewController.drawIn3D ? i + 1 : 0;
-                series.brush = [m_mainViewController.gradientBrushes objectAtIndex:0];
-                [view.chart addSeries:series];
-            }
-            
-            view.chart.drawIn3D = m_mainViewController.drawIn3D;
-            
-            view.chart.streamingMode = YES;
-            view.chart.legend.visible = NO;
-            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
-            view.chart.cartesianSystem.xAxis.hasOffset = NO;
-            view.chart.cartesianSystem.yAxis.hasOffset = NO;
-            view.chart.cartesianSystem.syAxis.hasOffset = NO;
-            view.chart.cartesianSystem.zAxis.hasOffset = NO;
-            view.chart.timeAxis.visible = NO;
-            view.chart.cartesianSystem.zAxis.labelsVisible = NO;
-        }
-            break;
-            
-        case NChart3DTypesStreamingSurface:
-        {
-            NChartSurfaceSeries *series = [NChartSurfaceSeries series];
-            series.dataSource = self;
-            series.tag = 0;
-            series.brush = [NChartSolidColorBrush solidColorBrushWithColor:[UIColor grayColor]];
-            [view.chart addSeries:series];
-            view.chart.streamingMode = YES;
-            view.chart.legend.visible = NO;
-            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
-            view.chart.cartesianSystem.xAxis.hasOffset = NO;
-            view.chart.cartesianSystem.yAxis.hasOffset = NO;
-            view.chart.cartesianSystem.zAxis.hasOffset = NO;
-            view.chart.timeAxis.visible = NO;
-            view.chart.drawIn3D = YES;
-            view.chart.cartesianSystem.zAxis.labelsVisible = NO;
-        }
-            break;
+//        case NChart3DTypesSurface:
+//        {
+//            NChartSurfaceSeries *series = [NChartSurfaceSeries series];
+//            series.dataSource = self;
+//            series.tag = 0;
+//            if (m_mainViewController.showBorder)
+//            {
+//                series.borderThickness = 0.5f;
+//            }
+//            [view.chart addSeries:series];
+//            view.chart.streamingMode = NO;
+//            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
+//            view.chart.cartesianSystem.xAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.yAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.zAxis.hasOffset = NO;
+//            view.chart.timeAxis.visible = NO;
+//            view.chart.caption.text = NSLocalizedString(@"Surface", nil);
+//            view.chart.drawIn3D = YES;
+//        }
+//            break;
+//            
+//        case NChart3DTypesCandlestick:
+//        {
+//            for (int i = 0, m = (m_mainViewController.drawIn3D ? m_mainViewController.seriesCount : 1); i < m; ++i)
+//            {
+//                NChartCandlestickSeries *series = [NChartCandlestickSeries series];
+//                series.dataSource = self;
+//                series.tag = i;
+//                series.positiveColor = ColorWithRGB(73, 226, 141);
+//                series.positiveBorderColor = ColorWithRGB(65, 204, 38);
+//                series.negativeColor = ColorWithRGB(221, 73, 73);
+//                series.negativeBorderColor = ColorWithRGB(199, 15, 50);
+//                series.borderThickness = 3.0f;
+//                [view.chart addSeries:series];
+//            }
+//            NChartCandlestickSeriesSettings *settings = [NChartCandlestickSeriesSettings seriesSettings];
+//            settings.cylindersResolution = MAX((int)exp2((-log2(MAX(m_mainViewController.seriesCount, m_mainViewController.yearsCount)) * 2.0 / 5.0 + 6.0)), 16);
+//            [view.chart addSeriesSettings:settings];
+//            view.chart.streamingMode = NO;
+//            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
+//            view.chart.cartesianSystem.xAxis.hasOffset = YES;
+//            view.chart.cartesianSystem.yAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.zAxis.hasOffset = YES;
+//            view.chart.timeAxis.visible = NO;
+//            view.chart.caption.text = NSLocalizedString(@"Candlestick", nil);
+//        }
+//            break;
+//            
+//        case NChart3DTypesOHLC:
+//            for (int i = 0, m = (m_mainViewController.drawIn3D ? m_mainViewController.seriesCount : 1); i < m; ++i)
+//            {
+//                NChartOHLCSeries *series = [NChartOHLCSeries series];
+//                series.dataSource = self;
+//                series.tag = i;
+//                series.positiveColor = ColorWithRGB(73, 226, 141);
+//                series.negativeColor = ColorWithRGB(221, 73, 73);
+//                series.borderThickness = 3.0f * (m_mainViewController.yearsCount > 10 ? 1.0f : 10.0f / (float)m_mainViewController.yearsCount);
+//                [view.chart addSeries:series];
+//            }
+//            view.chart.streamingMode = NO;
+//            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
+//            view.chart.cartesianSystem.xAxis.hasOffset = YES;
+//            view.chart.cartesianSystem.yAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.zAxis.hasOffset = YES;
+//            view.chart.timeAxis.visible = NO;
+//            view.chart.caption.text = NSLocalizedString(@"OHLC", nil);
+//            break;
+//            
+//        case NChart3DTypesBand:
+//        {
+//            NChartBandSeries *series = [NChartBandSeries series];
+//            series.dataSource = self;
+//            series.tag = 0;
+//            series.brush = [m_mainViewController.brushes objectAtIndex:0];
+//            series.positiveColor = [UIColor colorWithRed:0.41f green:0.67f blue:0.95f alpha:0.8f];
+//            series.negativeColor = [UIColor colorWithRed:0.77f green:0.94f blue:0.36f alpha:0.8f];
+//            series.highBorderColor = [UIColor colorWithRed:0.51f green:0.78f blue:1.0f alpha:0.8f];
+//            series.lowBorderColor = [UIColor colorWithRed:0.89f green:1.0f blue:0.44f alpha:0.8f];
+//            series.borderThickness = 5.0f;
+//            [view.chart addSeries:series];
+//            view.chart.streamingMode = NO;
+//            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
+//            view.chart.cartesianSystem.xAxis.hasOffset = YES;
+//            view.chart.cartesianSystem.yAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.zAxis.hasOffset = YES;
+//            view.chart.timeAxis.visible = NO;
+//            view.chart.drawIn3D = NO;
+//            view.chart.caption.text = NSLocalizedString(@"Band", nil);
+//        }
+//            break;
+//            
+//        case NChart3DTypesSequence:
+//            for (int i = 0, m = m_mainViewController.seriesCount; i < m; ++i)
+//            {
+//                NChartSequenceSeries *series = [NChartSequenceSeries series];
+//                series.dataSource = self;
+//                series.tag = i;
+//                series.brush = [m_mainViewController.brushes objectAtIndex:i % m_mainViewController.brushes.count];
+//                [view.chart addSeries:series];
+//            }
+//            view.chart.streamingMode = NO;
+//            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
+//            view.chart.cartesianSystem.xAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.yAxis.hasOffset = YES;
+//            view.chart.cartesianSystem.zAxis.hasOffset = NO;
+//            view.chart.timeAxis.visible = NO;
+//            view.chart.drawIn3D = NO;
+//            view.chart.caption.text = NSLocalizedString(@"Sequence", nil);
+//            break;
+//            
+//        case NChart3DTypesPieRotation:
+//        {
+//            for (int i = 0; i < m_mainViewController.seriesCount; ++i)
+//            {
+//                NChartPieSeries *series = [NChartPieSeries series];
+//                series.dataSource = self;
+//                series.tag = i;
+//                series.brush = [m_mainViewController.gradientBrushes objectAtIndex:i % m_mainViewController.gradientBrushes.count];
+//                if (m_mainViewController.showBorder)
+//                {
+//                    ((NChartPieSeries *)series).borderThickness = 2.0f;
+//                    ((NChartPieSeries *)series).borderBrush = BrushWithRGB(0, 0, 0);
+//                }
+//                else
+//                {
+//                    ((NChartPieSeries *)series).borderThickness = 0.0f;
+//                }
+//                [view.chart addSeries:series];
+//            }
+//            NChartPieSeriesSettings *settings = [NChartPieSeriesSettings seriesSettings];
+//            settings.holeRatio = 0.0f;
+//            [view.chart addSeriesSettings:settings];
+//            view.chart.streamingMode = NO;
+//            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
+//            view.chart.timeAxis.visible = NO;
+//            view.chart.drawIn3D = YES;
+//            view.chart.caption.text = NSLocalizedString(@"Rotation of pie, tap play to see animation", nil);
+//        }
+//            break;
+//            
+//        case NChart3DTypesMultichart:
+//        {
+//            NChartAreaSeries *series1 = [NChartAreaSeries series];
+//            view.chart.drawIn3D = YES;
+//            series1.dataSource = self;
+//            series1.tag = 0;
+//            series1.brush = [m_mainViewController.gradientBrushes objectAtIndex:0];
+//            series1.borderBrush = [NChartSolidColorBrush solidColorBrushWithColor:[UIColor blackColor]];
+//            series1.borderThickness = 1;
+//            [view.chart addSeries:series1];
+//            
+//            NChartColumnSeries *series2 = [NChartColumnSeries series];
+//            series2.dataSource = self;
+//            series2.tag = 1;
+//            series2.brush = [m_mainViewController.gradientBrushes objectAtIndex:7];
+//            [view.chart addSeries:series2];
+//            
+//            NChartLineSeries *series3 = [NChartLineSeries series];
+//            series3.dataSource = self;
+//            series3.tag = 2;
+//            series3.brush = [NChartSolidColorBrush solidColorBrushWithColor:[UIColor colorWithRed:0 green:0.6 blue:0.2 alpha:1]];
+//            series3.lineThickness = 3;
+//            series3.marker = [[NChartMarker alloc] init];
+//            series3.marker.shape = NChartMarkerShapeSphere;
+//            series3.marker.resolution = 32;
+//            series3.marker.size = 0.25f;
+//            series3.marker.brush = [NChartSolidColorBrush solidColorBrushWithColor:[UIColor redColor]];
+//            series3.marker.brush.shadingModel = NChartShadingModelPhong;
+//            [view.chart addSeries:series3];
+//            
+//            NChartColumnSeriesSettings *settings = [NChartColumnSeriesSettings seriesSettings];
+//            settings.cylindersResolution = 4;
+//            settings.shouldSmoothCylinders = NO;
+//            [view.chart addSeriesSettings:settings];
+//            view.chart.streamingMode = NO;
+//            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
+//            view.chart.cartesianSystem.xAxis.hasOffset = YES;
+//            view.chart.cartesianSystem.yAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.syAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.zAxis.hasOffset = YES;
+//            view.chart.timeAxis.visible = NO;
+//            view.chart.caption.text = NSLocalizedString(@"Multichart, tap point to see animation", nil);
+//        }
+//            break;
+//            
+//        case NChart3DTypesStreamingColumn:
+//        {
+//            NChartSolidSeries *series = [NChartColumnSeries series];
+//            
+//            series.dataSource = self;
+//            series.tag = 0;
+//            series.brush = [m_mainViewController.gradientBrushes objectAtIndex:0];
+//            [view.chart addSeries:series];
+//            
+//            view.chart.drawIn3D = m_mainViewController.drawIn3D;
+//            
+//            NChartColumnSeriesSettings *settings = [NChartColumnSeriesSettings seriesSettings];
+//            settings.cylindersResolution = 4;
+//            settings.shouldSmoothCylinders = NO;
+//            [view.chart addSeriesSettings:settings];
+//            view.chart.streamingMode = YES;
+//            view.chart.legend.visible = NO;
+//            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
+//            view.chart.cartesianSystem.xAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.yAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.syAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.zAxis.hasOffset = NO;
+//            view.chart.timeAxis.visible = NO;
+//            view.chart.cartesianSystem.zAxis.labelsVisible = NO;
+//        }
+//            break;
+//            
+//        case NChart3DTypesStreamingArea:
+//        case NChart3DTypesStreamingLine:
+//        case NChart3DTypesStreamingStep:
+//        {
+//            for (int i = 0, m = m_mainViewController.drawIn3D ? m_mainViewController.spectrum3DCount - 1 : 1; i < m; ++i)
+//            {
+//                NChartSolidSeries *series;
+//                if (m_mainViewController.seriesType == NChart3DTypesStreamingArea)
+//                    series = [NChartAreaSeries series];
+//                if (m_mainViewController.seriesType == NChart3DTypesStreamingLine)
+//                    series = [NChartLineSeries series];
+//                if (m_mainViewController.seriesType == NChart3DTypesStreamingStep)
+//                    series = [NChartStepSeries series];
+//                
+//                series.dataSource = self;
+//                series.tag = m_mainViewController.drawIn3D ? i + 1 : 0;
+//                series.brush = [m_mainViewController.gradientBrushes objectAtIndex:0];
+//                [view.chart addSeries:series];
+//            }
+//            
+//            view.chart.drawIn3D = m_mainViewController.drawIn3D;
+//            
+//            view.chart.streamingMode = YES;
+//            view.chart.legend.visible = NO;
+//            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
+//            view.chart.cartesianSystem.xAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.yAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.syAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.zAxis.hasOffset = NO;
+//            view.chart.timeAxis.visible = NO;
+//            view.chart.cartesianSystem.zAxis.labelsVisible = NO;
+//        }
+//            break;
+//            
+//        case NChart3DTypesStreamingSurface:
+//        {
+//            NChartSurfaceSeries *series = [NChartSurfaceSeries series];
+//            series.dataSource = self;
+//            series.tag = 0;
+//            series.brush = [NChartSolidColorBrush solidColorBrushWithColor:[UIColor grayColor]];
+//            [view.chart addSeries:series];
+//            view.chart.streamingMode = YES;
+//            view.chart.legend.visible = NO;
+//            view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
+//            view.chart.cartesianSystem.xAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.yAxis.hasOffset = NO;
+//            view.chart.cartesianSystem.zAxis.hasOffset = NO;
+//            view.chart.timeAxis.visible = NO;
+//            view.chart.drawIn3D = YES;
+//            view.chart.cartesianSystem.zAxis.labelsVisible = NO;
+//        }
+//            break;
     }
 }
 
@@ -924,14 +944,12 @@
         // This is the scatter points AL
         case NChart3DTypesScatter:
         {
-            NSString *file = [[NSBundle bundleForClass:[self class]] pathForResource:@"GFD_DJIA_Companies" ofType:@"csv"];
             
-            NSArray *fields = [NSArray arrayWithContentsOfCSVFile:file options:CHCSVParserOptionsRecognizesBackslashesAsEscapes];
             //NSLog(@"read: %@", fields);
             NChartColumnSeries *series = [NChartColumnSeries new];
-            for ( int i=0; i < fields.count; i++)
+            for ( int i=0; i < self.fields.count; i++)
             {
-                NSArray *item = [fields objectAtIndex:i];
+                NSArray *item = [self.fields objectAtIndex:i];
                 
 //                NChartSeries *series = [[NChartSeries alloc] init];
 //                series s [item objectAtIndex:1];
@@ -939,6 +957,12 @@
                 double y = [[item objectAtIndex:3] doubleValue];
                 double z = [[item objectAtIndex:4] doubleValue];
                 NChartPointState *state = [NChartPointState pointStateWithX:x Y:y Z:z];
+                
+                // Setting the brush
+                state.shape = NChartMarkerShapeSphere;
+                state.brush = [[m_mainViewController.brushes objectAtIndex:(series.tag) % m_mainViewController.brushes.count] copy];
+                state.brush.shadingModel = NChartShadingModelPhong;
+                
                 NChartPoint *point = [NChartPoint pointWithState:state forSeries:series];
             
                 [result addObject:point];
