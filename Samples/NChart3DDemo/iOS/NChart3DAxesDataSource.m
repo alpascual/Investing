@@ -77,6 +77,8 @@
 
 #pragma mark - NChartSizeAxisDataSource
 
+
+// Size AL:
 - (float)sizeAxisDataSourceMinSizeForSizeAxis:(NChartSizeAxis *)sizeAxis
 {
     float size;
@@ -130,291 +132,291 @@
 
 #pragma mark - NChartValueAxisDataSource
 
-- (NSString *)valueAxisDataSourceNameForAxis:(NChartValueAxis *)axis
-{
-    switch (m_mainViewController.seriesType)
-    {
-        case NChart3DTypesStreamingArea:
-        case NChart3DTypesStreamingColumn:
-        case NChart3DTypesStreamingLine:
-        case NChart3DTypesStreamingStep:
-        case NChart3DTypesStreamingSurface:
-            switch (axis.kind)
-            {
-                case NChartValueAxisX:
-                    return NSLocalizedString(@"Hz", nil);
-                    
-                case NChartValueAxisY:
-                    return NSLocalizedString(@"Amount", nil);
-                    
-                case NChartValueAxisZ:
-                    return NSLocalizedString(@"Time", nil);
-                    
-                default:
-                    return nil;
-            }
-            break;
-            
-        default:
-            switch (axis.kind)
-            {
-                case NChartValueAxisX:
-                    return NSLocalizedString(@"X-Axis", nil);
-                    
-                case NChartValueAxisY:
-                    return NSLocalizedString(@"Y-Axis", nil);
-                    
-                case NChartValueAxisZ:
-                    return NSLocalizedString(@"Z-Axis", nil);
-                    
-                default:
-                    return nil;
-            }
-    }
-}
+//- (NSString *)valueAxisDataSourceNameForAxis:(NChartValueAxis *)axis
+//{
+//    switch (m_mainViewController.seriesType)
+//    {
+//        case NChart3DTypesStreamingArea:
+//        case NChart3DTypesStreamingColumn:
+//        case NChart3DTypesStreamingLine:
+//        case NChart3DTypesStreamingStep:
+//        case NChart3DTypesStreamingSurface:
+//            switch (axis.kind)
+//            {
+//                case NChartValueAxisX:
+//                    return NSLocalizedString(@"Hz", nil);
+//                    
+//                case NChartValueAxisY:
+//                    return NSLocalizedString(@"Amount", nil);
+//                    
+//                case NChartValueAxisZ:
+//                    return NSLocalizedString(@"Time", nil);
+//                    
+//                default:
+//                    return nil;
+//            }
+//            break;
+//            
+//        default:
+//            switch (axis.kind)
+//            {
+//                case NChartValueAxisX:
+//                    return NSLocalizedString(@"X-Axis", nil);
+//                    
+//                case NChartValueAxisY:
+//                    return NSLocalizedString(@"Y-Axis", nil);
+//                    
+//                case NChartValueAxisZ:
+//                    return NSLocalizedString(@"Z-Axis", nil);
+//                    
+//                default:
+//                    return nil;
+//            }
+//    }
+//}
 
-- (NSNumber *)valueAxisDataSourceStepForValueAxis:(NChartValueAxis *)axis
-{
-    switch (m_mainViewController.seriesType)
-    {
-        case NChart3DTypesScatter:
-            switch (axis.kind)
-            {
-                case NChartValueAxisX:
-                case NChartValueAxisY:
-                    return @0.48;
-                    
-                default:
-                    return nil;
-            }
-            break;
-            
-        case NChart3DTypesStreamingArea:
-        case NChart3DTypesStreamingColumn:
-        case NChart3DTypesStreamingLine:
-        case NChart3DTypesStreamingStep:
-        case NChart3DTypesStreamingSurface:
-            switch (axis.kind)
-            {
-                case NChartValueAxisX:
-                    return [NSNumber numberWithInt:m_mainViewController.spectrumStep];
-                    
-                case NChartValueAxisY:
-                    return @0.05;
-                    
-                default:
-                    return nil;
-            }
-            break;
-            
-        default:
-            break;
-    }
-    
-    return nil;
-}
+//- (NSNumber *)valueAxisDataSourceStepForValueAxis:(NChartValueAxis *)axis
+//{
+//    switch (m_mainViewController.seriesType)
+//    {
+//        case NChart3DTypesScatter:
+//            switch (axis.kind)
+//            {
+//                case NChartValueAxisX:
+//                case NChartValueAxisY:
+//                    return @0.48;
+//                    
+//                default:
+//                    return nil;
+//            }
+//            break;
+//            
+//        case NChart3DTypesStreamingArea:
+//        case NChart3DTypesStreamingColumn:
+//        case NChart3DTypesStreamingLine:
+//        case NChart3DTypesStreamingStep:
+//        case NChart3DTypesStreamingSurface:
+//            switch (axis.kind)
+//            {
+//                case NChartValueAxisX:
+//                    return [NSNumber numberWithInt:m_mainViewController.spectrumStep];
+//                    
+//                case NChartValueAxisY:
+//                    return @0.05;
+//                    
+//                default:
+//                    return nil;
+//            }
+//            break;
+//            
+//        default:
+//            break;
+//    }
+//    
+//    return nil;
+//}
+//
+//- (NSNumber *)valueAxisDataSourceMaxForValueAxis:(NChartValueAxis *)axis
+//{
+//    switch (m_mainViewController.seriesType)
+//    {
+//        case NChart3DTypesScatter:
+//            switch (axis.kind)
+//            {
+//                case NChartValueAxisX:
+//                case NChartValueAxisY:
+//                    return @1.2;
+//                    
+//                default:
+//                    return nil;
+//            }
+//            break;
+//            
+//        case NChart3DTypesSurface:
+//            if (axis.kind == NChartValueAxisY)
+//                return @1.0;
+//            break;
+//            
+//        case NChart3DTypesStreamingColumn:
+//        case NChart3DTypesStreamingArea:
+//        case NChart3DTypesStreamingLine:
+//        case NChart3DTypesStreamingStep:
+//            switch (axis.kind)
+//            {
+//                case NChartValueAxisX:
+//                    return [NSNumber numberWithInt:(m_mainViewController.drawIn3D ?
+//                                                    m_mainViewController.spectrum3DCount :
+//                                                    m_mainViewController.spectrum2DCount) * m_mainViewController.spectrumStep];
+//                    
+//                case NChartValueAxisY:
+//                    return @0.3;
+//                    
+//                case NChartValueAxisZ:
+//                    return [NSNumber numberWithInt:m_mainViewController.spectrum3DCount];
+//                    
+//                default:
+//                    break;
+//            }
+//            break;
+//            
+//        case NChart3DTypesStreamingSurface:
+//            switch (axis.kind)
+//            {
+//                case NChartValueAxisX:
+//                    return [NSNumber numberWithInt:m_mainViewController.spectrum3DCount * m_mainViewController.spectrumStep];
+//                    
+//                case NChartValueAxisY:
+//                    return @0.3;
+//                    
+//                case NChartValueAxisZ:
+//                    return [NSNumber numberWithInt:m_mainViewController.spectrum3DCount];
+//                    
+//                default:
+//                    break;
+//            }
+//            break;
+//            
+//        default:
+//            break;
+//    }
+//    
+//    return nil;
+//}
+//
+//- (NSNumber *)valueAxisDataSourceMinForValueAxis:(NChartValueAxis *)axis
+//{
+//    switch (m_mainViewController.seriesType)
+//    {
+//        case NChart3DTypesScatter:
+//            switch (axis.kind)
+//        {
+//            case NChartValueAxisX:
+//            case NChartValueAxisY:
+//                return @-1.2;
+//                
+//            default:
+//                break;
+//        }
+//            break;
+//            
+//        case NChart3DTypesSurface:
+//            if (axis.kind == NChartValueAxisY)
+//                return @-1.0;
+//            break;
+//            
+//        case NChart3DTypesStreamingArea:
+//        case NChart3DTypesStreamingLine:
+//        case NChart3DTypesStreamingStep:
+//        case NChart3DTypesStreamingSurface:
+//            if (axis.kind == NChartValueAxisY)
+//                return @0.0;
+//            break;
+//            
+//        default:
+//            break;
+//    }
+//    
+//    return nil;
+//}
 
-- (NSNumber *)valueAxisDataSourceMaxForValueAxis:(NChartValueAxis *)axis
-{
-    switch (m_mainViewController.seriesType)
-    {
-        case NChart3DTypesScatter:
-            switch (axis.kind)
-            {
-                case NChartValueAxisX:
-                case NChartValueAxisY:
-                    return @1.2;
-                    
-                default:
-                    return nil;
-            }
-            break;
-            
-        case NChart3DTypesSurface:
-            if (axis.kind == NChartValueAxisY)
-                return @1.0;
-            break;
-            
-        case NChart3DTypesStreamingColumn:
-        case NChart3DTypesStreamingArea:
-        case NChart3DTypesStreamingLine:
-        case NChart3DTypesStreamingStep:
-            switch (axis.kind)
-            {
-                case NChartValueAxisX:
-                    return [NSNumber numberWithInt:(m_mainViewController.drawIn3D ?
-                                                    m_mainViewController.spectrum3DCount :
-                                                    m_mainViewController.spectrum2DCount) * m_mainViewController.spectrumStep];
-                    
-                case NChartValueAxisY:
-                    return @0.3;
-                    
-                case NChartValueAxisZ:
-                    return [NSNumber numberWithInt:m_mainViewController.spectrum3DCount];
-                    
-                default:
-                    break;
-            }
-            break;
-            
-        case NChart3DTypesStreamingSurface:
-            switch (axis.kind)
-            {
-                case NChartValueAxisX:
-                    return [NSNumber numberWithInt:m_mainViewController.spectrum3DCount * m_mainViewController.spectrumStep];
-                    
-                case NChartValueAxisY:
-                    return @0.3;
-                    
-                case NChartValueAxisZ:
-                    return [NSNumber numberWithInt:m_mainViewController.spectrum3DCount];
-                    
-                default:
-                    break;
-            }
-            break;
-            
-        default:
-            break;
-    }
-    
-    return nil;
-}
+//- (NSArray *)valueAxisDataSourceTicksForValueAxis:(NChartValueAxis *)axis
+//{
+//    switch (axis.kind)
+//    {
+//        case NChartValueAxisX:
+//        {
+//            switch (m_mainViewController.seriesType)
+//            {
+//                case NChart3DTypesColumn:
+//                case NChart3DTypesArea:
+//                case NChart3DTypesLine:
+//                case NChart3DTypesStep:
+//                case NChart3DTypesRibbon:
+//                case NChart3DTypesCandlestick:
+//                case NChart3DTypesOHLC:
+//                case NChart3DTypesMultichart:
+//                    return m_mainViewController.arrayOfYears;
+//                    
+//                default:
+//                    return nil;
+//            }
+//        }
+//            
+//        case NChartValueAxisY:
+//        {
+//            switch (m_mainViewController.seriesType)
+//            {
+//                case NChart3DTypesBar:
+//                    return m_mainViewController.arrayOfYears;
+//                    
+//                case NChart3DTypesSequence:
+//                    return @[NSLocalizedString(@"Alpha", nil), NSLocalizedString(@"Beta", nil),
+//                             NSLocalizedString(@"Gamma", nil), NSLocalizedString(@"Delta", nil)];
+//                    
+//                default:
+//                    return nil;
+//            }
+//        }
+//            
+//        case NChartValueAxisZ:
+//            switch (m_mainViewController.seriesType)
+//        {
+//            case NChart3DTypesColumn:
+//            case NChart3DTypesBar:
+//                return @[NSLocalizedString(@"Alpha", nil), NSLocalizedString(@"Beta", nil),
+//                         NSLocalizedString(@"Gamma", nil), NSLocalizedString(@"Delta", nil)];
+//                
+//            case NChart3DTypesArea:
+//            case NChart3DTypesLine:
+//            case NChart3DTypesStep:
+//            case NChart3DTypesRibbon:
+//            case NChart3DTypesCandlestick:
+//            case NChart3DTypesOHLC:
+//                return (((NChartView *)m_mainViewController.view).chart.cartesianSystem.valueAxesType == NChartValueAxesTypeAbsolute ?
+//                        m_mainViewController.arrayOfSeriesNames : @[NSLocalizedString(@"All series", nil)]);
+//                
+//            case NChart3DTypesMultichart:
+//                return @[NSLocalizedString(@"Area", nil), NSLocalizedString(@"Column", nil),
+//                         NSLocalizedString(@"Line", nil)];
+//                
+//            default:
+//                return nil;
+//        }
+//            
+//        default:
+//            return nil;
+//    }
+//}
 
-- (NSNumber *)valueAxisDataSourceMinForValueAxis:(NChartValueAxis *)axis
-{
-    switch (m_mainViewController.seriesType)
-    {
-        case NChart3DTypesScatter:
-            switch (axis.kind)
-        {
-            case NChartValueAxisX:
-            case NChartValueAxisY:
-                return @-1.2;
-                
-            default:
-                break;
-        }
-            break;
-            
-        case NChart3DTypesSurface:
-            if (axis.kind == NChartValueAxisY)
-                return @-1.0;
-            break;
-            
-        case NChart3DTypesStreamingArea:
-        case NChart3DTypesStreamingLine:
-        case NChart3DTypesStreamingStep:
-        case NChart3DTypesStreamingSurface:
-            if (axis.kind == NChartValueAxisY)
-                return @0.0;
-            break;
-            
-        default:
-            break;
-    }
-    
-    return nil;
-}
+//- (NSNumber *)valueAxisDataSourceLengthForValueAxis:(NChartValueAxis *)axis
+//{
+//    return (axis.kind == NChartValueAxisZ && [self zAxisShouldBeShorter]) ? @0.3f : nil;
+//}
 
-- (NSArray *)valueAxisDataSourceTicksForValueAxis:(NChartValueAxis *)axis
-{
-    switch (axis.kind)
-    {
-        case NChartValueAxisX:
-        {
-            switch (m_mainViewController.seriesType)
-            {
-                case NChart3DTypesColumn:
-                case NChart3DTypesArea:
-                case NChart3DTypesLine:
-                case NChart3DTypesStep:
-                case NChart3DTypesRibbon:
-                case NChart3DTypesCandlestick:
-                case NChart3DTypesOHLC:
-                case NChart3DTypesMultichart:
-                    return m_mainViewController.arrayOfYears;
-                    
-                default:
-                    return nil;
-            }
-        }
-            
-        case NChartValueAxisY:
-        {
-            switch (m_mainViewController.seriesType)
-            {
-                case NChart3DTypesBar:
-                    return m_mainViewController.arrayOfYears;
-                    
-                case NChart3DTypesSequence:
-                    return @[NSLocalizedString(@"Alpha", nil), NSLocalizedString(@"Beta", nil),
-                             NSLocalizedString(@"Gamma", nil), NSLocalizedString(@"Delta", nil)];
-                    
-                default:
-                    return nil;
-            }
-        }
-            
-        case NChartValueAxisZ:
-            switch (m_mainViewController.seriesType)
-        {
-            case NChart3DTypesColumn:
-            case NChart3DTypesBar:
-                return @[NSLocalizedString(@"Alpha", nil), NSLocalizedString(@"Beta", nil),
-                         NSLocalizedString(@"Gamma", nil), NSLocalizedString(@"Delta", nil)];
-                
-            case NChart3DTypesArea:
-            case NChart3DTypesLine:
-            case NChart3DTypesStep:
-            case NChart3DTypesRibbon:
-            case NChart3DTypesCandlestick:
-            case NChart3DTypesOHLC:
-                return (((NChartView *)m_mainViewController.view).chart.cartesianSystem.valueAxesType == NChartValueAxesTypeAbsolute ?
-                        m_mainViewController.arrayOfSeriesNames : @[NSLocalizedString(@"All series", nil)]);
-                
-            case NChart3DTypesMultichart:
-                return @[NSLocalizedString(@"Area", nil), NSLocalizedString(@"Column", nil),
-                         NSLocalizedString(@"Line", nil)];
-                
-            default:
-                return nil;
-        }
-            
-        default:
-            return nil;
-    }
-}
-
-- (NSNumber *)valueAxisDataSourceLengthForValueAxis:(NChartValueAxis *)axis
-{
-    return (axis.kind == NChartValueAxisZ && [self zAxisShouldBeShorter]) ? @0.3f : nil;
-}
-
-- (NSString *)valueAxisDataSourceDouble:(double)value toStringForValueAxis:(NChartValueAxis *)axis
-{
-    switch (axis.kind)
-    {
-        case NChartValueAxisX:
-            switch (m_mainViewController.seriesType)
-            {
-                case NChart3DTypesStreamingColumn:
-                case NChart3DTypesStreamingArea:
-                case NChart3DTypesStreamingLine:
-                case NChart3DTypesStreamingStep:
-                case NChart3DTypesStreamingSurface:
-                    return [NSString stringWithFormat:@"%d", (int)value];
-                    
-                default:
-                    break;
-            }
-            break;
-            
-        default:
-            break;
-    }
-
-    return [NSString stringWithFormat:@"%.2f", value];
-}
+//- (NSString *)valueAxisDataSourceDouble:(double)value toStringForValueAxis:(NChartValueAxis *)axis
+//{
+//    switch (axis.kind)
+//    {
+//        case NChartValueAxisX:
+//            switch (m_mainViewController.seriesType)
+//            {
+//                case NChart3DTypesStreamingColumn:
+//                case NChart3DTypesStreamingArea:
+//                case NChart3DTypesStreamingLine:
+//                case NChart3DTypesStreamingStep:
+//                case NChart3DTypesStreamingSurface:
+//                    return [NSString stringWithFormat:@"%d", (int)value];
+//                    
+//                default:
+//                    break;
+//            }
+//            break;
+//            
+//        default:
+//            break;
+//    }
+//
+//    return [NSString stringWithFormat:@"%.2f", value];
+//}
 
 @end

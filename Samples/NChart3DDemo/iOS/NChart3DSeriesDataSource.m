@@ -834,11 +834,14 @@
     for (int i=0; i<myCSV.count; i++)
     {
         NSArray *temp = [myCSV objectAtIndex:i];
-        NSString *tag = [temp objectAtIndex:1];
-        if ( [tag isEqualToString:lastTag] == NO)
+        if ( temp.count > 1)
         {
-            [tags addObject:tag];
-            lastTag = tag;
+            NSString *tag = [temp objectAtIndex:1];
+            if ( [tag isEqualToString:lastTag] == NO)
+            {
+                [tags addObject:tag];
+                lastTag = tag;
+            }
         }
     }
     
@@ -977,24 +980,27 @@
             {
                 NSArray *item = [self.fields objectAtIndex:i];
                 
-                NSString *localTag = [item objectAtIndex:1];
-                
-                if ( [localTag isEqualToString:tagName] == YES)
+                if ( item.count > 1)
                 {
-                    double x = [[item objectAtIndex:2] doubleValue];
-                    double y = [[item objectAtIndex:3] doubleValue];
-                    double z = [[item objectAtIndex:4] doubleValue];
-                    NChartPointState *state = [NChartPointState pointStateWithX:x Y:y Z:z];
+                    NSString *localTag = [item objectAtIndex:1];
                     
-                    // Setting the brush
-                    state.shape = NChartMarkerShapeSphere;
-                    state.brush = [[m_mainViewController.brushes objectAtIndex:(series.tag) % m_mainViewController.brushes.count] copy];
-                    state.brush.shadingModel = NChartShadingModelPhong;
-                    
-                    NChartPoint *point = [NChartPoint pointWithState:state forSeries:series];
-                    
-                    [result addObject:point];
-                    //[result addObject:point forSeries:series]];
+                    if ( [localTag isEqualToString:tagName] == YES)
+                    {
+                        double x = [[item objectAtIndex:2] doubleValue];
+                        double y = [[item objectAtIndex:3] doubleValue];
+                        double z = [[item objectAtIndex:4] doubleValue];
+                        NChartPointState *state = [NChartPointState pointStateWithX:x Y:y Z:z];
+                        
+                        // Setting the brush
+                        state.shape = NChartMarkerShapeSphere;
+                        state.brush = [[m_mainViewController.brushes objectAtIndex:(series.tag) % m_mainViewController.brushes.count] copy];
+                        state.brush.shadingModel = NChartShadingModelPhong;
+                        
+                        NChartPoint *point = [NChartPoint pointWithState:state forSeries:series];
+                        
+                        [result addObject:point];
+                        //[result addObject:point forSeries:series]];
+                    }
                 }
             }
             
