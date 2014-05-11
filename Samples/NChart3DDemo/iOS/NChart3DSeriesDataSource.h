@@ -53,6 +53,7 @@
 
 @property (nonatomic, strong) NSArray *rainbowColors;
 @property (nonatomic, strong) NSArray *fields;
+@property (nonatomic, strong) NSArray *extractedSeries;
 
 - (id)initWithMainViewController:(NChart3DMainViewController *)mainViewController;
 
@@ -61,5 +62,6 @@
 - (void)applyColorSchemeToSeries;
 
 - (UIColor *)getInterpolatedColorWithRatio:(float)ratio;
+- (NSArray*) extractedSeries:(NSArray*)myCSV;
 
 @end

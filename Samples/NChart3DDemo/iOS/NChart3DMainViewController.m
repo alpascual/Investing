@@ -148,13 +148,13 @@
     //self.yearsCount = 5;
     self.spectrum2DCount = 100;
     self.showBorder = NO;
-    self.showLabels = NO;
+    self.showLabels = YES;
     self.showMarkers = NO;
     self.drawIn3D = YES;
     self.sliceCount = 4;
     self.smoothColumn = NO;
     self.showLegend = YES;
-    self.spectrum3DCount = 40;
+    //self.spectrum3DCount = 40;
     
     [self createSeries];
     

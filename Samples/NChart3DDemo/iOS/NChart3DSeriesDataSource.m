@@ -335,10 +335,14 @@
             
             self.fields = [NSArray arrayWithContentsOfCSVFile:file options:CHCSVParserOptionsRecognizesBackslashesAsEscapes];
             
-            NChartBubbleSeries *series = [NChartBubbleSeries series];
-                            series.dataSource = self;
-                            series.tag = 0;
-                            [view.chart addSeries:series];
+            self.extractedSeries = [self extractedSeries:self.fields];
+            
+            for (int i=0; i < self.extractedSeries.count; i++) {
+                NChartBubbleSeries *series = [NChartBubbleSeries series];
+                series.dataSource = self;
+                series.tag = i;
+                [view.chart addSeries:series];
+            }
             
             view.chart.streamingMode = NO;
                         view.chart.cartesianSystem.valueAxesType = NChartValueAxesTypeAbsolute;
@@ -822,6 +826,25 @@
     return [UIColor colorWithRed:r green:g blue:b alpha:a];
 }
 
+- (NSArray*) extractedSeries:(NSArray*)myCSV
+{
+    NSString *lastTag = @"";
+    
+    NSMutableArray *tags = [NSMutableArray new];
+    for (int i=0; i<myCSV.count; i++)
+    {
+        NSArray *temp = [myCSV objectAtIndex:i];
+        NSString *tag = [temp objectAtIndex:1];
+        if ( [tag isEqualToString:lastTag] == NO)
+        {
+            [tags addObject:tag];
+            lastTag = tag;
+        }
+    }
+    
+    return tags;
+}
+
 - (UIColor *)getInterpolatedColorWithRatio:(float)ratio
 {
     float nRatio = ratio * (float)(self.rainbowColors.count - 1);
@@ -879,94 +902,100 @@
 //            }
             break;
             
-        case NChart3DTypesArea:
-        case NChart3DTypesLine:
-        case NChart3DTypesStep:
-        case NChart3DTypesRibbon:
-            for (int i = 0; i < m_mainViewController.yearsCount; ++i)
-            {
-                [result addObject:[NChartPoint pointWithState:[NChartPointState
-                                                               pointStateAlignedToXZWithX:i
-                                                               Y:g_regularData[series.tag][i][series.tag % Z_COUNT]
-                                                               Z:view.chart.drawIn3D &&
-                                                               (view.chart.cartesianSystem.valueAxesType ==
-                                                                NChartValueAxesTypeAbsolute) ? series.tag : 0]
-                                                    forSeries:series]];
-            }
-            break;
-            
-        case NChart3DTypesPie:
-        case NChart3DTypesDoughnut:
-        case NChart3DTypesPieRotation:
-            for (int i = 0; i < m_mainViewController.yearsCount; ++i)
-            {
-                [result addObject:[NChartPoint pointWithState:[NChartPointState
-                                                               pointStateWithCircle:i
-                                                               value:g_regularData[series.tag][i][0]]
-                                                    forSeries:series]];
-            }
-            break;
-            
-        case NChart3DTypesBubble:
-        {
-            NSMutableArray *states = [NSMutableArray array];
-            for (int i = 0; i < m_mainViewController.yearsCount; ++i)
-            {
-                NChartPointState *state = [NChartPointState pointStateWithX:g_bubbleData[series.tag][i][0]
-                                                                          Y:g_bubbleData[series.tag][i][1]
-                                                                          Z:g_bubbleData[series.tag][i][2]];
-                state.size = g_bubbleData[series.tag][i][3];
-                if (!view.chart.drawIn3D)
-                {
-                    state.shape = NChartMarkerShapeCircle;
-                    state.brush = [[m_mainViewController.brushes objectAtIndex:(series.tag + i) % m_mainViewController.brushes.count] copy];
-                    state.brush.shadingModel = NChartShadingModelPlain;
-                    state.brush.opacity = 0.8f;
-                    if (m_mainViewController.showBorder)
-                    {
-                        state.borderBrush = [[m_mainViewController.brushes objectAtIndex:(series.tag + i) % m_mainViewController.brushes.count] copy];
-                        [state.borderBrush scaleColorWithRScale:0.85f gScale:0.85f bScale:0.85f];
-                        state.borderThickness = 2.0f;
-                    }
-                }
-                else
-                {
-                    state.shape = NChartMarkerShapeSphere;
-                    state.brush = [[m_mainViewController.brushes objectAtIndex:(series.tag + i) % m_mainViewController.brushes.count] copy];
-                    state.brush.shadingModel = NChartShadingModelPhong;
-                }
-                [states addObject:state];
-            }
-            [result addObject:[NChartPoint pointWithArrayOfStates:states forSeries:series]];
-        }
-            break;
+//        case NChart3DTypesArea:
+//        case NChart3DTypesLine:
+//        case NChart3DTypesStep:
+//        case NChart3DTypesRibbon:
+//            for (int i = 0; i < m_mainViewController.yearsCount; ++i)
+//            {
+//                [result addObject:[NChartPoint pointWithState:[NChartPointState
+//                                                               pointStateAlignedToXZWithX:i
+//                                                               Y:g_regularData[series.tag][i][series.tag % Z_COUNT]
+//                                                               Z:view.chart.drawIn3D &&
+//                                                               (view.chart.cartesianSystem.valueAxesType ==
+//                                                                NChartValueAxesTypeAbsolute) ? series.tag : 0]
+//                                                    forSeries:series]];
+//            }
+//            break;
+//            
+//        case NChart3DTypesPie:
+//        case NChart3DTypesDoughnut:
+//        case NChart3DTypesPieRotation:
+//            for (int i = 0; i < m_mainViewController.yearsCount; ++i)
+//            {
+//                [result addObject:[NChartPoint pointWithState:[NChartPointState
+//                                                               pointStateWithCircle:i
+//                                                               value:g_regularData[series.tag][i][0]]
+//                                                    forSeries:series]];
+//            }
+//            break;
+//            
+//        case NChart3DTypesBubble:
+//        {
+//            NSMutableArray *states = [NSMutableArray array];
+//            for (int i = 0; i < m_mainViewController.yearsCount; ++i)
+//            {
+//                NChartPointState *state = [NChartPointState pointStateWithX:g_bubbleData[series.tag][i][0]
+//                                                                          Y:g_bubbleData[series.tag][i][1]
+//                                                                          Z:g_bubbleData[series.tag][i][2]];
+//                state.size = g_bubbleData[series.tag][i][3];
+//                if (!view.chart.drawIn3D)
+//                {
+//                    state.shape = NChartMarkerShapeCircle;
+//                    state.brush = [[m_mainViewController.brushes objectAtIndex:(series.tag + i) % m_mainViewController.brushes.count] copy];
+//                    state.brush.shadingModel = NChartShadingModelPlain;
+//                    state.brush.opacity = 0.8f;
+//                    if (m_mainViewController.showBorder)
+//                    {
+//                        state.borderBrush = [[m_mainViewController.brushes objectAtIndex:(series.tag + i) % m_mainViewController.brushes.count] copy];
+//                        [state.borderBrush scaleColorWithRScale:0.85f gScale:0.85f bScale:0.85f];
+//                        state.borderThickness = 2.0f;
+//                    }
+//                }
+//                else
+//                {
+//                    state.shape = NChartMarkerShapeSphere;
+//                    state.brush = [[m_mainViewController.brushes objectAtIndex:(series.tag + i) % m_mainViewController.brushes.count] copy];
+//                    state.brush.shadingModel = NChartShadingModelPhong;
+//                }
+//                [states addObject:state];
+//            }
+//            [result addObject:[NChartPoint pointWithArrayOfStates:states forSeries:series]];
+//        }
+//            break;
          
         // This is the scatter points AL
         case NChart3DTypesScatter:
         {
             
             //NSLog(@"read: %@", fields);
-            NChartColumnSeries *series = [NChartColumnSeries new];
+            
+            NSString *tagName = [self.extractedSeries objectAtIndex:series.tag];
+            
+            NChartColumnSeries *localSeries = [NChartColumnSeries new];
             for ( int i=0; i < self.fields.count; i++)
             {
                 NSArray *item = [self.fields objectAtIndex:i];
                 
-//                NChartSeries *series = [[NChartSeries alloc] init];
-//                series s [item objectAtIndex:1];
-                double x = [[item objectAtIndex:2] doubleValue];
-                double y = [[item objectAtIndex:3] doubleValue];
-                double z = [[item objectAtIndex:4] doubleValue];
-                NChartPointState *state = [NChartPointState pointStateWithX:x Y:y Z:z];
+                NSString *localTag = [item objectAtIndex:1];
                 
-                // Setting the brush
-                state.shape = NChartMarkerShapeSphere;
-                state.brush = [[m_mainViewController.brushes objectAtIndex:(series.tag) % m_mainViewController.brushes.count] copy];
-                state.brush.shadingModel = NChartShadingModelPhong;
-                
-                NChartPoint *point = [NChartPoint pointWithState:state forSeries:series];
-            
-                [result addObject:point];
-                //[result addObject:point forSeries:series]];
+                if ( [localTag isEqualToString:tagName] == YES)
+                {
+                    double x = [[item objectAtIndex:2] doubleValue];
+                    double y = [[item objectAtIndex:3] doubleValue];
+                    double z = [[item objectAtIndex:4] doubleValue];
+                    NChartPointState *state = [NChartPointState pointStateWithX:x Y:y Z:z];
+                    
+                    // Setting the brush
+                    state.shape = NChartMarkerShapeSphere;
+                    state.brush = [[m_mainViewController.brushes objectAtIndex:(series.tag) % m_mainViewController.brushes.count] copy];
+                    state.brush.shadingModel = NChartShadingModelPhong;
+                    
+                    NChartPoint *point = [NChartPoint pointWithState:state forSeries:series];
+                    
+                    [result addObject:point];
+                    //[result addObject:point forSeries:series]];
+                }
             }
             
 //            for (int i = 0; i <= LISSAJOU_RES; ++i)
@@ -1007,278 +1036,278 @@
         }
             break;
             
-        case NChart3DTypesSurface:
-        {
-            double y = 0.0, minY = -1.0, maxY = 1.0, normalY;
-            double x, z;
-            float minRed, minGreen, minBlue, maxRed, maxGreen, maxBlue;
-            switch (m_mainViewController.functionType)
-            {
-                case NChart3DFunctionType1:
-                    minY = -1.0, maxY = 1.0;
-                    minRed = 36.0 / 255.0; minGreen = 136.0 / 255.0; minBlue = 201.0 / 255.0;
-                    maxRed = 122.0 / 255.0; maxGreen = 254.0 / 255.0; maxBlue = 254.0 / 255.0;
-                    break;
-                    
-                case NChart3DFunctionType2:
-                    minY = -1.5; maxY = 1.5;
-                    minRed = 169.0 / 255.0; minGreen = 115.0 / 255.0; minBlue = 0.0 / 255.0;
-                    maxRed = 233.0 / 255.0; maxGreen = 225.0 / 255.0; maxBlue = 0.0 / 255.0;
-                    break;
-                    
-                case NChart3DFunctionType3:
-                    minY = 1.0; maxY = 9.0;
-                    minRed = 193.0 / 255.0; minGreen = 0.0 / 255.0; minBlue = 82.0 / 255.0;
-                    maxRed = 237.0 / 255.0; maxGreen = 114.0 / 255.0; maxBlue = 236.0 / 255.0;
-                    break;
-                    
-                case NChart3DFunctionType5:
-                    minY = -1.0; maxY = 1.0;
-                    minRed = 57.0 / 255.0; minGreen = 29.0 / 255.0; minBlue = 199.0 / 255.0;
-                    maxRed = 129.0 / 255.0; maxGreen = 199.0 / 255.0; maxBlue = 255.0 / 255.0;
-                    break;
-                    
-                case NChart3DFunctionType4:
-                    minY = -1.0; maxY = 1.0;
-                    minRed = 18.0 / 255.0; minGreen = 161.0 / 255.0; minBlue = 3.0 / 255.0;
-                    maxRed = 89.0 / 255.0; maxGreen = 255.0 / 255.0; maxBlue = 168.0 / 255.0;
-                    break;
-                    
-                case NChart3DFunctionType6:
-                    minY = -1.0; maxY = 1.0;
-                    minRed = 199.0 / 255.0; minGreen = 35.0 / 255.0; minBlue = 7.0 / 255.0;
-                    maxRed = 255.0 / 255.0; maxGreen = 161.0 / 255.0; maxBlue = 124.0 / 255.0;
-                    break;
-                    
-                case NChart3DFunctionType7:
-                    minY = -1.0; maxY = 1.0;
-                    minRed = 137.0 / 255.0; minGreen = 16.0 / 255.0; minBlue = 197.0 / 255.0;
-                    maxRed = 222.0 / 255.0; maxGreen = 168.0 / 255.0; maxBlue = 255.0 / 255.0;
-                    break;
-                    
-                default:
-                    break;
-            }
-            for (int i = 0, n = SURFACE_RES; i < n; ++i)
-            {
-                for (int j = 0, m = SURFACE_RES; j < m; ++j)
-                {
-                    switch (m_mainViewController.functionType)
-                    {
-                        case NChart3DFunctionType1:
-                            x = (double)(i) * 2.0 * M_PI / (double)n;
-                            z = (double)(j) * 2.0 * M_PI / (double)m;
-                            y = sin(x) * cos(z);
-                            break;
-                            
-                        case NChart3DFunctionType2:
-                            x =  6.0 * (2.0 * (double)(i) / (double)(n) - 1.0);
-                            z = -6.0 * (2.0 * (double)(j) / (double)(m) - 1.0);
-                            y = 1.5 * atan(x * z) / (maxY - minY);
-                            break;
-                            
-                        case NChart3DFunctionType3:
-                            x = 4.0 * (double)(i) / (double)(n) - 2.0;
-                            z = 4.0 * (double)(j) / (double)(m) - 2.0;
-                            y = (x * x + z * z - maxY / 2.0) / (maxY - minY) * 1.5;
-                            break;
-                            
-                        case NChart3DFunctionType4:
-                            x = 1.0 - fabs(1.0 - 2.0 * (double)(i) / (double)(n));
-                            z = 1.0 - 2.0 * (double)(j) / (double)(m);
-                            y = sin(x * M_PI / 2.0) * cos(z * M_PI * 2.0);
-                            break;
-                            
-                        case NChart3DFunctionType5:
-                            z = 2.0 * (double)(j) / (double)(m) - 1.0;
-                            x = 2.0 * (double)(i) / (double)(n) - 1.0;
-                            double r = sqrt(x * x + z * z);
-                            // double fi = atan2(x * M_PI, z * M_PI);
-                            y = cos(r * M_PI * 4.0) * exp(-1.5 * r - 1.0);
-                            break;
-                            
-                        case NChart3DFunctionType6:
-                            z = 1.0 - 2.0 * (double)(j) / (double)(m);
-                            y = 0.3 * sin(z * M_PI * 4.0) + z;
-                            break;
-                            
-                        case NChart3DFunctionType7:
-                            x = fabs(1.0 - 2.0 * (double)(i) / (double)(n));
-                            z = fabs(1.0 - 2.0 * (double)(j) / (double)(m));
-                            y = (1.0 - x * z) * 0.3 * sin((1.0 - x * z) * M_PI * 4.0);
-                            break;
-                            
-                        default:
-                            break;
-                    }
-                    //                    if ((i - n / 2) * (i - n / 2) + (j - n / 2) * (j - n / 2) > (SURFACE_RES / 2) * (SURFACE_RES / 2) ||
-                    //                        (i - n * 2 / 7) * (i - n * 2 / 7) + (j - n * 2 / 7) * (j - n * 2 / 7) < (SURFACE_RES / 9) * (SURFACE_RES / 9) ||
-                    //                        (i - n * 5 / 7) * (i - n * 5 / 7) + (j - n * 2 / 7) * (j - n * 2 / 7) < (SURFACE_RES / 9) * (SURFACE_RES / 9) ||
-                    //                        (
-                    //                         (i - n / 2) * (i - n / 2) + (j - n / 9) * (j - n / 9) < (SURFACE_RES * 10 / 15) * (SURFACE_RES * 10 / 15) &&
-                    //                         (i - n / 2) * (i - n / 2) + (j + n / 9) * (j + n / 9) > (SURFACE_RES * 13 / 15) * (SURFACE_RES * 13 / 15) &&
-                    //                         (i > n / 6 && i < n * 5 / 6)
-                    //                        )
-                    //                        )
-                    //                        continue;
-                    
-                    NChartPointState *state = [NChartPointState pointStateWithX:i Y:y Z:j];
-                    normalY = (y + 1.0) / 2.0;
-                    state.brush = [NChartSolidColorBrush solidColorBrushWithColor:[UIColor
-                                                                                   colorWithRed:(1.0 - normalY) * minRed + normalY * maxRed
-                                                                                   green:(1.0 - normalY) * minGreen + normalY * maxGreen
-                                                                                   blue:(1.0 - normalY) * minBlue + normalY * maxBlue
-                                                                                   alpha:1.0f]];
-                    NChartBrush *borderBrush = [state.brush copy];
-                    [borderBrush scaleColorWithRScale:0.65f gScale:0.65f bScale:0.65f];
-                    state.borderBrush = borderBrush;
-                    [result addObject:[NChartPoint pointWithState:state forSeries:series]];
-                }
-            }
-        }
-            break;
-            
-        case NChart3DTypesOHLC:
-        case NChart3DTypesCandlestick:
-            for (int i = 0; i < m_mainViewController.yearsCount; ++i)
-            {
-                double low = g_candlestickData[series.tag][i][0];
-                double open = g_candlestickData[series.tag][i][1];
-                double close = g_candlestickData[series.tag][i][2];
-                double high = g_candlestickData[series.tag][i][3];
-                [result addObject:[NChartPoint pointWithState:[NChartPointState
-                                                               pointStateAlignedToXZWithX:i
-                                                               Z:view.chart.drawIn3D ? series.tag : 0
-                                                               low:low
-                                                               open:open
-                                                               close:close
-                                                               high:high]
-                                                    forSeries:series]];
-            }
-            break;
-            
-        case NChart3DTypesBand:
-            for (int i = 0; i < m_mainViewController.yearsCount; ++i)
-            {
-                double low = g_candlestickData[series.tag][i][1];
-                double high = g_candlestickData[series.tag][i][2];
-                [result addObject:[NChartPoint pointWithState:[NChartPointState
-                                                               pointStateAlignedToXWithX:i
-                                                               low:low
-                                                               high:high]
-                                                    forSeries:series]];
-            }
-            break;
-            
-        case NChart3DTypesSequence:
-            for (int i = 0; i < m_mainViewController.yearsCount; ++i)
-            {
-                int y = ((int)g_candlestickData[series.tag][i][0]) % 4;
-                double open = g_candlestickData[series.tag][i][1];
-                double close = open + 1.0;
-                [result addObject:[NChartPoint pointWithState:[NChartPointState
-                                                               pointStateAlignedToYWithY:y
-                                                               open:open
-                                                               close:close]
-                                                    forSeries:series]];
-            }
-            break;
-            
-        case NChart3DTypesMultichart:
-        {
-            const float data[3][5] = { { 4.0f, 2.5f, 3.0f, 2.8f, 3.5f }, { 1.0f, 1.5f, 2.0f, 2.5f, 3.0f }, { 0.5f, 2.0f, 1.0f, 1.5f, 2.5f } };
-            for (int i = 0; i < m_mainViewController.yearsCount; ++i)
-            {
-                [result addObject:[NChartPoint pointWithState:[NChartPointState
-                                                               pointStateAlignedToXZWithX:i
-                                                               Y:data[series.tag][i % 5] + (series.tag < 2 ? 1 : 0)
-                                                               Z:series.tag]
-                                                    forSeries:series]];
-            }
-        }
-            break;
-            
-        case NChart3DTypesStreamingColumn:
-            if (m_mainViewController.drawIn3D)
-            {
-                int step = m_mainViewController.spectrumStep;
-                for (int i = 1; i < m_mainViewController.spectrum3DCount; ++i)
-                {
-                    for (int j = 1; j < m_mainViewController.spectrum3DCount; ++j)
-                    {
-                        NChartPointState *state = [NChartPointState
-                                                   pointStateAlignedToXZWithX:i * step
-                                                   Y:0.0
-                                                   Z:j];
-                        state.brush = [NChartSolidColorBrush solidColorBrushWithColor:[self.rainbowColors lastObject]];
-                        [result addObject:[NChartPoint pointWithState:state forSeries:series]];
-                    }
-                }
-            }
-            else
-            {
-                int step = m_mainViewController.spectrumStep;
-                for (int i = 0; i < m_mainViewController.spectrum2DCount; ++i)
-                {
-                    NChartPointState *state = [NChartPointState
-                                               pointStateAlignedToXZWithX:i * step
-                                               Y:0.0
-                                               Z:series.tag];
-                    float t = (float)i / (float)m_mainViewController.spectrum2DCount;
-                    UIColor *color = [self getInterpolatedColorWithRatio:t];
-                    state.brush = [NChartSolidColorBrush solidColorBrushWithColor:color];
-                    [result addObject:[NChartPoint pointWithState:state forSeries:series]];
-                }
-            }
-            break;
-            
-        case NChart3DTypesStreamingArea:
-        case NChart3DTypesStreamingLine:
-        case NChart3DTypesStreamingStep:
-            {
-                if (m_mainViewController.drawIn3D)
-                {
-                    int step = m_mainViewController.spectrumStep;
-                    for (int i = 0; i < m_mainViewController.spectrum3DCount; ++i)
-                    {
-                        NChartPointState *state = [NChartPointState pointStateAlignedToXZWithX:i * step Y:0.0 Z:series.tag];
-                        state.brush = [NChartSolidColorBrush solidColorBrushWithColor:[self.rainbowColors lastObject]];
-                        [result addObject:[NChartPoint pointWithState:state forSeries:series]];
-                    }
-                }
-                else
-                {
-                    int step = m_mainViewController.spectrumStep;
-                    for (int i = 0; i < m_mainViewController.spectrum2DCount; ++i)
-                    {
-                        NChartPointState *state = [NChartPointState pointStateAlignedToXZWithX:i * step Y:0.0 Z:series.tag];
-                        float t = (float)i / (float)m_mainViewController.spectrum2DCount;
-                        UIColor *color = [self getInterpolatedColorWithRatio:t];
-                        state.brush = [NChartSolidColorBrush solidColorBrushWithColor:color];
-                        [result addObject:[NChartPoint pointWithState:state forSeries:series]];
-                    }
-                }
-                break;
-            }
-            break;
-            
-        case NChart3DTypesStreamingSurface:
-        {
-            int step = m_mainViewController.spectrumStep;
-            for (int i = 0; i < m_mainViewController.spectrum3DCount; ++i)
-            {
-                for (int j = 0; j < m_mainViewController.spectrum3DCount; ++j)
-                {
-                    NChartPointState *state = [NChartPointState
-                                               pointStateAlignedToXZWithX:i * step
-                                               Y:0.0
-                                               Z:j];
-                    state.brush = [NChartSolidColorBrush solidColorBrushWithColor:[self.rainbowColors lastObject]];
-                    [result addObject:[NChartPoint pointWithState:state forSeries:series]];
-                }
-            }
-        }
-            break;
+//        case NChart3DTypesSurface:
+//        {
+//            double y = 0.0, minY = -1.0, maxY = 1.0, normalY;
+//            double x, z;
+//            float minRed, minGreen, minBlue, maxRed, maxGreen, maxBlue;
+//            switch (m_mainViewController.functionType)
+//            {
+//                case NChart3DFunctionType1:
+//                    minY = -1.0, maxY = 1.0;
+//                    minRed = 36.0 / 255.0; minGreen = 136.0 / 255.0; minBlue = 201.0 / 255.0;
+//                    maxRed = 122.0 / 255.0; maxGreen = 254.0 / 255.0; maxBlue = 254.0 / 255.0;
+//                    break;
+//                    
+//                case NChart3DFunctionType2:
+//                    minY = -1.5; maxY = 1.5;
+//                    minRed = 169.0 / 255.0; minGreen = 115.0 / 255.0; minBlue = 0.0 / 255.0;
+//                    maxRed = 233.0 / 255.0; maxGreen = 225.0 / 255.0; maxBlue = 0.0 / 255.0;
+//                    break;
+//                    
+//                case NChart3DFunctionType3:
+//                    minY = 1.0; maxY = 9.0;
+//                    minRed = 193.0 / 255.0; minGreen = 0.0 / 255.0; minBlue = 82.0 / 255.0;
+//                    maxRed = 237.0 / 255.0; maxGreen = 114.0 / 255.0; maxBlue = 236.0 / 255.0;
+//                    break;
+//                    
+//                case NChart3DFunctionType5:
+//                    minY = -1.0; maxY = 1.0;
+//                    minRed = 57.0 / 255.0; minGreen = 29.0 / 255.0; minBlue = 199.0 / 255.0;
+//                    maxRed = 129.0 / 255.0; maxGreen = 199.0 / 255.0; maxBlue = 255.0 / 255.0;
+//                    break;
+//                    
+//                case NChart3DFunctionType4:
+//                    minY = -1.0; maxY = 1.0;
+//                    minRed = 18.0 / 255.0; minGreen = 161.0 / 255.0; minBlue = 3.0 / 255.0;
+//                    maxRed = 89.0 / 255.0; maxGreen = 255.0 / 255.0; maxBlue = 168.0 / 255.0;
+//                    break;
+//                    
+//                case NChart3DFunctionType6:
+//                    minY = -1.0; maxY = 1.0;
+//                    minRed = 199.0 / 255.0; minGreen = 35.0 / 255.0; minBlue = 7.0 / 255.0;
+//                    maxRed = 255.0 / 255.0; maxGreen = 161.0 / 255.0; maxBlue = 124.0 / 255.0;
+//                    break;
+//                    
+//                case NChart3DFunctionType7:
+//                    minY = -1.0; maxY = 1.0;
+//                    minRed = 137.0 / 255.0; minGreen = 16.0 / 255.0; minBlue = 197.0 / 255.0;
+//                    maxRed = 222.0 / 255.0; maxGreen = 168.0 / 255.0; maxBlue = 255.0 / 255.0;
+//                    break;
+//                    
+//                default:
+//                    break;
+//            }
+//            for (int i = 0, n = SURFACE_RES; i < n; ++i)
+//            {
+//                for (int j = 0, m = SURFACE_RES; j < m; ++j)
+//                {
+//                    switch (m_mainViewController.functionType)
+//                    {
+//                        case NChart3DFunctionType1:
+//                            x = (double)(i) * 2.0 * M_PI / (double)n;
+//                            z = (double)(j) * 2.0 * M_PI / (double)m;
+//                            y = sin(x) * cos(z);
+//                            break;
+//                            
+//                        case NChart3DFunctionType2:
+//                            x =  6.0 * (2.0 * (double)(i) / (double)(n) - 1.0);
+//                            z = -6.0 * (2.0 * (double)(j) / (double)(m) - 1.0);
+//                            y = 1.5 * atan(x * z) / (maxY - minY);
+//                            break;
+//                            
+//                        case NChart3DFunctionType3:
+//                            x = 4.0 * (double)(i) / (double)(n) - 2.0;
+//                            z = 4.0 * (double)(j) / (double)(m) - 2.0;
+//                            y = (x * x + z * z - maxY / 2.0) / (maxY - minY) * 1.5;
+//                            break;
+//                            
+//                        case NChart3DFunctionType4:
+//                            x = 1.0 - fabs(1.0 - 2.0 * (double)(i) / (double)(n));
+//                            z = 1.0 - 2.0 * (double)(j) / (double)(m);
+//                            y = sin(x * M_PI / 2.0) * cos(z * M_PI * 2.0);
+//                            break;
+//                            
+//                        case NChart3DFunctionType5:
+//                            z = 2.0 * (double)(j) / (double)(m) - 1.0;
+//                            x = 2.0 * (double)(i) / (double)(n) - 1.0;
+//                            double r = sqrt(x * x + z * z);
+//                            // double fi = atan2(x * M_PI, z * M_PI);
+//                            y = cos(r * M_PI * 4.0) * exp(-1.5 * r - 1.0);
+//                            break;
+//                            
+//                        case NChart3DFunctionType6:
+//                            z = 1.0 - 2.0 * (double)(j) / (double)(m);
+//                            y = 0.3 * sin(z * M_PI * 4.0) + z;
+//                            break;
+//                            
+//                        case NChart3DFunctionType7:
+//                            x = fabs(1.0 - 2.0 * (double)(i) / (double)(n));
+//                            z = fabs(1.0 - 2.0 * (double)(j) / (double)(m));
+//                            y = (1.0 - x * z) * 0.3 * sin((1.0 - x * z) * M_PI * 4.0);
+//                            break;
+//                            
+//                        default:
+//                            break;
+//                    }
+//                    //                    if ((i - n / 2) * (i - n / 2) + (j - n / 2) * (j - n / 2) > (SURFACE_RES / 2) * (SURFACE_RES / 2) ||
+//                    //                        (i - n * 2 / 7) * (i - n * 2 / 7) + (j - n * 2 / 7) * (j - n * 2 / 7) < (SURFACE_RES / 9) * (SURFACE_RES / 9) ||
+//                    //                        (i - n * 5 / 7) * (i - n * 5 / 7) + (j - n * 2 / 7) * (j - n * 2 / 7) < (SURFACE_RES / 9) * (SURFACE_RES / 9) ||
+//                    //                        (
+//                    //                         (i - n / 2) * (i - n / 2) + (j - n / 9) * (j - n / 9) < (SURFACE_RES * 10 / 15) * (SURFACE_RES * 10 / 15) &&
+//                    //                         (i - n / 2) * (i - n / 2) + (j + n / 9) * (j + n / 9) > (SURFACE_RES * 13 / 15) * (SURFACE_RES * 13 / 15) &&
+//                    //                         (i > n / 6 && i < n * 5 / 6)
+//                    //                        )
+//                    //                        )
+//                    //                        continue;
+//                    
+//                    NChartPointState *state = [NChartPointState pointStateWithX:i Y:y Z:j];
+//                    normalY = (y + 1.0) / 2.0;
+//                    state.brush = [NChartSolidColorBrush solidColorBrushWithColor:[UIColor
+//                                                                                   colorWithRed:(1.0 - normalY) * minRed + normalY * maxRed
+//                                                                                   green:(1.0 - normalY) * minGreen + normalY * maxGreen
+//                                                                                   blue:(1.0 - normalY) * minBlue + normalY * maxBlue
+//                                                                                   alpha:1.0f]];
+//                    NChartBrush *borderBrush = [state.brush copy];
+//                    [borderBrush scaleColorWithRScale:0.65f gScale:0.65f bScale:0.65f];
+//                    state.borderBrush = borderBrush;
+//                    [result addObject:[NChartPoint pointWithState:state forSeries:series]];
+//                }
+//            }
+//        }
+//            break;
+//            
+//        case NChart3DTypesOHLC:
+//        case NChart3DTypesCandlestick:
+//            for (int i = 0; i < m_mainViewController.yearsCount; ++i)
+//            {
+//                double low = g_candlestickData[series.tag][i][0];
+//                double open = g_candlestickData[series.tag][i][1];
+//                double close = g_candlestickData[series.tag][i][2];
+//                double high = g_candlestickData[series.tag][i][3];
+//                [result addObject:[NChartPoint pointWithState:[NChartPointState
+//                                                               pointStateAlignedToXZWithX:i
+//                                                               Z:view.chart.drawIn3D ? series.tag : 0
+//                                                               low:low
+//                                                               open:open
+//                                                               close:close
+//                                                               high:high]
+//                                                    forSeries:series]];
+//            }
+//            break;
+//            
+//        case NChart3DTypesBand:
+//            for (int i = 0; i < m_mainViewController.yearsCount; ++i)
+//            {
+//                double low = g_candlestickData[series.tag][i][1];
+//                double high = g_candlestickData[series.tag][i][2];
+//                [result addObject:[NChartPoint pointWithState:[NChartPointState
+//                                                               pointStateAlignedToXWithX:i
+//                                                               low:low
+//                                                               high:high]
+//                                                    forSeries:series]];
+//            }
+//            break;
+//            
+//        case NChart3DTypesSequence:
+//            for (int i = 0; i < m_mainViewController.yearsCount; ++i)
+//            {
+//                int y = ((int)g_candlestickData[series.tag][i][0]) % 4;
+//                double open = g_candlestickData[series.tag][i][1];
+//                double close = open + 1.0;
+//                [result addObject:[NChartPoint pointWithState:[NChartPointState
+//                                                               pointStateAlignedToYWithY:y
+//                                                               open:open
+//                                                               close:close]
+//                                                    forSeries:series]];
+//            }
+//            break;
+//            
+//        case NChart3DTypesMultichart:
+//        {
+//            const float data[3][5] = { { 4.0f, 2.5f, 3.0f, 2.8f, 3.5f }, { 1.0f, 1.5f, 2.0f, 2.5f, 3.0f }, { 0.5f, 2.0f, 1.0f, 1.5f, 2.5f } };
+//            for (int i = 0; i < m_mainViewController.yearsCount; ++i)
+//            {
+//                [result addObject:[NChartPoint pointWithState:[NChartPointState
+//                                                               pointStateAlignedToXZWithX:i
+//                                                               Y:data[series.tag][i % 5] + (series.tag < 2 ? 1 : 0)
+//                                                               Z:series.tag]
+//                                                    forSeries:series]];
+//            }
+//        }
+//            break;
+//            
+//        case NChart3DTypesStreamingColumn:
+//            if (m_mainViewController.drawIn3D)
+//            {
+//                int step = m_mainViewController.spectrumStep;
+//                for (int i = 1; i < m_mainViewController.spectrum3DCount; ++i)
+//                {
+//                    for (int j = 1; j < m_mainViewController.spectrum3DCount; ++j)
+//                    {
+//                        NChartPointState *state = [NChartPointState
+//                                                   pointStateAlignedToXZWithX:i * step
+//                                                   Y:0.0
+//                                                   Z:j];
+//                        state.brush = [NChartSolidColorBrush solidColorBrushWithColor:[self.rainbowColors lastObject]];
+//                        [result addObject:[NChartPoint pointWithState:state forSeries:series]];
+//                    }
+//                }
+//            }
+//            else
+//            {
+//                int step = m_mainViewController.spectrumStep;
+//                for (int i = 0; i < m_mainViewController.spectrum2DCount; ++i)
+//                {
+//                    NChartPointState *state = [NChartPointState
+//                                               pointStateAlignedToXZWithX:i * step
+//                                               Y:0.0
+//                                               Z:series.tag];
+//                    float t = (float)i / (float)m_mainViewController.spectrum2DCount;
+//                    UIColor *color = [self getInterpolatedColorWithRatio:t];
+//                    state.brush = [NChartSolidColorBrush solidColorBrushWithColor:color];
+//                    [result addObject:[NChartPoint pointWithState:state forSeries:series]];
+//                }
+//            }
+//            break;
+//            
+//        case NChart3DTypesStreamingArea:
+//        case NChart3DTypesStreamingLine:
+//        case NChart3DTypesStreamingStep:
+//            {
+//                if (m_mainViewController.drawIn3D)
+//                {
+//                    int step = m_mainViewController.spectrumStep;
+//                    for (int i = 0; i < m_mainViewController.spectrum3DCount; ++i)
+//                    {
+//                        NChartPointState *state = [NChartPointState pointStateAlignedToXZWithX:i * step Y:0.0 Z:series.tag];
+//                        state.brush = [NChartSolidColorBrush solidColorBrushWithColor:[self.rainbowColors lastObject]];
+//                        [result addObject:[NChartPoint pointWithState:state forSeries:series]];
+//                    }
+//                }
+//                else
+//                {
+//                    int step = m_mainViewController.spectrumStep;
+//                    for (int i = 0; i < m_mainViewController.spectrum2DCount; ++i)
+//                    {
+//                        NChartPointState *state = [NChartPointState pointStateAlignedToXZWithX:i * step Y:0.0 Z:series.tag];
+//                        float t = (float)i / (float)m_mainViewController.spectrum2DCount;
+//                        UIColor *color = [self getInterpolatedColorWithRatio:t];
+//                        state.brush = [NChartSolidColorBrush solidColorBrushWithColor:color];
+//                        [result addObject:[NChartPoint pointWithState:state forSeries:series]];
+//                    }
+//                }
+//                break;
+//            }
+//            break;
+//            
+//        case NChart3DTypesStreamingSurface:
+//        {
+//            int step = m_mainViewController.spectrumStep;
+//            for (int i = 0; i < m_mainViewController.spectrum3DCount; ++i)
+//            {
+//                for (int j = 0; j < m_mainViewController.spectrum3DCount; ++j)
+//                {
+//                    NChartPointState *state = [NChartPointState
+//                                               pointStateAlignedToXZWithX:i * step
+//                                               Y:0.0
+//                                               Z:j];
+//                    state.brush = [NChartSolidColorBrush solidColorBrushWithColor:[self.rainbowColors lastObject]];
+//                    [result addObject:[NChartPoint pointWithState:state forSeries:series]];
+//                }
+//            }
+//        }
+//            break;
     }
     
     return result;
@@ -1286,35 +1315,38 @@
 
 - (NSString *)seriesDataSourceNameForSeries:(NChartSeries *)series
 {
-    if (m_mainViewController.seriesType != NChart3DTypesSurface)
-        return [NSString stringWithFormat:NSLocalizedString(@"Series %d", nil), series.tag + 1];
-    else
-        switch (m_mainViewController.functionType)
-    {
-        case NChart3DFunctionType1:
-            return [NSString stringWithFormat:NSLocalizedString(@"y = sin(a·x)·cos(b·z)", nil)];
-            
-        case NChart3DFunctionType2:
-            return [NSString stringWithFormat:NSLocalizedString(@"y = a·atan(b·x·z)", nil)];
-            
-        case NChart3DFunctionType3:
-            return [NSString stringWithFormat:NSLocalizedString(@"y = a·(x²+z²)", nil)];
-            
-        case NChart3DFunctionType4:
-            return [NSString stringWithFormat:NSLocalizedString(@"y = sin(a·x)·cos(b·z)", nil)];
-            
-        case NChart3DFunctionType5:
-            return [NSString stringWithFormat:NSLocalizedString(@"y = a·cos(b·(x²+z²))·exp(c·(x²+z²))", nil)];
-            
-        case NChart3DFunctionType6:
-            return [NSString stringWithFormat:NSLocalizedString(@"y = a·sin(b·x)+c·z", nil)];
-            
-        case NChart3DFunctionType7:
-            return [NSString stringWithFormat:NSLocalizedString(@"y = a·(1-x·z)·sin(1-x·z)", nil)];
-            
-        default:
-            return nil;
-    }
+    return [NSString stringWithFormat:NSLocalizedString(@"%@", nil), [self.extractedSeries objectAtIndex:series.tag] ];
+    
+    
+//    if (m_mainViewController.seriesType != NChart3DTypesSurface)
+//        return [NSString stringWithFormat:NSLocalizedString(@"Series %d", nil), series.tag + 1];
+//    else
+//        switch (m_mainViewController.functionType)
+//    {
+//        case NChart3DFunctionType1:
+//            return [NSString stringWithFormat:NSLocalizedString(@"y = sin(a·x)·cos(b·z)", nil)];
+//            
+//        case NChart3DFunctionType2:
+//            return [NSString stringWithFormat:NSLocalizedString(@"y = a·atan(b·x·z)", nil)];
+//            
+//        case NChart3DFunctionType3:
+//            return [NSString stringWithFormat:NSLocalizedString(@"y = a·(x²+z²)", nil)];
+//            
+//        case NChart3DFunctionType4:
+//            return [NSString stringWithFormat:NSLocalizedString(@"y = sin(a·x)·cos(b·z)", nil)];
+//            
+//        case NChart3DFunctionType5:
+//            return [NSString stringWithFormat:NSLocalizedString(@"y = a·cos(b·(x²+z²))·exp(c·(x²+z²))", nil)];
+//            
+//        case NChart3DFunctionType6:
+//            return [NSString stringWithFormat:NSLocalizedString(@"y = a·sin(b·x)+c·z", nil)];
+//            
+//        case NChart3DFunctionType7:
+//            return [NSString stringWithFormat:NSLocalizedString(@"y = a·(1-x·z)·sin(1-x·z)", nil)];
+//            
+//        default:
+//            return nil;
+//    }
 }
 
 @end
