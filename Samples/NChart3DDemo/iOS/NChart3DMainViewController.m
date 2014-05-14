@@ -144,7 +144,7 @@
     // Default settings
     self.colorScheme = NChart3DColorSchemeLight;
     self.seriesType = NChart3DTypesScatter; //NChart3DTypesColumn;
-    self.seriesCount = 1; // AL: set the number of series
+    //self.seriesCount = 1; // AL: set the number of series
     self.yearsCount = [self parseYears];
     self.spectrum2DCount = 100;
     self.showBorder = NO;
