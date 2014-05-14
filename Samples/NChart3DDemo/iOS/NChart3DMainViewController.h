@@ -99,4 +99,6 @@
 @property (nonatomic, weak) id<NChart3DMainViewControllerDelegate> delegate;
 @property (nonatomic, readonly) int spectrumStep;
 
+- (NSInteger) parseYears;
+
 @end

@@ -145,7 +145,7 @@
     self.colorScheme = NChart3DColorSchemeLight;
     self.seriesType = NChart3DTypesScatter; //NChart3DTypesColumn;
     self.seriesCount = 1; // AL: set the number of series
-    //self.yearsCount = 5;
+    self.yearsCount = [self parseYears];
     self.spectrum2DCount = 100;
     self.showBorder = NO;
     self.showLabels = YES;
@@ -161,6 +161,28 @@
     [NSNotificationCenter.defaultCenter postNotificationName:@"NChart3DUpdateSettings" object:nil];
 }
 
+// AL:TODO finish
+- (NSInteger) parseYears
+{
+    NSString *file = [[NSBundle bundleForClass:[self class]] pathForResource:@"GFD_DJIA_Companies" ofType:@"csv"];
+    
+    NSArray *years = [NSArray arrayWithContentsOfCSVFile:file options:CHCSVParserOptionsRecognizesBackslashesAsEscapes];
+    
+    NSMutableArray *mutableArray = [NSMutableArray new];
+    for (int i=0; i<years.count; i++)
+    {
+        NSArray *temp = [years objectAtIndex:i];
+        NSString *year = [temp objectAtIndex:0];
+        
+        if ( [ mutableArray containsObject:year] == NO)
+            [mutableArray addObject:year];
+    }
+    
+    m_arrayOfYears = mutableArray;
+    
+    return m_arrayOfYears.count;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -173,14 +195,18 @@
     }
 }
 
+// AL: TODO create a years array with the array we have
 - (NSArray *)arrayOfYears
 {
     if (m_arrayOfYears.count != self.yearsCount)
     {
-        NSMutableArray *result = [NSMutableArray array];
-        for (int i = 2013 - self.yearsCount + 1; i <= 2013; ++i)
-            [result addObject:[NSString stringWithFormat:@"%d", i]];
-        self.arrayOfYears = result;
+        [self parseYears];
+        
+        
+//        NSMutableArray *result = [NSMutableArray array];
+//        for (int i = 2013 - self.yearsCount + 1; i <= 2013; ++i)
+//            [result addObject:[NSString stringWithFormat:@"%d", i]];
+//        self.arrayOfYears = result;
     }
     return m_arrayOfYears;
 }

@@ -328,7 +328,7 @@
 //            m_mainViewController.prevTimeIndex = 0;
 //            break;
             
-        // AL here goes the series
+        // AL: here goes the series
         case NChart3DTypesScatter:
         {
             NSString *file = [[NSBundle bundleForClass:[self class]] pathForResource:@"GFD_DJIA_Companies" ofType:@"csv"];
@@ -973,6 +973,40 @@
             
             //NSLog(@"read: %@", fields);
             
+//            NSString *yearTag = [m_mainViewController.arrayOfYears objectAtIndex:series.tag]; // AL: TODO make sure you have the number of years first in the series
+//            
+//            for ( int i=0; i < self.fields.count; i++)
+//            {
+//                NSArray *item = [self.fields objectAtIndex:i];
+//                
+//                if ( item.count > 1)
+//                {
+//                    NSString *localTag = [item objectAtIndex:1];
+//                    
+//                    if ( [localTag isEqualToString:yearTag] == YES)
+//                    {
+//                        double x = [[item objectAtIndex:2] doubleValue];
+//                        double y = [[item objectAtIndex:3] doubleValue];
+//                        double z = [[item objectAtIndex:4] doubleValue];
+//                        NChartPointState *state = [NChartPointState pointStateWithX:x Y:y Z:z];
+//                        
+//                        // Setting the brush
+//                        state.shape = NChartMarkerShapeSphere;
+//                        state.brush = [[m_mainViewController.brushes objectAtIndex:(series.tag) % m_mainViewController.brushes.count] copy];
+//                        state.brush.shadingModel = NChartShadingModelPhong;
+//                        
+//                        NChartPoint *point = [NChartPoint pointWithState:state forSeries:series];
+//                        
+//                        [result addObject:point];
+//                        //[result addObject:point forSeries:series]];
+//                    }
+//                }
+//            }
+            
+            //[result addObject:[NChartPoint pointWithArrayOfStates:states forSeries:series]];
+            
+
+            
             NSString *tagName = [self.extractedSeries objectAtIndex:series.tag];
             
             NChartColumnSeries *localSeries = [NChartColumnSeries new];
@@ -1003,6 +1037,10 @@
                     }
                 }
             }
+            
+            //[result addObject:[NChartPoint pointWithArrayOfStates:states forSeries:series]];
+            
+            
             
 //            for (int i = 0; i <= LISSAJOU_RES; ++i)
 //            {
