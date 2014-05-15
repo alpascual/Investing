@@ -353,6 +353,8 @@
                         view.chart.caption.text = NSLocalizedString(@"Scatter", nil);
             
         }
+            
+            
 //            for (int i = 0; i < m_mainViewController.seriesCount; ++i)
 //            {
 //                NChartBubbleSeries *series = [NChartBubbleSeries series];
@@ -1006,9 +1008,16 @@
             //[result addObject:[NChartPoint pointWithArrayOfStates:states forSeries:series]];
             
 
+<<<<<<< HEAD
             // AL: This one
 //            NSString *tagName = [self.extractedSeries objectAtIndex:series.tag];
 //            
+=======
+            // AL: TODO this is the one
+//            NSString *tagName = [self.extractedSeries objectAtIndex:series.tag];
+//            
+//            NChartColumnSeries *localSeries = [NChartColumnSeries new];
+>>>>>>> e505011a321e86e85f3ec56dc18838c343891067
 //            for ( int i=0; i < self.fields.count; i++)
 //            {
 //                NSArray *item = [self.fields objectAtIndex:i];
@@ -1036,6 +1045,7 @@
 //                    }
 //                }
 //            }
+<<<<<<< HEAD
             
             
             
@@ -1076,6 +1086,46 @@
                 }
                 [result addObject:[NChartPoint pointWithArrayOfStates:states forSeries:series]];
             }
+=======
+            
+            
+            
+            
+            
+            
+            
+                for (int j = 0; j < m_mainViewController.yearsCount; ++j)
+                {
+                    NSMutableArray *states = [NSMutableArray array];
+                    
+                    for (int i = 0; i < self.fields.count; ++i)
+                    {
+                        NSArray *item = [self.fields objectAtIndex:i];
+                        
+                        NSString *year = [item objectAtIndex:0];
+                        NSString *targetYear = [m_mainViewController.arrayOfYears objectAtIndex:j];
+                        
+                        if ( [targetYear isEqualToString:year] == YES)
+                        {
+                            double x = [[item objectAtIndex:2] doubleValue];
+                            double y = [[item objectAtIndex:3] doubleValue];
+                            double z = [[item objectAtIndex:4] doubleValue];
+                            NChartPointState *state = [NChartPointState pointStateWithX:x Y:y Z:z];
+                            state.size = 1.0f;
+                            
+                            state.shape = NChartMarkerShapeSphere;
+                            state.brush = [[m_mainViewController.brushes objectAtIndex:(series.tag + j) % m_mainViewController.brushes.count] copy];
+                            state.brush.shadingModel = NChartShadingModelPhong;
+                            
+                            [states addObject:state];
+                        }
+                    }
+                    
+                    [result addObject:[NChartPoint pointWithArrayOfStates:states forSeries:series]];
+                }
+            
+            
+>>>>>>> e505011a321e86e85f3ec56dc18838c343891067
         }
             break;
             
