@@ -1008,16 +1008,12 @@
             //[result addObject:[NChartPoint pointWithArrayOfStates:states forSeries:series]];
             
 
-<<<<<<< HEAD
-            // AL: This one
-//            NSString *tagName = [self.extractedSeries objectAtIndex:series.tag];
-//            
-=======
+
             // AL: TODO this is the one
 //            NSString *tagName = [self.extractedSeries objectAtIndex:series.tag];
 //            
 //            NChartColumnSeries *localSeries = [NChartColumnSeries new];
->>>>>>> e505011a321e86e85f3ec56dc18838c343891067
+
 //            for ( int i=0; i < self.fields.count; i++)
 //            {
 //                NSArray *item = [self.fields objectAtIndex:i];
@@ -1045,52 +1041,6 @@
 //                    }
 //                }
 //            }
-<<<<<<< HEAD
-            
-            
-            
-            
-            
-            for (int i = 0; i <= LISSAJOU_RES; ++i)
-            {
-                NSMutableArray *states = [NSMutableArray array];
-                for (int j = 0; j < m_mainViewController.yearsCount; ++j)
-                {
-                    double t = (((2.0 * M_PI) / (double)(LISSAJOU_RES * m_mainViewController.seriesCount)) *
-                                (double)(i * m_mainViewController.seriesCount + series.tag + j * 2));
-                    double x = sin(3.0 * t);
-                    double y = sin(4.0 * t);
-                    double z = sin(7.0 * t);
-                    NChartPointState *state = [NChartPointState pointStateWithX:x Y:y Z:z];
-                    state.size = 1.0f;
-                    if (!view.chart.drawIn3D)
-                    {
-                        state.shape = NChartMarkerShapeCircle;
-                        state.brush = [[m_mainViewController.brushes objectAtIndex:series.tag % m_mainViewController.brushes.count] copy];
-                        state.brush.shadingModel = NChartShadingModelPlain;
-                        state.brush.opacity = 0.8f;
-                        if (m_mainViewController.showBorder)
-                        {
-                            state.borderBrush = [[m_mainViewController.brushes objectAtIndex:series.tag % m_mainViewController.brushes.count] copy];
-                            [state.borderBrush scaleColorWithRScale:0.85f gScale:0.85f bScale:0.85f];
-                            state.borderThickness = 2.0f;
-                        }
-                    }
-                    else
-                    {
-                        state.shape = NChartMarkerShapeSphere;
-                        state.brush = [[m_mainViewController.brushes objectAtIndex:(series.tag + j) % m_mainViewController.brushes.count] copy];
-                        state.brush.shadingModel = NChartShadingModelPhong;
-                    }
-                    [states addObject:state];
-                }
-                [result addObject:[NChartPoint pointWithArrayOfStates:states forSeries:series]];
-            }
-=======
-            
-            
-            
-            
             
             
             
@@ -1107,17 +1057,24 @@
                         
                         if ( [targetYear isEqualToString:year] == YES)
                         {
-                            double x = [[item objectAtIndex:2] doubleValue];
-                            double y = [[item objectAtIndex:3] doubleValue];
-                            double z = [[item objectAtIndex:4] doubleValue];
-                            NChartPointState *state = [NChartPointState pointStateWithX:x Y:y Z:z];
-                            state.size = 1.0f;
-                            
-                            state.shape = NChartMarkerShapeSphere;
-                            state.brush = [[m_mainViewController.brushes objectAtIndex:(series.tag + j) % m_mainViewController.brushes.count] copy];
-                            state.brush.shadingModel = NChartShadingModelPhong;
-                            
-                            [states addObject:state];
+                            // Filter the tags
+                            //NSString *localTag = [item objectAtIndex:1];
+                            //NSString *tagName = [self.extractedSeries objectAtIndex:series.tag];
+                            //if ( [localTag isEqualToString:tagName] == YES)
+                            {
+                                double x = [[item objectAtIndex:2] doubleValue];
+                                double y = [[item objectAtIndex:3] doubleValue];
+                                double z = [[item objectAtIndex:4] doubleValue];
+                                NChartPointState *state = [NChartPointState pointStateWithX:x Y:y Z:z];
+                                state.size = 1.0f;
+                                
+                                state.shape = NChartMarkerShapeSphere;
+                                state.brush = [[m_mainViewController.brushes objectAtIndex:(series.tag + j) % m_mainViewController.brushes.count] copy];
+                                state.brush.shadingModel = NChartShadingModelPhong;
+                                
+                                //NSLog(@"Added state localTag %@ with tagName %@", localTag, tagName);
+                                [states addObject:state];
+                            }
                         }
                     }
                     
@@ -1125,7 +1082,7 @@
                 }
             
             
->>>>>>> e505011a321e86e85f3ec56dc18838c343891067
+
         }
             break;
             
