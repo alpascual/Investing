@@ -58,7 +58,7 @@
 // value (height) of a bar in the chart
 -(float) frd3DBarChartViewController:(FRD3DBarChartViewController *)frd3DBarChardViewController valueForBarAtRow:(int)row column:(int)column
 {
-    NSLog(@"Column %d row %d", column, row);
+    //NSLog(@"Column %d row %d", column, row);
     NSArray *itemPerSeries = [self getItemsInSeries:[self.series objectAtIndex:row]];
     NSArray *item = [itemPerSeries objectAtIndex:column];
     
@@ -69,7 +69,24 @@
 
 -(NSString *)frd3DBarChartViewController:(FRD3DBarChartViewController *)frd3DBarChartViewController legendForColumn:(int)column
 {
-    return [self.years objectAtIndex:column];
+    if ( self.years == nil)
+        [self parseYears];
+    
+    NSString * yearString = [self.years objectAtIndex:column];
+    
+    return yearString;
+}
+
+-(NSString *) frd3DBarChartViewController:(FRD3DBarChartViewController *)frd3DBarChartViewController legendForRow:(int)row
+{
+    return [self.series objectAtIndex:row];
+    
+}
+
+-(UIColor *) frd3DBarChartViewController:(FRD3DBarChartViewController *)frd3DBarChardViewController colorForBarAtRow:(int)row column:(int) column
+{
+    NSLog(@"Row %d", row);
+    return [UIColor colorWithRed:40*row green:250 blue:10*row alpha:1];
 }
 
 #pragma helpers
