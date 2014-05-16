@@ -146,6 +146,7 @@
     self.seriesType = NChart3DTypesScatter; //NChart3DTypesColumn;
     //self.seriesCount = 1; // AL: set the number of series
     self.yearsCount = [self parseYears];
+    self.seriesCount = self.yearsCount;
     self.spectrum2DCount = 100;
     self.showBorder = NO;
     self.showLabels = YES;
