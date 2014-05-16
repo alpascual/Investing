@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88A3D1F21926D08A00D37AED /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A3D1F11926D08A00D37AED /* CHCSVParser.m */; };
+		88A3D1F51926D13F00D37AED /* AlexExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A3D1F41926D13F00D37AED /* AlexExample.m */; };
+		88A3D1F71926D6D500D37AED /* GFD_DJIA_Companies.csv in Resources */ = {isa = PBXBuildFile; fileRef = 88A3D1F61926D6D500D37AED /* GFD_DJIA_Companies.csv */; };
 		BE75C47F160CDB4F00BFC507 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE75C47E160CDB4F00BFC507 /* Default-568h@2x.png */; };
 		BE75C482160D16D500BFC507 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE75C481160D16D500BFC507 /* CoreText.framework */; };
 		BEEFA80E15CA070A00B839E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEEFA80D15CA070A00B839E9 /* UIKit.framework */; };
@@ -32,6 +35,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88A3D1F01926D08A00D37AED /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
+		88A3D1F11926D08A00D37AED /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
+		88A3D1F31926D13F00D37AED /* AlexExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlexExample.h; sourceTree = "<group>"; };
+		88A3D1F41926D13F00D37AED /* AlexExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlexExample.m; sourceTree = "<group>"; };
+		88A3D1F61926D6D500D37AED /* GFD_DJIA_Companies.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GFD_DJIA_Companies.csv; path = ../Data/GFD_DJIA_Companies.csv; sourceTree = "<group>"; };
 		BE75C47E160CDB4F00BFC507 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BE75C481160D16D500BFC507 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		BEEFA80915CA070A00B839E9 /* FRD3DBarChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRD3DBarChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,9 +96,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88A3D1EF1926D08A00D37AED /* CHCSVParser */ = {
+			isa = PBXGroup;
+			children = (
+				88A3D1F01926D08A00D37AED /* CHCSVParser.h */,
+				88A3D1F11926D08A00D37AED /* CHCSVParser.m */,
+			);
+			name = CHCSVParser;
+			path = "../CHCSVParser-Arc/CHCSVParser";
+			sourceTree = "<group>";
+		};
 		BEEFA7FE15CA070A00B839E9 = {
 			isa = PBXGroup;
 			children = (
+				88A3D1F61926D6D500D37AED /* GFD_DJIA_Companies.csv */,
+				88A3D1EF1926D08A00D37AED /* CHCSVParser */,
 				BE75C481160D16D500BFC507 /* CoreText.framework */,
 				BE75C47E160CDB4F00BFC507 /* Default-568h@2x.png */,
 				BEEFA84415CA081100B839E9 /* OpenGLES.framework */,
@@ -174,6 +194,8 @@
 				BEEFA83415CA07B700B839E9 /* Example3.m */,
 				BEEFA84615CB80BC00B839E9 /* Example4.h */,
 				BEEFA84715CB80BD00B839E9 /* Example4.m */,
+				88A3D1F31926D13F00D37AED /* AlexExample.h */,
+				88A3D1F41926D13F00D37AED /* AlexExample.m */,
 			);
 			name = ExampleDelegates;
 			sourceTree = "<group>";
@@ -230,6 +252,7 @@
 			files = (
 				BEEFA81815CA070A00B839E9 /* InfoPlist.strings in Resources */,
 				BEEFA83715CA07B700B839E9 /* MainStoryboard_iPhone.storyboard in Resources */,
+				88A3D1F71926D6D500D37AED /* GFD_DJIA_Companies.csv in Resources */,
 				BEEFA83815CA07B700B839E9 /* MainStoryboard_iPad.storyboard in Resources */,
 				BE75C47F160CDB4F00BFC507 /* Default-568h@2x.png in Resources */,
 			);
@@ -249,7 +272,9 @@
 				BEEFA83B15CA07B700B839E9 /* Example1.m in Sources */,
 				BEEFA83C15CA07B700B839E9 /* Example2.m in Sources */,
 				BEEFA83D15CA07B700B839E9 /* Example3.m in Sources */,
+				88A3D1F51926D13F00D37AED /* AlexExample.m in Sources */,
 				BEEFA83E15CA07B700B839E9 /* FRD3DBarChartViewController+Easing.m in Sources */,
+				88A3D1F21926D08A00D37AED /* CHCSVParser.m in Sources */,
 				BEEFA84815CB80BD00B839E9 /* Example4.m in Sources */,
 				BEEFA84B15CC536F00B839E9 /* MainViewController.m in Sources */,
 				BEEFA84E15CC559700B839E9 /* ClickThroughRatesViewController.m in Sources */,

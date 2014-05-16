@@ -37,6 +37,7 @@
 #import "MainViewController.h"
 #import "Example4.h"
 #import "Example3.h"
+#import "AlexExample.h"
 
 @interface MainViewController ()
 
@@ -60,6 +61,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    //Big3RevenueSegue
+    [self performSegueWithIdentifier:@"Big3RevenueSegue" sender:self];
 }
 
 - (void)viewDidUnload
@@ -85,7 +89,8 @@
     }
     else if ([segue.identifier isEqualToString:@"Big3RevenueSegue"])
     {
-        Example4 *example = [[Example4 alloc] init];
+        //Example4 *example = [[Example4 alloc] init];
+        AlexExample *example = [[AlexExample alloc] init];
         [segue.destinationViewController setFrd3dBarChartDelegate:example];
         [segue.destinationViewController setUseCylinders:YES];
     }
