@@ -97,7 +97,7 @@
         self.slidingViewController.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"AccountNavigationController"];
     }
     else if ([menuItem isEqualToString:@"Chart 2"]) {
-        self.slidingViewController.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"StatsNavigationController"];
+        self.slidingViewController.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Gallery3NavigationController"];
     }
     else if ([menuItem isEqualToString:@"Chart 1"]) {
         
