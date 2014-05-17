@@ -23,6 +23,7 @@
 
 #import <UIKit/UIKit.h>
 #import "ALPictureCache.h"
+#import "AlexExample.h"
 
 @interface MEMenuViewController : UIViewController <UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;

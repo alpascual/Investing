@@ -537,7 +537,7 @@
             </objects>
             <point key="canvasLocation" x="290" y="5109"/>
         </scene>
-        <!--Home View Controller - Leonardo-->
+        <!--Home View Controller - Wernher Investments-->
         <scene sceneID="YuK-1e-LnA">
             <objects>
                 <viewController id="NH1-ep-e8f" customClass="HomeViewController" sceneMemberID="viewController">
@@ -545,39 +545,21 @@
                         <viewControllerLayoutGuide type="top" id="tSH-gH-fmw"/>
                         <viewControllerLayoutGuide type="bottom" id="huQ-r9-GH1"/>
                     </layoutGuides>
-                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="xJN-Ep-Pid">
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="xJN-Ep-Pid" customClass="GLKView">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0cG-GW-yvr">
-                                <rect key="frame" x="108" y="185" width="138" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Reset Presentation">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="resetPresentation:" destination="NH1-ep-e8f" eventType="touchDown" id="Vg0-7P-LMZ"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Finding Art..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6H0-aL-cyX">
-                                <rect key="frame" x="129" y="290" width="154" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.20332485810000001" green="0.42449908349999999" blue="0.72390879760000004" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="l5v-SB-9B7">
-                                <rect key="frame" x="67" y="282" width="37" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="color" red="0.20332485813874868" green="0.42449908354877791" blue="0.72390879755434789" alpha="1" colorSpace="calibratedRGB"/>
-                            </activityIndicatorView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <simulatedMetricsInferredSentinel key="simulatedStatusBarMetrics"/>
                         <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Leonardo" id="lq9-lt-xit"/>
+                    <navigationItem key="navigationItem" title="Wernher Investments" id="lq9-lt-xit">
+                        <barButtonItem key="leftBarButtonItem" image="options-black-dots.png" id="52c-Lq-5LR">
+                            <connections>
+                                <action selector="menuButtonTapped:" destination="NH1-ep-e8f" id="EFp-gn-2yc"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XP1-1e-cD0" userLabel="First Responder" sceneMemberID="firstResponder"/>

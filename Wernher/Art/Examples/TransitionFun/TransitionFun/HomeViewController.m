@@ -53,17 +53,6 @@
       [UIFont fontWithName:@"Museo500-Regular" size:20.0],
       NSFontAttributeName, nil]];
     
-	
-    // Bar
-//    [[self navigationController] setNavigationBarHidden:YES animated:NO];
-//    [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackTranslucent];
-//    
-//    // Show/Hide bar
-//    // Let say you've a bool 'shown' for current status of navbar's visibility.
-//    [[self navigationController] setNavigationBarHidden:NO animated:YES];
-//    [[UINavigationBar appearance] setAlpha:0.5f];
-    
-    
     
     if ([(NSObject *)self.slidingViewController.delegate isKindOfClass:[MEDynamicTransition class]]) {
         MEDynamicTransition *dynamicTransition = (MEDynamicTransition *)self.slidingViewController.delegate;
@@ -76,25 +65,12 @@
     } else {
         [self.navigationController.view removeGestureRecognizer:self.dynamicTransitionPanGesture];
         [self.navigationController.view addGestureRecognizer:self.slidingViewController.panGesture];
-    }
+    }   
     
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    
-    if ( [defaults objectForKey:@"presentation"] == nil) {
-        
-        self.slidingViewController.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"PresentationStoryboardID"];        
-    }
-    else
-    {
-        [defaults removeObjectForKey:@"presentation"];
-
-        [NSTimer scheduledTimerWithTimeInterval:0.9 target:self
-                                       selector:@selector(loadingProcessFinished) userInfo:nil repeats:NO];
-    }
 }
 
 - (void)loadingProcessFinished {
-     self.slidingViewController.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Gallery2NavigationController"]; 
+     
 }
 
 - (void)didReceiveMemoryWarning
@@ -109,10 +85,5 @@
     [self.slidingViewController anchorTopViewToRightAnimated:YES];
 }
 
-- (IBAction) resetPresentation:(id)sender {
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    [defaults removeObjectForKey:@"presentation"];
-    [defaults synchronize];
-}
 
 @end

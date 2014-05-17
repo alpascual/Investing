@@ -45,6 +45,11 @@
 		7601DB7318DAA9AC009BC4B8 /* thumb-up-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 7601DB6018DAA9AC009BC4B8 /* thumb-up-white.png */; };
 		7601DB7518DAAB7F009BC4B8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7601DB7418DAAB7F009BC4B8 /* Default-568h@2x.png */; };
 		7601DB7718DAAC38009BC4B8 /* Default-568h.png in Resources */ = {isa = PBXBuildFile; fileRef = 7601DB7618DAAC38009BC4B8 /* Default-568h.png */; };
+		7626E4441927F47000182C7F /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7626E4431927F47000182C7F /* GLKit.framework */; };
+		7626E44C1927F4F900182C7F /* FRD3DBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626E4471927F4F900182C7F /* FRD3DBarChartViewController.m */; };
+		7626E44D1927F4F900182C7F /* FRD3DBarChartViewController+Easing.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626E4491927F4F900182C7F /* FRD3DBarChartViewController+Easing.m */; };
+		7626E4521927F50C00182C7F /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626E4511927F50C00182C7F /* CHCSVParser.m */; };
+		7626E4551927F79800182C7F /* AlexExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626E4541927F79800182C7F /* AlexExample.m */; };
 		763E04FA18CAAE950021F77F /* AlFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 763E04F918CAAE950021F77F /* AlFont.m */; };
 		7675ACF718CBE7D10037DEC4 /* ALPictureCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7675ACF618CBE7D10037DEC4 /* ALPictureCache.m */; };
 		7675ACFA18D275DC0037DEC4 /* ALImagesCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7675ACF918D275DC0037DEC4 /* ALImagesCache.m */; };
@@ -173,6 +178,15 @@
 		7601DB6018DAA9AC009BC4B8 /* thumb-up-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumb-up-white.png"; sourceTree = "<group>"; };
 		7601DB7418DAAB7F009BC4B8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../assets/images/Default-568h@2x.png"; sourceTree = "<group>"; };
 		7601DB7618DAAC38009BC4B8 /* Default-568h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h.png"; path = "../../assets/images/Default-568h.png"; sourceTree = "<group>"; };
+		7626E4431927F47000182C7F /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		7626E4461927F4F900182C7F /* FRD3DBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRD3DBarChartViewController.h; path = ../../../../FRD3DBarChart/FRD3DBarChart/FRD3DBarChartViewController.h; sourceTree = "<group>"; };
+		7626E4471927F4F900182C7F /* FRD3DBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRD3DBarChartViewController.m; path = ../../../../FRD3DBarChart/FRD3DBarChart/FRD3DBarChartViewController.m; sourceTree = "<group>"; };
+		7626E4481927F4F900182C7F /* FRD3DBarChartViewController+Easing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "FRD3DBarChartViewController+Easing.h"; path = "../../../../FRD3DBarChart/FRD3DBarChart/FRD3DBarChartViewController+Easing.h"; sourceTree = "<group>"; };
+		7626E4491927F4F900182C7F /* FRD3DBarChartViewController+Easing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "FRD3DBarChartViewController+Easing.m"; path = "../../../../FRD3DBarChart/FRD3DBarChart/FRD3DBarChartViewController+Easing.m"; sourceTree = "<group>"; };
+		7626E4501927F50C00182C7F /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
+		7626E4511927F50C00182C7F /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
+		7626E4531927F79800182C7F /* AlexExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlexExample.h; path = ../../../../FRD3DBarChart/FRD3DBarChart/AlexExample.h; sourceTree = "<group>"; };
+		7626E4541927F79800182C7F /* AlexExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlexExample.m; path = ../../../../FRD3DBarChart/FRD3DBarChart/AlexExample.m; sourceTree = "<group>"; };
 		763E04F818CAAE950021F77F /* AlFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlFont.h; sourceTree = "<group>"; };
 		763E04F918CAAE950021F77F /* AlFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlFont.m; sourceTree = "<group>"; };
 		7653297C18C3D50600230328 /* SBInstagramProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBInstagramProtocol.h; sourceTree = "<group>"; };
@@ -304,6 +318,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7626E4441927F47000182C7F /* GLKit.framework in Frameworks */,
 				057DC25E181DE6AE00D15995 /* CoreGraphics.framework in Frameworks */,
 				057DC260181DE6AE00D15995 /* UIKit.framework in Frameworks */,
 				057DC25C181DE6AE00D15995 /* Foundation.framework in Frameworks */,
@@ -330,6 +345,8 @@
 		057DC24F181DE6AE00D15995 = {
 			isa = PBXGroup;
 			children = (
+				7626E44F1927F50C00182C7F /* CHCSVParser */,
+				7626E4451927F4D000182C7F /* FreeChartLibrary */,
 				76E34EA618F8E0AF009B01B4 /* MYBlurIntroductionView */,
 				7601DB4C18D958C0009BC4B8 /* Default-568h@2x.png */,
 				764297A418C19733002B060C /* Galleries */,
@@ -355,6 +372,7 @@
 		057DC25A181DE6AE00D15995 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7626E4431927F47000182C7F /* GLKit.framework */,
 				057DC25B181DE6AE00D15995 /* Foundation.framework */,
 				057DC25D181DE6AE00D15995 /* CoreGraphics.framework */,
 				057DC25F181DE6AE00D15995 /* UIKit.framework */,
@@ -418,6 +436,29 @@
 				7601DB4318D7F09E009BC4B8 /* NDCollectionViewFlowLayout.m */,
 			);
 			name = BugFix;
+			sourceTree = "<group>";
+		};
+		7626E4451927F4D000182C7F /* FreeChartLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				7626E4531927F79800182C7F /* AlexExample.h */,
+				7626E4541927F79800182C7F /* AlexExample.m */,
+				7626E4461927F4F900182C7F /* FRD3DBarChartViewController.h */,
+				7626E4471927F4F900182C7F /* FRD3DBarChartViewController.m */,
+				7626E4481927F4F900182C7F /* FRD3DBarChartViewController+Easing.h */,
+				7626E4491927F4F900182C7F /* FRD3DBarChartViewController+Easing.m */,
+			);
+			name = FreeChartLibrary;
+			sourceTree = "<group>";
+		};
+		7626E44F1927F50C00182C7F /* CHCSVParser */ = {
+			isa = PBXGroup;
+			children = (
+				7626E4501927F50C00182C7F /* CHCSVParser.h */,
+				7626E4511927F50C00182C7F /* CHCSVParser.m */,
+			);
+			name = CHCSVParser;
+			path = "../../../../CHCSVParser-Arc/CHCSVParser";
 			sourceTree = "<group>";
 		};
 		764297A418C19733002B060C /* Galleries */ = {
@@ -825,6 +866,7 @@
 				76A43DD718B720E800D821B8 /* ALPictureParser.m in Sources */,
 				05CBD182182DF3B200118119 /* METransitions.m in Sources */,
 				057DC26C181DE6AE00D15995 /* MEAppDelegate.m in Sources */,
+				7626E4521927F50C00182C7F /* CHCSVParser.m in Sources */,
 				76A43DC018B5CAD400D821B8 /* CJSONScanner.m in Sources */,
 				763E04FA18CAAE950021F77F /* AlFont.m in Sources */,
 				76A43EF218B8627C00D821B8 /* AFURLResponseSerialization.m in Sources */,
@@ -836,6 +878,7 @@
 				05629E92181F4DA200A88F6C /* MEFoldAnimationController.m in Sources */,
 				76A43ED318B8625000D821B8 /* SBInstagramMediaEntity.m in Sources */,
 				76A43EB718B860AC00D821B8 /* InstaGalleryViewController.m in Sources */,
+				7626E4551927F79800182C7F /* AlexExample.m in Sources */,
 				76A43ECD18B8625000D821B8 /* SBInstagramCell.m in Sources */,
 				76A43D7E18ADCC5C00D821B8 /* ICETutorialController.m in Sources */,
 				76A43ECF18B8625000D821B8 /* SBInstagramController.m in Sources */,
@@ -849,6 +892,7 @@
 				76A43ECE18B8625000D821B8 /* SBInstagramCollectionViewController.m in Sources */,
 				05A4996D1822FEA90051F08E /* MEDynamicTransition.m in Sources */,
 				76A43ED018B8625000D821B8 /* SBInstagramHTTPRequestOperationManager.m in Sources */,
+				7626E44C1927F4F900182C7F /* FRD3DBarChartViewController.m in Sources */,
 				76A43F1D18C046A100D821B8 /* ProfileViewController.m in Sources */,
 				76A43D7F18ADCC5C00D821B8 /* ICETutorialPage.m in Sources */,
 				7601DB4418D7F09E009BC4B8 /* NDCollectionViewFlowLayout.m in Sources */,
@@ -866,6 +910,7 @@
 				76A43ED418B8625000D821B8 /* SBInstagramModel.m in Sources */,
 				76A43DC318B5CAD400D821B8 /* CJSONSerialization.m in Sources */,
 				76A43EEF18B8627C00D821B8 /* AFSecurityPolicy.m in Sources */,
+				7626E44D1927F4F900182C7F /* FRD3DBarChartViewController+Easing.m in Sources */,
 				056599E518454CB400B9C16B /* MESettingsViewController.m in Sources */,
 				76E34EBF19031F2F009B01B4 /* CellInfoViewController.m in Sources */,
 				76A43F2318C0498300D821B8 /* BTGlassScrollView.m in Sources */,

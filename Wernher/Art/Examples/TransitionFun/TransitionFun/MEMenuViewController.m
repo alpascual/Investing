@@ -52,7 +52,7 @@
 - (NSArray *)menuItems {
     if (_menuItems) return _menuItems;
     
-    _menuItems = @[@"Home", @"Account", @"Taste", @"Welcome"];//, @"Developer"];
+    _menuItems = @[@"Chart 1", @"Chart 2", @"Account", @"About"];//, @"Developer"];
     
     return _menuItems;
 }
@@ -96,27 +96,12 @@
     else if ([menuItem isEqualToString:@"Account"]) {
         self.slidingViewController.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"AccountNavigationController"];
     }
-    else if ([menuItem isEqualToString:@"Taste"]) {
+    else if ([menuItem isEqualToString:@"Chart 2"]) {
         self.slidingViewController.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"StatsNavigationController"];
     }
-    else if ([menuItem isEqualToString:@"Home"]) {
-        self.slidingViewController.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Gallery2NavigationController"];
+    else if ([menuItem isEqualToString:@"Chart 1"]) {
+        self.slidingViewController.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"HomeNavigationController"];
     }
-    else if ([menuItem isEqualToString:@"Welcome"]) {
-        
-        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-        
-        // TO TEST comment it out if you do not want a demo
-        [defaults removeObjectForKey:@"presentation"];
-        [defaults synchronize];
-        
-        self.slidingViewController.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"PresentationStoryboardID"];
-        
-//        self.slidingViewController.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Gallery2NavigationController"];
-    }
-//    else if ([menuItem isEqualToString:@"Home"]) {
-//        self.slidingViewController.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"HomeNavigationController"];
-//    }
     else if ([menuItem isEqualToString:@"Gallery 3"]) {
         self.slidingViewController.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Gallery3NavigationController"];
     }
@@ -127,6 +112,24 @@
     
         
     [self.slidingViewController resetTopViewAnimated:YES];
+}
+
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+//    if ([segue.identifier isEqualToString:@"SimpleChartSegue"])
+//    {
+//        self.example3 = [[Example3 alloc] init];
+//        [self.example3 regenerateValues];
+//        [segue.destinationViewController setFrd3dBarChartDelegate:self.example3];
+//        
+//    }
+    if ([segue.identifier isEqualToString:@"HomeNavigationController"])
+    {
+        //Example4 *example = [[Example4 alloc] init];
+        AlexExample *example = [[AlexExample alloc] init];
+        [segue.destinationViewController setFrd3dBarChartDelegate:example];
+        [segue.destinationViewController setUseCylinders:YES];
+    }
 }
 
 @end

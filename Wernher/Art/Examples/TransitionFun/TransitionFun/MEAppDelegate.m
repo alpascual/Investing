@@ -29,9 +29,6 @@
 {
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     
-    ALPictureCache *cache = [[ALPictureCache alloc] init];
-    [cache generateRequestAndCacheAll];
-    
     [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
                                                            [UIFont fontWithName:@"Museo500-Regular" size:20.0], NSFontAttributeName, nil]];
     
