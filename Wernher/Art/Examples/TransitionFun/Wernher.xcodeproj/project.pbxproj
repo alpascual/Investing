@@ -52,6 +52,28 @@
 		7626E4551927F79800182C7F /* AlexExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626E4541927F79800182C7F /* AlexExample.m */; };
 		7626E4571927FBE400182C7F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7626E4561927FBE400182C7F /* QuartzCore.framework */; };
 		7626E4591927FC9600182C7F /* GFD_DJIA_Companies.csv in Resources */ = {isa = PBXBuildFile; fileRef = 7626E4581927FC9600182C7F /* GFD_DJIA_Companies.csv */; };
+		7626E4841928290700182C7F /* NChart3DAudioCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626E4601928290700182C7F /* NChart3DAudioCapturer.m */; };
+		7626E4851928290700182C7F /* NChart3DAxesDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626E4621928290700182C7F /* NChart3DAxesDataSource.m */; };
+		7626E4861928290700182C7F /* NChart3DChartDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626E4661928290700182C7F /* NChart3DChartDelegate.m */; };
+		7626E4871928290700182C7F /* NChart3DDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626E4681928290700182C7F /* NChart3DDelegate.m */; };
+		7626E4881928290700182C7F /* NChart3DDisclosureTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626E46A1928290700182C7F /* NChart3DDisclosureTableViewCell.m */; };
+		7626E4891928290700182C7F /* NChart3DMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626E46C1928290700182C7F /* NChart3DMainViewController.m */; };
+		7626E48A1928290700182C7F /* NChart3DNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626E46F1928290700182C7F /* NChart3DNavigationController.m */; };
+		7626E48B1928290700182C7F /* NChart3DSeriesDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626E4721928290700182C7F /* NChart3DSeriesDataSource.m */; };
+		7626E48C1928290700182C7F /* NChart3DSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626E4741928290700182C7F /* NChart3DSettingsViewController.m */; };
+		7626E48D1928290700182C7F /* NChart3DSliderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626E4761928290700182C7F /* NChart3DSliderTableViewCell.m */; };
+		7626E48E1928290700182C7F /* NChart3DSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626E4781928290700182C7F /* NChart3DSwitchTableViewCell.m */; };
+		7626E48F1928290700182C7F /* NChart3DTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626E47A1928290700182C7F /* NChart3DTabBarController.m */; };
+		7626E4901928290700182C7F /* NChart3DTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626E47C1928290700182C7F /* NChart3DTableViewCell.m */; };
+		7626E4911928290700182C7F /* NChart3DTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626E47E1928290700182C7F /* NChart3DTypes.m */; };
+		7626E4921928290700182C7F /* NChart3DView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626E4801928290700182C7F /* NChart3DView.m */; };
+		7626E4931928290700182C7F /* NChart3DVSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626E4821928290700182C7F /* NChart3DVSplitViewController.m */; };
+		7626E49719282B0600182C7F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7626E49619282B0600182C7F /* AVFoundation.framework */; };
+		7626E49919282B1000182C7F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7626E49819282B1000182C7F /* CoreText.framework */; };
+		7626E49B19282B1B00182C7F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7626E49A19282B1B00182C7F /* OpenGLES.framework */; };
+		7626E49D19282B2600182C7F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7626E49C19282B2600182C7F /* Security.framework */; };
+		7626E49F19282B2F00182C7F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7626E49E19282B2F00182C7F /* SystemConfiguration.framework */; };
+		7626E4A119282C8D00182C7F /* NChart3D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7626E4A019282C8D00182C7F /* NChart3D.framework */; };
 		763E04FA18CAAE950021F77F /* AlFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 763E04F918CAAE950021F77F /* AlFont.m */; };
 		7675ACF718CBE7D10037DEC4 /* ALPictureCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7675ACF618CBE7D10037DEC4 /* ALPictureCache.m */; };
 		7675ACFA18D275DC0037DEC4 /* ALImagesCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7675ACF918D275DC0037DEC4 /* ALImagesCache.m */; };
@@ -192,6 +214,50 @@
 		7626E4561927FBE400182C7F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7626E4581927FC9600182C7F /* GFD_DJIA_Companies.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GFD_DJIA_Companies.csv; path = ../../../../Data/GFD_DJIA_Companies.csv; sourceTree = "<group>"; };
 		7626E45A1928271E00182C7F /* Shapes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shapes.h; path = ../../../../FRD3DBarChart/FRD3DBarChart/Shapes.h; sourceTree = "<group>"; };
+		7626E45E1928290700182C7F /* NChart3D_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NChart3D_Prefix.pch; sourceTree = "<group>"; };
+		7626E45F1928290700182C7F /* NChart3DAudioCapturer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NChart3DAudioCapturer.h; sourceTree = "<group>"; };
+		7626E4601928290700182C7F /* NChart3DAudioCapturer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NChart3DAudioCapturer.m; sourceTree = "<group>"; };
+		7626E4611928290700182C7F /* NChart3DAxesDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NChart3DAxesDataSource.h; sourceTree = "<group>"; };
+		7626E4621928290700182C7F /* NChart3DAxesDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NChart3DAxesDataSource.m; sourceTree = "<group>"; };
+		7626E4631928290700182C7F /* NChart3DBubbleData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NChart3DBubbleData.h; sourceTree = "<group>"; };
+		7626E4641928290700182C7F /* NChart3DCandlestickData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NChart3DCandlestickData.h; sourceTree = "<group>"; };
+		7626E4651928290700182C7F /* NChart3DChartDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NChart3DChartDelegate.h; sourceTree = "<group>"; };
+		7626E4661928290700182C7F /* NChart3DChartDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NChart3DChartDelegate.m; sourceTree = "<group>"; };
+		7626E4671928290700182C7F /* NChart3DDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NChart3DDelegate.h; sourceTree = "<group>"; };
+		7626E4681928290700182C7F /* NChart3DDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NChart3DDelegate.m; sourceTree = "<group>"; };
+		7626E4691928290700182C7F /* NChart3DDisclosureTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NChart3DDisclosureTableViewCell.h; sourceTree = "<group>"; };
+		7626E46A1928290700182C7F /* NChart3DDisclosureTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NChart3DDisclosureTableViewCell.m; sourceTree = "<group>"; };
+		7626E46B1928290700182C7F /* NChart3DMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NChart3DMainViewController.h; sourceTree = "<group>"; };
+		7626E46C1928290700182C7F /* NChart3DMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NChart3DMainViewController.m; sourceTree = "<group>"; };
+		7626E46D1928290700182C7F /* NChart3DMainViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NChart3DMainViewControllerDelegate.h; sourceTree = "<group>"; };
+		7626E46E1928290700182C7F /* NChart3DNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NChart3DNavigationController.h; sourceTree = "<group>"; };
+		7626E46F1928290700182C7F /* NChart3DNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NChart3DNavigationController.m; sourceTree = "<group>"; };
+		7626E4701928290700182C7F /* NChart3DRegularData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NChart3DRegularData.h; sourceTree = "<group>"; };
+		7626E4711928290700182C7F /* NChart3DSeriesDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NChart3DSeriesDataSource.h; sourceTree = "<group>"; };
+		7626E4721928290700182C7F /* NChart3DSeriesDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NChart3DSeriesDataSource.m; sourceTree = "<group>"; };
+		7626E4731928290700182C7F /* NChart3DSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NChart3DSettingsViewController.h; sourceTree = "<group>"; };
+		7626E4741928290700182C7F /* NChart3DSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NChart3DSettingsViewController.m; sourceTree = "<group>"; };
+		7626E4751928290700182C7F /* NChart3DSliderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NChart3DSliderTableViewCell.h; sourceTree = "<group>"; };
+		7626E4761928290700182C7F /* NChart3DSliderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NChart3DSliderTableViewCell.m; sourceTree = "<group>"; };
+		7626E4771928290700182C7F /* NChart3DSwitchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NChart3DSwitchTableViewCell.h; sourceTree = "<group>"; };
+		7626E4781928290700182C7F /* NChart3DSwitchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NChart3DSwitchTableViewCell.m; sourceTree = "<group>"; };
+		7626E4791928290700182C7F /* NChart3DTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NChart3DTabBarController.h; sourceTree = "<group>"; };
+		7626E47A1928290700182C7F /* NChart3DTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NChart3DTabBarController.m; sourceTree = "<group>"; };
+		7626E47B1928290700182C7F /* NChart3DTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NChart3DTableViewCell.h; sourceTree = "<group>"; };
+		7626E47C1928290700182C7F /* NChart3DTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NChart3DTableViewCell.m; sourceTree = "<group>"; };
+		7626E47D1928290700182C7F /* NChart3DTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NChart3DTypes.h; sourceTree = "<group>"; };
+		7626E47E1928290700182C7F /* NChart3DTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NChart3DTypes.m; sourceTree = "<group>"; };
+		7626E47F1928290700182C7F /* NChart3DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NChart3DView.h; sourceTree = "<group>"; };
+		7626E4801928290700182C7F /* NChart3DView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NChart3DView.m; sourceTree = "<group>"; };
+		7626E4811928290700182C7F /* NChart3DVSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NChart3DVSplitViewController.h; sourceTree = "<group>"; };
+		7626E4821928290700182C7F /* NChart3DVSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NChart3DVSplitViewController.m; sourceTree = "<group>"; };
+		7626E494192829BF00182C7F /* NChart3D.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NChart3D.framework; path = Library/Frameworks/NChart3D.framework; sourceTree = DEVELOPER_DIR; };
+		7626E49619282B0600182C7F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7626E49819282B1000182C7F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		7626E49A19282B1B00182C7F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		7626E49C19282B2600182C7F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7626E49E19282B2F00182C7F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7626E4A019282C8D00182C7F /* NChart3D.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NChart3D.framework; path = ../../../../NChart3D.framework; sourceTree = "<group>"; };
 		763E04F818CAAE950021F77F /* AlFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlFont.h; sourceTree = "<group>"; };
 		763E04F918CAAE950021F77F /* AlFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlFont.m; sourceTree = "<group>"; };
 		7653297C18C3D50600230328 /* SBInstagramProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBInstagramProtocol.h; sourceTree = "<group>"; };
@@ -323,10 +389,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7626E49F19282B2F00182C7F /* SystemConfiguration.framework in Frameworks */,
+				7626E49D19282B2600182C7F /* Security.framework in Frameworks */,
+				7626E49B19282B1B00182C7F /* OpenGLES.framework in Frameworks */,
+				7626E49919282B1000182C7F /* CoreText.framework in Frameworks */,
+				7626E49719282B0600182C7F /* AVFoundation.framework in Frameworks */,
 				7626E4571927FBE400182C7F /* QuartzCore.framework in Frameworks */,
 				7626E4441927F47000182C7F /* GLKit.framework in Frameworks */,
 				057DC25E181DE6AE00D15995 /* CoreGraphics.framework in Frameworks */,
 				057DC260181DE6AE00D15995 /* UIKit.framework in Frameworks */,
+				7626E4A119282C8D00182C7F /* NChart3D.framework in Frameworks */,
 				057DC25C181DE6AE00D15995 /* Foundation.framework in Frameworks */,
 				DB53A2AC25744123A2240315 /* libPods-TransitionFun.a in Frameworks */,
 			);
@@ -351,9 +423,10 @@
 		057DC24F181DE6AE00D15995 = {
 			isa = PBXGroup;
 			children = (
+				7626E4A019282C8D00182C7F /* NChart3D.framework */,
+				7626E45B192828E700182C7F /* Chart */,
 				7626E4581927FC9600182C7F /* GFD_DJIA_Companies.csv */,
 				7626E44F1927F50C00182C7F /* CHCSVParser */,
-				7626E4451927F4D000182C7F /* FreeChartLibrary */,
 				76E34EA618F8E0AF009B01B4 /* MYBlurIntroductionView */,
 				7601DB4C18D958C0009BC4B8 /* Default-568h@2x.png */,
 				764297A418C19733002B060C /* Galleries */,
@@ -379,6 +452,11 @@
 		057DC25A181DE6AE00D15995 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7626E49E19282B2F00182C7F /* SystemConfiguration.framework */,
+				7626E49C19282B2600182C7F /* Security.framework */,
+				7626E49A19282B1B00182C7F /* OpenGLES.framework */,
+				7626E49819282B1000182C7F /* CoreText.framework */,
+				7626E49619282B0600182C7F /* AVFoundation.framework */,
 				7626E4561927FBE400182C7F /* QuartzCore.framework */,
 				7626E4431927F47000182C7F /* GLKit.framework */,
 				057DC25B181DE6AE00D15995 /* Foundation.framework */,
@@ -468,6 +546,61 @@
 			);
 			name = CHCSVParser;
 			path = "../../../../CHCSVParser-Arc/CHCSVParser";
+			sourceTree = "<group>";
+		};
+		7626E45B192828E700182C7F /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				7626E494192829BF00182C7F /* NChart3D.framework */,
+				7626E45C1928290700182C7F /* PaidCharts */,
+				7626E4451927F4D000182C7F /* FreeChartLibrary */,
+			);
+			name = Chart;
+			sourceTree = "<group>";
+		};
+		7626E45C1928290700182C7F /* PaidCharts */ = {
+			isa = PBXGroup;
+			children = (
+				7626E45E1928290700182C7F /* NChart3D_Prefix.pch */,
+				7626E45F1928290700182C7F /* NChart3DAudioCapturer.h */,
+				7626E4601928290700182C7F /* NChart3DAudioCapturer.m */,
+				7626E4611928290700182C7F /* NChart3DAxesDataSource.h */,
+				7626E4621928290700182C7F /* NChart3DAxesDataSource.m */,
+				7626E4631928290700182C7F /* NChart3DBubbleData.h */,
+				7626E4641928290700182C7F /* NChart3DCandlestickData.h */,
+				7626E4651928290700182C7F /* NChart3DChartDelegate.h */,
+				7626E4661928290700182C7F /* NChart3DChartDelegate.m */,
+				7626E4671928290700182C7F /* NChart3DDelegate.h */,
+				7626E4681928290700182C7F /* NChart3DDelegate.m */,
+				7626E4691928290700182C7F /* NChart3DDisclosureTableViewCell.h */,
+				7626E46A1928290700182C7F /* NChart3DDisclosureTableViewCell.m */,
+				7626E46B1928290700182C7F /* NChart3DMainViewController.h */,
+				7626E46C1928290700182C7F /* NChart3DMainViewController.m */,
+				7626E46D1928290700182C7F /* NChart3DMainViewControllerDelegate.h */,
+				7626E46E1928290700182C7F /* NChart3DNavigationController.h */,
+				7626E46F1928290700182C7F /* NChart3DNavigationController.m */,
+				7626E4701928290700182C7F /* NChart3DRegularData.h */,
+				7626E4711928290700182C7F /* NChart3DSeriesDataSource.h */,
+				7626E4721928290700182C7F /* NChart3DSeriesDataSource.m */,
+				7626E4731928290700182C7F /* NChart3DSettingsViewController.h */,
+				7626E4741928290700182C7F /* NChart3DSettingsViewController.m */,
+				7626E4751928290700182C7F /* NChart3DSliderTableViewCell.h */,
+				7626E4761928290700182C7F /* NChart3DSliderTableViewCell.m */,
+				7626E4771928290700182C7F /* NChart3DSwitchTableViewCell.h */,
+				7626E4781928290700182C7F /* NChart3DSwitchTableViewCell.m */,
+				7626E4791928290700182C7F /* NChart3DTabBarController.h */,
+				7626E47A1928290700182C7F /* NChart3DTabBarController.m */,
+				7626E47B1928290700182C7F /* NChart3DTableViewCell.h */,
+				7626E47C1928290700182C7F /* NChart3DTableViewCell.m */,
+				7626E47D1928290700182C7F /* NChart3DTypes.h */,
+				7626E47E1928290700182C7F /* NChart3DTypes.m */,
+				7626E47F1928290700182C7F /* NChart3DView.h */,
+				7626E4801928290700182C7F /* NChart3DView.m */,
+				7626E4811928290700182C7F /* NChart3DVSplitViewController.h */,
+				7626E4821928290700182C7F /* NChart3DVSplitViewController.m */,
+			);
+			name = PaidCharts;
+			path = ../../../../Samples/NChart3DDemo/iOS;
 			sourceTree = "<group>";
 		};
 		764297A418C19733002B060C /* Galleries */ = {
@@ -869,7 +1002,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				76A43EEB18B8627C00D821B8 /* AFHTTPRequestOperation.m in Sources */,
+				7626E48B1928290700182C7F /* NChart3DSeriesDataSource.m in Sources */,
+				7626E48E1928290700182C7F /* NChart3DSwitchTableViewCell.m in Sources */,
 				76A43EEE18B8627C00D821B8 /* AFNetworkReachabilityManager.m in Sources */,
+				7626E4901928290700182C7F /* NChart3DTableViewCell.m in Sources */,
+				7626E4861928290700182C7F /* NChart3DChartDelegate.m in Sources */,
 				76A43EED18B8627C00D821B8 /* AFHTTPSessionManager.m in Sources */,
 				76A43DBF18B5CAD400D821B8 /* CJSONDeserializer.m in Sources */,
 				76A43DBE18B5CAD400D821B8 /* CDataScanner.m in Sources */,
@@ -878,31 +1015,40 @@
 				057DC26C181DE6AE00D15995 /* MEAppDelegate.m in Sources */,
 				7626E4521927F50C00182C7F /* CHCSVParser.m in Sources */,
 				76A43DC018B5CAD400D821B8 /* CJSONScanner.m in Sources */,
+				7626E48C1928290700182C7F /* NChart3DSettingsViewController.m in Sources */,
 				763E04FA18CAAE950021F77F /* AlFont.m in Sources */,
 				76A43EF218B8627C00D821B8 /* AFURLResponseSerialization.m in Sources */,
 				76A43DA718B5C86700D821B8 /* ALPictures.m in Sources */,
 				76A43DA318B460B100D821B8 /* StatsViewController.m in Sources */,
 				76A43F2418C0498300D821B8 /* UIImage+ImageEffects.m in Sources */,
 				76A43ED518B8625000D821B8 /* SBInstagramWebViewController.m in Sources */,
+				7626E48F1928290700182C7F /* NChart3DTabBarController.m in Sources */,
 				76A43DC418B5CAD400D821B8 /* CJSONSerializedData.m in Sources */,
+				7626E4911928290700182C7F /* NChart3DTypes.m in Sources */,
 				05629E92181F4DA200A88F6C /* MEFoldAnimationController.m in Sources */,
 				76A43ED318B8625000D821B8 /* SBInstagramMediaEntity.m in Sources */,
 				76A43EB718B860AC00D821B8 /* InstaGalleryViewController.m in Sources */,
 				7626E4551927F79800182C7F /* AlexExample.m in Sources */,
 				76A43ECD18B8625000D821B8 /* SBInstagramCell.m in Sources */,
 				76A43D7E18ADCC5C00D821B8 /* ICETutorialController.m in Sources */,
+				7626E4891928290700182C7F /* NChart3DMainViewController.m in Sources */,
 				76A43ECF18B8625000D821B8 /* SBInstagramController.m in Sources */,
 				76A43EF018B8627C00D821B8 /* AFURLConnectionOperation.m in Sources */,
 				76A43D8218ADCEC900D821B8 /* ALGalleryViewController.m in Sources */,
 				76E34EAE18F8E0AF009B01B4 /* MYIntroductionPanel.m in Sources */,
 				76A43DDA18B7245400D821B8 /* ALPictureItem.m in Sources */,
+				7626E4881928290700182C7F /* NChart3DDisclosureTableViewCell.m in Sources */,
+				7626E48D1928290700182C7F /* NChart3DSliderTableViewCell.m in Sources */,
 				76A43EF618BAC7F200D821B8 /* HomeViewController.m in Sources */,
+				7626E4931928290700182C7F /* NChart3DVSplitViewController.m in Sources */,
 				76A43ED118B8625000D821B8 /* SBInstagramImageViewController.m in Sources */,
 				057DC268181DE6AE00D15995 /* main.m in Sources */,
 				76A43ECE18B8625000D821B8 /* SBInstagramCollectionViewController.m in Sources */,
 				05A4996D1822FEA90051F08E /* MEDynamicTransition.m in Sources */,
+				7626E4841928290700182C7F /* NChart3DAudioCapturer.m in Sources */,
 				76A43ED018B8625000D821B8 /* SBInstagramHTTPRequestOperationManager.m in Sources */,
 				7626E44C1927F4F900182C7F /* FRD3DBarChartViewController.m in Sources */,
+				7626E4851928290700182C7F /* NChart3DAxesDataSource.m in Sources */,
 				76A43F1D18C046A100D821B8 /* ProfileViewController.m in Sources */,
 				76A43D7F18ADCC5C00D821B8 /* ICETutorialPage.m in Sources */,
 				7601DB4418D7F09E009BC4B8 /* NDCollectionViewFlowLayout.m in Sources */,
@@ -915,10 +1061,12 @@
 				76A43DC218B5CAD400D821B8 /* CFilteringJSONSerializer.m in Sources */,
 				76A43EF118B8627C00D821B8 /* AFURLRequestSerialization.m in Sources */,
 				76A43DC118B5CAD400D821B8 /* CJSONSerializer.m in Sources */,
+				7626E4921928290700182C7F /* NChart3DView.m in Sources */,
 				76A43EEC18B8627C00D821B8 /* AFHTTPRequestOperationManager.m in Sources */,
 				76A43EF318B8627C00D821B8 /* AFURLSessionManager.m in Sources */,
 				76A43ED418B8625000D821B8 /* SBInstagramModel.m in Sources */,
 				76A43DC318B5CAD400D821B8 /* CJSONSerialization.m in Sources */,
+				7626E48A1928290700182C7F /* NChart3DNavigationController.m in Sources */,
 				76A43EEF18B8627C00D821B8 /* AFSecurityPolicy.m in Sources */,
 				7626E44D1927F4F900182C7F /* FRD3DBarChartViewController+Easing.m in Sources */,
 				056599E518454CB400B9C16B /* MESettingsViewController.m in Sources */,
@@ -929,6 +1077,7 @@
 				76A43DA018B0432000D821B8 /* ALAccountViewController.m in Sources */,
 				7675ACFA18D275DC0037DEC4 /* ALImagesCache.m in Sources */,
 				76A43DC518B5CAD400D821B8 /* CDataScanner_Extensions.m in Sources */,
+				7626E4871928290700182C7F /* NChart3DDelegate.m in Sources */,
 				76A43F1A18BEE97A00D821B8 /* UniqueIdentifier.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1040,10 +1189,21 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Volumes/Extended,
+					HD/Pet,
+					Projects/2014/NChart3D,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TransitionFun/Wernher-Prefix.pch";
 				INFOPLIST_FILE = "TransitionFun/Wernher-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
 				PRODUCT_NAME = Wernher;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1058,10 +1218,21 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Volumes/Extended,
+					HD/Pet,
+					Projects/2014/NChart3D,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TransitionFun/Wernher-Prefix.pch";
 				INFOPLIST_FILE = "TransitionFun/Wernher-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
 				PRODUCT_NAME = Wernher;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;

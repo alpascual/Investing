@@ -131,7 +131,7 @@
     [m_captureSession addOutput:output];
     dispatch_queue_t queue = dispatch_queue_create("NChart3DAudioCapturer", NULL);
     [output setSampleBufferDelegate:self queue:queue];
-    dispatch_release(queue);
+    //dispatch_release(queue);
     
     m_frameDroppingQueue = dispatch_queue_create("NChart3DAudioCapturer::FrameDropper", NULL);
     m_frameDroppingSem = dispatch_semaphore_create(0);
@@ -146,11 +146,11 @@
     m_captureSession = nil;
     m_captureDevice = nil;
     
-    if (m_frameDroppingQueue)
+    /*if (m_frameDroppingQueue)
     {
         dispatch_release(m_frameDroppingQueue), m_frameDroppingQueue = NULL;
         dispatch_release(m_frameDroppingSem), m_frameDroppingSem = NULL;
-    }
+    }*/
 }
 
 - (void)startCaptureSession
