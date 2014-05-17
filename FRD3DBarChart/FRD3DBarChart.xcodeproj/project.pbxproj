@@ -227,6 +227,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					BEEFA80815CA070A00B839E9 = {
+						DevelopmentTeam = L6RR26WWDD;
+					};
+				};
 			};
 			buildConfigurationList = BEEFA80315CA070A00B839E9 /* Build configuration list for PBXProject "FRD3DBarChart" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -362,12 +367,14 @@
 		BEEFA82215CA070A00B839E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FRD3DBarChart/FRD3DBarChart-Prefix.pch";
 				INFOPLIST_FILE = "FRD3DBarChart/FRD3DBarChart-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A32942B1-0416-4BCB-BE98-DD613F7148CC";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -376,12 +383,14 @@
 		BEEFA82315CA070A00B839E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FRD3DBarChart/FRD3DBarChart-Prefix.pch";
 				INFOPLIST_FILE = "FRD3DBarChart/FRD3DBarChart-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A32942B1-0416-4BCB-BE98-DD613F7148CC";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

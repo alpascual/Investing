@@ -86,7 +86,35 @@
 -(UIColor *) frd3DBarChartViewController:(FRD3DBarChartViewController *)frd3DBarChardViewController colorForBarAtRow:(int)row column:(int) column
 {
     NSLog(@"Row %d", row);
-    return [UIColor colorWithRed:40*row green:250 blue:10*row alpha:1];
+    switch (row) {
+        case 0:
+            return [UIColor redColor];
+            break;
+            
+        case 1:
+            return [UIColor greenColor];
+            break;
+            
+        case 2:
+            return [UIColor blueColor];
+            break;
+            
+        case 3:
+            return [UIColor brownColor];
+            break;
+            
+        case 4:
+            return [UIColor yellowColor];
+            break;
+            
+        case 5:
+            return [UIColor grayColor];
+            
+        default:
+            return [UIColor colorWithRed:10*row green:250 blue:1*row alpha:1];
+            break;
+    }
+    
 }
 
 #pragma helpers
