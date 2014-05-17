@@ -43,7 +43,7 @@
     
     self.transitions.dynamicTransition.slidingViewController = self.slidingViewController;
     
-    self.slidingViewController.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"HomeNavigationController"];
+    self.slidingViewController.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"AccountNavigationController"];
     
     dispatch_async(dispatch_get_main_queue(), ^{
         NSIndexPath *defaultIndexPath = [NSIndexPath indexPathForRow:0 inSection:0];

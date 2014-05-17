@@ -14,6 +14,6 @@
 
 
 - (IBAction)menuButtonTapped:(id)sender;
-- (IBAction) resetPresentation:(id)sender;
+
 
 @end

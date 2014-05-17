@@ -50,6 +50,8 @@
 		7626E44D1927F4F900182C7F /* FRD3DBarChartViewController+Easing.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626E4491927F4F900182C7F /* FRD3DBarChartViewController+Easing.m */; };
 		7626E4521927F50C00182C7F /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626E4511927F50C00182C7F /* CHCSVParser.m */; };
 		7626E4551927F79800182C7F /* AlexExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626E4541927F79800182C7F /* AlexExample.m */; };
+		7626E4571927FBE400182C7F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7626E4561927FBE400182C7F /* QuartzCore.framework */; };
+		7626E4591927FC9600182C7F /* GFD_DJIA_Companies.csv in Resources */ = {isa = PBXBuildFile; fileRef = 7626E4581927FC9600182C7F /* GFD_DJIA_Companies.csv */; };
 		763E04FA18CAAE950021F77F /* AlFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 763E04F918CAAE950021F77F /* AlFont.m */; };
 		7675ACF718CBE7D10037DEC4 /* ALPictureCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7675ACF618CBE7D10037DEC4 /* ALPictureCache.m */; };
 		7675ACFA18D275DC0037DEC4 /* ALImagesCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7675ACF918D275DC0037DEC4 /* ALImagesCache.m */; };
@@ -187,6 +189,8 @@
 		7626E4511927F50C00182C7F /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
 		7626E4531927F79800182C7F /* AlexExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlexExample.h; path = ../../../../FRD3DBarChart/FRD3DBarChart/AlexExample.h; sourceTree = "<group>"; };
 		7626E4541927F79800182C7F /* AlexExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlexExample.m; path = ../../../../FRD3DBarChart/FRD3DBarChart/AlexExample.m; sourceTree = "<group>"; };
+		7626E4561927FBE400182C7F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7626E4581927FC9600182C7F /* GFD_DJIA_Companies.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GFD_DJIA_Companies.csv; path = ../../../../Data/GFD_DJIA_Companies.csv; sourceTree = "<group>"; };
 		763E04F818CAAE950021F77F /* AlFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlFont.h; sourceTree = "<group>"; };
 		763E04F918CAAE950021F77F /* AlFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlFont.m; sourceTree = "<group>"; };
 		7653297C18C3D50600230328 /* SBInstagramProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBInstagramProtocol.h; sourceTree = "<group>"; };
@@ -318,6 +322,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7626E4571927FBE400182C7F /* QuartzCore.framework in Frameworks */,
 				7626E4441927F47000182C7F /* GLKit.framework in Frameworks */,
 				057DC25E181DE6AE00D15995 /* CoreGraphics.framework in Frameworks */,
 				057DC260181DE6AE00D15995 /* UIKit.framework in Frameworks */,
@@ -345,6 +350,7 @@
 		057DC24F181DE6AE00D15995 = {
 			isa = PBXGroup;
 			children = (
+				7626E4581927FC9600182C7F /* GFD_DJIA_Companies.csv */,
 				7626E44F1927F50C00182C7F /* CHCSVParser */,
 				7626E4451927F4D000182C7F /* FreeChartLibrary */,
 				76E34EA618F8E0AF009B01B4 /* MYBlurIntroductionView */,
@@ -372,6 +378,7 @@
 		057DC25A181DE6AE00D15995 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7626E4561927FBE400182C7F /* QuartzCore.framework */,
 				7626E4431927F47000182C7F /* GLKit.framework */,
 				057DC25B181DE6AE00D15995 /* Foundation.framework */,
 				057DC25D181DE6AE00D15995 /* CoreGraphics.framework */,
@@ -808,6 +815,7 @@
 				96E4561D1900E36700B0845A /* bars@2x.png in Resources */,
 				7601DB6118DAA9AC009BC4B8 /* Icon-72.png in Resources */,
 				7601DB6C18DAA9AC009BC4B8 /* more-blue-64.png in Resources */,
+				7626E4591927FC9600182C7F /* GFD_DJIA_Companies.csv in Resources */,
 				7601DB6818DAA9AC009BC4B8 /* logo-white-1000.png in Resources */,
 				76A43ED618B8625000D821B8 /* SBInstagramWebViewController.xib in Resources */,
 				7601DB6318DAA9AC009BC4B8 /* Icon.png in Resources */,

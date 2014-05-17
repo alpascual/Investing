@@ -100,7 +100,9 @@
         self.slidingViewController.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"StatsNavigationController"];
     }
     else if ([menuItem isEqualToString:@"Chart 1"]) {
-        self.slidingViewController.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"HomeNavigationController"];
+        
+        [self performSegueWithIdentifier:@"HomeNavigationController" sender:self];
+        //self.slidingViewController.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"HomeNavigationController"];
     }
     else if ([menuItem isEqualToString:@"Gallery 3"]) {
         self.slidingViewController.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Gallery3NavigationController"];

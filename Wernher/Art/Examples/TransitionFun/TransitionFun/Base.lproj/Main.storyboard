@@ -361,13 +361,6 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No identifier" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6vd-wk-fdM">
-                                <rect key="frame" x="32" y="255" width="272" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <simulatedMetricsInferredSentinel key="simulatedStatusBarMetrics"/>
@@ -382,9 +375,6 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                    <connections>
-                        <outlet property="uniqueIdentifier" destination="6vd-wk-fdM" id="BM7-gS-ccc"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TNm-WP-Mg2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -537,10 +527,10 @@
             </objects>
             <point key="canvasLocation" x="290" y="5109"/>
         </scene>
-        <!--Home View Controller - Wernher Investments-->
+        <!--Bar Chart View Controller - Wernher Investments-->
         <scene sceneID="YuK-1e-LnA">
             <objects>
-                <viewController id="NH1-ep-e8f" customClass="HomeViewController" sceneMemberID="viewController">
+                <viewController id="NH1-ep-e8f" customClass="FRD3DBarChartViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tSH-gH-fmw"/>
                         <viewControllerLayoutGuide type="bottom" id="huQ-r9-GH1"/>
