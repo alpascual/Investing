@@ -128,11 +128,11 @@
 		056599E318454CB400B9C16B /* MESettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MESettingsViewController.h; sourceTree = "<group>"; };
 		056599E418454CB400B9C16B /* MESettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MESettingsViewController.m; sourceTree = "<group>"; };
 		056599E718458A1D00B9C16B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main-iPad.storyboard"; sourceTree = "<group>"; };
-		057DC258181DE6AE00D15995 /* Leonardo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leonardo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		057DC258181DE6AE00D15995 /* Wernher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wernher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		057DC25B181DE6AE00D15995 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		057DC25D181DE6AE00D15995 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		057DC25F181DE6AE00D15995 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		057DC263181DE6AE00D15995 /* Leonardo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Leonardo-Info.plist"; sourceTree = "<group>"; };
+		057DC263181DE6AE00D15995 /* Wernher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wernher-Info.plist"; sourceTree = "<group>"; };
 		057DC265181DE6AE00D15995 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		057DC267181DE6AE00D15995 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		057DC269181DE6AE00D15995 /* Art-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Art-Prefix.pch"; sourceTree = "<group>"; };
@@ -347,7 +347,7 @@
 		057DC259181DE6AE00D15995 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				057DC258181DE6AE00D15995 /* Leonardo.app */,
+				057DC258181DE6AE00D15995 /* Wernher.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -403,7 +403,7 @@
 		057DC262181DE6AE00D15995 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				057DC263181DE6AE00D15995 /* Leonardo-Info.plist */,
+				057DC263181DE6AE00D15995 /* Wernher-Info.plist */,
 				057DC264181DE6AE00D15995 /* InfoPlist.strings */,
 				057DC267181DE6AE00D15995 /* main.m */,
 				057DC269181DE6AE00D15995 /* Art-Prefix.pch */,
@@ -668,9 +668,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		057DC257181DE6AE00D15995 /* Leonardo */ = {
+		057DC257181DE6AE00D15995 /* Wernher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 057DC28A181DE6AE00D15995 /* Build configuration list for PBXNativeTarget "Leonardo" */;
+			buildConfigurationList = 057DC28A181DE6AE00D15995 /* Build configuration list for PBXNativeTarget "Wernher" */;
 			buildPhases = (
 				818BCF7749A6437BB39DF560 /* Check Pods Manifest.lock */,
 				057DC254181DE6AE00D15995 /* Sources */,
@@ -682,9 +682,9 @@
 			);
 			dependencies = (
 			);
-			name = Leonardo;
+			name = Wernher;
 			productName = TransitionFun;
-			productReference = 057DC258181DE6AE00D15995 /* Leonardo.app */;
+			productReference = 057DC258181DE6AE00D15995 /* Wernher.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -702,7 +702,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 057DC253181DE6AE00D15995 /* Build configuration list for PBXProject "Leonardo" */;
+			buildConfigurationList = 057DC253181DE6AE00D15995 /* Build configuration list for PBXProject "Wernher" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -715,7 +715,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				057DC257181DE6AE00D15995 /* Leonardo */,
+				057DC257181DE6AE00D15995 /* Wernher */,
 			);
 		};
 /* End PBXProject section */
@@ -986,10 +986,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TransitionFun/Leonardo-Prefix.pch";
-				INFOPLIST_FILE = "TransitionFun/Leonardo-Info.plist";
+				GCC_PREFIX_HEADER = "TransitionFun/Wernher-Prefix.pch";
+				INFOPLIST_FILE = "TransitionFun/Wernher-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = Leonardo;
+				PRODUCT_NAME = Wernher;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -1004,10 +1004,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TransitionFun/Leonardo-Prefix.pch";
-				INFOPLIST_FILE = "TransitionFun/Leonardo-Info.plist";
+				GCC_PREFIX_HEADER = "TransitionFun/Wernher-Prefix.pch";
+				INFOPLIST_FILE = "TransitionFun/Wernher-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = Leonardo;
+				PRODUCT_NAME = Wernher;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -1017,7 +1017,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		057DC253181DE6AE00D15995 /* Build configuration list for PBXProject "Leonardo" */ = {
+		057DC253181DE6AE00D15995 /* Build configuration list for PBXProject "Wernher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				057DC288181DE6AE00D15995 /* Debug */,
@@ -1026,7 +1026,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		057DC28A181DE6AE00D15995 /* Build configuration list for PBXNativeTarget "Leonardo" */ = {
+		057DC28A181DE6AE00D15995 /* Build configuration list for PBXNativeTarget "Wernher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				057DC28B181DE6AE00D15995 /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "057DC257181DE6AE00D15995"
-               BuildableName = "Leonardo.app"
-               BlueprintName = "Leonardo"
-               ReferencedContainer = "container:Leonardo.xcodeproj">
+               BuildableName = "Wernher.app"
+               BlueprintName = "Wernher"
+               ReferencedContainer = "container:Wernher.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "057DC257181DE6AE00D15995"
-            BuildableName = "Leonardo.app"
-            BlueprintName = "Leonardo"
-            ReferencedContainer = "container:Leonardo.xcodeproj">
+            BuildableName = "Wernher.app"
+            BlueprintName = "Wernher"
+            ReferencedContainer = "container:Wernher.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "057DC257181DE6AE00D15995"
-            BuildableName = "Leonardo.app"
-            BlueprintName = "Leonardo"
-            ReferencedContainer = "container:Leonardo.xcodeproj">
+            BuildableName = "Wernher.app"
+            BlueprintName = "Wernher"
+            ReferencedContainer = "container:Wernher.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "057DC257181DE6AE00D15995"
-            BuildableName = "Leonardo.app"
-            BlueprintName = "Leonardo"
-            ReferencedContainer = "container:Leonardo.xcodeproj">
+            BuildableName = "Wernher.app"
+            BlueprintName = "Wernher"
+            ReferencedContainer = "container:Wernher.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
