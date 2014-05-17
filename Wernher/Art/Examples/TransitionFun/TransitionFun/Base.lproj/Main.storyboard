@@ -527,10 +527,10 @@
             </objects>
             <point key="canvasLocation" x="290" y="5109"/>
         </scene>
-        <!--Bar Chart View Controller - Wernher Investments-->
+        <!--Home View Controller - Wernher Investments-->
         <scene sceneID="YuK-1e-LnA">
             <objects>
-                <viewController id="NH1-ep-e8f" customClass="FRD3DBarChartViewController" sceneMemberID="viewController">
+                <viewController id="NH1-ep-e8f" customClass="HomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tSH-gH-fmw"/>
                         <viewControllerLayoutGuide type="bottom" id="huQ-r9-GH1"/>
@@ -551,10 +551,36 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <segue destination="xHX-Hz-WpZ" kind="push" identifier="Chart1Storyboard" id="PQL-X7-Qow"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XP1-1e-cD0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="772" y="5109"/>
+        </scene>
+        <!--Bar Chart View Controller-->
+        <scene sceneID="1mZ-ex-tgy">
+            <objects>
+                <viewController storyboardIdentifier="Chart1Storyboard" id="xHX-Hz-WpZ" customClass="FRD3DBarChartViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nNS-rg-KZm"/>
+                        <viewControllerLayoutGuide type="bottom" id="szu-hH-JUA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UQN-qU-5k9" customClass="GLKView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="MHk-kl-Ntm">
+                        <barButtonItem key="leftBarButtonItem" image="options-black-dots.png" id="yco-EB-1WX">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GIg-wd-KK9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1285" y="5109"/>
         </scene>
         <!--View Controller - Future Use-->
         <scene sceneID="iTb-N8-VjT">

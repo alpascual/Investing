@@ -67,10 +67,32 @@
         [self.navigationController.view addGestureRecognizer:self.slidingViewController.panGesture];
     }   
     
+    
+    [self performSegueWithIdentifier:@"Chart1Storyboard" sender:self];
 }
 
 - (void)loadingProcessFinished {
-     
+     //Chart1Storyboard
+    
+    
+}
+
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    //    if ([segue.identifier isEqualToString:@"SimpleChartSegue"])
+    //    {
+    //        self.example3 = [[Example3 alloc] init];
+    //        [self.example3 regenerateValues];
+    //        [segue.destinationViewController setFrd3dBarChartDelegate:self.example3];
+    //
+    //    }
+    if ([segue.identifier isEqualToString:@"Chart1Storyboard"])
+    {
+        //Example4 *example = [[Example4 alloc] init];
+        AlexExample *example = [[AlexExample alloc] init];
+        [segue.destinationViewController setFrd3dBarChartDelegate:example];
+        [segue.destinationViewController setUseCylinders:YES];
+    }
 }
 
 - (void)didReceiveMemoryWarning

@@ -191,6 +191,7 @@
 		7626E4541927F79800182C7F /* AlexExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlexExample.m; path = ../../../../FRD3DBarChart/FRD3DBarChart/AlexExample.m; sourceTree = "<group>"; };
 		7626E4561927FBE400182C7F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7626E4581927FC9600182C7F /* GFD_DJIA_Companies.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GFD_DJIA_Companies.csv; path = ../../../../Data/GFD_DJIA_Companies.csv; sourceTree = "<group>"; };
+		7626E45A1928271E00182C7F /* Shapes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shapes.h; path = ../../../../FRD3DBarChart/FRD3DBarChart/Shapes.h; sourceTree = "<group>"; };
 		763E04F818CAAE950021F77F /* AlFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlFont.h; sourceTree = "<group>"; };
 		763E04F918CAAE950021F77F /* AlFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlFont.m; sourceTree = "<group>"; };
 		7653297C18C3D50600230328 /* SBInstagramProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBInstagramProtocol.h; sourceTree = "<group>"; };
@@ -448,6 +449,7 @@
 		7626E4451927F4D000182C7F /* FreeChartLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				7626E45A1928271E00182C7F /* Shapes.h */,
 				7626E4531927F79800182C7F /* AlexExample.h */,
 				7626E4541927F79800182C7F /* AlexExample.m */,
 				7626E4461927F4F900182C7F /* FRD3DBarChartViewController.h */,

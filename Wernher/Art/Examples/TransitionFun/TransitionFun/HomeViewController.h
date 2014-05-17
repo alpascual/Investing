@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AlexExample.h"
 
 @interface HomeViewController : UIViewController
 
