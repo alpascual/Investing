@@ -624,10 +624,10 @@
             </objects>
             <point key="canvasLocation" x="290" y="5814"/>
         </scene>
-        <!--Chart3D Main View Controller - Wernher Investments-->
+        <!--Paid Chart View Controller - Wernher Investments-->
         <scene sceneID="1sY-N4-SIB">
             <objects>
-                <viewController id="gpB-3K-m4s" customClass="NChart3DMainViewController" sceneMemberID="viewController">
+                <viewController id="gpB-3K-m4s" customClass="PaidChartViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fet-oc-hQt"/>
                         <viewControllerLayoutGuide type="bottom" id="tbk-Kn-yNL"/>
