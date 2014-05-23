@@ -33,7 +33,7 @@
                                                   initWithMainViewController:chartCtrl
                                                   settingsType:NChart3DSettingsChartSettings];
     chartNavCtrl.tabBarItem.title = NSLocalizedString(@"Charts", nil);
-    chartNavCtrl.tabBarItem.image = [UIImage imageNamed:@"buttonChart.png"];
+    //chartNavCtrl.tabBarItem.image = [UIImage imageNamed:@"buttonChart.png"];
     if ([chartNavCtrl.navigationBar respondsToSelector:@selector(setBarTintColor:)])
         chartNavCtrl.navigationBar.barTintColor = [UIColor whiteColor];
     if ([chartNavCtrl.navigationBar respondsToSelector:@selector(setTranslucent:)])
@@ -74,6 +74,8 @@
     tabCtrl.viewControllers = @[chartNavCtrl, effectsNavCtrl, streamingNavCtrl, layoutNavCtrl];
     if ([tabCtrl.tabBar respondsToSelector:@selector(setTranslucent:)])
         tabCtrl.tabBar.translucent = NO;
+
+    
     
     [self.view addSubview:chartNavCtrl.view];
 }
