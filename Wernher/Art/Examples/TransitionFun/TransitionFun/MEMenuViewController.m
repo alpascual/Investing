@@ -104,8 +104,8 @@
         //[self performSegueWithIdentifier:@"HomeNavigationController" sender:self];
         self.slidingViewController.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"HomeNavigationController"];
     }
-    else if ([menuItem isEqualToString:@"Gallery 3"]) {
-        self.slidingViewController.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Gallery3NavigationController"];
+    else if ([menuItem isEqualToString:@"About"]) {
+        self.slidingViewController.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"AboutNavigationControllerStoryID"];
     }
     else if ([menuItem isEqualToString:@"Gallery 4"]) {
         self.slidingViewController.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Gallery4NavigationController"];

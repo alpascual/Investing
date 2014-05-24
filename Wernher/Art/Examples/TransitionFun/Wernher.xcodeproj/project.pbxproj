@@ -217,6 +217,7 @@
 		7626E5C8193124E400182C7F /* step@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7626E55E193124E400182C7F /* step@2x.png */; };
 		7626E5C9193124E400182C7F /* surface.png in Resources */ = {isa = PBXBuildFile; fileRef = 7626E55F193124E400182C7F /* surface.png */; };
 		7626E5CA193124E400182C7F /* surface@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7626E560193124E400182C7F /* surface@2x.png */; };
+		7626E5CD1931281800182C7F /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7626E5CC1931281800182C7F /* AboutViewController.m */; };
 		763E04FA18CAAE950021F77F /* AlFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 763E04F918CAAE950021F77F /* AlFont.m */; };
 		7675ACF718CBE7D10037DEC4 /* ALPictureCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7675ACF618CBE7D10037DEC4 /* ALPictureCache.m */; };
 		7675ACFA18D275DC0037DEC4 /* ALImagesCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7675ACF918D275DC0037DEC4 /* ALImagesCache.m */; };
@@ -547,6 +548,8 @@
 		7626E55E193124E400182C7F /* step@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step@2x.png"; sourceTree = "<group>"; };
 		7626E55F193124E400182C7F /* surface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = surface.png; sourceTree = "<group>"; };
 		7626E560193124E400182C7F /* surface@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "surface@2x.png"; sourceTree = "<group>"; };
+		7626E5CB1931281800182C7F /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		7626E5CC1931281800182C7F /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		763E04F818CAAE950021F77F /* AlFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlFont.h; sourceTree = "<group>"; };
 		763E04F918CAAE950021F77F /* AlFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlFont.m; sourceTree = "<group>"; };
 		7653297C18C3D50600230328 /* SBInstagramProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBInstagramProtocol.h; sourceTree = "<group>"; };
@@ -791,6 +794,8 @@
 				76A43F1C18C046A100D821B8 /* ProfileViewController.m */,
 				7626E4EF192D9E3F00182C7F /* PaidChartViewController.h */,
 				7626E4F0192D9E3F00182C7F /* PaidChartViewController.m */,
+				7626E5CB1931281800182C7F /* AboutViewController.h */,
+				7626E5CC1931281800182C7F /* AboutViewController.m */,
 			);
 			path = TransitionFun;
 			sourceTree = "<group>";
@@ -1630,6 +1635,7 @@
 				76A43DC418B5CAD400D821B8 /* CJSONSerializedData.m in Sources */,
 				7626E4911928290700182C7F /* NChart3DTypes.m in Sources */,
 				05629E92181F4DA200A88F6C /* MEFoldAnimationController.m in Sources */,
+				7626E5CD1931281800182C7F /* AboutViewController.m in Sources */,
 				76A43ED318B8625000D821B8 /* SBInstagramMediaEntity.m in Sources */,
 				76A43EB718B860AC00D821B8 /* InstaGalleryViewController.m in Sources */,
 				7626E4551927F79800182C7F /* AlexExample.m in Sources */,

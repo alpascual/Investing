@@ -656,7 +656,7 @@
         <!--Navigation Controller-->
         <scene sceneID="u6k-bB-0qU">
             <objects>
-                <navigationController storyboardIdentifier="ProfileNavigationControllerStoryID" definesPresentationContext="YES" id="9Bm-YA-Y7M" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="AboutNavigationControllerStoryID" definesPresentationContext="YES" id="9Bm-YA-Y7M" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" alpha="0.34999999403953552" contentMode="scaleToFill" id="BMY-XI-eiG">
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
@@ -671,10 +671,10 @@
             </objects>
             <point key="canvasLocation" x="290" y="6559"/>
         </scene>
-        <!--Profile View Controller - Not Used-->
+        <!--About View Controller - About-->
         <scene sceneID="upV-uv-G7R">
             <objects>
-                <viewController id="j3S-5y-S5s" customClass="ProfileViewController" sceneMemberID="viewController">
+                <viewController id="j3S-5y-S5s" customClass="AboutViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CY1-93-wR2"/>
                         <viewControllerLayoutGuide type="bottom" id="QgO-Wm-Wbu"/>
@@ -682,12 +682,26 @@
                     <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="qxp-Bq-874">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Icon114.png" translatesAutoresizingMaskIntoConstraints="NO" id="RjI-KP-fRI">
+                                <rect key="frame" x="85" y="115" width="150" height="123"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="254" translatesAutoresizingMaskIntoConstraints="NO" id="cJ5-dg-Tkz">
+                                <rect key="frame" x="35" y="287" width="254" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus ipsum, egestas a ligula venenatis, sodales gravida ligula. Donec blandit malesuada odio, at sagittis elit semper non. Nunc vel odio vitae velit fringilla suscipit. Praesent at mauris porta, aliquam magna vel, tempus massa. Sed feugiat, odio id varius fringilla, mi eros convallis ante, vel mollis elit erat sed sapien. Proin tincidunt neque ut facilisis dapibus. Donec lectus lorem, condimentum at turpis non, dignissim semper felis. Ut sollicitudin convallis sem, id lobortis lacus mattis ut. Sed sagittis aliquam venenatis. Duis velit eros, tincidunt id sem ut, aliquam blandit mauris. Morbi id egestas ante, eu condimentum mauris. Morbi dui justo, pretium eget metus eu, commodo porttitor eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <simulatedMetricsInferredSentinel key="simulatedStatusBarMetrics"/>
                         <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Not Used" id="2kE-zW-XhE">
+                    <navigationItem key="navigationItem" title="About" id="2kE-zW-XhE">
                         <barButtonItem key="leftBarButtonItem" image="options-black-dots.png" id="Vjr-wx-qij">
                             <connections>
                                 <action selector="menuButtonTapped:" destination="j3S-5y-S5s" id="N56-dY-zid"/>
@@ -698,10 +712,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ili-SS-6DS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="787" y="6559"/>
+            <point key="canvasLocation" x="817" y="6549"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Icon114.png" width="114" height="114"/>
         <image name="anonuser.png" width="24" height="24"/>
         <image name="background-gradient.png" width="320" height="200"/>
         <image name="menu-background" width="520" height="763"/>

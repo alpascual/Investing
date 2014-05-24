@@ -13,4 +13,8 @@
 
 @interface PaidChartViewController : UIViewController
 
+@property (nonatomic, strong) UIPanGestureRecognizer *dynamicTransitionPanGesture;
+
+- (IBAction)menuButtonTapped:(id)sender;
+
 @end
