@@ -109,6 +109,18 @@
             
         case 5:
             return [UIColor grayColor];
+        case 6:
+            return [UIColor purpleColor];
+        case 7:
+            return [UIColor orangeColor];
+        case 8:
+            return [UIColor whiteColor];
+        case 9:
+            return [UIColor magentaColor];
+        case 10:
+            return [UIColor lightGrayColor];
+        case 11:
+            return [UIColor brownColor];
             
         default:
             return [UIColor colorWithRed:10*row green:250 blue:1*row alpha:1];
@@ -142,7 +154,7 @@
 
 - (void) generateArray
 {
-    NSString *file = [[NSBundle bundleForClass:[self class]] pathForResource:@"GFD_DJIA_Companies" ofType:@"csv"];
+    NSString *file = [[NSBundle bundleForClass:[self class]] pathForResource:@"WI_App_Test_Data" ofType:@"csv"];
 
     self.fields = [NSArray arrayWithContentsOfCSVFile:file options:CHCSVParserOptionsRecognizesBackslashesAsEscapes];
 }

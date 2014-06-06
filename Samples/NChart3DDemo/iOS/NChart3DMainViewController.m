@@ -122,7 +122,9 @@
     m_view = [[NChart3DView alloc] initWithFrame:CGRectZero];
     
     // Paste your license key here.
-    m_view.chart.licenseKey = @"g1cVXBngoHRaVLr9syklcughDTqr/CJtaBTlEe7dArHYxZHlrF9J8vFb/zrE1+90xI93KFjMKJ+e/A8mxx1AFb/tEZAV66M3M2l2lsfYVXiJXuzar0ewDo8yoRLFfT7tNn8N7kW/WjBODSPL7UULnRVe04PE8VLcMQdociifAsEcfh6UdUoLMzR3ktd95V2RCAIMwyh6bGZhiy8LXwfY7GVFNohMpYErO/ayDWEd0HIfYijXWikJUydYeijL1c4DAKLMiguJtYh0Kg7+90y+VtR2EuCMZPg6tmNVS8FUCwTblLzMM6h17F1AYQHGPgKjQqT/aL3HKTHrCwJuqKhzdEthgm9jT+zfj6zFFfJaQq3XNtw8x5IoFcPR5DVb/DdX26DhqTmnNqeloinFInsPhaUJHywycTg+3034uS4OLmLdzyzvQl9rlEvp7NRs0UFuBg26AmqUaVeJHOXSK8zyw8rbwIe5HqqKkHIeS5WPv99baaNb5X9PMxEvm6hjUiD5QcqisfgI4zbwyxBwyCuoUEPSX3niJ3mQeUMKUkBbjk2eX1w+N4wxczVEuqsH5YGMTXLWt5pQV+cMl7s+daeuCSYJ/VAYMQrwOT7TfjWmA7vYhviZqkSLbxAyEt/Vd1162rbJPAQLiuSAr1VMgCWZxU8f9kjEFXb/1vssFaob2+c=";
+    m_view.chart.licenseKey = @"XhItw94OkbjOfMfcRE533L26hwTzGALMtnTu+HeSYM2SOnULMv5oAIvjIzbPcVXk6L+isjMuysM6ztwcggPeSPSqMHIdOmVvywt0nz3WMi1eEP/jrbgPymma6F5jwcESAGe/k4J5nF3HLurcWRF6VvX9PpT0gb4kfwRbZviMtU+8FQxUtsU6tTz9vDcFOIl1Lbo+xZB5pvLOb3kGqIFz5z52qzC8jZu71uQCIxuCLwFIMmRqNWDSDJAO5dZhUDruWft99bFXsqQX0e7r8o4kjv46mUYAcs+GC3Odk9yGdJ1+cejfboReYzBM/z6eQbsGefvI2mvh9pmB7FeZAAhmGj9XM62wNjxYIBE1yHo4vq2LEM2S1juzBSvKXIwP+RWi0IFvVyWM3oXEZjD9UNmDJZhjNInQ5KjirbJjfe+xUpF0UNffPyTz2cFU0Z+dQvD8lgMVtcaXX9KFZmzZTgnNapZaqE8hP6dIUxQ33vOvxId/C2qI4aT3XO8+wUMWhBRtP7WU9mL9mPoYheXcAD3Wz4SKs2HF9kfmUvOqTkSUXMf4EGPIoI3D2jGqyHOZ2EY5suPVMUMdcVTd/gUVh5sZw4fHV1x1VDWCcpqrPSoU3drjMcbyJhpCJhcYIrt8nmMLaBvRmy9rWq356gWvoTYmUAcvYJE+ZTiqhhXNkIl7un8=";
+    
+    
     
     self.view = m_view;
     
@@ -144,9 +146,9 @@
     // Default settings
     self.colorScheme = NChart3DColorSchemeLight;
     self.seriesType = NChart3DTypesScatter; //NChart3DTypesColumn;
-    //self.seriesCount = 1; // AL: set the number of series
-    self.yearsCount = [self parseYears];
-    self.seriesCount = self.yearsCount;
+    self.seriesCount = 1; // AL: set the number of series
+    //self.yearsCount = [self parseYears];
+    //self.seriesCount = [self arrayOfSeriesNames].count;
     self.spectrum2DCount = 100;
     self.showBorder = NO;
     self.showLabels = YES;
@@ -165,7 +167,9 @@
 // AL:TODO finish
 - (NSInteger) parseYears
 {
-    NSString *file = [[NSBundle bundleForClass:[self class]] pathForResource:@"GFD_DJIA_Companies" ofType:@"csv"];
+    return 0;
+    
+    NSString *file = [[NSBundle bundleForClass:[self class]] pathForResource:@"RussianChart" ofType:@"csv"];
     
     NSArray *years = [NSArray arrayWithContentsOfCSVFile:file options:CHCSVParserOptionsRecognizesBackslashesAsEscapes];
     

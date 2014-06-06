@@ -331,7 +331,7 @@
         // AL: here goes the series
         case NChart3DTypesScatter:
         {
-            NSString *file = [[NSBundle bundleForClass:[self class]] pathForResource:@"GFD_DJIA_Companies" ofType:@"csv"];
+            NSString *file = [[NSBundle bundleForClass:[self class]] pathForResource:@"RussianChart" ofType:@"csv"];
             
             self.fields = [NSArray arrayWithContentsOfCSVFile:file options:CHCSVParserOptionsRecognizesBackslashesAsEscapes];
             
@@ -603,13 +603,7 @@
         case NChart3DTypesScatter:
         {
             
-            
-            
-            
-            
-  
-            
-                for (int j = 0; j < m_mainViewController.yearsCount; ++j)
+                for (int j = 0; j < m_mainViewController.seriesCount; ++j)
                 {
                     NSMutableArray *states = [NSMutableArray array];
                     
@@ -617,17 +611,17 @@
                     {
                         NSArray *item = [self.fields objectAtIndex:i];
                         
-                        NSString *year = [item objectAtIndex:0];
-                        NSString *targetYear = [m_mainViewController.arrayOfYears objectAtIndex:j];
+                        //NSString *year = [item objectAtIndex:0];
+                        //NSString *targetYear = [m_mainViewController.arrayOfYears objectAtIndex:j];
                         
-                        if ( [targetYear isEqualToString:year] == YES)
+                        //if ( [targetYear isEqualToString:year] == YES)
                         {
                             // Filter the tags
                             NSString *localTag = [item objectAtIndex:1];
-                            //NSString *tagName = [self.extractedSeries objectAtIndex:series.tag];
-                            //if ( [localTag isEqualToString:tagName] == YES)
+                            NSString *tagName = [self.extractedSeries objectAtIndex:series.tag];
+                            if ( [localTag isEqualToString:tagName] == YES)
                             {
-                                NSLog(@"year %@ with series %@", year, localTag);
+                               // NSLog(@"year %@ with series %@", year, localTag);
                                 double x = [[item objectAtIndex:2] doubleValue];
                                 double y = [[item objectAtIndex:3] doubleValue];
                                 double z = [[item objectAtIndex:4] doubleValue];
