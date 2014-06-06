@@ -154,7 +154,7 @@
 
 - (void) generateArray
 {
-    NSString *file = [[NSBundle bundleForClass:[self class]] pathForResource:@"WI_App_Test_Data" ofType:@"csv"];
+    NSString *file = [[NSBundle bundleForClass:[self class]] pathForResource:@"chart1" ofType:@"csv"];
 
     self.fields = [NSArray arrayWithContentsOfCSVFile:file options:CHCSVParserOptionsRecognizesBackslashesAsEscapes];
 }

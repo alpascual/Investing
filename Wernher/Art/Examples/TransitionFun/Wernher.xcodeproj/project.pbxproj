@@ -267,6 +267,8 @@
 		76A43F1D18C046A100D821B8 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A43F1C18C046A100D821B8 /* ProfileViewController.m */; };
 		76A43F2318C0498300D821B8 /* BTGlassScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A43F2018C0498300D821B8 /* BTGlassScrollView.m */; };
 		76A43F2418C0498300D821B8 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A43F2218C0498300D821B8 /* UIImage+ImageEffects.m */; };
+		76D7095319417C910062F8F3 /* chart1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 76D7095119417C910062F8F3 /* chart1.csv */; };
+		76D7095419417C910062F8F3 /* chart2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 76D7095219417C910062F8F3 /* chart2.csv */; };
 		76E34EA318ED114D009B01B4 /* heart-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E34EA018ED114D009B01B4 /* heart-black.png */; };
 		76E34EA418ED114D009B01B4 /* heart-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E34EA118ED114D009B01B4 /* heart-white.png */; };
 		76E34EA518ED114D009B01B4 /* options-black-dots@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E34EA218ED114D009B01B4 /* options-black-dots@2x.png */; };
@@ -647,6 +649,8 @@
 		76A43F2018C0498300D821B8 /* BTGlassScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTGlassScrollView.m; sourceTree = "<group>"; };
 		76A43F2118C0498300D821B8 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		76A43F2218C0498300D821B8 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		76D7095119417C910062F8F3 /* chart1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = chart1.csv; path = ../../../../Data/chart1.csv; sourceTree = "<group>"; };
+		76D7095219417C910062F8F3 /* chart2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = chart2.csv; path = ../../../../Data/chart2.csv; sourceTree = "<group>"; };
 		76E34EA018ED114D009B01B4 /* heart-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-black.png"; sourceTree = "<group>"; };
 		76E34EA118ED114D009B01B4 /* heart-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-white.png"; sourceTree = "<group>"; };
 		76E34EA218ED114D009B01B4 /* options-black-dots@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "options-black-dots@2x.png"; sourceTree = "<group>"; };
@@ -724,6 +728,8 @@
 				7626E4581927FC9600182C7F /* GFD_DJIA_Companies.csv */,
 				761BAD40193A93C800D5F48F /* WI_App_Test_Data.csv */,
 				761BAD4219400F6000D5F48F /* RussianChart.csv */,
+				76D7095119417C910062F8F3 /* chart1.csv */,
+				76D7095219417C910062F8F3 /* chart2.csv */,
 				7626E44F1927F50C00182C7F /* CHCSVParser */,
 				76E34EA618F8E0AF009B01B4 /* MYBlurIntroductionView */,
 				7601DB4C18D958C0009BC4B8 /* Default-568h@2x.png */,
@@ -1428,6 +1434,7 @@
 				7626E59F193124E400182C7F /* play-pushed-dark.png in Resources */,
 				7626E4E9192D9C9900182C7F /* sequence.png in Resources */,
 				76E34EA518ED114D009B01B4 /* options-black-dots@2x.png in Resources */,
+				76D7095419417C910062F8F3 /* chart2.csv in Resources */,
 				7626E4E6192D9C9900182C7F /* ribbon@2x.png in Resources */,
 				7601DB6518DAA9AC009BC4B8 /* logo-black-1000 2.png in Resources */,
 				7626E5A0193124E400182C7F /* play-pushed-dark@2x.png in Resources */,
@@ -1530,6 +1537,7 @@
 				7626E56B193124E400182C7F /* buttonMic.png in Resources */,
 				7626E56A193124E400182C7F /* buttonLayout@2x.png in Resources */,
 				7626E59C193124E400182C7F /* play-image@2x.png in Resources */,
+				76D7095319417C910062F8F3 /* chart1.csv in Resources */,
 				7626E4D8192D9C9900182C7F /* candlestick@2x.png in Resources */,
 				7626E4591927FC9600182C7F /* GFD_DJIA_Companies.csv in Resources */,
 				7626E4E0192D9C9900182C7F /* multi@2x.png in Resources */,

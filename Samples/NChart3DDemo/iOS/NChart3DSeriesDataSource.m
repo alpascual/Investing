@@ -331,7 +331,7 @@
         // AL: here goes the series
         case NChart3DTypesScatter:
         {
-            NSString *file = [[NSBundle bundleForClass:[self class]] pathForResource:@"RussianChart" ofType:@"csv"];
+            NSString *file = [[NSBundle bundleForClass:[self class]] pathForResource:@"chart2" ofType:@"csv"];
             
             self.fields = [NSArray arrayWithContentsOfCSVFile:file options:CHCSVParserOptionsRecognizesBackslashesAsEscapes];
             

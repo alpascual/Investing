@@ -169,7 +169,7 @@
 {
     return 0;
     
-    NSString *file = [[NSBundle bundleForClass:[self class]] pathForResource:@"RussianChart" ofType:@"csv"];
+    NSString *file = [[NSBundle bundleForClass:[self class]] pathForResource:@"chart2" ofType:@"csv"];
     
     NSArray *years = [NSArray arrayWithContentsOfCSVFile:file options:CHCSVParserOptionsRecognizesBackslashesAsEscapes];
     
