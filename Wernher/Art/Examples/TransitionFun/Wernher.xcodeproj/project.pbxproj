@@ -1828,9 +1828,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					/Volumes/Extended,
-					HD/Pet,
-					Projects/2014/NChart3D,
+					"/Volumes/Extended\\ HD/Pet\\ Projects/2014",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TransitionFun/Wernher-Prefix.pch";
@@ -1841,7 +1839,7 @@
 					"-lstdc++",
 				);
 				PRODUCT_NAME = Wernher;
-				PROVISIONING_PROFILE = "A32942B1-0416-4BCB-BE98-DD613F7148CC";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1852,14 +1850,12 @@
 			baseConfigurationReference = 265D2379E32047049E358830 /* Pods-TransitionFun.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					/Volumes/Extended,
-					HD/Pet,
-					Projects/2014/NChart3D,
+					"/Volumes/Extended\\ HD/Pet\\ Projects/2014",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TransitionFun/Wernher-Prefix.pch";
@@ -1870,7 +1866,7 @@
 					"-lstdc++",
 				);
 				PRODUCT_NAME = Wernher;
-				PROVISIONING_PROFILE = "A32942B1-0416-4BCB-BE98-DD613F7148CC";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

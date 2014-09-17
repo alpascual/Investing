@@ -12,22 +12,34 @@
 	<dict>
 		<key>0BE7990F-DF4F-476D-8ACA-035961B93408</key>
 		<string>https://github.com/alpascual/Art.git</string>
+		<key>921BE84674D4B1FCAB7A6C6DD35A52A7E54A98AF</key>
+		<string>https://github.com/alpascual/Alex.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Examples.xcworkspace</string>
+	<string>Wernher/Art/Examples.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0BE7990F-DF4F-476D-8ACA-035961B93408</key>
-		<string>..</string>
+		<string>../../../../Art</string>
+		<key>921BE84674D4B1FCAB7A6C6DD35A52A7E54A98AF</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/alpascual/Art.git</string>
+	<string>https://github.com/alpascual/Alex.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>0BE7990F-DF4F-476D-8ACA-035961B93408</string>
+	<string>921BE84674D4B1FCAB7A6C6DD35A52A7E54A98AF</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>921BE84674D4B1FCAB7A6C6DD35A52A7E54A98AF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Alex</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
